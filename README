@@ -22,3 +22,17 @@ and bump the score of the player.
 
 Press space again to end this screen and return to the Scoreboard.
 
+
+
+# TODO
+
+## Code
+
+* Timelimit, Spiel muss schnell sein, Leute *müssen* antworten
+* Bessere Punkteverteiliung (automatisch?)
+* Nageljoker (Frage an Gegner abgeben)
+
+
+## Fragen
+
+* Fragengestaltung kreativer?
