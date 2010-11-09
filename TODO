@@ -1,0 +1,29 @@
+= Fragen =
+* a8 -(0%)- Fragen ausarbeiten.
+* a8 -(0%)- Bilder/Filme sammeln. Jede Frage ein Bild, wenn es was gibt.
+* a8 -(0%)- Antwortbilder sammeln. Zur Auflösung der Fragen kann ein Bild gezeigt werden
+
+= Game =
+* astro -(0%)- Timer: Wird für folgendes gebraucht:
+                      * Begrenzung der Antwortzeit (30, 60 oder 90s - oder noch anders)
+                      * Begrenzung der Klick-Zeit nach Fragestellung
+* astro -(0%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
+
+= Joker =
+5 Joker sollten reichen.
+* astro -(0%)- Nedap-Joker: Voting WebApp mit Timer, Frage, vier Antworten zum klicken.
+          Superuser kann die Abstimmung stoppen und Ergebnis wird angezeigt.
+* astro -(0%)- Eliza-Joker: Frage kann in einem dedizierten IRC-Channel gestellt werden.
+        * a8 -(0%)- irc-Web gateway (asto finded das blöd. Aber vllt. hat jemand keinen irc-Client zur Hand
+* astro -(0%)- Google-Joker: ggf. anderer Name; Spieler darf für 30s bei Google suchen und im Web klicken.
+               Dafür gibt es ein unbeschriftetes Keyboard mit engl. oder dt. Tastaturlayout
+* astro -(0%)- Pusher-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
+* astro -(90%)- Wikipedia-Joker: 2 Antworten werden wegen Irrelevanz gelöscht
+
+= Hardware =
+* a8 -(0%)- PS/2 Adapter. Funktionierenden PS/2 Adapter kaufen
+* a8 -(0%)- Laptop: alten Medion Laptop mit Chromium aktualisieren. Der hat PS/2
+* a8 -(0%)- Plan B für Taster
+
+= Server =
+* a8 -(0%)- Strato-Server konfigurieren, dass astro da drauf kann.
