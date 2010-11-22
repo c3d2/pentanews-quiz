@@ -1,0 +1,41 @@
+50;2;3;Wieviele Autos wurden nach einem Einbruch in die Webseite eines Auto-Leasingunternehmens in Austin/Texas abgeschaltet?;<50;ca. 100;ca.  500;ca. 10000
+100;2;21;Was macht man, wenn die iPad Batterie kaputt ist?;Neues iPad kaufen;Gebrauchtes iPad kaufen;beim Uhrmacher tauschen lassen;selbst tauschen
+200;3;10;Was ist die Datengeschwindigkeit der schnellsten kommerziellen Router?;5Tbps;23Tbs;322Tbps;512Tbps
+1000;4;35;Wer betreibt die größte Cloud Infrastruktur?;Google;Facebook;Amazon;Botnets
+2000;3;36;In welchem Jahr wurde die erste ascii-Art Animation geschaffen?;1976;1982;1968;1954;3.flv
+
+50;1;46;Auf welchem Flughafen hat sich ein Mitarbeiter von einer Mitarbeiterin einen Body-Scan gezogen weil er: "I love those gigantic ts."?;London;Liverpool;Miami;Manchester
+100;3;66;In welchem Land ist Anonymität im Netz ein Grundrecht?;Finnland;USA;Israel;Kongo
+200;3;88;Eine Datenpanne in Englands Sozialregister führte zu folgemdem:;falsche Beisetzung;fälschlich Angehörige informiert;fälschliche Organentnahme;Inkraftsetzen des Testaments
+1000;2;123;So viel zahlte die EU an Jugendschutzorganisationen für Pro-Netzsperren Lobbying.;100k€;300k€;600k€;1Mio.€
+2000;4;135;Wie viele Computer infizierte der 10 Jahre alte I love you Wurm?;1 Mio;5 Mio;23 Mio;42 Mio;135.jpg
+
+50;3;163;Diese Firma löste eine umfassende Diskussion aus nachdem bekannt wurde, dass sie offene WLANs für ein paar ms scannt?;Apple;Vodafone;Google;Microsoft
+100;166;Welcher Verein erhielt 2010 den Prix Ars Electronica Preis?;Spider-Man 3;CCC;Jamendo;BSI;
+200;4;167;So viele Videoclips streamt YouTube pro Tag;20 Mio;200 Mio; 800 Mio;2 Mrd;
+1000;4;108;Wozu nutzten Schüler in Pennsylvania eine Sicherheitslücke in der Remote-Admin Software ihrer Schul PCs?;Zensuren ändern;Freistunden schalten;Bombenalarm auslösen;Kamera Spyware abschalten
+2000;2;180;Welche Firma verteilte auf der IT Sicherheitskonferenz "Asia Pacific Information Security Conference" infizierte USB-Sticks?;Cisco;IBM;Apple;Microsoft
+
+50;3;214;Diese Programmiersprache hat knapp 1/4 aller Einträge beim NIST und ist 15 Jahre alt.;Perl;C;PHP;C#/.NET
+100;3;215;Welche Fa. hat die Ablöse für Mitarbeiter, welche Selbstmord begingen gestoppt um die Selbstmordrate zu senken?;France Telekom;DTAG;Foxconn;IBM
+200;1;293;In welchem Land sind Bodyscanner verboten?;Saudi Arabien;USA;Deutschland;Israel
+1000;2;3;307;Welche These stammt nicht aus dem Zeitweise Blog? 1) Das Netz ist größer als du dir vorstellen kannst. 2) Das Netz sagt: "I can haz cheeseburger." 3) Der freie Bürger zeigt sein Gesicht, nennt seinen Namen, hat eine Adresse. Gleichzeitig sind wir es gewohnt, im Alltag grundsätzlich unbeobachtet zu handeln. Beides muss auch im Internet normal bleiben." 4) Denn wir sind das Netz.;1;2;3;4 2000;307.jpg
+2000;2;309;Wozu werden in UK die Anti-Terror Gesetzte genutzt?;Terroristen abwehren;Mülltonnen bei Schulschwänzung durchsuchen;Videoüberwachung;die Welt sicherer machen
+
+50;1;245;In welchem öffentlichen Raum sind Computer verboten? Tablets sind neuerdings erlaubt.;Bundestag;Bundesrat;Bayr. Landtag;CCC-Events 100;3;407;Dieser ISP hostet Wikileaks Server;DTAG;Piraten Partei Schweden;1&1;TISP
+100;4;428;Wo werden in den USA als nächstes Nacktscanner eingesetzt?;Schulen;öffentl. Behörden;Hochhäuser;Straßen
+200;1;283;Wer verlor im Juli 4 Mio Nutzerdatensätze?;Pirate Bay;Facebook;Forsquare;Verizon(iPAD)
+1000;3;258;Wir wurde Lonnie Tinsley (86-jährige bettlägerische Omi aus Oklahoma) gezwungen ihre Medizin zu nehmen?;Spritze;vorgehaltene Waffe;Taser;Internetverbot
+2000;2;252;Wieviele Data Center hat die US Regierung?;550;1100;2200;4400
+
+50;1;316;In welchem Land werden Webseiten erst ab 22 Uhr geöffnet um über die Franz. Revolution zu berichten?;Deutschland;Frankreich;Abu Dhabi;China
+100;2;459;Welcher Artikel wurde nicht zur Löschung vorgeschlagen?;Club Mate;Datenspuren;Protest gegen Stuttgart 21;Wikipedia:Qualitätsoffensive;459.jpg
+200;2;326;Aufgrund welchen Patents wurden 36 Firmen vom Marshall Patent Troll verklagt?;Spyware;Spamfiltern;OS Shutdown;VoIP
+1000;1;327;Welche Behörde wurde nervös, als sie Childporn-Konsumenten in ihren Reihen fanden?;FBI;Innenministerium;FSB;MI6
+2000;4;341;Eine Ministerin aus welchem Land hat ein Striptease-Bild auf Facebook veröffentlicht?;Ukraine;Äthopien;Bulgarien;Georgien;341.jpg
+
+50;4;356;Wie lautet das Motto des diesjährigen Congresses?;red pill provider since 1984;LHC - Large Hacker Collider;Nicht mehr vertrauenswürdig;Wir kommen in Frieden
+100;4;392;Wer will Streetview für virtuelle Streifenfahrten nutzen?;Polizeigewerkschaft;Innenministerium;Merkel;privater Wachdienst
+200;1;360;Welches Land macht WL Konkurenz und veröffentlichte die Namen ihrer Spione?;Tschechien;Serbien;Albanien;Norwegen
+1000;3;376;Aus welcher Stadt kam das Webseitendefacement in Buchenwald?;Rathen;Chicago;Pirna;Hof
+2000;2;390;Die Tour welcher Band wurde über einen gehackten Twitter-Account gecanceled?;KISS;Rolling Stones;Guns'n'Roses;AC/DC
