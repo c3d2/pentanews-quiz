@@ -15,20 +15,31 @@ __license__ = "Python"
 import unicodedata
 from submitter import models
 
+def get_news_entry_as_csv(news_entry):
+    """return submitter.models.NewsEntry() as csv
+
+    id - unique db id
+    title - title of news enty
+    URL - the url for reference
+    tags - tag list seperated by ,
+    screenshot - Link to screenshot of original page
+    """
+    title = unicodedata.normalize('NFKD', news_entry.title).encode(
+        'ascii', 'ignore')
+    return "; ".join([
+        str(news_entry.id),
+        title,
+        news_entry.get_absolute_url(),
+        news_entry.page_screenshot.url + "\n",
+    ])
+
 def main():
     """docstring for main"""
     news_entries = models.NewsEntry.objects.all()
-    fh = open('/tmp/pm.html', 'w')
+    fh = open('news_entries.csv', 'w')
     for ne in news_entries:
-        #fh.write(u'http://pentamedia.c3d2.de'+ne.get_absolute_url() + u'">'+ne.title.encode('utf-8', 'ignore')+u'</a>\n')
-        title = unicodedata.normalize('NFKD', ne.title).encode('ascii', 'ignore')
-        print title
-        fh.write(
-            u'http://pentamedia.c3d2.de' + \
-            ne.get_absolute_url().encode('utf-8') + \
-            u'">'+ \
-            title + \
-            u'</a>\n')
+        fh.write(get_news_entry_as_csv(ne))
+
 
 if __name__ == '__main__':
     main()
