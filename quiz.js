@@ -174,19 +174,7 @@ function takeJoker(activePlayer, joker) {
     }
 }
 
-// Game screen is the one with the question in question
-function switchToGame() {
-    var i, q = questions[currentQuestion];
-    var activePlayer = null, choice = null;  // can be null
-
-    var updateTier = function() {
-        var s = q.tier;
-        if (activePlayer !== null)
-            s += ' — ' + playerNames[activePlayer];
-        $('#tier').text(s);
-    };
-    updateTier();
-
+function setQuestionContents(q) {
     $('#question').empty();
     if (q.text) {
         $('#question').append('<p></p>');
@@ -200,6 +188,22 @@ function switchToGame() {
         $('#question').append('<video controls autoplay>');
         $('#question video').attr('src', q.video);
     }
+}
+
+// Game screen is the one with the question in question
+function switchToGame() {
+    var i, q = questions[currentQuestion];
+    var activePlayer = null, choice = null;  // can be null
+
+    var updateTier = function() {
+        var s = q.tier;
+        if (activePlayer !== null)
+            s += ' — ' + playerNames[activePlayer];
+        $('#tier').text(s);
+    };
+    updateTier();
+
+    setQuestionContents(q);
 
     for(i = 0; i < 4; i++) {
         var answer = q.answers[i];
@@ -237,6 +241,9 @@ function switchToGame() {
 	    }
 	}
 	updateScores();
+	timer.halt();
+	if (q.explanation)
+	    setQuestionContents(q.explanation);
 
 	// Hilight all right choices
 	var i = 0;

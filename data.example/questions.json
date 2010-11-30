@@ -6,7 +6,9 @@
 		 { "text": "Monatlich auf FTP" },
 		 { "text": "Nie",
 		   "right": true }
-               ] },
+               ],
+    "explanation": { "text": "Deshalb ist die Hälfte weg." }
+  },
   { "text": "Was meint dieses Logo?",
     "image": "http://www.c3d2.de/images/ck.png",
     "tier": 100,
