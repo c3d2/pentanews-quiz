@@ -49,6 +49,45 @@ function loadQuizData(done) {
            });
 }
 
+function Timer() {
+    $('#timer').hide();
+    this.cb = null;
+}
+Timer.prototype.set = function(t, cb) {
+    var that = this;
+
+    this.clear();
+
+    this.interval = window.setInterval(function() {
+	if (t > 0) {
+	    t--;
+	    $('#timer').text('' + t);
+	} else {
+	    that.halt();
+	    $('#timer').addClass('elapsed');
+	    cb();
+	}
+    }, 1000);
+
+    /* appear: */
+    $('#timer').text('' + t);
+    $('#timer').fadeIn(1000);
+
+};
+Timer.prototype.halt = function() {
+    if (this.interval)
+	window.clearInterval(this.interval);
+};
+Timer.prototype.clear = function() {
+    this.halt();
+    delete this.interval;
+    $('#timer').removeClass('elapsed');
+    $('#timer').hide();
+};
+var TIMER_QUESTION = 15;
+var TIMER_ANSWER = 10;
+var timer = new Timer();
+
 var playerNames = [], playerScores = [], playerJokers = [];
 
 function startQuiz() {
@@ -78,6 +117,8 @@ function startQuiz() {
 }
 
 function switchToScoreboard() {
+    timer.clear();
+
     keyHandler = function(key) {
         if (key === ' ' &&
 	    currentQuestion < questions.length) {
@@ -167,30 +208,9 @@ function switchToGame() {
 	liEl.fadeTo(0, 1);
     }
 
-    keyHandler = function(key, keyCode) {
-        if (keyCode === 27) {
-            // Shortcut: cancel this state
-            $('#game').hide();
-            switchToScoreboard();
-        } else if (activePlayer === null &&
-		   "abcde".indexOf(key) >= 0) {
-            // No active player yet, but somebody hit a button!
-            var player = "abcde".indexOf(key);
-            if (playerNames[player]) {
-                activePlayer = player;
-		updateTier();
-	    }
-        } else if (activePlayer !== null &&
-                   "1234".indexOf(key) >= 0) {
-            // player pronounced the answer
-            if (choice !== null)
-                $('#answer' + choice).removeClass('selected');
-
-            choice = "1234".indexOf(key);
-            $('#answer' + choice).addClass('selected');
-        } else if (activePlayer !== null &&
-                   keyCode === 13) {
-            // player confirmed answer or gave up
+    var switchToAnswer = function() {
+	if (activePlayer !== null) {
+	    // player confirmed answer or gave up
             var answerEl;
             if (choice !== null) {
                 answerEl = $('#answer' + choice);
@@ -225,6 +245,37 @@ function switchToGame() {
 		    });
 		}
 	    };
+	} else {
+	    /* TODO: punish all */
+	}
+    };
+    timer.set(TIMER_QUESTION, switchToAnswer);
+
+    keyHandler = function(key, keyCode) {
+        if (keyCode === 27) {
+            // Shortcut: cancel this state
+            $('#game').hide();
+            switchToScoreboard();
+        } else if (activePlayer === null &&
+		   "abcde".indexOf(key) >= 0) {
+            // No active player before, but somebody hit a button!
+            var player = "abcde".indexOf(key);
+            if (playerNames[player]) {
+                activePlayer = player;
+		updateTier();
+		timer.set(TIMER_ANSWER, switchToAnswer);
+	    }
+        } else if (activePlayer !== null &&
+                   "1234".indexOf(key) >= 0) {
+            // player pronounced the answer
+            if (choice !== null)
+                $('#answer' + choice).removeClass('selected');
+
+            choice = "1234".indexOf(key);
+            $('#answer' + choice).addClass('selected');
+        } else if (activePlayer !== null &&
+                   keyCode === 13) {
+	    switchToAnswer();
 	} else if (activePlayer !== null &&
 		   key === 'q') {
 	    takeJoker(activePlayer, 'fiftyfifty');
