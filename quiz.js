@@ -58,7 +58,7 @@ Timer.prototype.set = function(t, cb) {
 
     this.clear();
 
-    this.interval = window.setInterval(function() {
+    var tick = function() {
 	if (t > 0) {
 	    t--;
 	    $('#timer').text('' + t);
@@ -67,10 +67,11 @@ Timer.prototype.set = function(t, cb) {
 	    $('#timer').addClass('elapsed');
 	    cb();
 	}
-    }, 1000);
+    };
+    this.interval = window.setInterval(tick, 1000);
 
     /* appear: */
-    $('#timer').text('' + t);
+    tick();
     $('#timer').fadeIn(1000);
 
 };
