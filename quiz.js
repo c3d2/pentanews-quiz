@@ -220,35 +220,41 @@ function switchToGame() {
             var isRight = choice !== null && q.answers[choice].right === true;
             if (isRight) {
                 playerScores[activePlayer] += q.tier;
-                updateScores();
             } else {
 		playerScores[activePlayer] -= q.tier;
-                updateScores();
 
 		if (choice !== null)
 		    // Hilight the wrong choice
 		    answerEl.addClass('wrong');
             }
-            // Hilight all right choices
-            var i = 0;
-            q.answers.forEach(function(answer) {
-                if (answer.right === true)
-                    $('#answer' + i).addClass('right');
-                i++;
-            });
 
-            keyHandler = function(key) {
-                if (key === " ") {
-                    // next question:
-                    currentQuestion++;
-                    $('#game').fadeOut(500, function() {
-                        switchToScoreboard();
-		    });
-		}
-	    };
 	} else {
-	    /* TODO: punish all */
+	    /* no player wanted to answer, punish all */
+	    for(var i = 0; i < playerNames.length; i++) {
+		if (playerNames[i]) {
+		    playerScores[i] -= q.tier;
+		}
+	    }
 	}
+	updateScores();
+
+	// Hilight all right choices
+	var i = 0;
+	q.answers.forEach(function(answer) {
+            if (answer.right === true)
+		$('#answer' + i).addClass('right');
+            i++;
+        });
+
+	keyHandler = function(key) {
+	    if (key === " ") {
+		// next question:
+		currentQuestion++;
+		$('#game').fadeOut(500, function() {
+                    switchToScoreboard();
+		});
+	    }
+	};
     };
     timer.set(TIMER_QUESTION, switchToAnswer);
 
