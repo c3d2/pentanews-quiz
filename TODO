@@ -4,10 +4,13 @@
 * a8 -(0%)- Antwortbilder sammeln. Zur Auflösung der Fragen kann ein Bild gezeigt werden
 
 = Game =
-* astro -(0%)- Timer: Wird für folgendes gebraucht:
+* astro -(100%)- Timer: Wird für folgendes gebraucht:
                       * Begrenzung der Antwortzeit (30, 60 oder 90s - oder noch anders)
+                        quiz.js: TIMER_QUESTION
                       * Begrenzung der Klick-Zeit nach Fragestellung
-* astro -(0%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
+                        quiz.js: TIMER_ANSWER
+* astro -(100%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
+                            Feld "explanation" in questions.json
 
 = Joker =
 5 Joker sollten reichen.
