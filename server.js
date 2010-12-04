@@ -5,7 +5,7 @@ var WS = require('websocket-client');
 var frontend;
 
 /* TODO: url */
-var nedap = new WS.WebSocket('http://localhost:8080/', 'nedap-kneemFothbedchoadHietEnobKavLub1');
+var nedap = new WS.WebSocket('ws://localhost:8080/', 'nedap-kneemFothbedchoadHietEnobKavLub1');
 nedap.onopen = function() {
     console.log('NEDAP opened');
 };
@@ -18,6 +18,7 @@ nedap.onerror = function(e) {
 nedap.onmessage = function(data) {
     try {
 	var msg = JSON.parse(data);
+	console.log({ fromNedap: msg });
 	frontend.send(JSON.stringify({ nedap: msg }));
     } catch (e) {
 	console.error(e.stack);
@@ -38,8 +39,10 @@ spacesocket.attach(server, function(conn) {
 
 	conn.on('data', function(data) {
 	    var msg = JSON.parse(data);
-	    if (msg.nedap)
+	    if (msg.nedap) {
+		console.log({ toNedap: msg.nedap });
 		nedap.send(JSON.stringify(msg.nedap));
+	    }
 	});
 
 	var reset = function() {

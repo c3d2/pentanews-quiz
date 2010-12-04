@@ -68,6 +68,13 @@ ws.onmessage = function(data) {
 	console.error(e.message);
     }
 };
+var sendToBackend = function(msg) {
+    ws.send(JSON.stringify(msg));
+};
+ws.onopen = function() {
+    /* TODO: rm debug */
+    sendToBackend({ nedap: "ping" });
+};
 
 
 function Timer() {
@@ -126,7 +133,7 @@ function startQuiz() {
         if (name) {
             playerNames[i] = name;
             playerScores[i] = 0;
-            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"></dd>');
+            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"><span class="nedap">NEDAP</span></dd>');
             $('#scoreboard dl dt').last().text(name);
             $('#players').append('<li class="player'+i+'"><span class="name"></span><span class="score">0</span></li>');
             $('#players li.player'+i+' span.name').text(name);
@@ -192,6 +199,12 @@ function takeJoker(activePlayer, joker) {
 	} while(answers[h1].right || answers[h2].right || h1 === h2);
 	$('#answer' + h1).fadeTo(500, 0.1);
 	$('#answer' + h2).fadeTo(500, 0.1);
+    }
+    if (joker === 'nedap') {
+	var q = questions[currentQuestion];
+	sendToBackend({ nedap: { joker: { question: q.text,
+					  answers: q.answers
+	} } });
     }
 }
 
@@ -320,9 +333,13 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'e') {
 	    takeJoker(activePlayer, 'phone');
+	} else if (activePlayer !== null &&
+		   key === 'n') {
+	    takeJoker(activePlayer, 'nedap');
 	}
     };
 
+    $('#polls').hide();
     // Instantly show the question:
     $('#game').show();
 }

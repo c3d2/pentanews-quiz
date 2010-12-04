@@ -80,6 +80,7 @@ var server = Connect.createServer(
 server.listen(8080); /* TODO: port 80 */
 
 spacesocket.attach(server, function(conn) {
+console.log(conn);
     if (conn.protocol === WS_PROTOCOL) {
 	backend = conn;
 
@@ -110,6 +111,7 @@ spacesocket.attach(server, function(conn) {
 	conn.on('close', reset);
 	conn.on('error', reset);
     } else {
+	console.error({ 'Wrong Protocol': conn.protocol });
 	conn.end();
     }
 });
