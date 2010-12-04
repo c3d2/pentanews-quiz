@@ -1,5 +1,5 @@
 var Connect = require('connect');
-var spacesocket = require('../lib/spacesocket');
+var spacesocket = require('spacesocket');
 var ltx = require('ltx');
 
 var WS_PROTOCOL = 'nedap-kneemFothbedchoadHietEnobKavLub1';
@@ -84,19 +84,23 @@ spacesocket.attach(server, function(conn) {
 	backend = conn;
 
 	conn.on('data', function(data) {
-	    var msg = JSON.parse(data);
-	    console.log({msg: msg});
-	    if (msg.joker) {
-		question = msg.joker.question;
-		answers = msg.joker.answers;
-		scores = [];
-		for(var i = 0; i < answers.length; i++)
-		    scores[i] = 0;
-	    }
-	    if (msg.clear) {
-		question = null;
-		answers = null;
-		scores = null;
+	    try {
+		var msg = JSON.parse(data);
+		console.log({msg: msg});
+		if (msg.joker) {
+		    question = msg.joker.question;
+		    answers = msg.joker.answers;
+		    scores = [];
+		    for(var i = 0; i < answers.length; i++)
+			scores[i] = 0;
+		}
+		if (msg.clear) {
+		    question = null;
+		    answers = null;
+		    scores = null;
+		}
+	    } catch (e) {
+		console.error(e.stack);
 	    }
 	});
 
