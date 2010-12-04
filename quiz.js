@@ -49,6 +49,27 @@ function loadQuizData(done) {
            });
 }
 
+var url = 'ws://' + document.location.host + '/';
+var ws = new WebSocket(url, 'quiz');
+
+ws.onerror = function(e) {
+    console.error(e.message);
+};
+ws.onclose = function() {
+    console.error('WebSocket closed');
+};
+var onBackendMessage;
+ws.onmessage = function(data) {
+    try {
+	var msg = JSON.parse(data);
+	if (onBackendMessage)
+	    onBackendMessage(msg);
+    } catch(e) {
+	console.error(e.message);
+    }
+};
+
+
 function Timer() {
     $('#timer').hide();
     this.cb = null;
