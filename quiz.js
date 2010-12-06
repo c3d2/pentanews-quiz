@@ -50,7 +50,7 @@ function loadQuizData(done) {
 }
 
 var url = 'ws://' + document.location.host + '/';
-var ws = new WebSocket(url, 'quiz');
+var ws = new WebSocket(url, '*');
 
 ws.onerror = function(e) {
     console.error(e.message);
@@ -61,6 +61,7 @@ ws.onclose = function() {
 var onBackendMessage;
 ws.onmessage = function(data) {
     try {
+	console.log('fromBackend: ' + data);
 	var msg = JSON.parse(data);
 	if (onBackendMessage)
 	    onBackendMessage(msg);
@@ -69,6 +70,7 @@ ws.onmessage = function(data) {
     }
 };
 var sendToBackend = function(msg) {
+    console.log('toBackend: ' + JSON.stringify(msg));
     ws.send(JSON.stringify(msg));
 };
 ws.onopen = function() {

@@ -5,9 +5,10 @@ var wsc = require('websocket-client');
 var frontend;
 
 /* TODO: url */
-var nedap = new wsc.WebSocket('ws://localhost:8080/', 'nedap-kneemFothbedchoadHietEnobKavLub1');
+var nedap = new wsc.WebSocket('ws://localhost:8080/', 'quiz-nedap');
 nedap.onopen = function() {
     console.log('NEDAP opened');
+    nedap.send('nedap-kneemFothbedchoadHietEnobKavLub1');
 };
 nedap.onclose = function() {
     console.log('NEDAP closed');
@@ -33,25 +34,27 @@ var server = Connect.createServer(
 );
 
 wss.createServer({ server: server }).on('connection', function(conn) {
-    if (conn.protocol === 'quiz') {
-	frontend = conn;
+    frontend = conn;
 
-	conn.on('data', function(data) {
+    conn.on('message', function(data) {
+	console.log({data:data});
+	try {
 	    var msg = JSON.parse(data);
 	    if (msg.nedap) {
 		console.log({ toNedap: msg.nedap });
 		nedap.send(JSON.stringify(msg.nedap));
 	    }
-	});
+	    
+	} catch (e) {
+	    console.error(e.stack);
+	}
+    });
 
-	var reset = function() {
-	    frontend = null;
-	};
-	conn.on('close', reset);
-	conn.on('error', reset);
-    } else {
-	conn.end();
-    }
+    var reset = function() {
+	frontend = null;
+    };
+    conn.on('close', reset);
+    conn.on('error', reset);
 });
 
 server.listen(8081);
