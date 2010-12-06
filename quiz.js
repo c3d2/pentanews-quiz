@@ -115,8 +115,8 @@ Timer.prototype.clear = function() {
     $('#timer').removeClass('elapsed');
     $('#timer').hide();
 };
-var TIMER_QUESTION = 15;
-var TIMER_ANSWER = 10;
+var TIMER_QUESTION = 90;
+var TIMER_ANSWER = 60;
 var timer = new Timer();
 
 var playerNames = [], playerScores = [], playerJokers = [];
