@@ -62,9 +62,10 @@ function setupWs() {
 	console.error('WebSocket closed');
 	setupWs();
     };
-    ws.onmessage = function(data) {
+    ws.onmessage = function(event) {
 	try {
-	    console.log('fromBackend: ' + data);
+	    var data = event.data;
+	    console.log({fromBackend: data});
 	    var msg = JSON.parse(data);
 	    if (onBackendMessage)
 		onBackendMessage(msg);
