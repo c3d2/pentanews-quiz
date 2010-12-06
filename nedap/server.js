@@ -2,7 +2,7 @@ var Connect = require('connect');
 var wss = require('websocket-server');
 var ltx = require('ltx');
 
-var WS_PROTOCOL = 'nedap-kneemFothbedchoadHietEnobKavLub1';
+var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
 
 var backend, question, answers, scores;
 
@@ -19,11 +19,12 @@ function html(body) {
 function nedap(app) {
     app.get('/', function(req, res) {
 	if (question && answers) {
+console.log({question:question,answers:answers})
 	    var form = new ltx.Element('form',
 				       { action: '/',
 					 method: 'POST',
 					 enctype: 'application/x-www-form-urlencoded' });
-	    form.c('p').text(question);
+	    form.c('p').t(question);
 	    var ul = form.c('ul');
 	    for(var i = 0; i < answers.length; i++) {
 		ul.c('li').
@@ -32,7 +33,7 @@ function nedap(app) {
 				 name: 'a',
 				 value: ''+i }).
 		    c('label', { for: 'a'+i }).
-		    t(answers[i]);
+		    t(answers[i].text);
 	    }
 	    form.c('input', { type: 'submit',
 			      value: 'Submit' });
@@ -79,11 +80,25 @@ var server = Connect.createServer(
 );
 
 wss.createServer({ server: server }).on('connection', function(conn) {
-console.log(conn);
-    if (conn.protocol === WS_PROTOCOL) {
-	backend = conn;
+    var authed = false;
 
-	conn.on('message', function(data) {
+    conn.on('message', function(data) {
+	if (!authed) {
+	    if (data.toString() === WS_KEY) {
+		console.warn('Authorized WebSocket');
+		backend = conn;
+		authed = true;
+
+		var reset = function() {
+		    backend = null;
+		};
+		conn.on('close', reset);
+		conn.on('error', reset);
+	    } else {
+		console.warn('Unauthorized backend WebSocket');
+		conn.close();
+	    }
+	} else {
 	    try {
 		var msg = JSON.parse(data);
 		console.log({msg: msg});
@@ -102,17 +117,8 @@ console.log(conn);
 	    } catch (e) {
 		console.error(e.stack);
 	    }
-	});
-
-	var reset = function() {
-	    backend = null;
-	};
-	conn.on('close', reset);
-	conn.on('error', reset);
-    } else {
-	console.error({ 'Wrong Protocol': conn.protocol });
-	conn.end();
-    }
+	}
+    });
 });
 
 server.listen(8080); /* TODO: port 80 */
