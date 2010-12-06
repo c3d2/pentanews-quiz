@@ -49,34 +49,39 @@ function loadQuizData(done) {
            });
 }
 
-var url = 'ws://' + document.location.host + '/';
-var ws = new WebSocket(url, '*');
+var ws, sendToBackend, onBackendMessage;
+function setupWs() {
+    var url = 'ws://' + document.location.host + '/';
+    ws = new WebSocket(url, '*');
 
-ws.onerror = function(e) {
-    console.error(e.message);
-};
-ws.onclose = function() {
-    console.error('WebSocket closed');
-};
-var onBackendMessage;
-ws.onmessage = function(data) {
-    try {
-	console.log('fromBackend: ' + data);
-	var msg = JSON.parse(data);
-	if (onBackendMessage)
-	    onBackendMessage(msg);
-    } catch(e) {
+    ws.onerror = function(e) {
 	console.error(e.message);
-    }
-};
-var sendToBackend = function(msg) {
-    console.log('toBackend: ' + JSON.stringify(msg));
-    ws.send(JSON.stringify(msg));
-};
-ws.onopen = function() {
-    /* TODO: rm debug */
-    sendToBackend({ nedap: "ping" });
-};
+	setupWs();
+    };
+    ws.onclose = function() {
+	console.error('WebSocket closed');
+	setupWs();
+    };
+    ws.onmessage = function(data) {
+	try {
+	    console.log('fromBackend: ' + data);
+	    var msg = JSON.parse(data);
+	    if (onBackendMessage)
+		onBackendMessage(msg);
+	} catch(e) {
+	    console.error(e.message);
+	}
+    };
+    sendToBackend = function(msg) {
+	console.log('toBackend: ' + JSON.stringify(msg));
+	ws.send(JSON.stringify(msg));
+    };
+    ws.onopen = function() {
+	/* TODO: rm debug */
+	sendToBackend({ nedap: "ping" });
+    };
+}
+setupWs();
 
 
 function Timer() {
