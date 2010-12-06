@@ -1,11 +1,11 @@
 var Connect = require('connect');
-var spacesocket = require('spacesocket');
-var WS = require('websocket-client');
+var wss = require('websocket-server');
+var wsc = require('websocket-client');
 
 var frontend;
 
 /* TODO: url */
-var nedap = new WS.WebSocket('ws://localhost:8080/', 'nedap-kneemFothbedchoadHietEnobKavLub1');
+var nedap = new wsc.WebSocket('ws://localhost:8080/', 'nedap-kneemFothbedchoadHietEnobKavLub1');
 nedap.onopen = function() {
     console.log('NEDAP opened');
 };
@@ -31,9 +31,8 @@ var server = Connect.createServer(
     Connect.staticProvider(__dirname),
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
 );
-server.listen(8081);
 
-spacesocket.attach(server, function(conn) {
+wss.createServer({ server: server }).on('connection', function(conn) {
     if (conn.protocol === 'quiz') {
 	frontend = conn;
 
@@ -54,3 +53,5 @@ spacesocket.attach(server, function(conn) {
 	conn.end();
     }
 });
+
+server.listen(8081);

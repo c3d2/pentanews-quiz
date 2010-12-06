@@ -1,5 +1,5 @@
 var Connect = require('connect');
-var spacesocket = require('spacesocket');
+var wss = require('websocket-server');
 var ltx = require('ltx');
 
 var WS_PROTOCOL = 'nedap-kneemFothbedchoadHietEnobKavLub1';
@@ -77,14 +77,13 @@ var server = Connect.createServer(
     Connect.staticProvider(__dirname + '/static'),
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
 );
-server.listen(8080); /* TODO: port 80 */
 
-spacesocket.attach(server, function(conn) {
+wss.createServer({ server: server }).on('connection', function(conn) {
 console.log(conn);
     if (conn.protocol === WS_PROTOCOL) {
 	backend = conn;
 
-	conn.on('data', function(data) {
+	conn.on('message', function(data) {
 	    try {
 		var msg = JSON.parse(data);
 		console.log({msg: msg});
@@ -115,3 +114,5 @@ console.log(conn);
 	conn.end();
     }
 });
+
+server.listen(8080); /* TODO: port 80 */
