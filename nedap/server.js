@@ -10,7 +10,7 @@ var backend, question, answers, scores;
 function html(body) {
     return "<!DOCTYPE html>\n" +
 	"<html><head><title>Pentanews Game Show</title></head>\n" +
-	/* TODO: CSS */
+	"<link href='style.css' rel='stylesheet' type='text/css'>" +
 	"<body><h1>Pentanews Game Show</h1>\n" +
 	body +
 	"</body></html>";
@@ -43,7 +43,7 @@ console.log({question:question,answers:answers})
 	    res.end();
 	} else {
 	    res.writeHead(404, { 'Content-type': 'text/html' });
-	    res.write(html('o_0'));
+	    res.write(html('<p>No question left on server.</p>'));
 	    res.end();
 	}
     });
@@ -56,8 +56,8 @@ console.log({question:question,answers:answers})
 		scores[i]++;
 		backend.send(JSON.stringify({ scores: scores }));
 
-		res.writeHead(200, { 'Content-type': 'text/html' });
-		res.write(html("<p>Thanks</p>"));
+		res.writeHead(303, { 'Content-type': 'text/html',
+				     'Location': '/thanks' });
 		res.end();
 	    } else {
 		res.writeHead(400, { 'Content-type': 'text/html' });
@@ -67,6 +67,12 @@ console.log({question:question,answers:answers})
 	    res.writeHead(400, { 'Content-type': 'text/html' });
 	    res.end();
 	}
+    });
+
+    app.get('/thanks', function(req, res) {
+	res.writeHead(200, { 'Content-type': 'text/html' });
+	res.write(html("<p>Thanks, your vote may have been counted.</p>"));
+	res.end();
     });
 }
 
