@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  width: 30em;
+  color: white;
+  background-color: #20203f;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p, ul {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #30304f;
+  padding: 0.5em;
+}
+
+input[type=radio] {
+  padding: 0.2em;
+  margin: 0;
+}
