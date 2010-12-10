@@ -213,6 +213,66 @@ function takeJoker(activePlayer, joker) {
 	sendToBackend({ nedap: { joker: { question: q.text,
 					  answers: q.answers
 	} } });
+	
+	$('#nedap').show();
+	var scores = [0, 0, 0, 0];
+	var redraw = function() {
+	    var canvas = $('#polls')[0];
+	    var w = canvas.width, h = canvas.height;
+	    var ctx = canvas.getContext('2d');
+	    ctx.fillStyle = '#20203f';
+	    ctx.fillRect(0, 0, w, h);
+
+	    var total = 0;
+	    for(var i = 0; i < scores.length; i++) {
+		total += scores[i];
+	    }
+	    if (total < 1)
+		total = 1;
+
+	    for(var i = 0; i < scores.length; i++) {
+		/* Bounds */
+		var x1, y1, x2, y2;
+		if (i == 0 || i == 2) {
+		    x1 = w * 0.05;
+		    x2 = w * 0.45;
+		}
+		if (i == 1 || i == 3) {
+		    x1 = w * 0.55;
+		    x2 = w * 0.95;
+		}
+		if (i == 0 || i == 1) {
+		    y1 = h * 0.05;
+		    y2 = h * 0.45;
+		}
+		if (i == 2 || i == 3) {
+		    y1 = h * 0.55;
+		    y2 = h * 0.95;
+		}
+
+		/* Fill */
+		ctx.fillStyle = '#ccc';
+		var barHeight = (y2 - y1) * scores[i] / total;
+console.log({x1:x1,y1:y1,x2:x2,y2:y2,barHeight:barHeight});
+		ctx.fillRect(x1, y2 - barHeight, x2 - x1, barHeight);
+
+		/* Outline */
+		ctx.strokeStyle = 'white';
+		ctx.beginPath();
+		ctx.moveTo(x1, y1);
+		ctx.lineTo(x2, y1);
+		ctx.lineTo(x2, y2);
+		ctx.lineTo(x1, y2);
+		ctx.lineTo(x1, y1);
+		ctx.stroke();
+	    }
+	};
+	onBackendMessage = function(msg) {
+	    if (msg.nedap && msg.nedap.scores)
+		scores = msg.nedap.scores;
+console.log('scores: '+JSON.stringify(scores));
+	    redraw();
+	};
     }
 }
 
@@ -347,7 +407,8 @@ function switchToGame() {
 	}
     };
 
-    $('#polls').hide();
+    $('#nedap').hide();
+    onBackendMessage = null;
     // Instantly show the question:
     $('#game').show();
 }
