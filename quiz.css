@@ -50,6 +50,13 @@ p {
   margin: 0 auto;
 }
 
+#nedap .url {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+}
+
 #answers {
   position: absolute;
   bottom: 0;
