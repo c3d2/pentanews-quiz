@@ -57,6 +57,14 @@ p {
   font-size: 200%;
 }
 
+#irc ul {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 150%;
+  text-align: left;
+  width: 40em;
+}
+
 #answers {
   position: absolute;
   bottom: 0;

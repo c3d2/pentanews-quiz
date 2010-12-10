@@ -60,7 +60,7 @@ function setupWs() {
     };
     ws.onclose = function() {
 	console.error('WebSocket closed');
-	setupWs();
+	window.setTimeout(setupWs, 100);
     };
     ws.onmessage = function(event) {
 	try {
@@ -141,7 +141,7 @@ function startQuiz() {
         if (name) {
             playerNames[i] = name;
             playerScores[i] = 0;
-            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"><img src="nedap.png" class="nedap"></dd>');
+            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"></dd>');
             $('#scoreboard dl dt').last().text(name);
             $('#players').append('<li class="player'+i+'"><span class="name"></span><span class="score">0</span></li>');
             $('#players li.player'+i+' span.name').text(name);
@@ -194,6 +194,10 @@ function takeJoker(activePlayer, joker) {
     if (playerJokers[activePlayer][joker])
 	// Joker already taken
 	return;
+
+    /* Hide previous special jokers */
+    $('#nedap').hide();
+    $('#irc').hide();
 
     playerJokers[activePlayer][joker] = true;
     $('#tier').append('<img src="' + joker + '.png">');
@@ -253,7 +257,6 @@ function takeJoker(activePlayer, joker) {
 		/* Fill */
 		ctx.fillStyle = '#ccc';
 		var barHeight = (y2 - y1) * scores[i] / total;
-console.log({x1:x1,y1:y1,x2:x2,y2:y2,barHeight:barHeight});
 		ctx.fillRect(x1, y2 - barHeight, x2 - x1, barHeight);
 
 		/* Outline */
@@ -270,9 +273,34 @@ console.log({x1:x1,y1:y1,x2:x2,y2:y2,barHeight:barHeight});
 	onBackendMessage = function(msg) {
 	    if (msg.nedap && msg.nedap.scores)
 		scores = msg.nedap.scores;
-console.log('scores: '+JSON.stringify(scores));
+	    console.log('scores: '+JSON.stringify(scores));
 	    redraw();
 	};
+    }
+    if (joker === 'irc') {
+	sendToBackend({ irc: "activate" });
+	onBackendMessage = function(msg) {
+	    if (msg.irc && msg.irc.nick && msg.irc.text) {
+		var ircPane = $('#irc ul');
+		var line = $('<li></li>');
+		line.text('<' + msg.irc.nick + '> ' + msg.irc.text);
+		line.hide();
+		ircPane.append(line);
+		line.slideDown(200);
+
+		if (ircPane.children().length > 8) {
+		    var line1 = ircPane.children().first();
+		    line1.slideUp(200, function() {
+			line1.remove();
+		    });
+		}
+	    }
+	    if (msg.irc && msg.irc.server && msg.irc.channel) {
+		$('#irc .caption').text(msg.irc.server + ' ' + msg.irc.channel);
+	    }
+	};
+	$('#irc ul').empty();
+	$('#irc').slideDown(500);
     }
 }
 
@@ -404,10 +432,14 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'n') {
 	    takeJoker(activePlayer, 'nedap');
+	} else if (activePlayer !== null &&
+		   key === 'i') {
+	    takeJoker(activePlayer, 'irc');
 	}
     };
 
     $('#nedap').hide();
+    $('#irc').hide();
     onBackendMessage = null;
     // Instantly show the question:
     $('#game').show();
