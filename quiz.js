@@ -49,6 +49,82 @@ function loadQuizData(done) {
            });
 }
 
+var ws, sendToBackend, onBackendMessage;
+function setupWs() {
+    var url = 'ws://' + document.location.host + '/';
+    ws = new WebSocket(url, '*');
+
+    ws.onerror = function(e) {
+	console.error(e.message);
+	setupWs();
+    };
+    ws.onclose = function() {
+	console.error('WebSocket closed');
+	window.setTimeout(setupWs, 100);
+    };
+    ws.onmessage = function(event) {
+	try {
+	    var data = event.data;
+	    console.log({fromBackend: data});
+	    var msg = JSON.parse(data);
+	    if (onBackendMessage)
+		onBackendMessage(msg);
+	} catch(e) {
+	    console.error(e.message);
+	}
+    };
+    sendToBackend = function(msg) {
+	console.log('toBackend: ' + JSON.stringify(msg));
+	ws.send(JSON.stringify(msg));
+    };
+    ws.onopen = function() {
+	/* TODO: rm debug */
+	sendToBackend({ nedap: "ping" });
+    };
+}
+setupWs();
+
+
+function Timer() {
+    $('#timer').hide();
+    this.cb = null;
+}
+Timer.prototype.set = function(t, cb) {
+    var that = this;
+
+    this.clear();
+
+    var tick = function() {
+	if (t > 0) {
+	    t--;
+	    $('#timer').text('' + t);
+	} else {
+	    that.halt();
+	    $('#timer').addClass('elapsed');
+	    cb();
+	}
+    };
+    this.interval = window.setInterval(tick, 1000);
+
+    /* appear: */
+    tick();
+    $('#timer').fadeIn(1000);
+
+};
+Timer.prototype.halt = function() {
+    if (this.interval)
+	window.clearInterval(this.interval);
+};
+Timer.prototype.clear = function() {
+    this.halt();
+    delete this.interval;
+    $('#timer').removeClass('elapsed');
+    $('#timer').hide();
+};
+var TIMER_QUESTION = 90;
+var TIMER_ANSWER = 60;
+var timer = new Timer();
+
 var playerNames = [], playerScores = [], playerJokers = [];
 
 function startQuiz() {
@@ -65,7 +141,7 @@ function startQuiz() {
         if (name) {
             playerNames[i] = name;
             playerScores[i] = 0;
-            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"></dd>');
+            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"></dd>');
             $('#scoreboard dl dt').last().text(name);
             $('#players').append('<li class="player'+i+'"><span class="name"></span><span class="score">0</span></li>');
             $('#players li.player'+i+' span.name').text(name);
@@ -78,6 +154,8 @@ function startQuiz() {
 }
 
 function switchToScoreboard() {
+    timer.clear();
+
     keyHandler = function(key) {
         if (key === ' ' &&
 	    currentQuestion < questions.length) {
@@ -117,6 +195,10 @@ function takeJoker(activePlayer, joker) {
 	// Joker already taken
 	return;
 
+    /* Hide previous special jokers */
+    $('#nedap').hide();
+    $('#irc').hide();
+
     playerJokers[activePlayer][joker] = true;
     $('#tier').append('<img src="' + joker + '.png">');
     $('#scoreboard dd').eq(activePlayer).find('.' + joker).remove();
@@ -129,6 +211,112 @@ function takeJoker(activePlayer, joker) {
 	} while(answers[h1].right || answers[h2].right || h1 === h2);
 	$('#answer' + h1).fadeTo(500, 0.1);
 	$('#answer' + h2).fadeTo(500, 0.1);
+    }
+    if (joker === 'nedap') {
+	var q = questions[currentQuestion];
+	sendToBackend({ nedap: { joker: { question: q.text,
+					  answers: q.answers
+	} } });
+	
+	$('#nedap').show();
+	var scores = [0, 0, 0, 0];
+	var redraw = function() {
+	    var canvas = $('#polls')[0];
+	    var w = canvas.width, h = canvas.height;
+	    var ctx = canvas.getContext('2d');
+	    ctx.fillStyle = '#20203f';
+	    ctx.fillRect(0, 0, w, h);
+
+	    var total = 0;
+	    for(var i = 0; i < scores.length; i++) {
+		total += scores[i];
+	    }
+	    if (total < 1)
+		total = 1;
+
+	    for(var i = 0; i < scores.length; i++) {
+		/* Bounds */
+		var x1, y1, x2, y2;
+		if (i == 0 || i == 2) {
+		    x1 = w * 0.05;
+		    x2 = w * 0.45;
+		}
+		if (i == 1 || i == 3) {
+		    x1 = w * 0.55;
+		    x2 = w * 0.95;
+		}
+		if (i == 0 || i == 1) {
+		    y1 = h * 0.05;
+		    y2 = h * 0.45;
+		}
+		if (i == 2 || i == 3) {
+		    y1 = h * 0.55;
+		    y2 = h * 0.95;
+		}
+
+		/* Fill */
+		ctx.fillStyle = '#ccc';
+		var barHeight = (y2 - y1) * scores[i] / total;
+		ctx.fillRect(x1, y2 - barHeight, x2 - x1, barHeight);
+
+		/* Outline */
+		ctx.strokeStyle = 'white';
+		ctx.beginPath();
+		ctx.moveTo(x1, y1);
+		ctx.lineTo(x2, y1);
+		ctx.lineTo(x2, y2);
+		ctx.lineTo(x1, y2);
+		ctx.lineTo(x1, y1);
+		ctx.stroke();
+	    }
+	};
+	onBackendMessage = function(msg) {
+	    if (msg.nedap && msg.nedap.scores)
+		scores = msg.nedap.scores;
+	    console.log('scores: '+JSON.stringify(scores));
+	    redraw();
+	};
+    }
+    if (joker === 'irc') {
+	sendToBackend({ irc: "activate" });
+	onBackendMessage = function(msg) {
+	    if (msg.irc && msg.irc.nick && msg.irc.text) {
+		var ircPane = $('#irc ul');
+		var line = $('<li></li>');
+		line.text('<' + msg.irc.nick + '> ' + msg.irc.text);
+		line.hide();
+		ircPane.append(line);
+		line.slideDown(200);
+
+		if (ircPane.children().length > 8) {
+		    var line1 = ircPane.children().first();
+		    line1.slideUp(200, function() {
+			line1.remove();
+		    });
+		}
+	    }
+	    if (msg.irc && msg.irc.server && msg.irc.channel) {
+		$('#irc .caption').text(msg.irc.server + ' ' + msg.irc.channel);
+	    }
+	};
+	$('#irc ul').empty();
+	$('#irc').slideDown(500);
+    }
+}
+
+function setQuestionContents(q) {
+    $('#question').empty();
+    if (q.text) {
+        $('#question').append('<p></p>');
+        $('#question p').text(q.text);
+    }
+    if (q.image) {
+        $('#question').append('<img>');
+        $('#question img').attr('src', q.image);
+    }
+    if (q.video) {
+        $('#question').append('<video controls autoplay>');
+        $('#question video').attr('src', q.video);
     }
 }
 
@@ -145,19 +333,7 @@ function switchToGame() {
     };
     updateTier();
 
-    $('#question').empty();
-    if (q.text) {
-        $('#question').append('<p></p>');
-        $('#question p').text(q.text);
-    }
-    if (q.image) {
-        $('#question').append('<img>');
-        $('#question img').attr('src', q.image);
-    }
-    if (q.video) {
-        $('#question').append('<video controls autoplay>');
-        $('#question video').attr('src', q.video);
-    }
+    setQuestionContents(q);
 
     for(i = 0; i < 4; i++) {
         var answer = q.answers[i];
@@ -167,6 +343,58 @@ function switchToGame() {
 	liEl.fadeTo(0, 1);
     }
 
+    var switchToAnswer = function() {
+	if (activePlayer !== null) {
+	    // player confirmed answer or gave up
+            var answerEl;
+            if (choice !== null) {
+                answerEl = $('#answer' + choice);
+                answerEl.removeClass('selected');
+            }
+            var isRight = choice !== null && q.answers[choice].right === true;
+            if (isRight) {
+                playerScores[activePlayer] += q.tier;
+            } else {
+		playerScores[activePlayer] -= q.tier;
+
+		if (choice !== null)
+		    // Hilight the wrong choice
+		    answerEl.addClass('wrong');
+            }
+
+	} else {
+	    /* no player wanted to answer, punish all */
+	    for(var i = 0; i < playerNames.length; i++) {
+		if (playerNames[i]) {
+		    playerScores[i] -= q.tier;
+		}
+	    }
+	}
+	updateScores();
+	timer.halt();
+	if (q.explanation)
+	    setQuestionContents(q.explanation);
+
+	// Hilight all right choices
+	var i = 0;
+	q.answers.forEach(function(answer) {
+            if (answer.right === true)
+		$('#answer' + i).addClass('right');
+            i++;
+        });
+
+	keyHandler = function(key) {
+	    if (key === " ") {
+		// next question:
+		currentQuestion++;
+		$('#game').fadeOut(500, function() {
+                    switchToScoreboard();
+		});
+	    }
+	};
+    };
+    timer.set(TIMER_QUESTION, switchToAnswer);
+
     keyHandler = function(key, keyCode) {
         if (keyCode === 27) {
             // Shortcut: cancel this state
@@ -174,11 +402,12 @@ function switchToGame() {
             switchToScoreboard();
         } else if (activePlayer === null &&
 		   "abcde".indexOf(key) >= 0) {
-            // No active player yet, but somebody hit a button!
+            // No active player before, but somebody hit a button!
             var player = "abcde".indexOf(key);
             if (playerNames[player]) {
                 activePlayer = player;
 		updateTier();
+		timer.set(TIMER_ANSWER, switchToAnswer);
 	    }
         } else if (activePlayer !== null &&
                    "1234".indexOf(key) >= 0) {
@@ -190,41 +419,7 @@ function switchToGame() {
             $('#answer' + choice).addClass('selected');
         } else if (activePlayer !== null &&
                    keyCode === 13) {
-            // player confirmed answer or gave up
-            var answerEl;
-            if (choice !== null) {
-                answerEl = $('#answer' + choice);
-                answerEl.removeClass('selected');
-            }
-            var isRight = choice !== null && q.answers[choice].right === true;
-            if (isRight) {
-                playerScores[activePlayer] += q.tier;
-                updateScores();
-            } else {
-		playerScores[activePlayer] -= q.tier;
-                updateScores();
-
-		if (choice !== null)
-		    // Hilight the wrong choice
-		    answerEl.addClass('wrong');
-            }
-            // Hilight all right choices
-            var i = 0;
-            q.answers.forEach(function(answer) {
-                if (answer.right === true)
-                    $('#answer' + i).addClass('right');
-                i++;
-            });
-
-            keyHandler = function(key) {
-                if (key === " ") {
-                    // next question:
-                    currentQuestion++;
-                    $('#game').fadeOut(500, function() {
-                        switchToScoreboard();
-		    });
-		}
-	    };
+	    switchToAnswer();
 	} else if (activePlayer !== null &&
 		   key === 'q') {
 	    takeJoker(activePlayer, 'fiftyfifty');
@@ -234,9 +429,18 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'e') {
 	    takeJoker(activePlayer, 'phone');
+	} else if (activePlayer !== null &&
+		   key === 'n') {
+	    takeJoker(activePlayer, 'nedap');
+	} else if (activePlayer !== null &&
+		   key === 'i') {
+	    takeJoker(activePlayer, 'irc');
 	}
     };
 
+    $('#nedap').hide();
+    $('#irc').hide();
+    onBackendMessage = null;
     // Instantly show the question:
     $('#game').show();
 }
