@@ -4,20 +4,23 @@
 * a8 -(0%)- Antwortbilder sammeln. Zur Auflösung der Fragen kann ein Bild gezeigt werden
 
 = Game =
-* astro -(0%)- Timer: Wird für folgendes gebraucht:
+* astro -(100%)- Timer: Wird für folgendes gebraucht:
                       * Begrenzung der Antwortzeit (30, 60 oder 90s - oder noch anders)
+                        quiz.js: TIMER_QUESTION
                       * Begrenzung der Klick-Zeit nach Fragestellung
-* astro -(0%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
+                        quiz.js: TIMER_ANSWER
+* astro -(100%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
+                            Feld "explanation" in questions.json
 
 = Joker =
 5 Joker sollten reichen.
-* astro -(0%)- Nedap-Joker: Voting WebApp mit Timer, Frage, vier Antworten zum klicken.
-          Superuser kann die Abstimmung stoppen und Ergebnis wird angezeigt.
-* astro -(0%)- Chat-Joker: Frage kann in einem dedizierten IRC-Channel gestellt werden.
+* astro -(99%)- Nedap-Joker: Voting WebApp mit Timer, Frage, vier Antworten zum klicken.
+          Abstimmung wird live angezeigt.
+* astro -(99%)- Chat-Joker: Frage kann in einem dedizierten IRC-Channel gestellt werden.
         * a8 -(0%)- irc-Web gateway (asto finded das blöd. Aber vllt. hat jemand keinen irc-Client zur Hand
 * astro -(0%)- Google-Joker: ggf. anderer Name; Spieler darf für 30s bei Google suchen und im Web klicken.
                Dafür gibt es ein unbeschriftetes Keyboard mit engl. oder dt. Tastaturlayout
-* astro -(0%)- Pusher-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
+* astro -(10%)- Pusher-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
 * astro -(90%)- Wikipedia-Joker: 2 Antworten werden wegen Irrelevanz gelöscht
 
 == Ideen ==

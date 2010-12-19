@@ -50,6 +50,21 @@ p {
   margin: 0 auto;
 }
 
+#nedap .url {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#irc ul {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 150%;
+  text-align: left;
+  width: 40em;
+}
+
 #answers {
   position: absolute;
   bottom: 0;
@@ -117,4 +132,21 @@ ul#tiers li.done {
 }
 #scoreboard dl dd img {
   margin-left: 0.5em;
+}
+
+#timer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.01em;
+  padding: 0.05em;
+  width: 1.6em;
+  border: 0.1em solid #ccc;
+  border-radius: 0.2em;
+  font-weight: bold;
+  font-size: 300%;
+  text-align: center;
+}
+.elapsed#timer {
+  border-color: red;
 }
