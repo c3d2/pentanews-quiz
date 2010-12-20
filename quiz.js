@@ -337,7 +337,7 @@ function switchToGame() {
 	liEl.fadeTo(0, 1);
     }
 
-    var switchToAnswer = function() {
+    var switchToAnswer = function(isTimeout) {
 	if (activePlayer !== null) {
 	    // player confirmed answer or gave up
             var answerEl;
@@ -348,12 +348,16 @@ function switchToGame() {
             var isRight = choice !== null && q.answers[choice].right === true;
             if (isRight) {
                 playerScores[activePlayer] += q.tier;
+
+		$('#audio_right')[0].play();
             } else {
 		playerScores[activePlayer] -= q.tier;
 
 		if (choice !== null)
 		    // Hilight the wrong choice
 		    answerEl.addClass('wrong');
+		if (!isTimeout)
+		    $('#audio_wrong')[0].play();
             }
 
 	} else {
@@ -363,6 +367,8 @@ function switchToGame() {
 		    playerScores[i] -= q.tier;
 		}
 	    }
+	    if (!isTimeout)
+		$('#audio_wrong')[0].play();
 	}
 	updateScores();
 	timer.halt();
@@ -387,7 +393,11 @@ function switchToGame() {
 	    }
 	};
     };
-    timer.set(TIMER_QUESTION, switchToAnswer);
+    var timeout = function() {
+	$('#audio_timeout')[0].play();
+	switchToAnswer(true);
+    };
+    timer.set(TIMER_QUESTION, timeout);
 
     keyHandler = function(key, keyCode) {
         if (keyCode === 27) {
@@ -401,7 +411,7 @@ function switchToGame() {
             if (playerNames[player]) {
                 activePlayer = player;
 		updateTier();
-		timer.set(TIMER_ANSWER, switchToAnswer);
+		timer.set(TIMER_ANSWER, timeout);
 	    }
         } else if (activePlayer !== null &&
                    "1234".indexOf(key) >= 0) {
