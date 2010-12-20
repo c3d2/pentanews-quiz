@@ -1,6 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+Convert special crafted csv data into what a8 believes will be accepted by
+the Penta News Game Show software
+
+just run the program. It looks for a file called news_entries_27c3.csv
+Note, this file has to be formated like that or everything will fail.
+The 
+'','','','','','','','',
+line has to be in there. The file has to stop with such a line.
+"""
+
 import csv
 import json
 
