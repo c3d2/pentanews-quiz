@@ -13,7 +13,7 @@ var frontend;
 /* TODO: url */
 var nedap;
 function connectNedap() {
-    nedap = new wsc.WebSocket('ws://localhost:8080/', 'quiz-nedap');
+    nedap = new wsc.WebSocket('ws://nedap.c3d2.de/', 'quiz-nedap');
     nedap.onopen = function() {
 	console.log('NEDAP opened');
 	nedap.send('nedap-kneemFothbedchoadHietEnobKavLub1');
