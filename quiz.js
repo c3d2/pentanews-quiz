@@ -141,7 +141,7 @@ function startQuiz() {
         if (name) {
             playerNames[i] = name;
             playerScores[i] = 0;
-            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"></dd>');
+            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="audience.png" class="audience"><img src="phone.png" class="phone"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"><img src="fwd.png" class="fwd"></dd>');
             $('#scoreboard dl dt').last().text(name);
             $('#players').append('<li class="player'+i+'"><span class="name"></span><span class="score">0</span></li>');
             $('#players li.player'+i+' span.name').text(name);
@@ -254,20 +254,14 @@ function takeJoker(activePlayer, joker) {
 		    y2 = h * 0.95;
 		}
 
+		/* Outline */
+		ctx.fillStyle = '#40405f';
+		ctx.fillRect(x1, y1, x2 - x1, y2 - y1);
+
 		/* Fill */
 		ctx.fillStyle = '#ccc';
 		var barHeight = (y2 - y1) * scores[i] / total;
 		ctx.fillRect(x1, y2 - barHeight, x2 - x1, barHeight);
-
-		/* Outline */
-		ctx.strokeStyle = 'white';
-		ctx.beginPath();
-		ctx.moveTo(x1, y1);
-		ctx.lineTo(x2, y1);
-		ctx.lineTo(x2, y2);
-		ctx.lineTo(x1, y2);
-		ctx.lineTo(x1, y1);
-		ctx.stroke();
 	    }
 	};
 	onBackendMessage = function(msg) {
@@ -343,7 +337,7 @@ function switchToGame() {
 	liEl.fadeTo(0, 1);
     }
 
-    var switchToAnswer = function() {
+    var switchToAnswer = function(isTimeout) {
 	if (activePlayer !== null) {
 	    // player confirmed answer or gave up
             var answerEl;
@@ -354,12 +348,16 @@ function switchToGame() {
             var isRight = choice !== null && q.answers[choice].right === true;
             if (isRight) {
                 playerScores[activePlayer] += q.tier;
+
+		$('#audio_right')[0].play();
             } else {
 		playerScores[activePlayer] -= q.tier;
 
 		if (choice !== null)
 		    // Hilight the wrong choice
 		    answerEl.addClass('wrong');
+		if (!isTimeout)
+		    $('#audio_wrong')[0].play();
             }
 
 	} else {
@@ -369,6 +367,8 @@ function switchToGame() {
 		    playerScores[i] -= q.tier;
 		}
 	    }
+	    if (!isTimeout)
+		$('#audio_wrong')[0].play();
 	}
 	updateScores();
 	timer.halt();
@@ -393,7 +393,11 @@ function switchToGame() {
 	    }
 	};
     };
-    timer.set(TIMER_QUESTION, switchToAnswer);
+    var timeout = function() {
+	$('#audio_timeout')[0].play();
+	switchToAnswer(true);
+    };
+    timer.set(TIMER_QUESTION, timeout);
 
     keyHandler = function(key, keyCode) {
         if (keyCode === 27) {
@@ -407,7 +411,7 @@ function switchToGame() {
             if (playerNames[player]) {
                 activePlayer = player;
 		updateTier();
-		timer.set(TIMER_ANSWER, switchToAnswer);
+		timer.set(TIMER_ANSWER, timeout);
 	    }
         } else if (activePlayer !== null &&
                    "1234".indexOf(key) >= 0) {
@@ -435,6 +439,10 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'i') {
 	    takeJoker(activePlayer, 'irc');
+	} else if (activePlayer !== null &&
+		   key === 'f') {
+	    takeJoker(activePlayer, 'fwd');
+	    activePlayer = null;
 	}
     };
 
