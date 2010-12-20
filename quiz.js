@@ -254,20 +254,14 @@ function takeJoker(activePlayer, joker) {
 		    y2 = h * 0.95;
 		}
 
+		/* Outline */
+		ctx.fillStyle = '#40405f';
+		ctx.fillRect(x1, y1, x2 - x1, y2 - y1);
+
 		/* Fill */
 		ctx.fillStyle = '#ccc';
 		var barHeight = (y2 - y1) * scores[i] / total;
 		ctx.fillRect(x1, y2 - barHeight, x2 - x1, barHeight);
-
-		/* Outline */
-		ctx.strokeStyle = 'white';
-		ctx.beginPath();
-		ctx.moveTo(x1, y1);
-		ctx.lineTo(x2, y1);
-		ctx.lineTo(x2, y2);
-		ctx.lineTo(x1, y2);
-		ctx.lineTo(x1, y1);
-		ctx.stroke();
 	    }
 	};
 	onBackendMessage = function(msg) {
