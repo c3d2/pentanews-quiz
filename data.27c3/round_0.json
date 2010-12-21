@@ -7,20 +7,20 @@
         "text": "Apple"
       }, 
       {
-        "text": "Navsat"
+        "text": "Nokia/Navsat"
       }, 
       {
         "text": "Google", 
         "right": "true"
       }, 
       {
-        "text": "none"
+        "text": "Tele Atlas"
       }
     ]
   }, 
   {
     "tier": "150", 
-    "text": "Which Web Site did not distribute Trojans this year", 
+    "text": "Which Web Site did not distribute Trojans this year (To our knowledge)", 
     "answers": [
       {
         "text": "Lenovo Support"
@@ -29,10 +29,10 @@
         "text": "Nobel Peace Price"
       }, 
       {
-        "text": ""
+        "text": "US Treasury"
       }, 
       {
-        "text": "Camp", 
+        "text": "events.ccc.de", 
         "right": "true"
       }
     ]
