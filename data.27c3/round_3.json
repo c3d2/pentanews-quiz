@@ -11,7 +11,7 @@
       }, 
       {
         "text": "Amazon", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Apple (iTunes)"
@@ -24,7 +24,7 @@
     "answers": [
       {
         "text": "one night", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "one week"
@@ -46,7 +46,7 @@
       }, 
       {
         "text": "Drop compensation for the families", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Increase salery"
@@ -65,7 +65,7 @@
       }, 
       {
         "text": "300k EUR", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "600k EUR"
@@ -90,7 +90,7 @@
       }, 
       {
         "text": "Ladies hygiene", 
-        "right": "true"
+        "right": true
       }
     ]
   }, 
@@ -100,7 +100,7 @@
     "answers": [
       {
         "text": "Nail clippers", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Rifles"
@@ -129,7 +129,7 @@
       }, 
       {
         "text": "2 Mrd", 
-        "right": "true"
+        "right": true
       }
     ]
   }, 
@@ -142,7 +142,7 @@
       }, 
       {
         "text": "IBM", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Apple"
@@ -167,7 +167,7 @@
       }, 
       {
         "text": "search trash bins to catch truants", 
-        "right": "true"
+        "right": true
       }
     ]
   }, 
@@ -180,7 +180,7 @@
       }, 
       {
         "text": "00000000", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Fj3#$%626123"

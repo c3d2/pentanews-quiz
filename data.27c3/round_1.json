@@ -11,7 +11,7 @@
       }, 
       {
         "text": "Twitter", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "MasterCard / Visa"
@@ -24,7 +24,7 @@
     "answers": [
       {
         "text": "Israel", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Saudi Arabia"
@@ -43,7 +43,7 @@
     "answers": [
       {
         "text": "Pentaradio", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Alternativlos"
@@ -65,7 +65,7 @@
       }, 
       {
         "text": "20y", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "25y"
@@ -84,7 +84,7 @@
       }, 
       {
         "text": "Anti-Spam", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "O/S shutdown"
@@ -109,7 +109,7 @@
       }, 
       {
         "text": "Two dead", 
-        "right": "true"
+        "right": true
       }
     ]
   }, 
@@ -125,7 +125,7 @@
       }, 
       {
         "text": "by teaser", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Internet ban"
@@ -138,7 +138,7 @@
     "answers": [
       {
         "text": "FBI", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "FSB"

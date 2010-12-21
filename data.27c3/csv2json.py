@@ -42,7 +42,7 @@ class Question(object):
         self.data['tier'] = self.points.get(int(arg[0]))
         self.data['answers'] = [
             {'text': val} if num +1 != int(arg[6]) \
-            else {'text': val, 'right': 'true'} \
+            else {'text': val, 'right': True} \
             for num, val in enumerate(arg[2:6])
         ]
 

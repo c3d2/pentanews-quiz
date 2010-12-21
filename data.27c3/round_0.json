@@ -11,7 +11,7 @@
       }, 
       {
         "text": "Google", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Tele Atlas"
@@ -33,7 +33,7 @@
       }, 
       {
         "text": "events.ccc.de", 
-        "right": "true"
+        "right": true
       }
     ]
   }, 
@@ -44,7 +44,7 @@
     "answers": [
       {
         "text": "Tweeting to show it the Japanese in a sarcastic way? ", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "Uploading the video of the boat attack?"
@@ -64,7 +64,7 @@
     "answers": [
       {
         "text": "turn off camera spy ware", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "get time off"
@@ -87,7 +87,7 @@
       }, 
       {
         "text": "1 year prison", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "25 k USD fine"
@@ -113,7 +113,7 @@
       }, 
       {
         "text": "Casio watch", 
-        "right": "true"
+        "right": true
       }
     ]
   }, 
@@ -127,7 +127,7 @@
       }, 
       {
         "text": "PHP", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "C#"
@@ -144,7 +144,7 @@
     "answers": [
       {
         "text": "123456", 
-        "right": "true"
+        "right": true
       }, 
       {
         "text": "password"
