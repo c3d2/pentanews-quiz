@@ -12,6 +12,7 @@ The
 line has to be in there. The file has to stop with such a line.
 """
 
+import os
 import csv
 import json
 
@@ -43,8 +44,13 @@ class Question(object):
             {'text': val} if num +1 != int(arg[6]) \
             else {'text': val, 'right': 'true'} \
             for num, val in enumerate(arg[2:6])
-       ]
-
+        ]
+        if os.path.isfile("pix/{0}.png".format(arg[7])):
+           self.data['image'] = "pix/{0}.png".format(arg[7])
+        if os.path.isfile("pix/{0}.jpg".format(arg[7])):
+           self.data['image'] = "pix/{0}.jpg".format(arg[7])
+        if os.path.isfile("video/{0}.webm".format(arg[7])):
+           self.data['video'] = "video/{0}.webm".format(arg[7])
 
     def get_points(self):
         """docstring for get_points"""
