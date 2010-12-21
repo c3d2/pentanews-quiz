@@ -1,0 +1,193 @@
+[
+  {
+    "tier": "50", 
+    "text": "Which company did sell the Wikileaks cables?", 
+    "answers": [
+      {
+        "text": "TimeWarner"
+      }, 
+      {
+        "text": "Barns and Noble"
+      }, 
+      {
+        "text": "Amazon", 
+        "right": "true"
+      }, 
+      {
+        "text": "Apple (iTunes)"
+      }
+    ]
+  }, 
+  {
+    "tier": "100", 
+    "text": "How long did it take to hack the eID card software?", 
+    "answers": [
+      {
+        "text": "one night", 
+        "right": "true"
+      }, 
+      {
+        "text": "one week"
+      }, 
+      {
+        "text": "one month"
+      }, 
+      {
+        "text": "3 days"
+      }
+    ]
+  }, 
+  {
+    "tier": "200", 
+    "text": "What did Foxxcon to reduce the suicide rate.", 
+    "answers": [
+      {
+        "text": "lower work hours"
+      }, 
+      {
+        "text": "Drop compensation for the families", 
+        "right": "true"
+      }, 
+      {
+        "text": "Increase salery"
+      }, 
+      {
+        "text": "Put flowers on the work floors"
+      }
+    ]
+  }, 
+  {
+    "tier": "300", 
+    "text": "That much the EU paid to pro-net-censorship lobbying groups?", 
+    "answers": [
+      {
+        "text": "100k EUR"
+      }, 
+      {
+        "text": "300k EUR", 
+        "right": "true"
+      }, 
+      {
+        "text": "600k EUR"
+      }, 
+      {
+        "text": "1mio EUR"
+      }
+    ]
+  }, 
+  {
+    "tier": "400", 
+    "text": "Which business sector started to do Wikileaks advertisements?", 
+    "answers": [
+      {
+        "text": "ISPs"
+      }, 
+      {
+        "text": "Electronics"
+      }, 
+      {
+        "text": "Cars"
+      }, 
+      {
+        "text": "Ladies hygiene", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "500", 
+    "text": "Which weapon was not allowed by TSA for soldiers flying back from Afghanistan?", 
+    "answers": [
+      {
+        "text": "Nail clippers", 
+        "right": "true"
+      }, 
+      {
+        "text": "Rifles"
+      }, 
+      {
+        "text": "Pistols"
+      }, 
+      {
+        "text": "Machine guns"
+      }
+    ]
+  }, 
+  {
+    "tier": "600", 
+    "text": "That many video clips serves YouTube a day", 
+    "image": "pix/167.jpg", 
+    "answers": [
+      {
+        "text": "20 Mio"
+      }, 
+      {
+        "text": "200 Mio"
+      }, 
+      {
+        "text": "800 Mio"
+      }, 
+      {
+        "text": "2 Mrd", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "700", 
+    "text": "Which company distributed trojaned usb drives at Asia Pacific Information Security Conference?", 
+    "answers": [
+      {
+        "text": "Cisco"
+      }, 
+      {
+        "text": "IBM", 
+        "right": "true"
+      }, 
+      {
+        "text": "Apple"
+      }, 
+      {
+        "text": "Microsoft"
+      }
+    ]
+  }, 
+  {
+    "tier": "800", 
+    "text": "What are the anti-terror laws used in the UK?", 
+    "answers": [
+      {
+        "text": "CCTV"
+      }, 
+      {
+        "text": "block Web pages"
+      }, 
+      {
+        "text": "catch terrorists"
+      }, 
+      {
+        "text": "search trash bins to catch truants", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "900", 
+    "text": "That was the US nuke launch code 'til 1977", 
+    "answers": [
+      {
+        "text": "7041776"
+      }, 
+      {
+        "text": "00000000", 
+        "right": "true"
+      }, 
+      {
+        "text": "Fj3#$%626123"
+      }, 
+      {
+        "text": "646435758"
+      }
+    ]
+  }
+]

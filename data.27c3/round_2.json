@@ -1,0 +1,154 @@
+[
+  {
+    "tier": "50", 
+    "text": "Which O/S will quote \u201cOnly one FBI sponsored backdoor in 10 years\u201d once verified?", 
+    "answers": [
+      {
+        "text": "FreeBSD"
+      }, 
+      {
+        "text": "Windows"
+      }, 
+      {
+        "text": "OpenBSD", 
+        "right": "true"
+      }, 
+      {
+        "text": "Linux"
+      }
+    ]
+  }, 
+  {
+    "tier": "100", 
+    "text": "Which country doesn't even need a judicial decree to block Web pages?", 
+    "answers": [
+      {
+        "text": "France", 
+        "right": "true"
+      }, 
+      {
+        "text": "USA"
+      }, 
+      {
+        "text": "Mexico"
+      }, 
+      {
+        "text": "Norway"
+      }
+    ]
+  }, 
+  {
+    "tier": "200", 
+    "text": "What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porno scanner?", 
+    "answers": [
+      {
+        "text": "Saving pix to usb drive."
+      }, 
+      {
+        "text": "Uploading pix to flickr"
+      }, 
+      {
+        "text": "Asking 'em to go through the scanner again"
+      }, 
+      {
+        "text": "Mastrubating", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "300", 
+    "text": "Who answered \u201cI am working on clarity around that at the moment\u201d after asked about the purpose of Twitter?", 
+    "answers": [
+      {
+        "text": "Steve Jobs"
+      }, 
+      {
+        "text": "Dick Cheney"
+      }, 
+      {
+        "text": "Nicolas Sarkozy"
+      }, 
+      {
+        "text": "Dick Costolo", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "400", 
+    "text": "In which country Web pages get opened after 10 p.m. to show French revolution reports? ", 
+    "answers": [
+      {
+        "text": "Germany", 
+        "right": "true"
+      }, 
+      {
+        "text": "France"
+      }, 
+      {
+        "text": "Brazil"
+      }, 
+      {
+        "text": "Japan"
+      }
+    ]
+  }, 
+  {
+    "tier": "500", 
+    "text": "Who lost 4 m user accounts in July?", 
+    "answers": [
+      {
+        "text": "Facebook"
+      }, 
+      {
+        "text": "Foursquare"
+      }, 
+      {
+        "text": "Pirate Bay", 
+        "right": "true"
+      }, 
+      {
+        "text": "Verizon (iPad)"
+      }
+    ]
+  }, 
+  {
+    "tier": "600", 
+    "text": "What year was the 1st ascii art movie created?", 
+    "answers": [
+      {
+        "text": "1976"
+      }, 
+      {
+        "text": "1982"
+      }, 
+      {
+        "text": "1968", 
+        "right": "true"
+      }, 
+      {
+        "text": "1954"
+      }
+    ]
+  }, 
+  {
+    "tier": "700", 
+    "text": "The concerts by what band were announced to be canceled by a hacked twitter account?", 
+    "answers": [
+      {
+        "text": "Guns'n'Roses", 
+        "right": "true"
+      }, 
+      {
+        "text": "AC/DC"
+      }, 
+      {
+        "text": "KISS"
+      }, 
+      {
+        "text": "Rolling Stones"
+      }
+    ]
+  }
+]

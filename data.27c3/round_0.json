@@ -1,0 +1,159 @@
+[
+  {
+    "tier": "50", 
+    "text": "This company caused a big media hype for scanning WLANs for a fraction of a second.", 
+    "answers": [
+      {
+        "text": "Apple"
+      }, 
+      {
+        "text": "Navsat"
+      }, 
+      {
+        "text": "Google", 
+        "right": "true"
+      }, 
+      {
+        "text": "none"
+      }
+    ]
+  }, 
+  {
+    "tier": "100", 
+    "text": "Which Web Site did not distribute Trojans this year", 
+    "answers": [
+      {
+        "text": "Lenovo Support"
+      }, 
+      {
+        "text": "Nobel Peace Price"
+      }, 
+      {
+        "text": ""
+      }, 
+      {
+        "text": "Camp", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "200", 
+    "text": "For what was Cheng Jianping sent to a labour camp for one year the day of her wedding?", 
+    "image": "pix/664.jpg", 
+    "answers": [
+      {
+        "text": "Tweeting to show it the Japanese in a sarcastic way? ", 
+        "right": "true"
+      }, 
+      {
+        "text": "Uploading the video of the boat attack?"
+      }, 
+      {
+        "text": "none"
+      }, 
+      {
+        "text": "none"
+      }
+    ]
+  }, 
+  {
+    "tier": "300", 
+    "text": "For what pupils of Pennsylvania school exploited the remote admin software of their school laptops?", 
+    "image": "pix/108.jpg", 
+    "answers": [
+      {
+        "text": "turn off camera spy ware", 
+        "right": "true"
+      }, 
+      {
+        "text": "get time off"
+      }, 
+      {
+        "text": "fake an bomb alert"
+      }, 
+      {
+        "text": "Change grades"
+      }
+    ]
+  }, 
+  {
+    "tier": "400", 
+    "text": "What was the punishment for the Palin hacker?", 
+    "image": "pix/643.jpg", 
+    "answers": [
+      {
+        "text": "300 h public service"
+      }, 
+      {
+        "text": "1 year prison", 
+        "right": "true"
+      }, 
+      {
+        "text": "25 k USD fine"
+      }, 
+      {
+        "text": "none"
+      }
+    ]
+  }, 
+  {
+    "tier": "500", 
+    "text": "What gadget makes one to stay detained in Guantanamo bay?", 
+    "answers": [
+      {
+        "text": "iPod"
+      }, 
+      {
+        "text": "none"
+      }, 
+      {
+        "text": "camera"
+      }, 
+      {
+        "text": "Casio watch", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "600", 
+    "text": "Which language holds about \u00bc of all NIST entries and is 15 years old?", 
+    "image": "pix/214.jpg", 
+    "answers": [
+      {
+        "text": "Perl"
+      }, 
+      {
+        "text": "PHP", 
+        "right": "true"
+      }, 
+      {
+        "text": "C#"
+      }, 
+      {
+        "text": "C++"
+      }
+    ]
+  }, 
+  {
+    "tier": "700", 
+    "text": "What was the rank 1st password of Gwaker Web page", 
+    "image": "pix/725.jpg", 
+    "answers": [
+      {
+        "text": "123456", 
+        "right": "true"
+      }, 
+      {
+        "text": "password"
+      }, 
+      {
+        "text": "12345678"
+      }, 
+      {
+        "text": "querty"
+      }
+    ]
+  }
+]

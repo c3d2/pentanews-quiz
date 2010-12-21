@@ -1,0 +1,154 @@
+[
+  {
+    "tier": "50", 
+    "text": "Which company did not cancel business with Wikileaks?", 
+    "answers": [
+      {
+        "text": "Amazon"
+      }, 
+      {
+        "text": "Paypal"
+      }, 
+      {
+        "text": "Twitter", 
+        "right": "true"
+      }, 
+      {
+        "text": "MasterCard / Visa"
+      }
+    ]
+  }, 
+  {
+    "tier": "100", 
+    "text": "Which country does not allow porno scanners?", 
+    "answers": [
+      {
+        "text": "Israel", 
+        "right": "true"
+      }, 
+      {
+        "text": "Saudi Arabia"
+      }, 
+      {
+        "text": "France"
+      }, 
+      {
+        "text": "Germany"
+      }
+    ]
+  }, 
+  {
+    "tier": "200", 
+    "text": "Which page did Wikipedia not delete?", 
+    "answers": [
+      {
+        "text": "Pentaradio", 
+        "right": "true"
+      }, 
+      {
+        "text": "Alternativlos"
+      }, 
+      {
+        "text": "Mate"
+      }, 
+      {
+        "text": "Wikileaksmirror"
+      }
+    ]
+  }, 
+  {
+    "tier": "300", 
+    "text": "History: How old is the Web?", 
+    "answers": [
+      {
+        "text": "15y"
+      }, 
+      {
+        "text": "20y", 
+        "right": "true"
+      }, 
+      {
+        "text": "25y"
+      }, 
+      {
+        "text": "35y"
+      }
+    ]
+  }, 
+  {
+    "tier": "400", 
+    "text": "By claiming what patent 36 companies got sued by Marshall Patent troll?", 
+    "answers": [
+      {
+        "text": "Spyware"
+      }, 
+      {
+        "text": "Anti-Spam", 
+        "right": "true"
+      }, 
+      {
+        "text": "O/S shutdown"
+      }, 
+      {
+        "text": "VoIP"
+      }
+    ]
+  }, 
+  {
+    "tier": "500", 
+    "text": "What happened after the spell checking changed \u201cYou change the topic every time you run out of arguments\u201d to You change the topic every time they are fucking you\"", 
+    "answers": [
+      {
+        "text": "none"
+      }, 
+      {
+        "text": "Couple got married"
+      }, 
+      {
+        "text": "Phone manufacturer had to pay 50k EUR"
+      }, 
+      {
+        "text": "Two dead", 
+        "right": "true"
+      }
+    ]
+  }, 
+  {
+    "tier": "600", 
+    "text": "How was Lonnie Tinsley (86 old woman in a hospital in Oklahoma) made to take her medication?", 
+    "answers": [
+      {
+        "text": "Shot"
+      }, 
+      {
+        "text": "by weapon"
+      }, 
+      {
+        "text": "by teaser", 
+        "right": "true"
+      }, 
+      {
+        "text": "Internet ban"
+      }
+    ]
+  }, 
+  {
+    "tier": "700", 
+    "text": "Which organization got nervous when they found out that some employees consume child porn?", 
+    "answers": [
+      {
+        "text": "FBI", 
+        "right": "true"
+      }, 
+      {
+        "text": "FSB"
+      }, 
+      {
+        "text": "MI6"
+      }, 
+      {
+        "text": "BND"
+      }
+    ]
+  }
+]
