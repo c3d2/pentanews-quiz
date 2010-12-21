@@ -101,7 +101,7 @@
   {
     "tier": 759, 
     "text": "What gadget makes one to stay detained in Guantanamo bay?", 
-    "explanation": "pix/565_expl.jpg", 
+    "explanation": { "image": "pix/565_expl.jpg" }, 
     "answers": [
       {
         "text": "iPod"
