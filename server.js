@@ -87,11 +87,20 @@ function pushIrcInfo() {
 /*
  * Web server
  */
+function noCache(req, res, next) {
+    var writeHead = res.writeHead;
+    res.writeHead = function(status, headers) {
+	headers['Cache-Control'] = 'no-cache';
+	writeHead.call(this, status, headers);
+    };
+    next();
+}
 
 var server = Connect.createServer(
     Connect.logger(),
+    noCache,
     Connect.bodyDecoder(),
-    Connect.staticProvider(__dirname),
+    Connect.staticProvider({ root: __dirname, maxAge: 1000 }),
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
 );
 
