@@ -24,3 +24,7 @@ Sublab
 CCCB
 Entropia
 http://christiankoch.de/sublab/public/wasserbruch/
+
+[23:50:09] <payload> Was lässt laut Karl de Maiziere die Vorratsdatenspeicherung wie Fliegendreck erscheinen?
+[23:51:06] <payload> Die Vorratsdatenspeicherung, die das Bundesverfassungsgericht in der alten Form gestoppt hatte, sei im übrigen ein "Fliegendreck" gegen die Bewegungs- und Geschmackprofile, die große kommerzielle Anbieter wie Amazon oder Pizzadienstleister von ihren Kunden erstellten.
+[23:51:09] <payload> http://www.dnn-online.de/nachrichten/sachsen/professor-de-maizire-haelt-antrittsvorlesung-an-der-tu-dresden/r-sachsen-a-12777.html
