@@ -352,6 +352,7 @@ function switchToGame() {
             if (isRight) {
                 playerScores[activePlayer] += q.tier;
 
+		$('#audio_right')[0].currentTime = 0;
 		$('#audio_right')[0].play();
             } else {
 		playerScores[activePlayer] -= q.tier;
@@ -370,8 +371,10 @@ function switchToGame() {
 		    playerScores[i] -= q.tier;
 		}
 	    }
-	    if (!isTimeout)
+	    if (!isTimeout) {
+		$('#audio_wrong')[0].currentTime = 0;
 		$('#audio_wrong')[0].play();
+	    }
 	}
 	updateScores();
 	timer.halt();
@@ -397,6 +400,7 @@ function switchToGame() {
 	};
     };
     var timeout = function() {
+	$('#audio_timeout')[0].currentTime = 0;
 	$('#audio_timeout')[0].play();
 	switchToAnswer(true);
     };
