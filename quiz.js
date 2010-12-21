@@ -121,7 +121,7 @@ Timer.prototype.clear = function() {
     $('#timer').removeClass('elapsed');
     $('#timer').hide();
 };
-var TIMER_QUESTION = 90;
+var TIMER_QUESTION = 60;
 var TIMER_ANSWER = 60;
 var timer = new Timer();
 
@@ -314,8 +314,8 @@ function setQuestionContents(q) {
     }
 }
 
-var PLAYER_KEYS = '123';
-var ANSWER_KEYS = 'abcd';
+var PLAYER_KEYS = 'abc';
+var ANSWER_KEYS = '1234';
 
 // Game screen is the one with the question in question
 function switchToGame() {
