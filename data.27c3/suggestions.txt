@@ -17,3 +17,10 @@ How many errors did Office 2007 score at the OOXML test?
 2
 13
 122,000: http://tech.slashdot.org/tech/08/04/21/1821251.shtml
+
+What is the coolest Hackerspace in Germany?
+C3D2 HQ
+Sublab
+CCCB
+Entropia
+http://christiankoch.de/sublab/public/wasserbruch/
