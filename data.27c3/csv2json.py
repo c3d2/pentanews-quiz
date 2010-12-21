@@ -19,16 +19,16 @@ import json
 class Question(object):
     """Represent a game question"""
     points = {
-       1: '50',
-       2: '100',
-       3: '200',
-       4: '300',
-       5: '400',
-       6: '500',
-       7: '600',
-       8: '700',
-       9:'800',
-       10: '900',
+       1: '100',
+       2: '150',
+       3: '225',
+       4: '337',
+       5: '506',
+       6: '759',
+       7: '1139',
+       8: '1709',
+       9: '2563',
+       10: '3844',
     }
 
     def __init__(self, arg):
@@ -45,8 +45,9 @@ class Question(object):
             else {'text': val, 'right': 'true'} \
             for num, val in enumerate(arg[2:6])
         ]
-        if os.path.isfile("pix/{0}.png".format(arg[7])):
-           self.data['image'] = "pix/{0}.png".format(arg[7])
+
+        if os.path.isfile("pix/{0}_expl.jpg".format(arg[7])):
+           self.data['explanation'] = "pix/{0}_expl.jpg".format(arg[7])
         if os.path.isfile("pix/{0}.jpg".format(arg[7])):
            self.data['image'] = "pix/{0}.jpg".format(arg[7])
         if os.path.isfile("video/{0}.webm".format(arg[7])):

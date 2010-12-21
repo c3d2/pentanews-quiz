@@ -1,6 +1,6 @@
 [
   {
-    "tier": "50", 
+    "tier": "100", 
     "text": "This company caused a big media hype for scanning WLANs for a fraction of a second.", 
     "answers": [
       {
@@ -19,7 +19,7 @@
     ]
   }, 
   {
-    "tier": "100", 
+    "tier": "150", 
     "text": "Which Web Site did not distribute Trojans this year", 
     "answers": [
       {
@@ -38,7 +38,7 @@
     ]
   }, 
   {
-    "tier": "200", 
+    "tier": "225", 
     "text": "For what was Cheng Jianping sent to a labour camp for one year the day of her wedding?", 
     "image": "pix/664.jpg", 
     "answers": [
@@ -58,7 +58,7 @@
     ]
   }, 
   {
-    "tier": "300", 
+    "tier": "337", 
     "text": "For what pupils of Pennsylvania school exploited the remote admin software of their school laptops?", 
     "image": "pix/108.jpg", 
     "answers": [
@@ -78,7 +78,7 @@
     ]
   }, 
   {
-    "tier": "400", 
+    "tier": "506", 
     "text": "What was the punishment for the Palin hacker?", 
     "image": "pix/643.jpg", 
     "answers": [
@@ -98,8 +98,9 @@
     ]
   }, 
   {
-    "tier": "500", 
+    "tier": "759", 
     "text": "What gadget makes one to stay detained in Guantanamo bay?", 
+    "explanation": "pix/565_expl.jpg", 
     "answers": [
       {
         "text": "iPod"
@@ -117,7 +118,7 @@
     ]
   }, 
   {
-    "tier": "600", 
+    "tier": "1139", 
     "text": "Which language holds about \u00bc of all NIST entries and is 15 years old?", 
     "image": "pix/214.jpg", 
     "answers": [
@@ -137,7 +138,7 @@
     ]
   }, 
   {
-    "tier": "700", 
+    "tier": "1709", 
     "text": "What was the rank 1st password of Gwaker Web page", 
     "image": "pix/725.jpg", 
     "answers": [

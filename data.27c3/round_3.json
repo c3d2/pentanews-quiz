@@ -1,6 +1,6 @@
 [
   {
-    "tier": "50", 
+    "tier": "100", 
     "text": "Which company did sell the Wikileaks cables?", 
     "answers": [
       {
@@ -19,7 +19,7 @@
     ]
   }, 
   {
-    "tier": "100", 
+    "tier": "150", 
     "text": "How long did it take to hack the eID card software?", 
     "answers": [
       {
@@ -38,7 +38,7 @@
     ]
   }, 
   {
-    "tier": "200", 
+    "tier": "225", 
     "text": "What did Foxxcon to reduce the suicide rate.", 
     "answers": [
       {
@@ -57,7 +57,7 @@
     ]
   }, 
   {
-    "tier": "300", 
+    "tier": "337", 
     "text": "That much the EU paid to pro-net-censorship lobbying groups?", 
     "answers": [
       {
@@ -76,7 +76,7 @@
     ]
   }, 
   {
-    "tier": "400", 
+    "tier": "506", 
     "text": "Which business sector started to do Wikileaks advertisements?", 
     "answers": [
       {
@@ -95,7 +95,7 @@
     ]
   }, 
   {
-    "tier": "500", 
+    "tier": "759", 
     "text": "Which weapon was not allowed by TSA for soldiers flying back from Afghanistan?", 
     "answers": [
       {
@@ -114,7 +114,7 @@
     ]
   }, 
   {
-    "tier": "600", 
+    "tier": "1139", 
     "text": "That many video clips serves YouTube a day", 
     "image": "pix/167.jpg", 
     "answers": [
@@ -134,7 +134,7 @@
     ]
   }, 
   {
-    "tier": "700", 
+    "tier": "1709", 
     "text": "Which company distributed trojaned usb drives at Asia Pacific Information Security Conference?", 
     "answers": [
       {
@@ -153,7 +153,7 @@
     ]
   }, 
   {
-    "tier": "800", 
+    "tier": "2563", 
     "text": "What are the anti-terror laws used in the UK?", 
     "answers": [
       {
@@ -172,7 +172,7 @@
     ]
   }, 
   {
-    "tier": "900", 
+    "tier": "3844", 
     "text": "That was the US nuke launch code 'til 1977", 
     "answers": [
       {
