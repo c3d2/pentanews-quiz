@@ -32,7 +32,7 @@ var questions;
 var currentQuestion = 0;
 
 function loadQuizData(done) {
-    $.ajax({ url: 'data/questions.json',
+    $.ajax({ url: 'data/questions.json?' + Math.round(Math.random() * 1000),
              contentType: 'json',
              success: function(data, status) {
                  if (typeof data === 'string')
