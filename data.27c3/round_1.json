@@ -1,6 +1,6 @@
 [
   {
-    "tier": "100", 
+    "tier": 100, 
     "text": "Which company did not cancel business with Wikileaks?", 
     "answers": [
       {
@@ -19,7 +19,7 @@
     ]
   }, 
   {
-    "tier": "150", 
+    "tier": 150, 
     "text": "Which country does not allow porno scanners?", 
     "answers": [
       {
@@ -38,7 +38,7 @@
     ]
   }, 
   {
-    "tier": "225", 
+    "tier": 225, 
     "text": "Which page did Wikipedia not delete?", 
     "answers": [
       {
@@ -57,7 +57,7 @@
     ]
   }, 
   {
-    "tier": "337", 
+    "tier": 337, 
     "text": "History: How old is the Web?", 
     "answers": [
       {
@@ -76,7 +76,7 @@
     ]
   }, 
   {
-    "tier": "506", 
+    "tier": 506, 
     "text": "By claiming what patent 36 companies got sued by Marshall Patent troll?", 
     "answers": [
       {
@@ -95,7 +95,7 @@
     ]
   }, 
   {
-    "tier": "759", 
+    "tier": 759, 
     "text": "What happened after the spell checking changed \u201cYou change the topic every time you run out of arguments\u201d to You change the topic every time they are fucking you\"", 
     "answers": [
       {
@@ -114,7 +114,7 @@
     ]
   }, 
   {
-    "tier": "1139", 
+    "tier": 1139, 
     "text": "How was Lonnie Tinsley (86 old woman in a hospital in Oklahoma) made to take her medication?", 
     "answers": [
       {
@@ -133,7 +133,7 @@
     ]
   }, 
   {
-    "tier": "1709", 
+    "tier": 1709, 
     "text": "Which organization got nervous when they found out that some employees consume child porn?", 
     "answers": [
       {
