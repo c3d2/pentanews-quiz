@@ -314,6 +314,9 @@ function setQuestionContents(q) {
     }
 }
 
+var PLAYER_KEYS = '123';
+var ANSWER_KEYS = 'abcd';
+
 // Game screen is the one with the question in question
 function switchToGame() {
     var i, q = questions[currentQuestion];
@@ -405,21 +408,21 @@ function switchToGame() {
             $('#game').hide();
             switchToScoreboard();
         } else if (activePlayer === null &&
-		   "abcde".indexOf(key) >= 0) {
+		   PLAYER_KEYS.indexOf(key) >= 0) {
             // No active player before, but somebody hit a button!
-            var player = "abcde".indexOf(key);
+            var player = PLAYER_KEYS.indexOf(key);
             if (playerNames[player]) {
                 activePlayer = player;
 		updateTier();
 		timer.set(TIMER_ANSWER, timeout);
 	    }
         } else if (activePlayer !== null &&
-                   "1234".indexOf(key) >= 0) {
+                   ANSWER_KEYS.indexOf(key) >= 0) {
             // player pronounced the answer
             if (choice !== null)
                 $('#answer' + choice).removeClass('selected');
 
-            choice = "1234".indexOf(key);
+            choice = ANSWER_KEYS.indexOf(key);
             $('#answer' + choice).addClass('selected');
         } else if (activePlayer !== null &&
                    keyCode === 13) {
