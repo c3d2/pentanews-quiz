@@ -121,7 +121,7 @@ Timer.prototype.clear = function() {
     $('#timer').removeClass('elapsed');
     $('#timer').hide();
 };
-var TIMER_QUESTION = 90;
+var TIMER_QUESTION = 60;
 var TIMER_ANSWER = 60;
 var timer = new Timer();
 
@@ -314,6 +314,9 @@ function setQuestionContents(q) {
     }
 }
 
+var PLAYER_KEYS = 'abc';
+var ANSWER_KEYS = '1234';
+
 // Game screen is the one with the question in question
 function switchToGame() {
     var i, q = questions[currentQuestion];
@@ -349,6 +352,7 @@ function switchToGame() {
             if (isRight) {
                 playerScores[activePlayer] += q.tier;
 
+		$('#audio_right')[0].currentTime = 0;
 		$('#audio_right')[0].play();
             } else {
 		playerScores[activePlayer] -= q.tier;
@@ -367,8 +371,10 @@ function switchToGame() {
 		    playerScores[i] -= q.tier;
 		}
 	    }
-	    if (!isTimeout)
+	    if (!isTimeout) {
+		$('#audio_wrong')[0].currentTime = 0;
 		$('#audio_wrong')[0].play();
+	    }
 	}
 	updateScores();
 	timer.halt();
@@ -394,6 +400,7 @@ function switchToGame() {
 	};
     };
     var timeout = function() {
+	$('#audio_timeout')[0].currentTime = 0;
 	$('#audio_timeout')[0].play();
 	switchToAnswer(true);
     };
@@ -405,21 +412,21 @@ function switchToGame() {
             $('#game').hide();
             switchToScoreboard();
         } else if (activePlayer === null &&
-		   "abcde".indexOf(key) >= 0) {
+		   PLAYER_KEYS.indexOf(key) >= 0) {
             // No active player before, but somebody hit a button!
-            var player = "abcde".indexOf(key);
+            var player = PLAYER_KEYS.indexOf(key);
             if (playerNames[player]) {
                 activePlayer = player;
 		updateTier();
 		timer.set(TIMER_ANSWER, timeout);
 	    }
         } else if (activePlayer !== null &&
-                   "1234".indexOf(key) >= 0) {
+                   ANSWER_KEYS.indexOf(key) >= 0) {
             // player pronounced the answer
             if (choice !== null)
                 $('#answer' + choice).removeClass('selected');
 
-            choice = "1234".indexOf(key);
+            choice = ANSWER_KEYS.indexOf(key);
             $('#answer' + choice).addClass('selected');
         } else if (activePlayer !== null &&
                    keyCode === 13) {

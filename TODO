@@ -11,6 +11,7 @@
                         quiz.js: TIMER_ANSWER
 * astro -(100%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
                             Feld "explanation" in questions.json
+* astro -(  0$)- Sound Effects: Rewind before Play
 
 = Joker =
 5 Joker sollten reichen.
