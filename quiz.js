@@ -367,12 +367,20 @@ function switchToGame() {
             }
 
 	} else {
-	    /* no player wanted to answer, punish all */
+	    /* no player wanted to answer, punish a winner */
+	    var i, maxScore = playerScores[0];
 	    for(var i = 0; i < playerNames.length; i++) {
-		if (playerNames[i]) {
-		    playerScores[i] -= q.tier;
-		}
+		if (playerScores[i] > maxScore)
+		    maxScore = playerScores[i];
 	    }
+	    var winners = [];
+	    for(var i = 0; i < playerNames.length; i++) {
+		if (playerScores[i] === maxScore)
+		    winners.push(i);
+	    }
+	    var punished = winners[Math.floor(Math.random() * winners.length)];
+	    playerScores[punished] -= q.tier;
+
 	    if (!isTimeout) {
 		$('#audio_wrong')[0].load();
 		$('#audio_wrong')[0].play();
