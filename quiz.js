@@ -352,7 +352,7 @@ function switchToGame() {
             if (isRight) {
                 playerScores[activePlayer] += q.tier;
 
-		$('#audio_right')[0].currentTime = 0;
+		$('#audio_right')[0].load();
 		$('#audio_right')[0].play();
             } else {
 		playerScores[activePlayer] -= q.tier;
@@ -360,8 +360,10 @@ function switchToGame() {
 		if (choice !== null)
 		    // Hilight the wrong choice
 		    answerEl.addClass('wrong');
-		if (!isTimeout)
+		if (!isTimeout) {
+		    $('#audio_wrong')[0].load();
 		    $('#audio_wrong')[0].play();
+		}
             }
 
 	} else {
@@ -372,7 +374,7 @@ function switchToGame() {
 		}
 	    }
 	    if (!isTimeout) {
-		$('#audio_wrong')[0].currentTime = 0;
+		$('#audio_wrong')[0].load();
 		$('#audio_wrong')[0].play();
 	    }
 	}
@@ -400,7 +402,7 @@ function switchToGame() {
 	};
     };
     var timeout = function() {
-	$('#audio_timeout')[0].currentTime = 0;
+	$('#audio_timeout')[0].load();
 	$('#audio_timeout')[0].play();
 	switchToAnswer(true);
     };
