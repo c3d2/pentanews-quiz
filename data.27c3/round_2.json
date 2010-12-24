@@ -1,10 +1,10 @@
 [
   {
     "tier": 100, 
-    "text": "Which O/S will quote \u201cOnly one FBI sponsored backdoor in 10 years\u201d once verified?", 
+    "text": "Which O/S will quote \u201cOnly one FBI sponsored backdoor in 10 years\u201d- once verified?", 
     "answers": [
       {
-        "text": "FreeBSD"
+        "text": "SunOS/Solaris"
       }, 
       {
         "text": "Windows"
@@ -20,14 +20,14 @@
   }, 
   {
     "tier": 150, 
-    "text": "Which country doesn't even need a judicial decree to block Web pages?", 
+    "text": "In which it country doesn't even need a judicial decree to block Web pages?", 
     "answers": [
       {
         "text": "France", 
         "right": true
       }, 
       {
-        "text": "USA"
+        "text": "Spain"
       }, 
       {
         "text": "Mexico"
@@ -42,13 +42,13 @@
     "text": "What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porno scanner?", 
     "answers": [
       {
-        "text": "Saving pix to usb drive."
+        "text": "Saving pix to an usb drive."
       }, 
       {
-        "text": "Uploading pix to flickr"
+        "text": "Uploading pix to the Net"
       }, 
       {
-        "text": "Asking 'em to go through the scanner again"
+        "text": "Making 'em to go through the scanner again"
       }, 
       {
         "text": "Mastrubating", 
@@ -58,7 +58,7 @@
   }, 
   {
     "tier": 337, 
-    "text": "Who answered \u201cI am working on clarity around that at the moment\u201d after asked about the purpose of Twitter?", 
+    "text": "Who answered \u201cI am working on clarity around that at the moment\u201d after being asked about the purpose of Twitter?", 
     "answers": [
       {
         "text": "Steve Jobs"
@@ -96,7 +96,7 @@
   }, 
   {
     "tier": 759, 
-    "text": "Who lost 4 m user accounts in July?", 
+    "text": "Who lost 4 mio user accounts in July?", 
     "answers": [
       {
         "text": "Facebook"

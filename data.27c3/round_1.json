@@ -40,6 +40,7 @@
   {
     "tier": 225, 
     "text": "Which page did Wikipedia not delete?", 
+    "image": "pix/5001.jpg", 
     "answers": [
       {
         "text": "Pentaradio", 
@@ -49,7 +50,7 @@
         "text": "Alternativlos"
       }, 
       {
-        "text": "Mate"
+        "text": "Club Mate"
       }, 
       {
         "text": "Wikileaksmirror"
@@ -96,19 +97,19 @@
   }, 
   {
     "tier": 759, 
-    "text": "What happened after the spell checking changed \u201cYou change the topic every time you run out of arguments\u201d to You change the topic every time they are fucking you\"", 
+    "text": "What happened in Turkey after the spell checking changed s/You change the topic every time you run out of arguments/You change the topic every time they are fucking you/", 
     "answers": [
       {
-        "text": "none"
+        "text": "The couple broke up"
       }, 
       {
-        "text": "Couple got married"
+        "text": "The couple got married"
       }, 
       {
         "text": "Phone manufacturer had to pay 50k EUR"
       }, 
       {
-        "text": "Two dead", 
+        "text": "The couple killed themselfs", 
         "right": true
       }
     ]
@@ -118,17 +119,17 @@
     "text": "How was Lonnie Tinsley (86 old woman in a hospital in Oklahoma) made to take her medication?", 
     "answers": [
       {
-        "text": "Shot"
+        "text": "Asking her"
       }, 
       {
-        "text": "by weapon"
+        "text": "by firearm"
       }, 
       {
         "text": "by teaser", 
         "right": true
       }, 
       {
-        "text": "Internet ban"
+        "text": "Threatened by Internet ban"
       }
     ]
   }, 

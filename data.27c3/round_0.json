@@ -1,7 +1,7 @@
 [
   {
     "tier": 100, 
-    "text": "This company caused a big media hype for scanning WLANs for a fraction of a second.", 
+    "text": "Which company caused a big media hype for sniffing WLAN traffic for a fraction of a second.", 
     "answers": [
       {
         "text": "Apple"
@@ -39,48 +39,48 @@
   }, 
   {
     "tier": 225, 
-    "text": "For what was Cheng Jianping sent to a labour camp for one year the day of her wedding?", 
+    "text": "What did Cheng Jianping do to be sent to a labour camp for one year?", 
     "image": "pix/664.jpg", 
     "video": "video/664.webm", 
     "answers": [
       {
-        "text": "Tweeting to show it the Japanese in a sarcastic way? ", 
+        "text": "Retweeting that her fellow Chinese should be angry at the Japanese.", 
         "right": true
       }, 
       {
-        "text": "Uploading the video of the boat attack?"
+        "text": "Uploading the video of the boat attack"
       }, 
       {
-        "text": "none"
+        "text": "Uploading photos of the boat attack"
       }, 
       {
-        "text": "none"
+        "text": "Demanding that the Chinese captain should stay in Japan."
       }
     ]
   }, 
   {
     "tier": 337, 
-    "text": "For what pupils of Pennsylvania school exploited the remote admin software of their school laptops?", 
+    "text": "For what reason pupils of a Pennsylvania school exploited the remote admin software of their school laptops?", 
     "image": "pix/108.jpg", 
     "answers": [
       {
-        "text": "turn off camera spy ware", 
+        "text": "Turn off camera spy ware", 
         "right": true
       }, 
       {
-        "text": "get time off"
+        "text": "Canceling lessons toget time off"
       }, 
       {
-        "text": "fake an bomb alert"
+        "text": "Fake an bomb alert"
       }, 
       {
-        "text": "Change grades"
+        "text": "Change the marks"
       }
     ]
   }, 
   {
     "tier": 506, 
-    "text": "What was the punishment for the Palin hacker?", 
+    "text": "What was the punishment for the Sahra Palin e-mail hacker?", 
     "image": "pix/643.jpg", 
     "answers": [
       {
@@ -91,29 +91,29 @@
         "right": true
       }, 
       {
-        "text": "25 k USD fine"
+        "text": "250 k USD fine"
       }, 
       {
-        "text": "none"
+        "text": "acquittal"
       }
     ]
   }, 
   {
     "tier": 759, 
     "text": "What gadget makes one to stay detained in Guantanamo bay?", 
-    "explanation": { "image": "pix/565_expl.jpg" }, 
+    "explanation": "pix/565_expl.jpg", 
     "answers": [
       {
-        "text": "iPod"
+        "text": "iPod without music"
       }, 
       {
-        "text": "none"
+        "text": "Satellite phone"
       }, 
       {
-        "text": "camera"
+        "text": "camera with telephoto"
       }, 
       {
-        "text": "Casio watch", 
+        "text": "Watch", 
         "right": true
       }
     ]
@@ -131,16 +131,17 @@
         "right": true
       }, 
       {
-        "text": "C#"
+        "text": "Java"
       }, 
       {
-        "text": "C++"
+        "text": "C#"
       }
     ]
   }, 
   {
     "tier": 1709, 
-    "text": "What was the rank 1st password of Gwaker Web page", 
+    "text": "What was the rank 1st password of Gawker Web page", 
+    "explanation": "pix/725_expl.jpg", 
     "image": "pix/725.jpg", 
     "answers": [
       {

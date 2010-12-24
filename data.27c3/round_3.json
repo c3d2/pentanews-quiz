@@ -20,7 +20,7 @@
   }, 
   {
     "tier": 150, 
-    "text": "How long did it take to hack the eID card software?", 
+    "text": "How long did it take to hack the German eID card software?", 
     "answers": [
       {
         "text": "one night", 
@@ -115,20 +115,20 @@
   }, 
   {
     "tier": 1139, 
-    "text": "That many video clips serves YouTube a day", 
-    "image": "pix/167.jpg", 
+    "text": "According to the RIAA how many times the amount of all existing US Dollars are stolen by the Pirate Bay?", 
+    "image": "pix/432.jpg", 
     "answers": [
       {
-        "text": "20 Mio"
+        "text": "0.23"
       }, 
       {
-        "text": "200 Mio"
+        "text": "0.5"
       }, 
       {
-        "text": "800 Mio"
+        "text": "0.75"
       }, 
       {
-        "text": "2 Mrd", 
+        "text": "46", 
         "right": true
       }
     ]
@@ -154,7 +154,7 @@
   }, 
   {
     "tier": 2563, 
-    "text": "What are the anti-terror laws used in the UK?", 
+    "text": "What are the anti-terror laws used for in the UK?", 
     "answers": [
       {
         "text": "CCTV"
