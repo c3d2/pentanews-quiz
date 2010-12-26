@@ -1,10 +1,10 @@
 [
   {
     "tier": 100, 
-    "text": "Which O/S will quote \u201cOnly one FBI sponsored backdoor in 10 years\u201d- once verified?", 
+    "text": "Which O/S will quote 'Only one FBI sponsored backdoor in 10 years\u201d- once verified?'", 
     "answers": [
       {
-        "text": "SunOS/Solaris"
+        "text": "Solaris"
       }, 
       {
         "text": "Windows"
@@ -20,7 +20,7 @@
   }, 
   {
     "tier": 150, 
-    "text": "In which it country doesn't even need a judicial decree to block Web pages?", 
+    "text": "In which country it doesn't even need a judge to block Web pages?", 
     "answers": [
       {
         "text": "France", 
@@ -58,7 +58,8 @@
   }, 
   {
     "tier": 337, 
-    "text": "Who answered \u201cI am working on clarity around that at the moment\u201d after being asked about the purpose of Twitter?", 
+    "text": "Who answered\u201c\"I am working on clarity around that at the moment\"\u201dafter being asked about the purpose of Twitter?", 
+    "image": "pix/5004.jpg", 
     "answers": [
       {
         "text": "Steve Jobs"
@@ -77,7 +78,10 @@
   }, 
   {
     "tier": 506, 
-    "text": "In which country Web pages get opened after 10 p.m. to show French revolution reports? ", 
+    "text": "In which country Web pages open after 10 p.m. to show a docu about the French revolution?", 
+    "explanation": {
+      "image": "pix/316_expl.jpg"
+    }, 
     "answers": [
       {
         "text": "Germany", 
@@ -115,7 +119,7 @@
   }, 
   {
     "tier": 1139, 
-    "text": "What year was the 1st ascii art movie created?", 
+    "text": "In what year was the 1st ascii art movie created?", 
     "answers": [
       {
         "text": "1976"
@@ -134,7 +138,7 @@
   }, 
   {
     "tier": 1709, 
-    "text": "The concerts by what band were announced to be canceled by a hacked twitter account?", 
+    "text": "The concerts of what band were announced to be canceled by a hacked twitter account of the band?", 
     "answers": [
       {
         "text": "Guns'n'Roses", 

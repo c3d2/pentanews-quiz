@@ -1,7 +1,10 @@
 [
   {
     "tier": 100, 
-    "text": "Which company did sell the Wikileaks cables?", 
+    "text": "Which company sold the Wikileaks cables?", 
+    "explanation": {
+      "image": "pix/714_expl.jpg"
+    }, 
     "answers": [
       {
         "text": "TimeWarner"
@@ -39,7 +42,8 @@
   }, 
   {
     "tier": 225, 
-    "text": "What did Foxxcon to reduce the suicide rate.", 
+    "text": "What did Foxxcon do to reduce the worker suicide rate.", 
+    "image": "pix/215.jpg", 
     "answers": [
       {
         "text": "lower work hours"
@@ -58,7 +62,7 @@
   }, 
   {
     "tier": 337, 
-    "text": "That much the EU paid to pro-net-censorship lobbying groups?", 
+    "text": "How much did the EU pay to pro-net-censorship lobbying groups in 2010?", 
     "answers": [
       {
         "text": "100k EUR"
@@ -78,6 +82,9 @@
   {
     "tier": 506, 
     "text": "Which business sector started to do Wikileaks advertisements?", 
+    "explanation": {
+      "image": "pix/728_expl.jpg"
+    }, 
     "answers": [
       {
         "text": "ISPs"
@@ -115,7 +122,7 @@
   }, 
   {
     "tier": 1139, 
-    "text": "According to the RIAA how many times the amount of all existing US Dollars are stolen by the Pirate Bay?", 
+    "text": "According to the RIAA how many times the amount of all existing US Dollars were stolen by the Pirate Bay?", 
     "image": "pix/432.jpg", 
     "answers": [
       {
@@ -125,7 +132,7 @@
         "text": "0.5"
       }, 
       {
-        "text": "0.75"
+        "text": "12"
       }, 
       {
         "text": "46", 
@@ -135,7 +142,7 @@
   }, 
   {
     "tier": 1709, 
-    "text": "Which company distributed trojaned usb drives at Asia Pacific Information Security Conference?", 
+    "text": "Which company distributed trojaned usb drives at the Asia Pacific Information Security Conference?", 
     "answers": [
       {
         "text": "Cisco"
@@ -155,6 +162,7 @@
   {
     "tier": 2563, 
     "text": "What are the anti-terror laws used for in the UK?", 
+    "image": "pix/309.jpg", 
     "answers": [
       {
         "text": "CCTV"
@@ -173,7 +181,7 @@
   }, 
   {
     "tier": 3844, 
-    "text": "That was the US nuke launch code 'til 1977", 
+    "text": "What was the US nuke launch code 'til 1977", 
     "answers": [
       {
         "text": "7041776"

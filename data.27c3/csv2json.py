@@ -10,6 +10,14 @@ Note, this file has to be formated like that or everything will fail.
 The 
 '','','','','','','','',
 line has to be in there. The file has to stop with such a line.
+
+The best control over font sizes can be achieved using heading tags (<h1>, <h2>, <h3>, etc.). The <big> and <small> tags are not as robust as they are in HTML, but you
+will find that they allow you to adjust the size up or down a couple of sizes. The font-size property in CSS is essentally useless.
+
+Use the custom <mbp:pagebreak /> tags to mark pagebreaks in the text. I suggest you include one in front of every chapter or section.
+
+The Kindle has built-in bookmarks for the Table of Contents and the start of the book's content. Use the following anchor tags to mark those places in your book: <a
+name="TOC"/> and <a name="start"/>. Place the anchors right after the page break tag, before any headings or paragraphs.
 """
 
 import os
@@ -47,11 +55,15 @@ class Question(object):
         ]
 
         if os.path.isfile("pix/{0}_expl.jpg".format(arg[7])):
-           self.data['explanation'] = "pix/{0}_expl.jpg".format(arg[7])
+            self.data['explanation'] = {
+                'image': "pix/{0}_expl.jpg".format(arg[7])}
         if os.path.isfile("pix/{0}.jpg".format(arg[7])):
            self.data['image'] = "pix/{0}.jpg".format(arg[7])
         if os.path.isfile("video/{0}.webm".format(arg[7])):
            self.data['video'] = "video/{0}.webm".format(arg[7])
+        if os.path.isfile("video/{0}_expl.webm".format(arg[7])):
+            self.data['explanation'] = {
+                'video': "video/{0}_expl.webm".format(arg[7])}
 
     def get_points(self):
         """docstring for get_points"""

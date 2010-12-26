@@ -2,6 +2,7 @@
   {
     "tier": 100, 
     "text": "Which company did not cancel business with Wikileaks?", 
+    "image": "pix/5000.jpg", 
     "answers": [
       {
         "text": "Amazon"
@@ -21,6 +22,7 @@
   {
     "tier": 150, 
     "text": "Which country does not allow porno scanners?", 
+    "image": "pix/293.jpg", 
     "answers": [
       {
         "text": "Israel", 
@@ -78,7 +80,7 @@
   }, 
   {
     "tier": 506, 
-    "text": "By claiming what patent 36 companies got sued by Marshall Patent troll?", 
+    "text": "For what patent violation 36 companies got sued by the Marshall patent troll?", 
     "answers": [
       {
         "text": "Spyware"
@@ -97,7 +99,7 @@
   }, 
   {
     "tier": 759, 
-    "text": "What happened in Turkey after the spell checking changed s/You change the topic every time you run out of arguments/You change the topic every time they are fucking you/", 
+    "text": "What happened in Turkey after the spell checking changed s/You change the topic every time you run out of arguments/You change the topic every time they are fucking you/ in a SMS?", 
     "answers": [
       {
         "text": "The couple broke up"

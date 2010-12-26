@@ -1,7 +1,7 @@
 [
   {
     "tier": 100, 
-    "text": "Which company caused a big media hype for sniffing WLAN traffic for a fraction of a second.", 
+    "text": "Which company caused a big media hype for sniffing WLAN traffic for a fraction of a second?.", 
     "answers": [
       {
         "text": "Apple"
@@ -20,7 +20,7 @@
   }, 
   {
     "tier": 150, 
-    "text": "Which Web Site did not distribute Trojans this year (To our knowledge)", 
+    "text": "Which Web Site did not distribute trojans this year (To our knowledge)?", 
     "answers": [
       {
         "text": "Lenovo Support"
@@ -39,42 +39,41 @@
   }, 
   {
     "tier": 225, 
-    "text": "What did Cheng Jianping do to be sent to a labour camp for one year?", 
+    "text": "Cheng Jianping was sent to a labour camp for one year. What did she do?", 
     "image": "pix/664.jpg", 
     "video": "video/664.webm", 
     "answers": [
       {
-        "text": "Retweeting that her fellow Chinese should be angry at the Japanese.", 
+        "text": "Retweeting that her fellow Chinese people should be angry at the Japanese.", 
         "right": true
       }, 
       {
         "text": "Uploading the video of the boat attack"
       }, 
       {
-        "text": "Uploading photos of the boat attack"
+        "text": "Uploading a cartoon of the boat attack"
       }, 
       {
-        "text": "Demanding that the Chinese captain should stay in Japan."
+        "text": "Demanding that the Chinese captain should stay in jail in Japan"
       }
     ]
   }, 
   {
     "tier": 337, 
     "text": "For what reason pupils of a Pennsylvania school exploited the remote admin software of their school laptops?", 
-    "image": "pix/108.jpg", 
     "answers": [
       {
         "text": "Turn off camera spy ware", 
         "right": true
       }, 
       {
-        "text": "Canceling lessons toget time off"
+        "text": "Canceling lessons to get time off"
       }, 
       {
-        "text": "Fake an bomb alert"
+        "text": "Fake a bomb alert"
       }, 
       {
-        "text": "Change the marks"
+        "text": "Change their marks"
       }
     ]
   }, 
@@ -101,7 +100,9 @@
   {
     "tier": 759, 
     "text": "What gadget makes one to stay detained in Guantanamo bay?", 
-    "explanation": "pix/565_expl.jpg", 
+    "explanation": {
+      "image": "pix/565_expl.jpg"
+    }, 
     "answers": [
       {
         "text": "iPod without music"
@@ -110,10 +111,10 @@
         "text": "Satellite phone"
       }, 
       {
-        "text": "camera with telephoto"
+        "text": "camera with a large telephoto"
       }, 
       {
-        "text": "Watch", 
+        "text": "wrist watch", 
         "right": true
       }
     ]
@@ -140,8 +141,10 @@
   }, 
   {
     "tier": 1709, 
-    "text": "What was the rank 1st password of Gawker Web page", 
-    "explanation": "pix/725_expl.jpg", 
+    "text": "What was the most cracked password of the Gawker (Gawker, Jezebel, Gizmodo, Lifehacker, Deadspin, io9, Kotaku, Jalopnik) Web page user database?", 
+    "explanation": {
+      "image": "pix/725_expl.jpg"
+    }, 
     "image": "pix/725.jpg", 
     "answers": [
       {
