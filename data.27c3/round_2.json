@@ -58,7 +58,7 @@
   }, 
   {
     "tier": 337, 
-    "text": "Who answered\u201c\"I am working on clarity around that at the moment\"\u201dafter being asked about the purpose of Twitter?", 
+    "text": "Who answered\u201c'I am working on clarity around that at the moment'\u201dafter being asked about the purpose of Twitter?", 
     "image": "pix/5004.jpg", 
     "answers": [
       {
@@ -120,6 +120,9 @@
   {
     "tier": 1139, 
     "text": "In what year was the 1st ascii art movie created?", 
+    "explanation": {
+      "video": "video/36_expl.webm"
+    }, 
     "answers": [
       {
         "text": "1976"
