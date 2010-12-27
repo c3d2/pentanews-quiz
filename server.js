@@ -67,9 +67,16 @@ chat.addListener('privmsg', function(msg) {
     var nick = msg.person.nick;
     var channel = msg.params[0];
     var text = msg.params[1];
-    if (nick && channel === IRC_CHAN && text && frontend) {
+
+    var sText = "", i;
+    for(i = 0; i < text.length; i++) {
+	if (text.charCodeAt(i) >= 32)
+	    sText += text.charAt(i);
+    }
+
+    if (nick && channel === IRC_CHAN && sText && frontend) {
 	sendToFrontend({ irc: { nick: nick,
-				text: text
+				text: sText
 			      } });
     }
 });
