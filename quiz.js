@@ -133,7 +133,7 @@ Timer.prototype.clear = function() {
     $('#timer').hide();
 };
 var TIMER_QUESTION = 60;
-var TIMER_ANSWER = 60;
+var TIMER_ANSWER = 90;
 var timer = new Timer();
 
 var playerNames = [], playerScores = [], playerJokers = [];
