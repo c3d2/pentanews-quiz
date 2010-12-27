@@ -24,6 +24,19 @@ import os
 import csv
 import json
 
+HTML_HEADER = """
+<html>
+<head>
+</head>
+<body>
+<h1>27c3 Penta News Game Show Questions</h1>
+<i>Your opponents will be riddled as well.</i>
+<mbp:pagebreak />
+"""
+HTML_FOOTER = """
+</body>
+"""
+
 class Question(object):
     """Represent a game question"""
     points = {
@@ -77,6 +90,8 @@ def extract_data(questions):
 
 def main():
     csv_fh = csv.reader(open("news_entries_27c3.csv", "rb"), delimiter=';', quotechar="'")
+    html_fh = open("news_entries_27c3_kindle.txt", "w")
+    html_fh.write(HTML_HEADER)
     questions = []
     round = 0
     for entry in csv_fh:
@@ -85,8 +100,36 @@ def main():
         else:
             fh = open('round_%s.json'% (round), 'w')
             fh.writelines(json.dumps(extract_data(questions), indent=2))
+            html_fh.writelines([
+                "<h1>",
+                "<br />",
+                "<br />",
+                "Round: {0}".format(round+1,),
+                "</h1>\n",
+                "<mbp:pagebreak />\n",
+            ])
+            for q in extract_data(questions):
+                html_fh.writelines([
+                    "<br />",
+                    "<h2>",
+                    q['text'],
+                    "</h2>\n",
+                ])
+                answers = ["<ol>\n",]
+                for answer in q['answers']:
+                    if answer.has_key('right'):
+                        answers.extend([
+                            "<li><b>", answer.get('text'), "</b></li>\n"]
+                        )
+                    else:
+                        answers.extend(["<li>", answer.get('text'), "</li>\n"])
+                answers.append("\n</ol>\n")
+                answers.append("<mbp:pagebreak />\n")
+                html_fh.writelines(answers)
             questions = []
             round += 1
+    html_fh.write(HTML_FOOTER)
+    html_fh.close()
 
 if __name__ == '__main__':
     main()
