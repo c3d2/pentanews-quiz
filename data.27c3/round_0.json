@@ -38,10 +38,10 @@
     ]
   }, 
   {
-    "tier": 225, 
     "text": "Cheng Jianping was sent to a labour camp for one year. What did she do?", 
-    "image": "pix/664.jpg", 
-    "video": "video/664.webm", 
+    "explanation": {
+      "image": "pix/664_expl.jpg"
+    }, 
     "answers": [
       {
         "text": "Retweeting that her fellow Chinese people should be angry at the Japanese.", 
@@ -56,7 +56,10 @@
       {
         "text": "Demanding that the Chinese captain should stay in jail in Japan"
       }
-    ]
+    ], 
+    "video": "video/664.webm", 
+    "tier": 225, 
+    "image": "pix/664.jpg"
   }, 
   {
     "tier": 337, 
@@ -123,6 +126,9 @@
   {
     "tier": 1139, 
     "text": "Which language holds about \u00bc of all NIST entries and is 15 years old?", 
+    "explanation": {
+      "image": "pix/214_expl.jpg"
+    }, 
     "image": "pix/214.jpg", 
     "answers": [
       {

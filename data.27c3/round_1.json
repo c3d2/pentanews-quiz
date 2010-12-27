@@ -21,7 +21,7 @@
   }, 
   {
     "tier": 150, 
-    "text": "Which country does not allow porno scanners?", 
+    "text": "Which country does not allow porn scanners?", 
     "image": "pix/293.jpg", 
     "answers": [
       {
@@ -62,6 +62,7 @@
   {
     "tier": 337, 
     "text": "History: How old is the Web?", 
+    "image": "pix/637.jpg", 
     "answers": [
       {
         "text": "15y"
@@ -141,6 +142,7 @@
   {
     "tier": 1709, 
     "text": "Which organization got nervous when they found out that some employees consume child porn?", 
+    "image": "pix/327.jpg", 
     "answers": [
       {
         "text": "FBI", 
