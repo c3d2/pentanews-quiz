@@ -41,8 +41,9 @@ p {
 }
 
 #tier { 
-  color: #777;
+  color: white;
   font-weight: bold;
+  font-size: 150%;
 }
 #question { 
   font-size: 250%;
