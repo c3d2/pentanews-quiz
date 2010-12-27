@@ -162,8 +162,7 @@
   }, 
   {
     "tier": 2563, 
-    "text": "What are the anti-terror laws used for in the UK?", 
-    "image": "pix/309.jpg", 
+    "text": "What are anti-terror laws used for in the UK?", 
     "answers": [
       {
         "text": "CCTV"
@@ -182,7 +181,8 @@
   }, 
   {
     "tier": 3844, 
-    "text": "What was the US nuke launch code 'til 1977", 
+    "text": "What was the US nuke launch code 'til 1977?", 
+    "image": "pix/581.jpg", 
     "answers": [
       {
         "text": "7711111599111119"
