@@ -93,15 +93,18 @@ Timer.prototype.set = function(t, cb) {
     var that = this;
 
     this.clear();
+    this.cb = cb;
 
     var tick = function() {
 	if (t > 0) {
 	    t--;
 	    $('#timer').text('' + t);
+	    if (t > 21 && t < 23) {
+		$('#audio_timeout')[0].load();
+		$('#audio_timeout')[0].play();
+	    }
 	} else {
-	    that.halt();
-	    $('#timer').addClass('elapsed');
-	    cb();
+	    that.elapse();
 	}
     };
     this.interval = window.setInterval(tick, 1000);
@@ -111,6 +114,13 @@ Timer.prototype.set = function(t, cb) {
     $('#timer').fadeIn(1000);
 
 };
+Timer.prototype.elapse = function() {
+    var cb = this.cb;
+    this.halt();
+    $('#timer').addClass('elapsed');
+    if (cb)
+	cb();
+};
 Timer.prototype.halt = function() {
     if (this.interval)
 	window.clearInterval(this.interval);
@@ -118,6 +128,7 @@ Timer.prototype.halt = function() {
 Timer.prototype.clear = function() {
     this.halt();
     delete this.interval;
+    this.cb = null;
     $('#timer').removeClass('elapsed');
     $('#timer').hide();
 };
@@ -341,6 +352,9 @@ function switchToGame() {
     }
 
     var switchToAnswer = function(isTimeout) {
+	// Halt timeout sound first
+	$('#audio_timeout')[0].pause();
+
 	if (activePlayer !== null) {
 	    // player confirmed answer or gave up
             var answerEl;
@@ -410,8 +424,6 @@ function switchToGame() {
 	};
     };
     var timeout = function() {
-	$('#audio_timeout')[0].load();
-	$('#audio_timeout')[0].play();
 	switchToAnswer(true);
     };
     timer.set(TIMER_QUESTION, timeout);
