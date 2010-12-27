@@ -80,20 +80,23 @@
   }, 
   {
     "tier": 506, 
-    "text": "For what patent violation 36 companies got sued by the Marshall patent troll?", 
+    "text": "How was the Web forum of the Epilepsy Foundation attacked?", 
+    "explanation": {
+      "image": "pix/5006_expl.gif"
+    }, 
     "answers": [
       {
-        "text": "Spyware"
+        "text": "password guessing"
       }, 
       {
-        "text": "Anti-Spam", 
+        "text": "animated gifs", 
         "right": true
       }, 
       {
-        "text": "O/S shutdown"
+        "text": "phishing to free treatment site"
       }, 
       {
-        "text": "VoIP"
+        "text": "free screensavers"
       }
     ]
   }, 
@@ -118,20 +121,20 @@
   }, 
   {
     "tier": 1139, 
-    "text": "How was Lonnie Tinsley (86 old woman in a hospital in Oklahoma) made to take her medication?", 
+    "text": "For what patent violation 36 companies got sued by the Marshall patent troll?", 
     "answers": [
       {
-        "text": "Asking her"
+        "text": "Spyware"
       }, 
       {
-        "text": "by firearm"
-      }, 
-      {
-        "text": "by teaser", 
+        "text": "Anti-Spam", 
         "right": true
       }, 
       {
-        "text": "Threatened by Internet ban"
+        "text": "O/S shutdown"
+      }, 
+      {
+        "text": "VoIP"
       }
     ]
   }, 
