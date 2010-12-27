@@ -143,6 +143,7 @@
   {
     "tier": 1709, 
     "text": "How many errors did Office 2007 score at the OOXML test?", 
+    "image": "pix/5005.jpg", 
     "answers": [
       {
         "text": "0"
@@ -191,10 +192,10 @@
         "right": true
       }, 
       {
-        "text": "Fj3#$%62h61?-o+23"
+        "text": "04071776"
       }, 
       {
-        "text": "\\/\\/ip3 3m 0FF"
+        "text": "12345678"
       }
     ]
   }

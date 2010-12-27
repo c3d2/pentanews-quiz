@@ -70,6 +70,9 @@ class Question(object):
         if os.path.isfile("pix/{0}_expl.jpg".format(arg[7])):
             self.data['explanation'] = {
                 'image': "pix/{0}_expl.jpg".format(arg[7])}
+        if os.path.isfile("pix/{0}_expl.gif".format(arg[7])):
+            self.data['explanation'] = {
+                'image': "pix/{0}_expl.gif".format(arg[7])}
         if os.path.isfile("pix/{0}.jpg".format(arg[7])):
            self.data['image'] = "pix/{0}.jpg".format(arg[7])
         if os.path.isfile("video/{0}.webm".format(arg[7])):
