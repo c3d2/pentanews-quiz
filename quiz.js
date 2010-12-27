@@ -438,8 +438,7 @@ function switchToGame() {
 
             choice = ANSWER_KEYS.indexOf(key);
             $('#answer' + choice).addClass('selected');
-        } else if (activePlayer !== null &&
-                   keyCode === 13) {
+        } else if (keyCode === 13) {
 	    switchToAnswer();
 	} else if (activePlayer !== null &&
 		   key === 'q') {
