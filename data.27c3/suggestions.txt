@@ -12,6 +12,7 @@ Voter from Sweden: http://www.wired.co.uk/news/archive/2010-09/24/sweden-electio
 ?
 ?
 
+8;'Which company distributed trojaned usb drives at the Asia Pacific Information Security Conference?';'Cisco';'IBM';'Apple';'Microsoft';2;180
 How many errors did Office 2007 score at the OOXML test?
 0
 2

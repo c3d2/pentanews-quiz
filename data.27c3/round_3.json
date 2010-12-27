@@ -142,20 +142,20 @@
   }, 
   {
     "tier": 1709, 
-    "text": "Which company distributed trojaned usb drives at the Asia Pacific Information Security Conference?", 
+    "text": "How many errors did Office 2007 score at the OOXML test?", 
     "answers": [
       {
-        "text": "Cisco"
+        "text": "0"
       }, 
       {
-        "text": "IBM", 
+        "text": "2"
+      }, 
+      {
+        "text": "13"
+      }, 
+      {
+        "text": "122,000", 
         "right": true
-      }, 
-      {
-        "text": "Apple"
-      }, 
-      {
-        "text": "Microsoft"
       }
     ]
   }, 
@@ -184,17 +184,17 @@
     "text": "What was the US nuke launch code 'til 1977", 
     "answers": [
       {
-        "text": "7041776"
+        "text": "7711111599111119"
       }, 
       {
         "text": "00000000", 
         "right": true
       }, 
       {
-        "text": "Fj3#$%626123"
+        "text": "Fj3#$%62h61?-o+23"
       }, 
       {
-        "text": "646435758"
+        "text": "\\/\\/ip3 3m 0FF"
       }
     ]
   }
