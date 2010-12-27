@@ -1,4 +1,4 @@
-1;'Which company caused a big media hype for sniffing WLAN traffic for a fraction of a second?.';'Apple';'Nokia/Navsat';'Google';'Tele Atlas';3;163
+1;'Which company caused a big media hype for sniffing WLAN traffic for a fraction of a second?';'Apple';'Nokia/Navsat';'Google';'Tele Atlas';3;163
 2;'Which Web Site did not distribute trojans this year (To our knowledge)?';'Lenovo Support';'Nobel Peace Price';'US Treasury';'events.ccc.de';4;5002
 3;'Cheng Jianping was sent to a labour camp for one year. What did she do?';'Retweeting that her fellow Chinese people should be angry at the Japanese.';'Uploading the video of the boat attack';'Uploading a cartoon of the boat attack';'Demanding that the Chinese captain should stay in jail in Japan';1;664
 4;'For what reason pupils of a Pennsylvania school exploited the remote admin software of their school laptops?';'Turn off camera spy ware';'Canceling lessons to get time off';'Fake a bomb alert';'Change their marks';1;108
@@ -8,7 +8,7 @@
 8;'What was the most cracked password of the Gawker (Gawker, Jezebel, Gizmodo, Lifehacker, Deadspin, io9, Kotaku, Jalopnik) Web page user database?';123456;'password';12345678;'querty';1;725
 ;;;;;;;
 1;'Which company did not cancel the Wikileaks account?';'Amazon';'Paypal';'Twitter';'MasterCard / Visa';3;5000
-2;'Which country does not allow porn scanners?';'Israel';'Kuweit';'France';'Germany';1;293
+2;'Which country does not allow porn scanners?';'Israel';'USA';'France';'Germany';1;293
 3;'Which page did Wikipedia not delete?';'Pentaradio';'Alternativlos';'Club Mate';'Wikileaksmirror';1;5001
 4;'History: How old is the Web?';'15y';'20y';'25y';'35y';2;637
 5;'How was the Web forum of the Epilepsy Foundation attacked?';'password guessing';'animated gifs';'phishing to free treatment site';'free screensavers';2;5006
@@ -18,21 +18,21 @@
 ;;;;;;;
 1;'Which O/S will quote ''Only one FBI sponsored backdoor in 10 years”- once verified?''';'Solaris';'Windows';'OpenBSD';'Linux';3;727
 2;'In which country it doesn''t even need a judge to block Web pages?';'France';'Spain';'Mexico';'Norway';1;730
-3;'What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porno scanner?';'Saving pix to an usb drive.';'Uploading pix to the Net';'Making ''em to go through the scanner again';'Mastrubating';4;677
-4;'Who answered“''I am working on clarity around that at the moment''”after being asked about the purpose of Twitter?';'Steve Jobs';'Dick Cheney';'Nicolas Sarkozy';'Dick Costolo';4;5004
-5;'In which country Web pages open after 10 p.m. to show a docu about the French revolution?';'Germany';'France';'Brazil';'Japan';1;316
+3;'What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porn scanner?';'Saving pix to an usb drive.';'Uploading pix to the Net';'Making ''em to go through the scanner again';'Masturbating';4;677
+4;'Who answered“I am working on clarity around that at the moment”after being asked about the purpose of Twitter?';'Steve Jobs';'Dick Cheney';'Nicolas Sarkozy';'Dick Costolo';4;5004
+5;'In which country Web pages open after 10pm to show a docu about the French revolution?';'Germany';'France';'Brazil';'Japan';1;316
 6;'Who lost 4 mio user accounts in July?';'Facebook';'Foursquare';'Pirate Bay';'Verizon (iPad)';3;283
 7;'In what year was the 1st ascii art movie created?';1976;1982;1968;1954;3;36
 8;'The concerts of what band were announced to be canceled by a hacked twitter account of the band?';'Guns''n''Roses';'AC/DC';'KISS';'Rolling Stones';1;390
 ;;;;;;;
 1;'Which company sold the Wikileaks cables?';'TimeWarner';'Barns and Noble';'Amazon';'Apple (iTunes)';3;714
 2;'How long did it take to hack the German eID card software?';'one night';'one week';'one month';'3 days';1;625
-3;'What did Foxxcon do to reduce the worker suicide rate.';'lower work hours';'Drop compensation for the families';'Increase salery';'Put flowers on the work floors';2;215
+3;'What did Foxxcon do to reduce the worker suicide rate.';'lower work hours';'Drop compensation for the families';'Increase salary';'Put flowers on the work floors';2;215
 4;'How much did the EU pay to pro-net-censorship lobbying groups in 2010?';'100k EUR';'300k EUR';'600k EUR';'1mio EUR';2;123
 5;'Which business sector started to do Wikileaks advertisements?';'ISPs';'Electronics';'Cars';'Ladies hygiene';4;728
 6;'Which weapon was not allowed by TSA for soldiers flying back from Afghanistan?';'Nail clippers';'Rifles';'Pistols';'Machine guns';1;670
 7;'According to the RIAA how many times the amount of all existing US Dollars were stolen by the Pirate Bay?';'0.23';'0.5';'12';'46';4;432
-8;'How many errors did Office 2007 score at the OOXML test?';'0';'2';'13';'122,000';4;5005
+8;'How many errors did Office 2007 score at the OOXML test?';'0';'2';'1,300';'122,000';4;5005
 9;'What are anti-terror laws used for in the UK?';'CCTV';'block Web pages';'catch terrorists';'search trash bins to catch truants';4;309
 10;'What was the US nuke launch code ''til 1977?';'7711111599111119';'00000000';'04071776';'12345678';2;581
 ;;;;;;;

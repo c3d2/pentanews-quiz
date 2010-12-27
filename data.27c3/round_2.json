@@ -39,7 +39,7 @@
   }, 
   {
     "tier": 225, 
-    "text": "What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porno scanner?", 
+    "text": "What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porn scanner?", 
     "image": "pix/677.jpg", 
     "answers": [
       {
@@ -52,14 +52,17 @@
         "text": "Making 'em to go through the scanner again"
       }, 
       {
-        "text": "Mastrubating", 
+        "text": "Masturbating", 
         "right": true
       }
     ]
   }, 
   {
     "tier": 337, 
-    "text": "Who answered\u201c'I am working on clarity around that at the moment'\u201dafter being asked about the purpose of Twitter?", 
+    "text": "Who answered\u201cI am working on clarity around that at the moment\u201dafter being asked about the purpose of Twitter?", 
+    "explanation": {
+      "image": "pix/5004_expl.jpg"
+    }, 
     "image": "pix/5004.jpg", 
     "answers": [
       {
@@ -79,7 +82,7 @@
   }, 
   {
     "tier": 506, 
-    "text": "In which country Web pages open after 10 p.m. to show a docu about the French revolution?", 
+    "text": "In which country Web pages open after 10pm to show a docu about the French revolution?", 
     "explanation": {
       "image": "pix/316_expl.jpg"
     }, 
