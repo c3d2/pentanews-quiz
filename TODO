@@ -1,7 +1,7 @@
 = Fragen =
-* a8 -(0%)- Fragen ausarbeiten.
-* a8 -(0%)- Bilder/Filme sammeln. Jede Frage ein Bild, wenn es was gibt.
-* a8 -(0%)- Antwortbilder sammeln. Zur Auflösung der Fragen kann ein Bild gezeigt werden
+* klobs -(  0%)- Fragen ausarbeiten.
+* klobs -(  0%)- Bilder/Filme sammeln. Jede Frage ein Bild, wenn es was gibt.
+* klobs -(  0%)- Antwortbilder sammeln. Zur Auflösung der Fragen kann ein Bild gezeigt werden
 
 = Game =
 * astro -(100%)- Timer: Wird für folgendes gebraucht:
@@ -26,6 +26,7 @@
 * astro -(10%)- Pusher-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
 * astro -(100%)- Wikipedia-Joker: 2 Antworten werden wegen Irrelevanz gelöscht (Logo!)
 * astro -(100%)- vote.c3d2.de & IRC auf Startscreen
+* astro -(  0%)- nedap-joker rate limiting
 
 == Ideen ==
 * - -()- Eliza-Joker: Frage kann wie bei Eliza per Text-Chat erörtert werden. Da ist aber der Aufwand für
@@ -34,9 +35,8 @@
 * - -()- Forum-Joker: Die Antwort kann in einem öffentl. Web-Forum diskutiert werden.
 
 = Hardware =
-* a8 -(0%)- PS/2 Adapter. Funktionierenden PS/2 Adapter kaufen
-* a8 -(0%)- Laptop: alten Medion Laptop mit Chromium aktualisieren. Der hat PS/2
-* a8 -(0%)- Plan B für Taster
+* thammi -(  0%)- node.js interface
+* astro -(  0%)- tastendruck vom backend an frontend reichen
 
 = Server =
-* a8 -(0%)- Strato-Server konfigurieren, dass astro da drauf kann.
+* astro -(  0%)- vote fürs easterhegg
