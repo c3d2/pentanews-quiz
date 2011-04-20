@@ -1,0 +1,244 @@
+{
+	// url: http://blog.fefe.de/?ts=b3b82d0c
+	// submitter: payload
+	"tier": 100, 
+		"text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?", 
+		"answers": [
+		{
+			"text": "Ja es funktioniert nicht.",
+				"right": true
+		}, 
+		{
+			"text": "Da gibt es viele!"
+		}, 
+		{
+			"text": "Es öffnet dem Missbrauch Tür und Tor." 
+		}, 
+		{
+			"text": "Wir finden das eigentlich ganz okay."
+		}
+	]
+} 
+
+
+{
+	// url: http://blog.fefe.de/?ts=b3c7049a
+	// submitter: payload
+	"tier": 100, 
+		"text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?", 
+		"answers": [
+		{
+			"text": "Abschiebung verhindern ",
+				"right": true
+		}, 
+		{
+			"text": "Schlangen im Flugzeug"
+		}, 
+		{
+			"text": "Flugzeugentführung durchführen"
+		}, 
+		{
+			"text": "Flugzeugentführung verhindern"
+		}
+	]
+}
+
+
+{
+	// url: http://pentamedia.c3d2.de/static_media/page_shots/2011/04/11/bandstelltihralbumforkbaraufgithub.png
+	// Coverart, oder einspielen?
+	"tier": 100, 
+		"text": "Welche Band veröffentlichte Ihr Debutalbum forkbar auf Github?", 
+		"answers": [
+		{
+			"text": "Bristol 7",
+			"right": true
+		}, 
+		{
+			"text": "London 9"
+		}, 
+		{
+			"text": "Dieter Bohlen" 
+		}, 
+		{
+			"text": "Polarkreis 18"
+		}
+	]
+}
+
+{
+	// url http://pentamedia.c3d2.de/submit/2011/03/25/bibliothekensollendrm-ebooksnach26ausleihenn/
+	"tier": 100, 
+		"text": "Warum sollen Bibliotheken ihre DRM-Ebooks nach 26 Ausleihen neu kaufen?", 
+		"answers": [
+		{
+			"text": "Weil die echten Bücher nach 26 Ausleihen auch neu gekauft werden würden.",
+			"right": true
+		}, 
+		{
+			"text": "Weil die proprietären Dateiformate dann nicht mehr lesbar sind."
+		}, 
+		{
+			"text": "Damit anschliessend wegen erhöhter Nachfrage mehrere Digitale Exemplare vorliegen." 
+		}, 
+		{
+			"text": "Weil einige Ausleihende vergessen, die Bücher wieder zurück zu laden."
+		}
+	]
+} 
+ 
+{
+	// url: http://pentamedia.c3d2.de/submit/2011/01/22/applesperrtnutzerausiphone4mitspezial-schra/
+	"tier": 100, 
+		"text": "Wie sehen die Pentalobes (Spezialschrauben) aus, mit denen Apple im iPhone 4 Probiert die Nutzer am Öffnen zu hindern?", 
+		"explanation": {
+			//TODO
+			"image": "pix/714_expl.jpg"
+		}, 
+		"answers": [
+		{
+			"text": "a",
+				"right": true
+		}, 
+		{
+			"text": "b"
+		}, 
+		{
+			"text": "c" 
+		}, 
+		{
+			"text": "d"
+		}
+	]
+}
+
+{
+	// url: http://maps.google.at/maps?ie=UTF8&ll=39.571822,126.029663&spn=3.730075,8.432007&z=8
+	"tier": 100, 
+		"text": "Von welchem Land verzeichnet Googlemaps weder Strassen-, noch Städtenamen?"
+		"answers": [
+		{
+			"text": "Nordkorea",
+				"right": true
+		}, 
+		{
+			"text": "Iran"
+		}, 
+		{
+			"text": "Pakistan"
+		}, 
+		{
+			"text": "Bhutan"
+		}
+	]
+}
+
+{
+	// url: http://blog.die-linke.de/digitalelinke/glucksspielstaatsvertrag-ministerprasidenten-beschliesen-erneut-internetsperren/ 
+	"tier": 100, 
+		"text": "Über welchen Alternativweg sollen Internetsperren in Deutschland umgesetzt werden?",
+		"answers": [
+		{
+			"text": "Glücksspielstaatsvertrag",
+			"right": true
+		}, 
+		{
+			"text": "Fischereiausschuss"
+		}, 
+		{
+			"text": "Telemediengesetz", 
+		}, 
+		{
+			"text": "Jugendmedienschutz-Staatsvertrag"
+		}
+	]
+}
+
+{
+	// url: http://pentamedia.c3d2.de/submit/2010/03/27/8-jahre-hausdurchsuchung-dank-datenbankfehler/
+	"tier": 100, 
+		"text": "Wie viele Hausdurchsuchungen mussten Walter und Rose Martin aufgrund eines Fehlers in der Datenbank ertragen?", 
+		"answers": [
+		{
+			"text": ">50",
+			"right": true
+		}, 
+		{
+			"text": "42"
+		}, 
+		{
+			"text": ">15, <42" 
+		}, 
+		{
+			"text": "<=15"
+		}
+	]
+}
+
+{
+	// url: 
+	// submitter: payload
+	"tier": 100, 
+		"text": "Wie groß ist die radioaktive Belastung in Deutschland im Durchschnitt?", 
+		"answers": [
+		{
+			"text": "3,9 mSv/Jahr",
+			"right": true
+		}, 
+		{
+			"text": "0,2 µSv/Stunde!"
+		}, 
+		{
+			"text": "1000 mSv/Stunde"
+		}, 
+		{
+			"text": "0,9 Sv/Jahr"
+		}
+	]
+}
+
+{
+	// url: http://blog.fefe.de/?ts=b3b82d0c
+	// submitter: payload
+	"tier": 100, 
+		"text": "Warum können Atomunfälle bei uns nicht passieren?", 
+		"answers": [
+		{
+			"text": "Weil nicht genügend Strahlenschutzanzüge vorligen.",
+				"right": true
+		}, 
+		{
+			"text": "Weil unsere Technik sicher ist.",
+				"right": true
+		}, 
+		{
+			"text": "Weil wir keine atomare Technik nutzen.", 
+				"right": true
+		}, 
+		{
+			"text": "Fliegt dahinten eine rote Taube?"
+				"right": true
+		}
+	]
+}
+
+{
+	// url: http://blog.fefe.de/?ts=b3b82d0c
+	"tier": 100, 
+		"text": "Wie werden Gestorbene nach einem Demozid (vorsätzliche Massentötungen von bestimmten Menschengruppen) gezählt?", 
+		"answers": [
+		{
+			"text": "Megatote",
+				"right": true
+		}, 
+		{
+			"text": "Kiloleichen"
+		}, 
+		{
+			"text": "Hektoopfer", 
+		}, 
+		{
+			"text": "Es gibt keine besondere Bezeichung."
+		}
+	]
+}
