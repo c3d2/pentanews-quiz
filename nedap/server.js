@@ -16,6 +16,29 @@ function html(body) {
 	"</body></html>";
 }
 
+var voteTokens = {};
+var TOKEN_TIMEOUT = 30 * 1000;
+var Token = {
+    generate: function() {
+	var token = Math.round(Math.random() * 10000000).toString();
+
+	voteTokens[token] = setTimeout(function() {
+	    delete voteTokens[token];
+	}, TOKEN_TIMEOUT);
+
+	return token;
+    },
+    validate: function(token) {
+	if (voteTokens.hasOwnProperty(token)) {
+	    clearTimeout(voteTokens[token]);
+	    delete voteTokens[token];
+	    return true;
+	} else {
+	    return false;
+	}
+    }
+};
+
 function nedap(app) {
     app.get('/', function(req, res) {
 	if (question && answers) {
@@ -35,6 +58,9 @@ console.log({question:question,answers:answers})
 		    c('label', { for: 'a'+i }).
 		    t(answers[i].text);
 	    }
+	    form.c('input', { type: 'hidden',
+			      name: 'token',
+			      value: Token.generate() });
 	    form.c('input', { type: 'submit',
 			      value: 'Submit' });
 
