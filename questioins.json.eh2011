@@ -1,0 +1,224 @@
+[
+  {
+    "tier": 100,
+    "text": "Wer tritt in der neuen “YouTube Copyright School” auf?",
+    "answers": [
+      {
+        "text": "Simpsons"
+      },
+      {
+        "text": "Beavis and Butthead"
+      },
+      {
+        "text": "Eric aus South Park"
+      },
+      {
+        "text": "Happy Tree Friends",
+        "right": true
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welcher Umstand hilft in Neu Seeland der 3-Strikes-Gesetzgebung?",
+    "explanation": {
+	"text": "#blackout"
+    },
+    "answers": [
+      {
+        "text": "Erdbeben-Notstand",
+        "right": true
+      },
+      {
+        "text": "Gescheiterte Koalitionsverhandlungen"
+      },
+      {
+        "text": "Notstand wegen Ausrottung des Kiwis"
+      },
+      {
+        "text": "Empfehlung der Queen"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welchen Stückpreis hatten die IPs im Adressblock von Nortel? ($7.5m total)",
+    "answers": [
+      {
+        "text": "$0.03"
+      },
+      {
+        "text": "$0.47"
+      },
+      {
+        "text": "$1.00"
+      },
+      {
+        "text": "$11.25",
+        "right": true
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wo ist laut Symantecs Internet Security Threat Report 2010 der beliebteste Logistikstandort für Cyberkriminelle?",
+    /*"explanation": {
+	"text": "“Führend ist Deutschland jedoch beim Beherbergen von Bot-Netzen und Phishing-Servern. Im Jahr 2010 will Symantec rund 470.000 unterschiedliche bot-infizierte Computer beobachtet haben – jeder fünfte europäische Bot-Computer soll hierzulande stehen. Deutschland sei für Cyberkriminelle ein bevorzugter Logistikstandort, wenn es um die Verbreitung von Viren, Phishing-Mails oder Spam geht. Möglicherweise ist dies auf die gute Internetinfrastruktur und die im Schnitt höhere Belastbarkeit deutscher Bankkonten zurückzuführen.”",
+	"image": "bundestrojaner.jpg"
+    },*/
+    "answers": [
+      {
+        "text": "USA"
+      },
+      {
+        "text": "Deutschland",
+        "right": true
+      },
+      {
+        "text": "Russland"
+      },
+      {
+        "text": "China"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wer klagt gegen das französische Dekret Nutzerdaten 1 Jahr aufzuheben?",
+    "answers": [
+      {
+        "text": "Google",
+        "right": true
+      },
+      {
+        "text": "Facebook",
+        "right": true
+      },
+      {
+        "text": "Microsoft"
+      },
+      {
+        "text": "Yahoo!"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wo hat sich eine Smart City einen Virus eingefangen?",
+    "explanation": {
+	"text": "“We've put our entire city's operations in the cloud, and now we can't get it out,”"
+    },
+    "answers": [
+      {
+        "text": "Südkorea",
+        "right": true
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "China"
+      },
+      {
+        "text": "USA"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Worauf hat Google 2001 ein Patent angemeldet und 2011 bekommen?",
+    "answers": [
+      {
+        "text": "Apple die Touchscreens wegzukaufen"
+      },
+      {
+        "text": "Integration eines Ereignisses in das Firmenlogo",
+	"right": true
+      },
+      {
+        "text": "App Store ohne Veröffentlichungskontrolle"
+      },
+      {
+        "text": "Animierte Bilder für IPv6-Besucher"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Was soll die Vorratsdatenspeicherung in Frankreich künftig auch noch umfassen?",
+    "answers": [
+      {
+        "text": "Passwörter",
+	"right": true
+      },
+      {
+        "text": "Namen von Mitbenutzern"
+      },
+      {
+        "text": "MAC-Adressen"
+      },
+      {
+        "text": "Betriebssystemversion"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie ist die Altersfreigabe für Opera im Apple App Store?",
+    "answers": [
+      {
+        "text": "unbeschränkt"
+      },
+      {
+        "text": "ab 6"
+      },
+      {
+        "text": "ab 17",
+	"right": true
+      },
+      {
+        "text": "ab 21"
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wieviele Folgen des Pentacast wurden bisher veröffentlicht?",
+    "answers": [
+      {
+        "text": "13"
+      },
+      {
+        "text": "26"
+      },
+      {
+        "text": "31",
+	"right": true
+      },
+      {
+        "text": "0x1F",
+	"right": true
+      }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wann ist IPv6 Day?",
+    "answers": [
+      { "text": "6. Juni" },
+      { "text": "8. Juni", "right": true },
+      { "text": "1. Juli" },
+      { "text": "4. Juli" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wer forderte Vermummungsverbot im Internet?",
+    "explanation": { "text": "Axel E. Fischer, CDU, fordert Sicherheitsabstand auf Datenautobahnen." },
+    "answers": [
+      { "text": "Hans-Peter Friedrich (CSU)" },
+      { "text": "Ursula von der Leyen (CDU)" },
+      { "text": "Günter Krings (CDU)" },
+      { "text": "Axel E. Fischer (CDU)", "right": "true" }
+    ]
+  },
