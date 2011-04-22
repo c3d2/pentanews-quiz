@@ -1,16 +1,16 @@
 [{ "tier": 100,
    "text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
    "explanation": { "text": "Einsender: payload" },
-   "answers": [{ "text": "Ja es funktioniert nicht.", "right": true },
+   "answers": [{ "text": "Es öffnet dem Missbrauch Tür und Tor." },
+	       { "text": "Ja es funktioniert nicht.", "right": true },
 	       { "text": "Da gibt es viele!" },
-	       { "text": "Es öffnet dem Missbrauch Tür und Tor." },
 	       { "text": "Wir finden das eigentlich ganz okay." }]
  },
  { "tier": 100,
    "text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?",
    "explanation": { "text": "Einsender: payload" },
-   "answers": [{ "text": "Abschiebung verhindern ", "right": true },
-	       { "text": "Schlangen im Flugzeug" },
+   "answers": [{ "text": "Schlangen im Flugzeug" },
+	       { "text": "Abschiebung verhindern ", "right": true },
 	       { "text": "Flugzeugentführung durchführen" },
 	       { "text": "Flugzeugentführung verhindern" }]
  },
@@ -33,17 +33,17 @@
 		"text": "Warum sollen Bibliotheken ihre DRM-Ebooks nach 26 Ausleihen neu kaufen?",
 		"answers": [
 		{
-			"text": "Weil die echten Bücher nach 26 Ausleihen auch neu gekauft werden würden.",
-			"right": true
+			"text": "Weil die proprietären Dateiformate dann nicht mehr lesbar sind."
 		},
 		{
-			"text": "Weil die proprietären Dateiformate dann nicht mehr lesbar sind."
+			"text": "Weil einige Ausleihende vergessen, die Bücher wieder zurück zu laden."
 		},
 		{
 			"text": "Damit anschliessend wegen erhöhter Nachfrage mehrere Digitale Exemplare vorliegen."
 		},
 		{
-			"text": "Weil einige Ausleihende vergessen, die Bücher wieder zurück zu laden."
+			"text": "Weil die echten Bücher nach 26 Ausleihen auch neu gekauft werden würden.",
+			"right": true
 		}
 	]
 },
@@ -54,14 +54,14 @@
 		"image": "fragenkatalog_klobs/iphoneschrauben/714_expl.jpg",
 		"answers": [
 		{
-			"text": "a",
-				"right": true
+			"text": "a"
 		},
 		{
 			"text": "b"
 		},
 		{
-			"text": "c"
+			"text": "c",
+			"right": true
 		},
 		{
 			"text": "d"
@@ -72,11 +72,8 @@
 {
 	"tier": 100,
 		"text": "Von welchem Land verzeichnet Googlemaps weder Strassen-, noch Städtenamen?",
+		"explanation": { "image": "nordkorea.gif" },
 		"answers": [
-		{
-			"text": "Nordkorea",
-				"right": true
-		},
 		{
 			"text": "Iran"
 		},
@@ -85,6 +82,10 @@
 		},
 		{
 			"text": "Bhutan"
+		},
+		{
+			"text": "Nordkorea",
+			"right": true
 		}
 	]
 },
@@ -94,17 +95,17 @@
 		"text": "Über welchen Alternativweg sollen Internetsperren in Deutschland umgesetzt werden?",
 		"answers": [
 		{
+			"text": "Telemediengesetz"
+		},
+		{
+			"text": "Jugendmedienschutz-Staatsvertrag"
+		},
+		{
 			"text": "Glücksspielstaatsvertrag",
 			"right": true
 		},
 		{
 			"text": "Fischereiausschuss"
-		},
-		{
-			"text": "Telemediengesetz"
-		},
-		{
-			"text": "Jugendmedienschutz-Staatsvertrag"
 		}
 	]
 },
@@ -114,17 +115,17 @@
 		"text": "Wie viele Hausdurchsuchungen mussten Walter und Rose Martin aufgrund eines Fehlers in der Datenbank ertragen?",
 		"answers": [
 		{
-			"text": ">50",
-			"right": true
-		},
-		{
-			"text": "42"
+			"text": "<=15"
 		},
 		{
 			"text": ">15, <42"
 		},
 		{
-			"text": "<=15"
+			"text": "42"
+		},
+		{
+			"text": ">50",
+			"right": true
 		}
 	]
 },
@@ -135,17 +136,17 @@
 		"explanation": { "text": "Einsender: payload" },
 		"answers": [
 		{
+			"text": "0,9 Sv/Jahr"
+		},
+		{
 			"text": "3,9 mSv/Jahr",
 			"right": true
 		},
 		{
-			"text": "0,2 µSv/Stunde!"
+			"text": "0,2 µSv/Stunde"
 		},
 		{
 			"text": "1000 mSv/Stunde"
-		},
-		{
-			"text": "0,9 Sv/Jahr"
 		}
 	]
 },
@@ -153,6 +154,7 @@
 {
 	"tier": 100,
 		"text": "Warum können Atomunfälle bei uns nicht passieren?",
+		"image": "bundesatom.jpg",
 		"explanation": { "text": "Einsender: payload" },
 		"answers": [
 		{
@@ -179,17 +181,17 @@
 		"text": "Wie werden Gestorbene nach einem Demozid (vorsätzliche Massentötungen von bestimmten Menschengruppen) gezählt?",
 		"answers": [
 		{
-			"text": "Megatote",
-				"right": true
+			"text": "Hektoopfer"
 		},
 		{
 			"text": "Kiloleichen"
 		},
 		{
-			"text": "Hektoopfer"
+			"text": "Megatote",
+				"right": true
 		},
 		{
-			"text": "Es gibt keine besondere Bezeichung."
+			"text": "Keine besondere Bezeichung"
 		}
 	]
 },
@@ -204,13 +206,13 @@
 			"right": true
 		},
 		{
-			"text": "99"
-		},
-		{
 			"text": "23"
 		},
 		{
 			"text": "42"
+		},
+		{
+			"text": "99"
 		}
 	]
 },
@@ -220,11 +222,11 @@
 		"text": "Welches Gremium ist für die Standardisierung des TETRA Standards verantwortlich?",
 		"answers": [
 		{
-			"text": "ETSI",
-				"right": true
+			"text": "ITU"
 		},
 		{
-			"text": "ITU"
+			"text": "ETSI",
+				"right": true
 		},
 		{
 			"text": "IEEE"
@@ -241,17 +243,17 @@
 		"explanation": { "video": "oezdemir.webm" },
 		"answers": [
 		{
-			"text": "Gigabyte (GB)",
-				"right": true
-		},
-		{
 			"text": "Gigawatt (GW)"
 		},
 		{
-			"text": "Megawatt (MW)"
+			"text": "Exojoule (EJ)"
 		},
 		{
 			"text": "Pferdestärken (PS)"
+		},
+		{
+			"text": "Gigabyte (GB)",
+				"right": true
 		}
 	]
 },
@@ -303,11 +305,11 @@
 		"text": "Welche der folgenden Neusprechs wurde noch nicht im Neusprechblog behandelt:",
 		"answers": [
 		{
-			"text": "Sagt uns maha noch",
-				"right": true
+			"text": "Schutzlücke"
 		},
 		{
-			"text": "Schutzlücke"
+			"text": "Vorwärtsverteidigung",
+				"right": true
 		},
 		{
 			"text": "Stresstest"
@@ -538,7 +540,7 @@
       { "text": "Günter Krings (CDU)" },
       { "text": "Axel E. Fischer (CDU)", "right": true }
     ]
-  }
+  },
   {
     "tier": 100,
     "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde",
@@ -550,4 +552,44 @@
       { "text": "Nudeln"}
     ]
   }
+  {
+    "tier": 100,
+    "text": "Wie heißt ein VPN-Projekt im Chaosumfeld?",
+    "answers": [
+      { "text": "connect23" },
+      { "text": "dn42", "right": true },
+      { "text": "ix1337" },
+      { "text": "We♥BGP" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie heißt der neue Abuse-Dienst? (auf dem EH2011 vorgestellt)",
+    "answers": [
+      { "text": "IDMEF" },
+      { "text": "CRISP" },
+      { "text": "X-ARF", "right": true },
+      { "text": "XDMCP" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welche Firma wird uns alle umbringen?",
+    "answers": [
+      { "text": "Skynet", "right": true },
+      { "text": "Umbrella Corp", "right": true },
+      { "text": "Google" },
+      { "text": "Samsung" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wann wird die Gulaschprogrammiernacht 11 in Karlsruhe stattfinden?",
+    "answers": [
+      { "text": "2.-5.6.2011" },
+      { "text": "23.-26.6.2011", "right": true },
+      { "text": "10.-14.8.2011" },
+      { "text": "17.-21.8.2011" }
+    ]
+  },
 ]
