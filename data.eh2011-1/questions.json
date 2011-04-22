@@ -478,6 +478,7 @@
       }
     ]
   },
+
   {
     "tier": 100,
     "text": "Wie ist die Altersfreigabe für Opera im Apple App Store?",
@@ -536,6 +537,17 @@
       { "text": "Ursula von der Leyen (CDU)" },
       { "text": "Günter Krings (CDU)" },
       { "text": "Axel E. Fischer (CDU)", "right": true }
+    ]
+  }
+  {
+    "tier": 100,
+    "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde",
+    "explanation": { "text": "Die Sosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker" },
+    "answers": [
+      { "text": "Oma's (sic!) orginal Erbsensuppe" },
+      { "text": "SPAM Frühstücksfleisch. SPAM, SPAM, SPAM" },
+      { "text": "Halbe Pfisiche", "right": true },
+      { "text": "Nudeln"}
     ]
   }
 ]
