@@ -164,4 +164,4 @@ wss.createServer({ server: server }).on('connection', function(conn) {
     });
 });
 
-server.listen(8080); /* TODO: port 80 */
+server.listen(80, '::');
