@@ -1,61 +1,21 @@
-[
-{
-	// url: http://blog.fefe.de/?ts=b3b82d0c
-	// submitter: payload
-	"tier": 100,
-		"text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
-		"answers": [
-		{
-			"text": "Ja es funktioniert nicht.",
-				"right": true
-		},
-		{
-			"text": "Da gibt es viele!"
-		},
-		{
-			"text": "Es öffnet dem Missbrauch Tür und Tor."
-		},
-		{
-			"text": "Wir finden das eigentlich ganz okay."
-		}
-	]
-}
-
-{
-	// url: http://blog.fefe.de/?ts=b3c7049a
-	// submitter: payload
-	"tier": 100,
-		"text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?",
-		"answers": [
-		{
-			"text": "Abschiebung verhindern ",
-				"right": true
-		},
-		{
-			"text": "Schlangen im Flugzeug"
-		},
-		{
-			"text": "Flugzeugentführung durchführen"
-		},
-		{
-			"text": "Flugzeugentführung verhindern"
-		}
-	]
-}
-
-{
-	// url: http://pentamedia.c3d2.de/static_media/page_shots/2011/04/11/bandstelltihralbumforkbaraufgithub.png
-	// Coverart, oder einspielen?
-	"tier": 100,
-		"text": "Welche Band veröffentlichte Ihr Debutalbum "Narwhalingus-EP" forkbar auf Github?",
-		"answers": [
-		{
-			"text": "Bristol 7",
-			"right": true
-		},
-		{
-			"text": "London 9"
-		},
+[{ "tier": 100,
+   "text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
+   "answers": [{ "text": "Ja es funktioniert nicht.", "right": true },
+	       { "text": "Da gibt es viele!" },
+	       { "text": "Es öffnet dem Missbrauch Tür und Tor." },
+	       { "text": "Wir finden das eigentlich ganz okay." }]
+ },
+ { "tier": 100,
+   "text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?",
+   "answers": [{ "text": "Abschiebung verhindern ", "right": true },
+	       { "text": "Schlangen im Flugzeug" },
+	       { "text": "Flugzeugentführung durchführen" },
+	       { "text": "Flugzeugentführung verhindern" }]
+ },
+ { "tier": 100,
+   "text": "Welche Band veröffentlichte Ihr Debutalbum “Narwhalingus-EP” forkbar auf Github?",
+   "answers": [{ "text": "The Bristol 7s", "right": true },
+	       { "text": "The London 9s" },
 		{
 			"text": "Dieter Bohlen"
 		},
@@ -63,10 +23,9 @@
 			"text": "Polarkreis 18"
 		}
 	]
-}
+},
 
 {
-	// url http://pentamedia.c3d2.de/submit/2011/03/25/bibliothekensollendrm-ebooksnach26ausleihenn/
 	"tier": 100,
 		"text": "Warum sollen Bibliotheken ihre DRM-Ebooks nach 26 Ausleihen neu kaufen?",
 		"answers": [
@@ -84,16 +43,12 @@
 			"text": "Weil einige Ausleihende vergessen, die Bücher wieder zurück zu laden."
 		}
 	]
-}
+},
 
 {
-	// url: http://pentamedia.c3d2.de/submit/2011/01/22/applesperrtnutzerausiphone4mitspezial-schra/
 	"tier": 100,
 		"text": "Wie sehen die Pentalobes (Spezialschrauben) aus, mit denen Apple im iPhone 4 Probiert die Nutzer am Öffnen zu hindern?",
-		"explanation": {
-			//TODO
-			"image": "pix/714_expl.jpg"
-		},
+		"image": "fragenkatalog_klobs/iphoneschrauben/714_expl.jpg",
 		"answers": [
 		{
 			"text": "a",
@@ -109,12 +64,11 @@
 			"text": "d"
 		}
 	]
-}
+},
 
 {
-	// url: http://maps.google.at/maps?ie=UTF8&ll=39.571822,126.029663&spn=3.730075,8.432007&z=8
 	"tier": 100,
-		"text": "Von welchem Land verzeichnet Googlemaps weder Strassen-, noch Städtenamen?"
+		"text": "Von welchem Land verzeichnet Googlemaps weder Strassen-, noch Städtenamen?",
 		"answers": [
 		{
 			"text": "Nordkorea",
@@ -130,10 +84,9 @@
 			"text": "Bhutan"
 		}
 	]
-}
+},
 
 {
-	// url: http://blog.die-linke.de/digitalelinke/glucksspielstaatsvertrag-ministerprasidenten-beschliesen-erneut-internetsperren/
 	"tier": 100,
 		"text": "Über welchen Alternativweg sollen Internetsperren in Deutschland umgesetzt werden?",
 		"answers": [
@@ -145,16 +98,15 @@
 			"text": "Fischereiausschuss"
 		},
 		{
-			"text": "Telemediengesetz",
+			"text": "Telemediengesetz"
 		},
 		{
 			"text": "Jugendmedienschutz-Staatsvertrag"
 		}
 	]
-}
+},
 
 {
-	// url: http://pentamedia.c3d2.de/submit/2010/03/27/8-jahre-hausdurchsuchung-dank-datenbankfehler/
 	"tier": 100,
 		"text": "Wie viele Hausdurchsuchungen mussten Walter und Rose Martin aufgrund eines Fehlers in der Datenbank ertragen?",
 		"answers": [
@@ -172,11 +124,9 @@
 			"text": "<=15"
 		}
 	]
-}
+},
 
 {
-	// url:
-	// submitter: payload
 	"tier": 100,
 		"text": "Wie groß ist die radioaktive Belastung in Deutschland im Durchschnitt?",
 		"answers": [
@@ -194,11 +144,9 @@
 			"text": "0,9 Sv/Jahr"
 		}
 	]
-}
+},
 
 {
-	// url: http://blog.fefe.de/?ts=b3b82d0c
-	// submitter: payload
 	"tier": 100,
 		"text": "Warum können Atomunfälle bei uns nicht passieren?",
 		"answers": [
@@ -215,14 +163,13 @@
 				"right": true
 		},
 		{
-			"text": "Fliegt dahinten eine rote Taube?"
+			"text": "Fliegt dahinten eine rote Taube?",
 				"right": true
 		}
 	]
-}
+},
 
 {
-	// url: http://blog.fefe.de/?ts=b3b82d0c
 	"tier": 100,
 		"text": "Wie werden Gestorbene nach einem Demozid (vorsätzliche Massentötungen von bestimmten Menschengruppen) gezählt?",
 		"answers": [
@@ -240,12 +187,12 @@
 			"text": "Es gibt keine besondere Bezeichung."
 		}
 	]
-}
+},
 
 {
-	// Quelle: Pentacast 31
 	"tier": 100,
 		"text": "Wie viel Gründungsmitglieder waren beim Gründungstreffen vom Zwiebelfreunde e.V. (Verein hinter Torservers.net) anwesend?",
+		"explanation": { "text": "Quelle: Pentacast 31" },
 		"answers": [
 		{
 			"text": "13",
@@ -261,10 +208,9 @@
 			"text": "42"
 		}
 	]
-}
+},
 
 {
-	// url: http://de.wikipedia.org/wiki/TETRA
 	"tier": 100,
 		"text": "Welches Gremium ist für die Standardisierung des TETRA Standards verantwortlich?",
 		"answers": [
@@ -282,13 +228,12 @@
 			"text": "IETF"
 		}
 	]
-}
+},
 
 {
-	// url: http://www.youtube.com/watch?v=UzZXnNV4SoM
-	// Als Antwort vielleicht das Video abspielen
 	"tier": 100,
 		"text": "In welcher Einheit zählt Cem Özdemir den Stromverbrauch in Deutschland?",
+		"explanation": { "video": "oezdemir.webm" },
 		"answers": [
 		{
 			"text": "Gigabyte (GB)",
@@ -304,13 +249,11 @@
 			"text": "Pferdestärken (PS)"
 		}
 	]
-}
+},
 
 {
-	// url: http://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte#Zeitlicher_Ablauf
-	// Urspruengliche einfuehrung 01.01.2006
 	"tier": 100,
-		"text": "Wer steckt <em>nicht</em> in dem ursprünglichen Projektkonsortium „bIT4health“ (Gesundheitskarte)?",
+		"text": "Wer steckt NICHT in dem ursprünglichen Projektkonsortium „bIT4health“ (Gesundheitskarte)?",
 		"answers": [
 		{
 			"text": "T-Systems",
@@ -330,20 +273,19 @@
 
 
 {
-	// url:
-	// bilder im Verzeichnis
 	"tier": 100,
 		"text": "Welcher der abgebildeten Typies ist der Kopf hinter 4chan?",
+		"image": "4chan.png",
 		"answers": [
 		{
-			"text": "a",
-				"right": true
+			"text": "a"
 		},
 		{
 			"text": "b"
 		},
 		{
-			"text": "c"
+			"text": "c",
+			"right": true
 		},
 		{
 			"text": "d"
@@ -352,7 +294,6 @@
 },
 
 {
-	// url: neusprech.org
 	"tier": 100,
 		"text": "Welche der folgenden Neusprechs wurde noch nicht im Neusprechblog behandelt:",
 		"answers": [
@@ -364,7 +305,7 @@
 			"text": "Schutzlücke"
 		},
 		{
-			"text": "Stresstest",
+			"text": "Stresstest"
 		},
 		{
 			"text": "Restrisiko"
@@ -435,10 +376,7 @@
   {
     "tier": 100,
     "text": "Wo ist laut Symantecs Internet Security Threat Report 2010 der beliebteste Logistikstandort für Cyberkriminelle?",
-    /*"explanation": {
-	"text": "“Führend ist Deutschland jedoch beim Beherbergen von Bot-Netzen und Phishing-Servern. Im Jahr 2010 will Symantec rund 470.000 unterschiedliche bot-infizierte Computer beobachtet haben – jeder fünfte europäische Bot-Computer soll hierzulande stehen. Deutschland sei für Cyberkriminelle ein bevorzugter Logistikstandort, wenn es um die Verbreitung von Viren, Phishing-Mails oder Spam geht. Möglicherweise ist dies auf die gute Internetinfrastruktur und die im Schnitt höhere Belastbarkeit deutscher Bankkonten zurückzuführen.”",
-	"image": "bundestrojaner.jpg"
-    },*/
+    "explanation": { "image": "bundestrojaner_sm.gif" },
     "answers": [
       {
         "text": "USA"
@@ -592,7 +530,7 @@
       { "text": "Hans-Peter Friedrich (CSU)" },
       { "text": "Ursula von der Leyen (CDU)" },
       { "text": "Günter Krings (CDU)" },
-      { "text": "Axel E. Fischer (CDU)", "right": "true" }
+      { "text": "Axel E. Fischer (CDU)", "right": true }
     ]
   }
 ]
