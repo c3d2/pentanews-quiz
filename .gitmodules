@@ -1,0 +1,3 @@
+[submodule "buzz_iface"]
+	path = buzz_iface
+	url = gitosis@tuxcode.org:buzzIface.git
