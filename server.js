@@ -92,6 +92,14 @@ function pushIrcInfo() {
 
 
 /*
+ * Buttons
+ */
+var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
+buzz.on('button', function(key) {
+    sendToFrontend({ buzzer: key });
+});
+
+/*
  * Web server
  */
 function noCache(req, res, next) {
@@ -125,9 +133,10 @@ wss.createServer({ server: server }).on('connection', function(conn) {
 	    if (msg.nedap) {
 		console.log({ toNedap: msg.nedap });
 		nedap.send(JSON.stringify(msg.nedap));
-	    }
-	    else if (msg.irc === "activate") {
+	    } else if (msg.irc === "activate") {
 		pushIrcInfo();
+	    } else if (msg.buzzerLED) {
+		buzz.set_led(msg.buzzerLED[0], msg.buzzerLED[1]);
 	    }
 	} catch (e) {
 	    console.error(e.stack);
