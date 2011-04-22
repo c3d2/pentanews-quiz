@@ -39,6 +39,16 @@ var Token = {
     }
 };
 
+var updateBackendTimeout;
+function updateBackend() {
+    if (!updateBackendTimeout) {
+	updateBackendTimeout = setTimeout(function() {
+	    backend.send(JSON.stringify({ scores: scores }));
+	    updateBackendTimeout = undefined;
+	}, 50);
+    }
+}
+
 function nedap(app) {
     app.get('/', function(req, res) {
 	if (question && answers) {
@@ -80,7 +90,7 @@ console.log({question:question,answers:answers})
 	    var i = parseInt(a, 10);
 	    if (scores && i < scores.length && Token.validate(req.body.token)) {
 		scores[i]++;
-		backend.send(JSON.stringify({ scores: scores }));
+		updateBackend();
 
 		res.writeHead(303, { 'Content-type': 'text/html',
 				     'Location': '/thanks' });
