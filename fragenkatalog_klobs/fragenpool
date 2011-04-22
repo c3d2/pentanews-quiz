@@ -20,7 +20,6 @@
 	]
 } 
 
-
 {
 	// url: http://blog.fefe.de/?ts=b3c7049a
 	// submitter: payload
@@ -43,12 +42,11 @@
 	]
 }
 
-
 {
 	// url: http://pentamedia.c3d2.de/static_media/page_shots/2011/04/11/bandstelltihralbumforkbaraufgithub.png
 	// Coverart, oder einspielen?
 	"tier": 100, 
-		"text": "Welche Band veröffentlichte Ihr Debutalbum forkbar auf Github?", 
+		"text": "Welche Band veröffentlichte Ihr Debutalbum "Narwhalingus-EP" forkbar auf Github?", 
 		"answers": [
 		{
 			"text": "Bristol 7",
@@ -235,10 +233,140 @@
 			"text": "Kiloleichen"
 		}, 
 		{
-			"text": "Hektoopfer", 
+			"text": "Hektoopfer"
 		}, 
 		{
 			"text": "Es gibt keine besondere Bezeichung."
+		}
+	]
+}
+
+{
+	// Quelle: Pentacast 31
+	"tier": 100, 
+		"text": "Wie viel Gründungsmitglieder waren beim Gründungstreffen vom Zwiebelfreunde e.V. (Verein hinter Torservers.net) anwesend?", 
+		"answers": [
+		{
+			"text": "13",
+			"right": true
+		}, 
+		{
+			"text": "99"
+		}, 
+		{
+			"text": "23" 
+		}, 
+		{
+			"text": "42"
+		}
+	]
+}
+
+{
+	// url: http://de.wikipedia.org/wiki/TETRA
+	"tier": 100, 
+		"text": "Welches Gremium ist für die Standardisierung des TETRA Standards verantwortlich?", 
+		"answers": [
+		{
+			"text": "ETSI",
+				"right": true
+		}, 
+		{
+			"text": "ITU"
+		}, 
+		{
+			"text": "IEEE"
+		}, 
+		{
+			"text": "IETF"
+		}
+	]
+}
+
+{
+	// url: http://www.youtube.com/watch?v=UzZXnNV4SoM
+	// Als Antwort vielleicht das Video abspielen
+	"tier": 100, 
+		"text": "In welcher Einheit zählt Cem Özdemir den Stromverbrauch in Deutschland?", 
+		"answers": [
+		{
+			"text": "Gigabyte (GB)",
+				"right": true
+		}, 
+		{
+			"text": "Gigawatt (GW)"
+		}, 
+		{
+			"text": "Megawatt (MW)" 
+		}, 
+		{
+			"text": "Pferdestärken (PS)"
+		}
+	]
+}
+
+{
+	// url: http://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte#Zeitlicher_Ablauf
+	// Urspruengliche einfuehrung 01.01.2006
+	"tier": 100, 
+		"text": "Wer steckt <em>nicht</em> in dem ursprünglichen Projektkonsortium „bIT4health“ (Gesundheitskarte)?", 
+		"answers": [
+		{
+			"text": "T-Systems",
+				"right": true
+		}, 
+		{
+			"text": "IBM Deutschland"
+		}, 
+		{
+			"text": "SAP Deutschland" 
+		}, 
+		{
+			"text": "Fraunhofer-Institut für Arbeitswirtschaft und Organisation (IAO)"
+		}
+	]
+}
+
+
+{
+	// url: 
+	// bilder im Verzeichnis
+	"tier": 100, 
+		"text": "Welcher der abgebildeten Typies ist der Kopf hinter 4chan?", 
+		"answers": [
+		{
+			"text": "a",
+				"right": true
+		}, 
+		{
+			"text": "b"
+		}, 
+		{
+			"text": "c"
+		}, 
+		{
+			"text": "d"
+		}
+	]
+}
+
+{
+	// url: neusprech.org
+	"tier": 100, 
+		"text": "Welche der folgenden Neusprechs wurde noch nicht im Neusprechblog behandelt:", 
+		"answers": [
+		{
+			"text": "Sagt uns maha noch",
+				"right": true
+		}, 
+		{
+			"text": "Schutzlücke"
+		}, 
+		{
+			"text": "Stresstest", 
+		}, 
+		{
+			"text": "Restrisiko"
 		}
 	]
 }
