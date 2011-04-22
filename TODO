@@ -23,11 +23,11 @@
         * a8 -(0%)- irc-Web gateway (asto finded das blöd. Aber vllt. hat jemand keinen irc-Client zur Hand
 * astro -(0%)- Google-Joker: ggf. anderer Name; Spieler darf für 30s bei Google suchen und im Web klicken.
                Dafür gibt es ein unbeschriftetes Keyboard mit engl. oder dt. Tastaturlayout
-* astro -(10%)- Pusher-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
+* astro -(100%)- Shift-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
 * astro -(100%)- Wikipedia-Joker: 2 Antworten werden wegen Irrelevanz gelöscht (Logo!)
 * astro -(100%)- vote.c3d2.de & IRC auf Startscreen
-* astro -(  0%)- nedap-joker rate limiting
-* astro -( 70%)- nedap-joker vote w/ token
+* astro -( 99%)- nedap-joker rate limiting
+* astro -(100%)- nedap-joker vote w/ token
 
 == Ideen ==
 * - -()- Eliza-Joker: Frage kann wie bei Eliza per Text-Chat erörtert werden. Da ist aber der Aufwand für
