@@ -13,7 +13,7 @@ var frontend;
 /* TODO: url */
 var nedap;
 function connectNedap() {
-    nedap = new wsc.WebSocket('ws://nedap.c3d2.de/', 'quiz-nedap');
+    nedap = new wsc.WebSocket('ws://localhost/', 'quiz-nedap');
     nedap.onopen = function() {
 	console.log('NEDAP opened');
 	nedap.send('nedap-kneemFothbedchoadHietEnobKavLub1');
@@ -43,7 +43,7 @@ connectNedap();
  * IRC client
  */
 
-var IRC_SERVER = 'irc.freenode.net';
+var IRC_SERVER = 'irc.hackint.eu';
 var IRC_CHAN = '#pentanews';
 var chat = new irc({ server: IRC_SERVER,
 		     encoding: 'utf-8',
