@@ -539,5 +539,45 @@
       { "text": "Günter Krings (CDU)" },
       { "text": "Axel E. Fischer (CDU)", "right": true }
     ]
-  }
+  },
+  {
+    "tier": 100,
+    "text": "Wie heißt ein VPN-Projekt im Chaosumfeld?",
+    "answers": [
+      { "text": "connect23" },
+      { "text": "dn42", "right": true },
+      { "text": "ix1337" },
+      { "text": "We♥BGP" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie heißt der neue Abuse-Dienst? (auf dem EH2011 vorgestellt)",
+    "answers": [
+      { "text": "IDMEF" },
+      { "text": "CRISP" },
+      { "text": "X-ARF", "right": true },
+      { "text": "XDMCP" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welche Firma wird uns alle umbringen?",
+    "answers": [
+      { "text": "Skynet", "right": true },
+      { "text": "Umbrella Corp", "right": true },
+      { "text": "Google" },
+      { "text": "Samsung" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wann wird die Gulaschprogrammiernacht 11 in Karlsruhe stattfinden?",
+    "answers": [
+      { "text": "2.-5.6.2011" },
+      { "text": "23.-26.6.2011", "right": true },
+      { "text": "10.-14.8.2011" },
+      { "text": "17.-21.8.2011" }
+    ]
+  },
 ]
