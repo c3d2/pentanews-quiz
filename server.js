@@ -96,6 +96,7 @@ function pushIrcInfo() {
  */
 var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
 buzz.on('button', function(key) {
+    console.log({button:key});
     sendToFrontend({ buzzer: key });
 });
 
