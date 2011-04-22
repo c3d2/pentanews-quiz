@@ -489,13 +489,12 @@ function switchToGame() {
     };
 
     onBackendMessage = function(msg) {
-	if (msg.buzzer)
+	if (msg.hasOwnProperty('buzzer'))
 	    activatePlayer(msg.buzzer);
     };
 
     $('#nedap').hide();
     $('#irc').hide();
-    onBackendMessage = null;
     // Instantly show the question:
     $('#game').show();
 }
