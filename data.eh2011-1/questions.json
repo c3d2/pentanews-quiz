@@ -1,5 +1,6 @@
 [{ "tier": 100,
    "text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
+   "explanation": { "text": "Einsender: payload" },
    "answers": [{ "text": "Ja es funktioniert nicht.", "right": true },
 	       { "text": "Da gibt es viele!" },
 	       { "text": "Es öffnet dem Missbrauch Tür und Tor." },
@@ -7,6 +8,7 @@
  },
  { "tier": 100,
    "text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?",
+   "explanation": { "text": "Einsender: payload" },
    "answers": [{ "text": "Abschiebung verhindern ", "right": true },
 	       { "text": "Schlangen im Flugzeug" },
 	       { "text": "Flugzeugentführung durchführen" },
@@ -14,6 +16,7 @@
  },
  { "tier": 100,
    "text": "Welche Band veröffentlichte Ihr Debutalbum “Narwhalingus-EP” forkbar auf Github?",
+   "explanation": { "image": "narwhalingus-ep.png" },
    "answers": [{ "text": "The Bristol 7s", "right": true },
 	       { "text": "The London 9s" },
 		{
@@ -129,6 +132,7 @@
 {
 	"tier": 100,
 		"text": "Wie groß ist die radioaktive Belastung in Deutschland im Durchschnitt?",
+		"explanation": { "text": "Einsender: payload" },
 		"answers": [
 		{
 			"text": "3,9 mSv/Jahr",
@@ -149,6 +153,7 @@
 {
 	"tier": 100,
 		"text": "Warum können Atomunfälle bei uns nicht passieren?",
+		"explanation": { "text": "Einsender: payload" },
 		"answers": [
 		{
 			"text": "Weil nicht genügend Strahlenschutzanzüge vorligen.",
