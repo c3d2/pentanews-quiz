@@ -428,6 +428,24 @@ function switchToGame() {
     };
     timer.set(TIMER_QUESTION, timeout);
 
+    var activatePlayer = function(player) {
+	if (activePlayer !== null)
+	    return;
+
+        if (playerNames[player]) {
+	    activePlayer = player;
+	    updateTier();
+	    timer.set(TIMER_ANSWER, timeout);
+	}
+	for(var i = 0; i < playerNames.length; i++) {
+	    sendToBackend({ buzzerLED: [i, i === player ? 1 : 0] });
+	}
+	sendToBackend({ buzzerLED: [player, 1] });
+    };
+    for(var i = 0; i < playerNames.length; i++) {
+	sendToBackend({ buzzerLED: [i, 1] });
+    }
+
     keyHandler = function(key, keyCode) {
         if (keyCode === 27) {
             // Shortcut: cancel this state
@@ -437,11 +455,7 @@ function switchToGame() {
 		   PLAYER_KEYS.indexOf(key) >= 0) {
             // No active player before, but somebody hit a button!
             var player = PLAYER_KEYS.indexOf(key);
-            if (playerNames[player]) {
-                activePlayer = player;
-		updateTier();
-		timer.set(TIMER_ANSWER, timeout);
-	    }
+	    activatePlayer(player);
         } else if (activePlayer !== null &&
                    ANSWER_KEYS.indexOf(key) >= 0) {
             // player pronounced the answer
@@ -472,6 +486,11 @@ function switchToGame() {
 	    takeJoker(activePlayer, 'fwd');
 	    activePlayer = null;
 	}
+    };
+
+    onBackendMessage = function(msg) {
+	if (msg.buzzer)
+	    activatePlayer(msg.buzzer);
     };
 
     $('#nedap').hide();
