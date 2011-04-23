@@ -56,7 +56,7 @@ function setupWs() {
 
     ws.onerror = function(e) {
 	console.error(e.message);
-	setupWs();
+	window.setTimeout(setupWs, 100);
     };
     ws.onclose = function() {
 	console.error('WebSocket closed');
