@@ -281,6 +281,7 @@ function takeJoker(activePlayer, joker) {
 	    console.log('scores: '+JSON.stringify(scores));
 	    redraw();
 	};
+	redraw();
     }
     if (joker === 'irc') {
 	sendToBackend({ irc: "activate" });
