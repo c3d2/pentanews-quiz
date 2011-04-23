@@ -1,0 +1,43 @@
+[
+  {
+    "tier": 133,
+    "text": "Wieviele Folgen des Pentacast wurden bisher veröffentlicht?",
+    "answers": [
+      {
+        "text": "13"
+      },
+      {
+        "text": "31",
+	"right": true
+      },
+      {
+        "text": "43"
+      },
+      {
+        "text": "0x1F",
+	"right": true
+      }
+    ]
+  },
+  {
+    "tier": 133,
+    "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde",
+    "explanation": { "text": "Die Dosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker (Einsender: John)" },
+    "answers": [
+      { "text": "Oma's (sic!) orginal Erbsensuppe" },
+      { "text": "SPAM Frühstücksfleisch. SPAM, SPAM, SPAM" },
+      { "text": "Halbe Pfisiche", "right": true },
+      { "text": "Nudeln"}
+    ]
+  }
+  {
+    "tier": 133,
+    "text": "Welches Motiv zierte die Tasse beim ersten Easterhegg 2001?",
+    "answers": [
+      { "text": "Eine S-Bahn mit Pesthörnchen" },
+      { "text": "Zwei Hasen mit Laptops" },
+      { "text": "Eine Tasse auf einer Tasse (Rekursion)" },
+      { "text": "Eine Antenne aus einem Ei", "right": true }
+    ]
+  },
+  ]
