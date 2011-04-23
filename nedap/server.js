@@ -3,6 +3,7 @@ var wss = require('websocket-server');
 var ltx = require('ltx');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
+var MIME_HTML = 'text/html; charset=UTF-8';
 
 var backend, question, answers, scores;
 
@@ -74,11 +75,11 @@ console.log({question:question,answers:answers})
 	    form.c('input', { type: 'submit',
 			      value: 'Submit' });
 
-	    res.writeHead(200, { 'Content-type': 'text/html' });
+	    res.writeHead(200, { 'Content-type': MIME_HTML });
 	    res.write(html(form.toString()));
 	    res.end();
 	} else {
-	    res.writeHead(404, { 'Content-type': 'text/html' });
+	    res.writeHead(404, { 'Content-type': MIME_HTML });
 	    res.write(html('<p>No question left on server.</p>'));
 	    res.end();
 	}
@@ -92,22 +93,22 @@ console.log({question:question,answers:answers})
 		scores[i]++;
 		updateBackend();
 
-		res.writeHead(303, { 'Content-type': 'text/html',
+		res.writeHead(303, { 'Content-type': MIME_HTML,
 				     'Location': '/thanks' });
 		res.end();
 	    } else {
-		res.writeHead(400, { 'Content-type': 'text/html',
+		res.writeHead(400, { 'Content-type': MIME_HTML,
 				     'Location': '/' });
 		res.end();
 	    }
 	} else {
-	    res.writeHead(400, { 'Content-type': 'text/html' });
+	    res.writeHead(400, { 'Content-type': MIME_HTML });
 	    res.end();
 	}
     });
 
     app.get('/thanks', function(req, res) {
-	res.writeHead(200, { 'Content-type': 'text/html' });
+	res.writeHead(200, { 'Content-type': MIME_HTML });
 	res.write(html("<p>Thanks, your vote may have been counted.</p>"));
 	res.end();
     });
