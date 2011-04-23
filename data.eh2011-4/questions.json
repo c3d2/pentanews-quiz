@@ -161,8 +161,7 @@
     "answers": [
       { "text": "10 sec"},
       { "text": "31 sec" , "right": true},
-      { "text
-	  ": "42 sec" },
+      { "text": "42 sec" },
       { "text": "120 sec"}
     ]
   },
@@ -184,5 +183,5 @@
         "right": true
       }
     ]
-  },
+  }
 ]

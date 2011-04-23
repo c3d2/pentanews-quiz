@@ -193,7 +193,7 @@
   {
     "tier": 133,
     "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde?",
-    "explanation": { "text": "Die Dosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker (Einsender: John)" },
+    "explanation": { "text": "Die Dosen enthielten Pfirsichhälften - 9 Stück. Sie waren sehr lecker (Einsender: John)" },
     "answers": [
       { "text": "Oma's (sic!) orginal Erbsensuppe" },
       { "text": "SPAM Frühstücksfleisch. SPAM, SPAM, SPAM" },
@@ -202,4 +202,4 @@
     ]
   }
 
-	]
+]
