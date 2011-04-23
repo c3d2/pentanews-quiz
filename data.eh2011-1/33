@@ -1,0 +1,173 @@
+[{ "tier": 33,
+   "text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
+   "explanation": { "text": "Einsender: payload" },
+   "answers": [{ "text": "Es öffnet dem Missbrauch Tür und Tor." },
+	       { "text": "Ja es funktioniert nicht.", "right": true },
+	       { "text": "Da gibt es viele!" },
+	       { "text": "Wir finden das eigentlich ganz okay." }]
+ },
+
+{
+	"tier": 33,
+		"text": "Warum sollen Bibliotheken ihre DRM-Ebooks nach 26 Ausleihen neu kaufen?",
+		"answers": [
+		{
+			"text": "Weil die proprietären Dateiformate dann nicht mehr lesbar sind."
+		},
+		{
+			"text": "Weil einige Ausleihende vergessen, die Bücher wieder zurück zu laden."
+		},
+		{
+			"text": "Damit anschliessend wegen erhöhter Nachfrage mehrere Digitale Exemplare vorliegen."
+		},
+		{
+			"text": "Weil die echten Bücher nach 26 Ausleihen auch neu gekauft werden würden.",
+			"right": true
+		}
+	]
+},
+
+{
+	"tier": 33,
+		"text": "Warum können Atomunfälle bei uns nicht passieren?",
+		"image": "bundesatom.jpg",
+		"answers": [
+		{
+			"text": "Weil nicht genügend Strahlenschutzanzüge vorligen.",
+				"right": true
+		},
+		{
+			"text": "Weil unsere Technik sicher ist.",
+				"right": true
+		},
+		{
+			"text": "Weil wir keine atomare Technik nutzen.",
+				"right": true
+		},
+		{
+			"text": "Fliegt dahinten eine rote Taube?",
+				"right": true
+		}
+	]
+},
+{
+	"tier": 33,
+		"text": "In welcher Einheit zählt Cem Özdemir den Stromverbrauch in Deutschland?",
+		"explanation": { "video": "oezdemir.webm" },
+		"answers": [
+		{
+			"text": "Gigawatt (GW)"
+		},
+		{
+			"text": "Exojoule (EJ)"
+		},
+		{
+			"text": "Pferdestärken (PS)"
+		},
+		{
+			"text": "Gigabyte (GB)",
+				"right": true
+		}
+	]
+},
+  {
+    "tier": 33,
+    "text": "Worauf hat Google 2001 ein Patent angemeldet und 2011 bekommen?",
+    "answers": [
+      {
+        "text": "Apple die Touchscreens wegzukaufen"
+      },
+      {
+        "text": "Integration eines Ereignisses in das Firmenlogo",
+	"right": true
+      },
+      {
+        "text": "App Store ohne Veröffentlichungskontrolle"
+      },
+      {
+        "text": "Animierte Bilder für IPv6-Besucher"
+      }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wie heißt DAS VPN-Projekt im Chaosumfeld?",
+    "answers": [
+      { "text": "ccc-connect23" },
+      { "text": "dn42", "right": true },
+      { "text": "ix1337" },
+      { "text": "We♥BGP" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wie heißt der neue Missbrauchsformat? (auf dem EH2011 vorgestellt)",
+    "answers": [
+      { "text": "IDMEF" },
+      { "text": "CRISP" },
+      { "text": "X-ARF", "right": true },
+      { "text": "XDMCP" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Firma wird uns alle umbringen?",
+    "answers": [
+      { "text": "Cyber Dyne", "right": true },
+      { "text": "Umbrella Corp", "right": true },
+      { "text": "Google" },
+      { "text": "Samsung" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Was liegt vor, wenn man den Zensus 2011 boykottiert?",
+    "answers": [
+      { "text": "Eine Ordnungswidrigkeit", "right": true },
+      { "text": "Eine Straftat" },
+      { "text": "Vertragsbruch" },
+      { "text": "Ohne Abendbrot ins Bett" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Bank war beim legendären CCC-BTX-Hack betroffen?",
+    "answers": [
+      { "text": "Deutsche Bank" },
+      { "text": "Berliner Volksbank" },
+      { "text": "Dresdner Bank" },
+      { "text": "Hamburger Sparkasse", "right": true }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wann gab es das letzte “CCC” im Google-Doodle?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "Sysadmin Day"},
+      { "text": "Jubiläum Juri Gagarin" , "right": true},
+      { "text": "25. CCC-Congress" },
+      { "text": "25. CCC Geburtstag"}
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wie heissen die auf dem EH2011 präsentierten Ansätze für dezentrale soziale Netze?",
+    "answers": [
+      { "text": "Diaspora" },
+      { "text": "protonet", "right": true },
+      { "text": "buddycloud", "right": true },
+      { "text": "Facebook" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Firma sagte im April 2011 von sich, sie biete momentan zuviel Meinungsfreiheit für einige Länder?",
+    "answers": [
+      { "text": "Deutsche Post" },
+      { "text": "FAZ" },
+      { "text": "Twitter" },
+      { "text": "Facebook", "right": true }
+    ]
+  },
+  ]

@@ -1,0 +1,239 @@
+[
+ { "tier": 66,
+   "text": "Warum wollten sich am 20. Jannuar 2011 17 Menschen in einem Flugzeug von Paris nach Mali nicht setzen?",
+   "explanation": { "text": "Einsender: payload" },
+   "answers": [{ "text": "Schlangen im Flugzeug" },
+	       { "text": "Abschiebung verhindern ", "right": true },
+	       { "text": "Flugzeugentführung durchführen" },
+	       { "text": "Flugzeugentführung verhindern" }]
+ },
+ { "tier": 66,
+   "text": "Welche Band veröffentlichte Ihr Debutalbum “Narwhalingus-EP” forkbar auf Github?",
+   "explanation": { "image": "narwhalingus-ep.png" },
+   "answers": [{ "text": "The Bristol 7s", "right": true },
+	       { "text": "The London 9s" },
+		{ "text": "Dieter Bohlen" },
+		{ "text": "Polarkreis 18" }
+	]
+},
+{ "tier": 66,
+		"text": "Wie sehen die Pentalobes (Spezialschrauben) aus, mit denen Apple im iPhone 4 Probiert die Nutzer am Öffnen zu hindern?",
+		"image": "schrauben.jpg",
+		"answers": [
+		{ "text": "a" },
+		{ "text": "b" },
+		{ "text": "c", "right": true },
+		{ "text": "d" } ]
+},
+
+{
+	"tier": 66,
+		"text": "Über welchen Alternativweg sollen Internetsperren in Deutschland umgesetzt werden?",
+		"answers": [
+		{
+			"text": "Telemediengesetz"
+		},
+		{
+			"text": "Jugendmedienschutz-Staatsvertrag"
+		},
+		{
+			"text": "Glücksspielstaatsvertrag",
+			"right": true
+		},
+		{
+			"text": "Fischereiausschuss"
+		}
+	]
+},
+{
+	"tier": 66,
+		"text": "Wie werden Gestorbene nach einem Demozid (vorsätzliche Massentötungen von bestimmten Menschengruppen) gezählt?",
+		"answers": [
+		{
+			"text": "Hektoopfer"
+		},
+		{
+			"text": "Kiloleichen"
+		},
+		{
+			"text": "Megatote",
+				"right": true
+		},
+		{
+			"text": "Keine besondere Bezeichung"
+		}
+	]
+},
+
+{
+	"tier": 66,
+		"text": "Welcher der abgebildeten Typies ist der Kopf hinter 4chan?",
+		"image": "4chan.png",
+		"answers": [
+		{
+			"text": "a"
+		},
+		{
+			"text": "b"
+		},
+		{
+			"text": "c",
+			"right": true
+		},
+		{
+			"text": "d"
+		}
+	]
+},
+{
+	"tier": 66,
+		"text": "Welche der folgenden Neusprechs wurde noch nicht im Neusprechblog behandelt:",
+		"answers": [
+		{
+			"text": "Schutzlücke"
+		},
+		{
+			"text": "Vorwärtsverteidigung",
+				"right": true
+		},
+		{
+			"text": "Stresstest"
+		},
+		{
+			"text": "Restrisiko"
+		}
+	]
+},
+
+  {
+    "tier": 66,
+    "text": "Wer tritt in der neuen “YouTube Copyright School” auf?",
+    "answers": [
+      {
+        "text": "Simpsons"
+      },
+      {
+        "text": "Beavis and Butthead"
+      },
+      {
+        "text": "Eric aus South Park"
+      },
+      {
+        "text": "Happy Tree Friends",
+        "right": true
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo ist laut Symantecs Internet Security Threat Report 2010 der beliebteste Logistikstandort für Cyberkriminelle?",
+    "explanation": { "image": "bundestrojaner_sm.gif" },
+    "answers": [
+      {
+        "text": "USA"
+      },
+      {
+        "text": "Deutschland",
+        "right": true
+      },
+      {
+        "text": "Russland"
+      },
+      {
+        "text": "China"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wer klagt gegen das französische Dekret Nutzerdaten 1 Jahr aufzuheben?",
+    "answers": [
+      {
+        "text": "Google",
+        "right": true
+      },
+      {
+        "text": "Facebook",
+        "right": true
+      },
+      {
+        "text": "Microsoft"
+      },
+      {
+        "text": "Yahoo!"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo hat sich eine Smart City einen Virus eingefangen?",
+    "explanation": {
+	"text": "“We've put our entire city's operations in the cloud, and now we can't get it out,”"
+    },
+    "answers": [
+      {
+        "text": "Südkorea",
+        "right": true
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "China"
+      },
+      {
+        "text": "USA"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wie ist die Altersfreigabe für Opera im Apple App Store?",
+    "answers": [
+      {
+        "text": "unbeschränkt"
+      },
+      {
+        "text": "ab 6"
+      },
+      {
+        "text": "ab 17",
+	"right": true
+      },
+      {
+        "text": "ab 21"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wie wird das geigercrowd.net Projekt implementiert?",
+    "answers": [
+      { "text": "Google Web Toolkit (GWT)" },
+      { "text": "Django" },
+      { "text": "Ruby on Rails", "right": true },
+      { "text": ".net" }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Mit welchem Schiff entdeckt James Cook 1778 Hawaii?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "Titanic"},
+      { "text": "Santa Maria"},
+      { "text": "Black Pearl" },
+      { "text": "Discovery" , "right": true }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo speichert Apple Bewegungsdaten?",
+    "answers": [
+      { "text": "spy.dat" },
+      { "text": "locator.xml" },
+      { "text": "location.sqlite" },
+      { "text": "consolidated.db", "right": true }
+    ]
+  },
+  ]
