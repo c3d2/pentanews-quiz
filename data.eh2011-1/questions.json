@@ -7,7 +7,7 @@
 	       { "text": "Wir finden das eigentlich ganz okay." }]
  },
  { "tier": 100,
-   "text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?",
+   "text": "Warum wollten 17 Menschen im Januar 2011 sich in einem Flugzeug nicht setzen?",
    "explanation": { "text": "Einsender: payload" },
    "answers": [{ "text": "Schlangen im Flugzeug" },
 	       { "text": "Abschiebung verhindern ", "right": true },
@@ -607,10 +607,10 @@
     "text": "Welche der folgenden Hardcore-Pornoseiten bietet keine spezielle Version ihrer Seite für mobile Endgeräte ohne Flashplayer?",
    "explanation": { "image": "xvideos.gif" },
     "answers": [
-      { "text": "xvideos.com", "right": true },
       { "text": "youporn.com" },
-      { "text": "xhamster.com" },
-      { "text": "videarn.com" }
+      { "text": "videarn.com" },
+      { "text": "xvideos.com", "right": true },
+      { "text": "xhamster.com" }
     ]
   },
   {
@@ -621,6 +621,46 @@
       { "text": "Eine Straftat" },
       { "text": "Vertragsbruch" },
       { "text": "Kein juristisches Vergehen" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie heissen die auf dem EH2011 präsentierten Ansätze für dezentrale soziale Netze?",
+    "answers": [
+      { "text": "Diaspora" },
+      { "text": "protonet", "right": true },
+      { "text": "buddycloud", "right": true },
+      { "text": "Facebook" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wer sagte im April 2011, sie biete momentan zuviel Meinungsfreiheit für einige Länder?",
+    "answers": [
+      { "text": "Deutsche Post" },
+      { "text": "FAZ" },
+      { "text": "Twitter" },
+      { "text": "Facebook", "right": true }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wo speichert Apple Bewegungsdaten?",
+    "answers": [
+      { "text": "spy.dat" },
+      { "text": "locator.xml" },
+      { "text": "location.sqlite" },
+      { "text": "consolidated.db", "right": true }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "In welchem Format sind diese Fragen abgespeichert?",
+    "answers": [
+      { "text": "Custom XML" },
+      { "text": "Custom JSON", "right": true },
+      { "text": "ATOM" },
+      { "text": "OPML" }
     ]
   },
 ]
