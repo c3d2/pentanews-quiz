@@ -1,4 +1,4 @@
-[{ "tier": 100,
+[{ "tier": 33,
    "text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
    "explanation": { "text": "Einsender: payload" },
    "answers": [{ "text": "Es öffnet dem Missbrauch Tür und Tor." },
@@ -6,30 +6,26 @@
 	       { "text": "Da gibt es viele!" },
 	       { "text": "Wir finden das eigentlich ganz okay." }]
  },
- { "tier": 100,
-   "text": "Warum wollten 17 Menschen sich in einem Flugzeug nicht setzen?",
+ { "tier": 66,
+   "text": "Warum wollten sich am 20. Jannuar 2011 17 Menschen in einem Flugzeug von Paris nach Mali nicht setzen?",
    "explanation": { "text": "Einsender: payload" },
    "answers": [{ "text": "Schlangen im Flugzeug" },
 	       { "text": "Abschiebung verhindern ", "right": true },
 	       { "text": "Flugzeugentführung durchführen" },
 	       { "text": "Flugzeugentführung verhindern" }]
  },
- { "tier": 100,
+ { "tier": 66,
    "text": "Welche Band veröffentlichte Ihr Debutalbum “Narwhalingus-EP” forkbar auf Github?",
    "explanation": { "image": "narwhalingus-ep.png" },
    "answers": [{ "text": "The Bristol 7s", "right": true },
 	       { "text": "The London 9s" },
-		{
-			"text": "Dieter Bohlen"
-		},
-		{
-			"text": "Polarkreis 18"
-		}
+		{ "text": "Dieter Bohlen" },
+		{ "text": "Polarkreis 18" }
 	]
 },
 
 {
-	"tier": 100,
+	"tier": 33,
 		"text": "Warum sollen Bibliotheken ihre DRM-Ebooks nach 26 Ausleihen neu kaufen?",
 		"answers": [
 		{
@@ -49,7 +45,7 @@
 },
 
 {
-	"tier": 100,
+	"tier": 66,
 		"text": "Wie sehen die Pentalobes (Spezialschrauben) aus, mit denen Apple im iPhone 4 Probiert die Nutzer am Öffnen zu hindern?",
 		"image": "schrauben.jpg",
 		"answers": [
@@ -91,7 +87,7 @@
 },
 
 {
-	"tier": 100,
+	"tier": 66,
 		"text": "Über welchen Alternativweg sollen Internetsperren in Deutschland umgesetzt werden?",
 		"answers": [
 		{
@@ -112,7 +108,7 @@
 
 {
 	"tier": 100,
-		"text": "Wie viele Hausdurchsuchungen mussten Walter und Rose Martin aufgrund eines Fehlers in der Datenbank ertragen?",
+		"text": "Wie viele Hausdurchsuchungen mussten Walter und Rose Martin aufgrund eines Fehlers in der Polizeidatenbank ertragen?",
 		"answers": [
 		{
 			"text": "<=15"
@@ -133,7 +129,7 @@
 {
 	"tier": 100,
 		"text": "Wie groß ist die radioaktive Belastung in Deutschland im Durchschnitt?",
-		"explanation": { "text": "Einsender: payload" },
+		"explanation": { "text": "Einsender: seb7" },
 		"answers": [
 		{
 			"text": "0,9 Sv/Jahr"
@@ -152,10 +148,9 @@
 },
 
 {
-	"tier": 100,
+	"tier": 33,
 		"text": "Warum können Atomunfälle bei uns nicht passieren?",
 		"image": "bundesatom.jpg",
-		"explanation": { "text": "Einsender: payload" },
 		"answers": [
 		{
 			"text": "Weil nicht genügend Strahlenschutzanzüge vorligen.",
@@ -177,7 +172,7 @@
 },
 
 {
-	"tier": 100,
+	"tier": 66,
 		"text": "Wie werden Gestorbene nach einem Demozid (vorsätzliche Massentötungen von bestimmten Menschengruppen) gezählt?",
 		"answers": [
 		{
@@ -238,7 +233,7 @@
 },
 
 {
-	"tier": 100,
+	"tier": 33,
 		"text": "In welcher Einheit zählt Cem Özdemir den Stromverbrauch in Deutschland?",
 		"explanation": { "video": "oezdemir.webm" },
 		"answers": [
@@ -278,9 +273,8 @@
 	]
 },
 
-
 {
-	"tier": 100,
+	"tier": 66,
 		"text": "Welcher der abgebildeten Typies ist der Kopf hinter 4chan?",
 		"image": "4chan.png",
 		"answers": [
@@ -301,7 +295,7 @@
 },
 
 {
-	"tier": 100,
+	"tier": 66,
 		"text": "Welche der folgenden Neusprechs wurde noch nicht im Neusprechblog behandelt:",
 		"answers": [
 		{
@@ -321,7 +315,7 @@
 },
 
   {
-    "tier": 100,
+    "tier": 66,
     "text": "Wer tritt in der neuen “YouTube Copyright School” auf?",
     "answers": [
       {
@@ -362,7 +356,7 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 133,
     "text": "Welchen Stückpreis hatten die IPs im Adressblock von Nortel? ($7.5m total)",
     "answers": [
       {
@@ -381,7 +375,7 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 66,
     "text": "Wo ist laut Symantecs Internet Security Threat Report 2010 der beliebteste Logistikstandort für Cyberkriminelle?",
     "explanation": { "image": "bundestrojaner_sm.gif" },
     "answers": [
@@ -401,7 +395,7 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 66,
     "text": "Wer klagt gegen das französische Dekret Nutzerdaten 1 Jahr aufzuheben?",
     "answers": [
       {
@@ -421,7 +415,7 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 66,
     "text": "Wo hat sich eine Smart City einen Virus eingefangen?",
     "explanation": {
 	"text": "“We've put our entire city's operations in the cloud, and now we can't get it out,”"
@@ -443,7 +437,7 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 33,
     "text": "Worauf hat Google 2001 ein Patent angemeldet und 2011 bekommen?",
     "answers": [
       {
@@ -482,7 +476,7 @@
   },
 
   {
-    "tier": 100,
+    "tier": 66,
     "text": "Wie ist die Altersfreigabe für Opera im Apple App Store?",
     "answers": [
       {
@@ -501,18 +495,18 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 133,
     "text": "Wieviele Folgen des Pentacast wurden bisher veröffentlicht?",
     "answers": [
       {
         "text": "13"
       },
       {
-        "text": "26"
-      },
-      {
         "text": "31",
 	"right": true
+      },
+      {
+        "text": "43"
       },
       {
         "text": "0x1F",
@@ -542,9 +536,9 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 133,
     "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde",
-    "explanation": { "text": "Die Dosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker" },
+    "explanation": { "text": "Die Dosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker (Einsender: John)" },
     "answers": [
       { "text": "Oma's (sic!) orginal Erbsensuppe" },
       { "text": "SPAM Frühstücksfleisch. SPAM, SPAM, SPAM" },
@@ -553,7 +547,7 @@
     ]
   }
   {
-    "tier": 100,
+    "tier": 33,
     "text": "Wie heißt DAS VPN-Projekt im Chaosumfeld?",
     "answers": [
       { "text": "ccc-connect23" },
@@ -563,8 +557,8 @@
     ]
   },
   {
-    "tier": 100,
-    "text": "Wie heißt der neue Abuse-Dienst? (auf dem EH2011 vorgestellt)",
+    "tier": 33,
+    "text": "Wie heißt der neue Missbrauchsformat? (auf dem EH2011 vorgestellt)",
     "answers": [
       { "text": "IDMEF" },
       { "text": "CRISP" },
@@ -573,10 +567,10 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 33,
     "text": "Welche Firma wird uns alle umbringen?",
     "answers": [
-      { "text": "Skynet", "right": true },
+      { "text": "Cyber Dyne", "right": true },
       { "text": "Umbrella Corp", "right": true },
       { "text": "Google" },
       { "text": "Samsung" }
@@ -593,11 +587,11 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 66,
     "text": "Wie wird das geigercrowd.net Projekt implementiert?",
     "answers": [
-      { "text": "Haskell" },
-      { "text": "Erlang" },
+      { "text": "Google Web Toolkit (GWT)" },
+      { "text": "Django" },
       { "text": "Ruby on Rails", "right": true },
       { "text": ".net" }
     ]
@@ -614,13 +608,86 @@
     ]
   },
   {
-    "tier": 100,
+    "tier": 33,
     "text": "Was liegt vor, wenn man den Zensus 2011 boykottiert?",
     "answers": [
       { "text": "Eine Ordnungswidrigkeit", "right": true },
       { "text": "Eine Straftat" },
       { "text": "Vertragsbruch" },
-      { "text": "Kein juristisches Vergehen" }
+      { "text": "Ohne Abendbrot ins Bett" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Bank war beim legendären CCC-BTX-Hack betroffen?",
+    "answers": [
+      { "text": "Deutsche Bank" },
+      { "text": "Berliner Volksbank" },
+      { "text": "Dresdner Bank" },
+      { "text": "Hamburger Sparkasse", "right": true }
+    ]
+  },
+  {
+    "tier": 133,
+    "text": "Welches Motiv zierte die Tasse beim ersten Easterhegg 2001?",
+    "answers": [
+      { "text": "Eine S-Bahn mit Pesthörnchen" },
+      { "text": "Zwei Hasen mit Laptops" },
+      { "text": "Eine Tasse auf einer Tasse (Rekursion)" },
+      { "text": "Eine Antenne aus einem Ei", "right": true }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "In welcher Stadt sitzt die deutsche Firma Gamma, die Spionagesoftware an die ehemalige ägyptische Regierung lieferte?",
+    "answers": [
+      { "text": "Dortmund" },
+      { "text": "München", "right": true },
+      { "text": "Bielefeld" },
+      { "text": "Berlin" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie heisst der Bittorrent Server, über den CRE verteilt wird?",
+    "answers": [
+      { "text": "BitLove"},
+      { "text": "PritTorrent" , "right": true },
+      { "text": "TimTracker" },
+      { "text": "TPTorrent" }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Mit welchem Schiff entdeckt James Cook 1778 Hawaii?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "Titanic"},
+      { "text": "Santa Maria"},
+      { "text": "Black Pearl" },
+      { "text": "Discovery" , "right": true }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Ab wann kann ein Start eines Spaceshuttles nur noch von Board gestoppt werden?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "10 sec"},
+      { "text": "31 sec" , "right": true},
+      { "text": "42 sec" },
+      { "text": "120 sec"}
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wann gab es das letzte “CCC” im Google-Doodle?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "Sysadmin Day"},
+      { "text": "Jubiläum Juri Gagarin" , "right": true},
+      { "text": "25. CCC-Congress" },
+      { "text": "25. CCC Geburtstag"}
     ]
   },
 ]
