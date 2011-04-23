@@ -45,7 +45,7 @@
 
 = Hotfixes =
 nedap flush
-nedap encoding
+DONE: nedap encoding
 timeout sound
 irc+nedap auf 1. screen
 overload
