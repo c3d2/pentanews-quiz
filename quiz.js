@@ -442,6 +442,8 @@ function switchToGame() {
 	    sendToBackend({ buzzerLED: [i, i === player ? 1 : 0] });
 	}
 	sendToBackend({ buzzerLED: [player, 1] });
+	$('#audio_buzz')[0].load();
+	$('#audio_buzz')[0].play();
     };
     for(var i = 0; i < playerNames.length; i++) {
 	sendToBackend({ buzzerLED: [i, 1] });
