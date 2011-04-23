@@ -1,0 +1,205 @@
+[
+{
+	"tier": 33,
+		"text": "In welcher Einheit zählt Cem Özdemir den Stromverbrauch in Deutschland?",
+		"explanation": { "video": "oezdemir.webm" },
+		"answers": [
+		{
+			"text": "Gigawatt (GW)"
+		},
+		{
+			"text": "Exojoule (EJ)"
+		},
+		{
+			"text": "Pferdestärken (PS)"
+		},
+		{
+			"text": "Gigabyte (GB)",
+			"right": true
+		}
+	]
+},
+{
+	"tier": 33,
+	"text": "Worauf hat Google 2001 ein Patent angemeldet und 2011 bekommen?",
+	"answers": [
+	{
+		"text": "Apple die Touchscreens wegzukaufen"
+	},
+	{
+		"text": "Integration eines Ereignisses in das Firmenlogo",
+		"right": true
+	},
+	{
+		"text": "App Store ohne Veröffentlichungskontrolle"
+	},
+	{
+		"text": "Animierte Bilder für IPv6-Besucher"
+	}
+	]
+},
+{
+	"tier": 33,
+	"text": "Wie heißt DAS VPN-Projekt im Chaosumfeld?",
+	"answers": [
+	{ "text": "ccc-connect23" },
+	{ "text": "dn42", "right": true },
+	{ "text": "ix1337" },
+	{ "text": "We♥BGP" }
+	]
+},
+
+{
+	"tier": 66,
+	"text": "Über welchen Alternativweg sollen Internetsperren in Deutschland umgesetzt werden?",
+	"answers": [
+	{
+		"text": "Telemediengesetz"
+	},
+	{
+		"text": "Jugendmedienschutz-Staatsvertrag"
+	},
+	{
+		"text": "Glücksspielstaatsvertrag",
+		"right": true
+	},
+	{
+		"text": "Fischereiausschuss"
+	}
+	]
+},
+
+{
+	"tier": 66,
+	"text": "Wie werden Gestorbene nach einem Demozid (vorsätzliche Massentötungen von bestimmten Menschengruppen) gezählt?",
+	"answers": [
+	{
+		"text": "Hektoopfer"
+	},
+	{
+		"text": "Kiloleichen"
+	},
+	{
+		"text": "Megatote",
+		"right": true
+	},
+	{
+		"text": "Keine besondere Bezeichung"
+	}
+	]
+},
+
+{
+	"tier": 66,
+	"text": "Welcher der abgebildeten Typies ist der Kopf hinter 4chan?",
+	"image": "4chan.png",
+	"answers": [
+	{
+		"text": "a"
+	},
+	{
+		"text": "b"
+	},
+	{
+		"text": "c",
+		"right": true
+	},
+	{
+		"text": "d"
+	}
+	]
+},
+
+{
+	"tier": 100,
+	"text": "Welches Gremium ist für die Standardisierung des TETRA Standards verantwortlich?",
+	"answers": [
+	{
+		"text": "ITU"
+	},
+	{
+		"text": "ETSI",
+		"right": true
+	},
+	{
+		"text": "IEEE"
+	},
+	{
+		"text": "IETF"
+	}
+	]
+},
+
+{
+	"tier": 100,
+	"text": "Wer steckt NICHT in dem ursprünglichen Projektkonsortium „bIT4health“ (Gesundheitskarte)?",
+	"answers": [
+	{
+		"text": "T-Systems",
+		"right": true
+	},
+	{
+		"text": "IBM Deutschland"
+	},
+	{
+		"text": "SAP Deutschland"
+	},
+	{
+		"text": "Fraunhofer-Institut für Arbeitswirtschaft und Organisation (IAO)"
+	}
+	]
+},
+{
+	"tier": 100,
+	"text": "Welcher Umstand hilft in Neu Seeland der 3-Strikes-Gesetzgebung?",
+	"explanation": {
+		"text": "#blackout"
+	},
+	"answers": [
+	{
+		"text": "Erdbeben-Notstand",
+		"right": true
+	},
+	{
+		"text": "Gescheiterte Koalitionsverhandlungen"
+	},
+	{
+		"text": "Notstand wegen Ausrottung des Kiwis"
+	},
+	{
+		"text": "Empfehlung der Queen"
+	}
+	]
+},
+{
+	"tier": 100,
+	"text": "Was soll die Vorratsdatenspeicherung in Frankreich künftig auch noch umfassen?",
+	"answers": [
+	{
+		"text": "Passwörter",
+		"right": true
+	},
+	{
+		"text": "Namen von Mitbenutzern"
+	},
+	{
+		"text": "MAC-Adressen"
+	},
+	{
+		"text": "Betriebssystemversion"
+	}
+	]
+},
+  {
+    "tier": 133,
+    "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde?",
+    "explanation": { "text": "Die Dosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker (Einsender: John)" },
+    "answers": [
+      { "text": "Oma's (sic!) orginal Erbsensuppe" },
+      { "text": "SPAM Frühstücksfleisch. SPAM, SPAM, SPAM" },
+      { "text": "Halbe Pfisiche", "right": true },
+      { "text": "Nudeln"}
+    ]
+  }
+
+	]
