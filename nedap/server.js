@@ -86,8 +86,8 @@ console.log({question:question,answers:answers})
     });
 
     app.post('/', function(req, res) {
-	var a = req.body.a;
-	if (a && /^\d+$/.test(a)) {
+	var a;
+	if (req.body && (a = req.body.a) && /^\d+$/.test(a)) {
 	    var i = parseInt(a, 10);
 	    if (scores && i < scores.length && Token.validate(req.body.token)) {
 		scores[i]++;
@@ -99,10 +99,13 @@ console.log({question:question,answers:answers})
 	    } else {
 		res.writeHead(400, { 'Content-type': MIME_HTML,
 				     'Location': '/' });
+		res.write(html("<p>Face validation error.</p>"));
 		res.end();
 	    }
 	} else {
-	    res.writeHead(400, { 'Content-type': MIME_HTML });
+	    res.writeHead(400, { 'Content-type': MIME_HTML,
+				 'Location': '/' });
+	    res.write(html("<p>Huh?</p>"));
 	    res.end();
 	}
     });
