@@ -313,27 +313,21 @@ function takeJoker(activePlayer, joker) {
 function setQuestionContents(q) {
     $('#question').empty();
     if (q.text) {
-        TEXTSIZE = parseInt(q.text.length / 100, 10) ? "size1" : false;
-        TEXTSIZE = !TEXTSIZE && parseInt(q.text.length / 50, 10) ? "size2" : "size3";
         $('#question').append('<p></p>');
         $('#question p').text(q.text);
     }
     if (q.image) {
-        TEXTSIZE = "size1";
         $('#question').append('<img>');
         $('#question img').attr('src', q.image);
     }
     if (q.video) {
-        TEXTSIZE = "size1";
         $('#question').append('<video controls autoplay>');
         $('#question video').attr('src', q.video);
     }
-    $('#question p').removeClass().addClass(TEXTSIZE);
 }
 
 var PLAYER_KEYS = 'abc';
 var ANSWER_KEYS = '1234';
-var TEXTSIZE; //pretty uncool to do it global
 
 // Game screen is the one with the question in question
 function switchToGame() {
@@ -354,7 +348,8 @@ function switchToGame() {
         var answer = q.answers[i];
         var liEl = $('#answers li').eq(i);
         liEl.text(answer.text);
-        liEl.removeClass().addClass(TEXTSIZE).fadeTo(0, 1);
+        liEl.removeClass('selected right wrong');
+	liEl.fadeTo(0, 1);
     }
 
     var switchToAnswer = function(isTimeout) {
