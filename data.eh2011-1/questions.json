@@ -601,10 +601,10 @@
     "text": "Welche der folgenden Hardcore-Pornoseiten bietet keine spezielle Version ihrer Seite für mobile Endgeräte ohne Flashplayer?",
    "explanation": { "image": "xvideos.gif" },
     "answers": [
-      { "text": "xvideos.com", "right": true },
       { "text": "youporn.com" },
-      { "text": "xhamster.com" },
-      { "text": "videarn.com" }
+      { "text": "videarn.com" },
+      { "text": "xvideos.com", "right": true },
+      { "text": "xhamster.com" }
     ]
   },
   {
@@ -675,7 +675,8 @@
     "answers": [
       { "text": "10 sec"},
       { "text": "31 sec" , "right": true},
-      { "text": "42 sec" },
+      { "text
+	  ": "42 sec" },
       { "text": "120 sec"}
     ]
   },
@@ -688,6 +689,36 @@
       { "text": "Jubiläum Juri Gagarin" , "right": true},
       { "text": "25. CCC-Congress" },
       { "text": "25. CCC Geburtstag"}
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wie heissen die auf dem EH2011 präsentierten Ansätze für dezentrale soziale Netze?",
+    "answers": [
+      { "text": "Diaspora" },
+      { "text": "protonet", "right": true },
+      { "text": "buddycloud", "right": true },
+      { "text": "Facebook" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Firma sagte im April 2011 von sich, sie biete momentan zuviel Meinungsfreiheit für einige Länder?",
+    "answers": [
+      { "text": "Deutsche Post" },
+      { "text": "FAZ" },
+      { "text": "Twitter" },
+      { "text": "Facebook", "right": true }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo speichert Apple Bewegungsdaten?",
+    "answers": [
+      { "text": "spy.dat" },
+      { "text": "locator.xml" },
+      { "text": "location.sqlite" },
+      { "text": "consolidated.db", "right": true }
     ]
   },
 ]
