@@ -281,6 +281,7 @@ function takeJoker(activePlayer, joker) {
 	    console.log('scores: '+JSON.stringify(scores));
 	    redraw();
 	};
+	redraw();
     }
     if (joker === 'irc') {
 	sendToBackend({ irc: "activate" });
@@ -467,13 +468,13 @@ function switchToGame() {
         } else if (keyCode === 13) {
 	    switchToAnswer();
 	} else if (activePlayer !== null &&
-		   key === 'q') {
+		   key === 'f') {
 	    takeJoker(activePlayer, 'fiftyfifty');
 	} else if (activePlayer !== null &&
-		   key === 'w') {
+		   key === 'z') {
 	    takeJoker(activePlayer, 'audience');
 	} else if (activePlayer !== null &&
-		   key === 'e') {
+		   key === 'p') {
 	    takeJoker(activePlayer, 'phone');
 	} else if (activePlayer !== null &&
 		   key === 'n') {
@@ -482,7 +483,7 @@ function switchToGame() {
 		   key === 'i') {
 	    takeJoker(activePlayer, 'irc');
 	} else if (activePlayer !== null &&
-		   key === 'f') {
+		   key === 's') {
 	    takeJoker(activePlayer, 'fwd');
 	    activePlayer = null;
 	}

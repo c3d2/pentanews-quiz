@@ -31,9 +31,9 @@ p {
 .name {
   color: #7f7f7f;
 }
-.score {
-  font-size: 66%;
-  color: #ccc;
+#players .score {
+  font-size: 88%;
+  color: #fff;
 }
 .active { 
   color: white;
@@ -41,14 +41,23 @@ p {
 }
 
 #tier { 
-  color: white;
+  color: #ddd;
   font-weight: bold;
   font-size: 150%;
+  font-familiy: sans-serif;
 }
 #question { 
   font-size: 250%;
   max-width: 20em;
   margin: 0 auto;
+}
+
+#question img {
+  display: inline;
+}
+
+#question p {
+	margin: 5px 40px 30px 40px;
 }
 
 #nedap .url {
@@ -68,30 +77,31 @@ p {
 
 #answers {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
 }
 #answers ul {
   margin: 0.5em 0.5em;
   text-align: center;
 }
-#answers ul li { 
+#answers ul li {
+  color: #ddd;
   width: 30%;
   padding: 0.1em 0.5em;
-  border: 0.2em solid #ccc;
-  border-radius: 1em;
+  border: 0.15em solid #ddd;
+  border-radius: 0.85em 0.85em 1em 1em;
 }
 
-.selected {
+#answers ul li.selected {
   background-color: #ff9600;
   color: black;
 }
-.right {
+#answers ul li.right {
   background-color: #06ff00;
   color: black;
 }
-.wrong {
-  background-color: #e01000;
+#answers ul li.wrong {
+  background-color: #ff0600;
   color: white;
 }
 
@@ -126,11 +136,17 @@ ul#tiers li.done {
   width: 20em;
   text-align: left;
   margin: 1em auto;
-  font-size: 200%;
+  font-size: 175%;
 }
 #scoreboard dl dd {
   margin-left: 4em;
+  margin-bottom: 0.65em;
 }
+#scoreboard dl dd .score {
+  font-size: 125%;
+  color: #fff;
+}
+
 #scoreboard dl dd img {
   margin-left: 0.5em;
 }
@@ -139,11 +155,11 @@ ul#tiers li.done {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 0.01em;
-  padding: 0.05em;
+  margin: 0.05em 0.2em;
+  padding: 0px;
   width: 1.6em;
-  border: 0.1em solid #ccc;
-  border-radius: 0.2em;
+  border: 0.1em solid #ddd;
+  border-radius: 0.25em 0.25em 0.35em 0.35em;
   font-weight: bold;
   font-size: 300%;
   text-align: center;
