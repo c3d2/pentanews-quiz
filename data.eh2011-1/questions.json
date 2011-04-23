@@ -51,7 +51,7 @@
 {
 	"tier": 100,
 		"text": "Wie sehen die Pentalobes (Spezialschrauben) aus, mit denen Apple im iPhone 4 Probiert die Nutzer am Öffnen zu hindern?",
-		"image": "fragenkatalog_klobs/iphoneschrauben/714_expl.jpg",
+		"image": "schrauben.jpg",
 		"answers": [
 		{
 			"text": "a"
@@ -544,7 +544,7 @@
   {
     "tier": 100,
     "text": "Was enthielt die Dose vor Euch, bevor sie liebevoll zu einem elektronischem Kunstwerk umgewandelt wurde",
-    "explanation": { "text": "Die Sosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker" },
+    "explanation": { "text": "Die Dosen enthielten Pfisichhälften - 9 Stück. Sie waren sehr lecker" },
     "answers": [
       { "text": "Oma's (sic!) orginal Erbsensuppe" },
       { "text": "SPAM Frühstücksfleisch. SPAM, SPAM, SPAM" },
@@ -554,9 +554,9 @@
   }
   {
     "tier": 100,
-    "text": "Wie heißt ein VPN-Projekt im Chaosumfeld?",
+    "text": "Wie heißt DAS VPN-Projekt im Chaosumfeld?",
     "answers": [
-      { "text": "connect23" },
+      { "text": "ccc-connect23" },
       { "text": "dn42", "right": true },
       { "text": "ix1337" },
       { "text": "We♥BGP" }
@@ -590,6 +590,37 @@
       { "text": "23.-26.6.2011", "right": true },
       { "text": "10.-14.8.2011" },
       { "text": "17.-21.8.2011" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie wird das geigercrowd.net Projekt implementiert?",
+    "answers": [
+      { "text": "Haskell" },
+      { "text": "Erlang" },
+      { "text": "Ruby on Rails", "right": true },
+      { "text": ".net" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welche der folgenden Hardcore-Pornoseiten bietet keine spezielle Version ihrer Seite für mobile Endgeräte ohne Flashplayer?",
+   "explanation": { "image": "xvideos.gif" },
+    "answers": [
+      { "text": "xvideos.com", "right": true },
+      { "text": "youporn.com" },
+      { "text": "xhamster.com" },
+      { "text": "videarn.com" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Was liegt vor, wenn man den Zensus 2011 boykottiert?",
+    "answers": [
+      { "text": "Eine Ordnungswidrigkeit", "right": true },
+      { "text": "Eine Straftat" },
+      { "text": "Vertragsbruch" },
+      { "text": "Kein juristisches Vergehen" }
     ]
   },
 ]
