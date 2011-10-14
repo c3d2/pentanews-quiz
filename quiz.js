@@ -189,6 +189,8 @@ function updateScores() {
             $('#players .player'+i+' .score').text(playerScores[i]);
             $('#scoreboard dt.p' + i).text(playerNames[i]);
             $('#players li.player'+i+' span.name').text(playerNames[i]);
+	    for(var joker in (playerJokers[i] || {}))
+		$('#scoreboard dd.p' + i).find('.' + joker).hide();
 	} else {
 	    $('#scoreboard dl dt.p' + i).hide();
 	    $('#scoreboard dl dd.p' + i).hide();
@@ -216,7 +218,6 @@ function takeJoker(activePlayer, joker) {
     playerJokers[activePlayer][joker] = true;
     saveGamestate();
     $('#tier').append('<img src="' + joker + '.png">');
-    $('#scoreboard dd.p' + activePlayer).find('.' + joker).remove();
 
     if (joker === 'fiftyfifty') {
 	var h1, h2, answers = questions[currentQuestion].answers;
