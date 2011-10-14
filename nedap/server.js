@@ -120,9 +120,9 @@ console.log({question:question,answers:answers})
 
 var server = Connect.createServer(
     Connect.logger(),
-    Connect.bodyDecoder(),
+    Connect.bodyParser(),
     Connect.router(nedap),
-    Connect.staticProvider(__dirname + '/static'),
+    Connect.static(__dirname + '/static'),
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
 );
 
