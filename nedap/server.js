@@ -126,8 +126,8 @@ var server = Connect.createServer(
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
 );
 
-new wss({ httpServer: server }).on('req', function(req) {
-    var conn = req.accept(null, req.origin);
+new wss({ httpServer: server }).on('request', function(req) {
+    var conn = req.accept(req.requestedProtocols[0], req.origin);
     var authed = false;
 
     conn.on('message', function(wsmsg) {

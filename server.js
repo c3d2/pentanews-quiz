@@ -13,31 +13,36 @@ var frontend;
 /* TODO: url */
 var nedap;
 function connectNedap() {
-    nedap = new wsc();
-    nedap.on('connect', function() {
+    var nedapClient = new wsc();
+    nedapClient.on('connect', function(conn) {
 	console.log('NEDAP opened');
+	nedap = conn;
 	nedap.sendUTF('nedap-kneemFothbedchoadHietEnobKavLub1');
+	nedap.on('close', function() {
+	    console.log('NEDAP closed');
+	    connectNedap();
+	});
+	nedap.on('error', function(e) {
+	    console.log('NEDAP error: ' + e.message);
+	    connectNedap();
+	});
+	nedap.on('message', function(wsmsg) {
+	    try {
+		var msg = JSON.parse(wsmsg.utf8Data);
+		console.log({ fromNedap: msg });
+		sendToFrontend({ nedap: msg });
+	    } catch (e) {
+		console.error(e.stack);
+	    }
+	});
     });
-    nedap.on('close', function() {
-	console.log('NEDAP closed');
-	connectNedap();
+    nedapClient.on('connectFailed', function(e) {
+	console.error(e.stack || e);
+	setTimeout(connectNedap, 1000);
     });
-    nedap.on('error', function(e) {
-	console.log('NEDAP error: ' + e.message);
-	connectNedap();
-    });
-    nedap.on('message', function(data) {
-	try {
-	    var msg = JSON.parse(data);
-	    console.log({ fromNedap: msg });
-	    sendToFrontend({ nedap: msg });
-	} catch (e) {
-	    console.error(e.stack);
-	}
-    });
-    nedap.connect('ws://localhost/', 'quiz-nedap');
+    nedapClient.connect('ws://spaceboyz.net:2342/', 'quiz-nedap');
 }
-//connectNedap();
+connectNedap();
 
 
 /*
