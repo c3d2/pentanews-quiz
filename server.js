@@ -104,6 +104,7 @@ buzz.on('button', function(key) {
 }
 
 function setAllLEDs(brightness) {
+return;
     for(var player = 0; player < 3; player++)
 	buzz.set_led(player, brightness);
 }
@@ -245,11 +246,14 @@ var server = Connect.createServer(
  * WebSocket server
  */
 
+var gamestate = {};
+
 new wss({ httpServer: server }).on('request', function(req) {
     var conn = req.accept(null, req.origin);
     frontend = conn;
 
     conn.on('message', function(wsmsg) {
+	console.log(wsmsg);
 	try {
 	    var msg = JSON.parse(wsmsg.utf8Data);
 	    if (msg.nedap) {
@@ -262,6 +266,10 @@ new wss({ httpServer: server }).on('request', function(req) {
 		buzz.set_led(msg.buzzerLED[0], msg.buzzerLED[1]);
 	    } else if (msg.morse) {
 		morse(msg.morse);
+	    } else if (msg.gamestate) {
+		gamestate = msg.gamestate;
+	    } else if (msg.requestGamestate) {
+		conn.sendUTF(JSON.stringify({ gamestate: gamestate }));
 	    }
 	} catch (e) {
 	    console.error(e.stack);

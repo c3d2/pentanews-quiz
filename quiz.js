@@ -19,6 +19,13 @@ $(window).bind('load', function() {
         $('#setup').show();
         $('#start').bind('click', function() {
             try {
+		for(var i = 0; i < 5; i++) {
+		    var name = $('#playername' + i).val();
+		    if (name) {
+			playerNames[i] = name;
+			playerScores[i] = 0;
+		    }
+		}
                 startQuiz();
             } catch (e) {
                 console.error(e.stack);
@@ -148,17 +155,7 @@ function startQuiz() {
         $('#tiers li').last().text(q.tier);
     });
 
-    for(i = 0; i < 5; i++) {
-        var name = $('#playername' + i).val();
-        if (name) {
-            playerNames[i] = name;
-            playerScores[i] = 0;
-            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"><img src="fwd.png" class="fwd"><img src="morse.png" class="morse"></dd>');
-            $('#scoreboard dl dt').last().text(name);
-            $('#players').append('<li class="player'+i+'"><span class="name"></span><span class="score">0</span></li>');
-            $('#players li.player'+i+' span.name').text(name);
-        }
-    }
+    updateScores();
 
     $('#setup').fadeOut(700, function() {
         switchToScoreboard();
@@ -186,11 +183,16 @@ function switchToScoreboard() {
 }
 
 function updateScores() {
-    for(var i = 0; i < playerNames.length; i++) {
+    for(var i = 0; i < 5; i++) {
         if (playerNames[i]) {
-	    // FIXME: eq(i) is bad when first player is empty
-	    $('#scoreboard dl dd').eq(i).find('.score').text(playerScores[i]);
+	    $('#scoreboard dl dd.p' + i).find('.score').text(playerScores[i]);
             $('#players .player'+i+' .score').text(playerScores[i]);
+            $('#scoreboard dt.p' + i).text(playerNames[i]);
+            $('#players li.player'+i+' span.name').text(playerNames[i]);
+	} else {
+	    $('#scoreboard dl dt.p' + i).hide();
+	    $('#scoreboard dl dd.p' + i).hide();
+	    $('#players .player' + i).hide();
 	}
     }
 }
@@ -200,7 +202,7 @@ function takeJoker(activePlayer, joker) {
 	// No active player
 	return;
 
-    if (!playerJokers.hasOwnProperty(activePlayer))
+    if (!playerJokers[activePlayer])
 	playerJokers[activePlayer] = {};
 
     if (playerJokers[activePlayer][joker])
@@ -212,8 +214,9 @@ function takeJoker(activePlayer, joker) {
     $('#irc').hide();
 
     playerJokers[activePlayer][joker] = true;
+    saveGamestate();
     $('#tier').append('<img src="' + joker + '.png">');
-    $('#scoreboard dd').eq(activePlayer).find('.' + joker).remove();
+    $('#scoreboard dd.p' + activePlayer).find('.' + joker).remove();
 
     if (joker === 'fiftyfifty') {
 	var h1, h2, answers = questions[currentQuestion].answers;
@@ -428,6 +431,7 @@ function switchToGame() {
 	    if (key === " ") {
 		// next question:
 		currentQuestion++;
+		saveGamestate();
 		$('#game').fadeOut(500, function() {
                     switchToScoreboard();
 		});
@@ -514,3 +518,33 @@ function switchToGame() {
     // Instantly show the question:
     $('#game').show();
 }
+
+/* State rescue */
+
+function saveGamestate() {
+    sendToBackend({ gamestate: {
+	currentQuestion: currentQuestion,
+	playerNames: playerNames,
+	playerJokers: playerJokers,
+	playerScores: playerScores
+    } });
+}
+
+function setGamestate(gamestate) {
+    currentQuestion = gamestate.currentQuestion;
+    playerNames = gamestate.playerNames;
+    playerJokers = gamestate.playerJokers;
+    playerScores = gamestate.playerScores;
+    startQuiz();
+}
+
+function requestGamestate() {
+    sendToBackend({ requestGamestate: true });
+}
+
+/* Set a default handler that will be overwritten once the game starts */
+onBackendMessage = function(msg) {
+    if (msg.hasOwnProperty('gamestate')) {
+	setGamestate(msg.gamestate);
+    }
+};
