@@ -1,5 +1,5 @@
 var Connect = require('connect');
-var wss = require('websocket-server');
+var wss = require('websocket').server;
 var ltx = require('ltx');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
@@ -44,7 +44,7 @@ var updateBackendTimeout;
 function updateBackend() {
     if (!updateBackendTimeout) {
 	updateBackendTimeout = setTimeout(function() {
-	    backend.send(JSON.stringify({ scores: scores }));
+	    backend.sendUTF(JSON.stringify({ scores: scores }));
 	    updateBackendTimeout = undefined;
 	}, 50);
     }
@@ -126,12 +126,13 @@ var server = Connect.createServer(
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
 );
 
-wss.createServer({ server: server }).on('connection', function(conn) {
+new wss({ httpServer: server }).on('req', function(req) {
+    var conn = req.accept(null, req.origin);
     var authed = false;
 
-    conn.on('message', function(data) {
+    conn.on('message', function(wsmsg) {
 	if (!authed) {
-	    if (data.toString() === WS_KEY) {
+	    if (wsmsg.utf8Data.toString() === WS_KEY) {
 		console.warn('Authorized WebSocket');
 		backend = conn;
 		authed = true;
@@ -147,7 +148,7 @@ wss.createServer({ server: server }).on('connection', function(conn) {
 	    }
 	} else {
 	    try {
-		var msg = JSON.parse(data);
+		var msg = JSON.parse(wsmsg.utf8Data);
 		console.log({msg: msg});
 		if (msg.joker) {
 		    question = msg.joker.question;

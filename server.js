@@ -1,6 +1,6 @@
 var Connect = require('connect');
-var wss = require('websocket-server');
-var wsc = require('websocket-client');
+var wss = require('websocket').server;
+var wsc = require('websocket').client;
 var irc = require('irc-js');
 
 var frontend;
@@ -13,20 +13,20 @@ var frontend;
 /* TODO: url */
 var nedap;
 function connectNedap() {
-    nedap = new wsc.WebSocket('ws://localhost/', 'quiz-nedap');
-    nedap.onopen = function() {
+    nedap = new wsc();
+    nedap.on('connect', function() {
 	console.log('NEDAP opened');
-	nedap.send('nedap-kneemFothbedchoadHietEnobKavLub1');
-    };
-    nedap.onclose = function() {
+	nedap.sendUTF('nedap-kneemFothbedchoadHietEnobKavLub1');
+    });
+    nedap.on('close', function() {
 	console.log('NEDAP closed');
 	connectNedap();
-    };
-    nedap.onerror = function(e) {
+    });
+    nedap.on('error', function(e) {
 	console.log('NEDAP error: ' + e.message);
 	connectNedap();
-    };
-    nedap.onmessage = function(data) {
+    });
+    nedap.on('message', function(data) {
 	try {
 	    var msg = JSON.parse(data);
 	    console.log({ fromNedap: msg });
@@ -34,7 +34,8 @@ function connectNedap() {
 	} catch (e) {
 	    console.error(e.stack);
 	}
-    };
+    });
+    nedap.connect('ws://localhost/', 'quiz-nedap');
 }
 connectNedap();
 
@@ -124,16 +125,17 @@ var server = Connect.createServer(
  * WebSocket server
  */
 
-wss.createServer({ server: server }).on('connection', function(conn) {
+new wss({ httpServer: server }).on('request', function(req) {
+    var conn = req.accept(null, req.origin);
     frontend = conn;
 
-    conn.on('message', function(data) {
-	console.log({data:data});
+    conn.on('message', function(wsmsg) {
 	try {
-	    var msg = JSON.parse(data);
+	    var msg = JSON.parse(wsmsg.utf8Data);
 	    if (msg.nedap) {
 		console.log({ toNedap: msg.nedap });
-		nedap.send(JSON.stringify(msg.nedap));
+		if (nedap)
+		    nedap.sendUTF(JSON.stringify(msg.nedap));
 	    } else if (msg.irc === "activate") {
 		pushIrcInfo();
 	    } else if (msg.buzzerLED) {
@@ -155,7 +157,7 @@ function sendToFrontend(obj) {
     if (!frontend)
 	return;
 
-    frontend.send(JSON.stringify(obj));
+    frontend.sendUTF(JSON.stringify(obj));
 }
 
 server.listen(8081);
