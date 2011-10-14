@@ -44,7 +44,8 @@ var updateBackendTimeout;
 function updateBackend() {
     if (!updateBackendTimeout) {
 	updateBackendTimeout = setTimeout(function() {
-	    backend.sendUTF(JSON.stringify({ scores: scores }));
+	    if (backend)
+		backend.sendUTF(JSON.stringify({ scores: scores }));
 	    updateBackendTimeout = undefined;
 	}, 50);
     }
