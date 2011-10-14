@@ -169,4 +169,4 @@ new wss({ httpServer: server }).on('req', function(req) {
     });
 });
 
-server.listen(80, '::');
+server.listen(2342, '::');
