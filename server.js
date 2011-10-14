@@ -72,7 +72,7 @@ chat.addListener('privmsg', function(msg) {
     var sText = "", i;
     for(i = 0; i < text.length; i++) {
 	if (text.charCodeAt(i) >= 32)
-	    sText += text.charAt(i);
+	    sText += text[i];
     }
 
     if (nick && channel === IRC_CHAN && sText && frontend) {
