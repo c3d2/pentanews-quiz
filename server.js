@@ -100,16 +100,13 @@ function pushIrcInfo() {
 /*
  * Buttons
  */
-if (false){
 var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
 buzz.on('button', function(key) {
     console.log({button:key});
     sendToFrontend({ buzzer: key });
 });
-}
 
 function setAllLEDs(brightness) {
-return;
     for(var player = 0; player < 3; player++)
 	buzz.set_led(player, brightness);
 }
