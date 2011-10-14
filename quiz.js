@@ -137,6 +137,7 @@ var TIMER_ANSWER = 90;
 var timer = new Timer();
 
 var playerNames = [], playerScores = [], playerJokers = [];
+console.log('playerNames', playerNames);
 
 function startQuiz() {
     var i;
@@ -152,7 +153,7 @@ function startQuiz() {
         if (name) {
             playerNames[i] = name;
             playerScores[i] = 0;
-            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"><img src="fwd.png" class="fwd"></dd>');
+            $('#scoreboard dl').append('<dt></dt><dd><span class="score">0</span><img src="fiftyfifty.png" class="fiftyfifty"><img src="nedap.png" class="nedap"><img src="irc.png" class="irc"><img src="fwd.png" class="fwd"><img src="morse.png" class="morse"></dd>');
             $('#scoreboard dl dt').last().text(name);
             $('#players').append('<li class="player'+i+'"><span class="name"></span><span class="score">0</span></li>');
             $('#players li.player'+i+' span.name').text(name);
@@ -307,6 +308,15 @@ function takeJoker(activePlayer, joker) {
 	};
 	$('#irc ul').empty();
 	$('#irc').slideDown(500);
+    }
+    if (joker === 'morse') {
+	var morseText = "";
+	questions[currentQuestion].answers.forEach(function(answer) {
+            if (answer.right === true &&
+		(!morseText || Math.random() > 0.5))
+		morseText = answer.text;
+        });
+	sendToBackend({ morse: morseText });
     }
 }
 
@@ -488,6 +498,9 @@ function switchToGame() {
 		   key === 's') {
 	    takeJoker(activePlayer, 'fwd');
 	    activePlayer = null;
+	} else if (activePlayer !== null &&
+		   key === 'm') {
+	    takeJoker(activePlayer, 'morse');
 	}
     };
 

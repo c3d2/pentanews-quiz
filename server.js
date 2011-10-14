@@ -37,7 +37,7 @@ function connectNedap() {
     });
     nedap.connect('ws://localhost/', 'quiz-nedap');
 }
-connectNedap();
+//connectNedap();
 
 
 /*
@@ -95,11 +95,131 @@ function pushIrcInfo() {
 /*
  * Buttons
  */
+if (false){
 var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
 buzz.on('button', function(key) {
     console.log({button:key});
     sendToFrontend({ buzzer: key });
 });
+}
+
+function setAllLEDs(brightness) {
+    for(var player = 0; player < 3; player++)
+	buzz.set_led(player, brightness);
+}
+
+var MORSE_ALPHABET = {
+    "A":	". -",
+    "B":	"- . . .",
+    "C":	"- . - .",
+    "D":	"- . .",
+    "E":	".",
+    "F":	". . - .",
+    "G":	"- - .",
+    "H":	". . . .",
+    "I":	". .",
+    "J":	". - - -",
+    "K":	"- . -",
+    "L":	". - . .",
+    "M":	"- -",
+    "N":	"- .",
+    "O":	"- - -",
+    "P":	". - - .",
+    "Q":	"- - . -",
+    "R":	". - .",
+    "S":	". . .",
+    "T":	"-",
+    "U":	". . -",
+    "V":	". . . -",
+    "W":	". - -",
+    "X":	"- . . -",
+    "Y":	"- . - -",
+    "Z":	"- - . .",
+    "0":	"- - - - -",
+    "1":	". - - - -",
+    "2":	". . - - -",
+    "3":	". . . - -",
+    "4":	". . . . -",
+    "5":	". . . . .",
+    "6":	"- . . . .",
+    "7":	"- - . . .",
+    "8":	"- - - . .",
+    "9":	"- - - - .",
+    "À":	". - - . -",
+    "Å":	". - - . -",
+    "Ä":	". - . -",
+    "È":	". - . . -",
+    "É":	". . - . .",
+    "Ö":	"- - - .",
+    "Ü":	". . - -",
+    "ß":	". . . - - . .",
+    "CH":	"- - - -",
+    "Ñ":	"- - . - -",
+    ".":	". - . - . -",
+    ",":	"- - . . - -",
+    ":":	"- - - . . .",
+    ";":	"- . - . - .",
+    "?":	". . - - . .",
+    "-":	"- . . . . -",
+    "_":	". . - - . -",
+    "(":	"- . - - .",
+    ")":	"- . - - . -",
+    "'":	". - - - - .",
+    "=":	"- . . . -",
+    "+":	". - . - .",
+    "/":	"- . . - .",
+    "@":	". - - . - ."
+};
+
+var DIT_LENGTH = 240;
+var DAH_LENGTH = 3 * DIT_LENGTH;
+var PAUSE_LENGTH = DIT_LENGTH;
+
+var CHARACTER_PAUSE_LENGTH = 3;
+var WORD_PAUSE_LENGTH = 7;
+
+function morse(text) {
+    /* Assemble sequence */
+    var sequence = '';
+    for(var i = 0; i < text.length; i++) {
+	var symbols;
+	if (text[i] === " ")
+	    for(var j = 0; j < WORD_PAUSE_LENGTH; j++)
+		sequence += " ";
+	else if ((symbols = MORSE_ALPHABET[text[i].toLocaleUpperCase()])) {
+	    sequence += symbols;
+	    for(j = 0; j < CHARACTER_PAUSE_LENGTH; j++)
+		sequence += " ";
+	}
+    }
+    sequence += " ";  /* clear led at end */
+
+    console.log("morse", text, sequence);
+
+    /* Play */
+    var playSequence = function() {
+	console.log("playSequence", sequence[0])
+	var delay;
+	switch(sequence[0]) {
+	case ".":
+	    setAllLEDs(1);
+	    delay = DIT_LENGTH;
+	    break;
+	case "-":
+	    setAllLEDs(1);
+	    delay = DAH_LENGTH;
+	    break;
+	case " ":
+	    setAllLEDs(0);
+	    delay = PAUSE_LENGTH;
+	    break;
+	}
+	sequence = sequence.substr(1);
+	if (sequence && delay)
+	    setTimeout(playSequence, delay);
+    };
+    playSequence();
+}
 
 /*
  * Web server
@@ -140,6 +260,8 @@ new wss({ httpServer: server }).on('request', function(req) {
 		pushIrcInfo();
 	    } else if (msg.buzzerLED) {
 		buzz.set_led(msg.buzzerLED[0], msg.buzzerLED[1]);
+	    } else if (msg.morse) {
+		morse(msg.morse);
 	    }
 	} catch (e) {
 	    console.error(e.stack);
@@ -161,3 +283,5 @@ function sendToFrontend(obj) {
 }
 
 server.listen(8081);
+
+morse("c3d2");
