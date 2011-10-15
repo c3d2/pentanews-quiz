@@ -1,13 +1,14 @@
 [
   {
     "tier": 100, 
-    "text": "Which company did not pay MS for Android/Linux?", 
+    "text": "Welche Firma muss keine Kohle an M$ abdrücken, wenn sie Hardware mit Linux verkauft?", 
     "answers": [
       {
         "text": "HTC"
       }, 
       {
         "text": "Motorola", 
+		"explanation": { "image": "data.ds2011-3/motorola.jpg" },
         "right": true
       }, 
       {
@@ -20,7 +21,7 @@
   }, 
   {
     "tier": 150, 
-    "text": "What made Win not vulnerable/exploitable in 2011?", 
+    "text": "Welche der folgenden war KEINE Ursache, um das Windows-Betriebssystem anzugreifen?", 
     "answers": [
       {
         "text": "TXT file"
@@ -33,32 +34,34 @@
       }, 
       {
         "text": "Power Button", 
+		"explanation": { "image": "data.ds2011-3/power.jpg" },
         "right": true
       }
     ]
   }, 
   {
     "tier": 225, 
-    "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
+    "text": "Warum sind beim Pukkelpop-Festival in Belgien ein Menschen gestorben?", 
     "answers": [
       {
         "text": "Wind"
       }, 
       {
-        "text": "Rain"
+        "text": "Regen"
       }, 
       {
-        "text": "File sharing", 
+        "text": "Tauschbörsen", 
+		"explanation": { "image": "data.ds2011-3/bittorrent.jpeg" },
         "right": true
       }, 
       {
-        "text": "St\u00fcmperei"
+        "text": "Stümperei"
       }
     ]
   }, 
   {
     "tier": 337, 
-    "text": "Aus wie vielen Geschlechtern kann man in Australien w\u00e4hlen um das im Pass eintragen zu lassen?", 
+    "text": "Aus wie vielen Geschlechtern kann man in Australien wählen um das im Pass eintragen zu lassen?", 
     "answers": [
       {
         "text": "0"
@@ -77,26 +80,27 @@
   }, 
   {
     "tier": 506, 
-    "text": "Which country does not have a net neutrality law?", 
+    "text": "Welches der folgenden Länder hat kein Gesetz zur Netzneutralität?", 
     "answers": [
       {
-        "text": "Belgium"
+        "text": "Belgien"
       }, 
       {
-        "text": "Netherlands"
+        "text": "Die Niederlande"
       }, 
       {
         "text": "Chile"
       }, 
       {
         "text": "USA", 
+		"explanation": { "image": "data.ds2011-3/usa.jpeg" },
         "right": true
       }
     ]
   }, 
   {
     "tier": 759, 
-    "text": "How many percent of all US Americans are employed by the Department of Defense?", 
+    "text": "Wie viel Prozent aller US-Amerikaner sind im Verteidigungsministerium angestellt?", 
     "answers": [
       {
         "text": "0.1"
@@ -106,6 +110,7 @@
       }, 
       {
         "text": "1", 
+		"explanation": { "text": "3.114.846 Menschen" },
         "right": true
       }, 
       {
@@ -115,7 +120,7 @@
   }, 
   {
     "tier": 1139, 
-    "text": "What is the gain in round trip time by the new $300 EU-US cable (Erstes in 10 Jahren)?", 
+    "text": "Welchen Gewinn bei der Round-Trip-Zeit konnte durch das neue EU-US Kabel erzielt werden?", 
     "answers": [
       {
         "text": "6s"
@@ -128,6 +133,7 @@
       }, 
       {
         "text": "0.006s", 
+		"explanation": "data.ds2011-3/cable africa.jpg",
         "right": true
       }
     ]
@@ -144,6 +150,7 @@
       }, 
       {
         "text": "Cure-Gay", 
+		"explanation": "ds2011-3/takei.jpg",
         "right": true
       }, 
       {
@@ -153,36 +160,37 @@
   }, 
   {
     "tier": 2563, 
-    "text": "Why does SPD Sebastian Edathy wants the data retention law?", 
+    "text": "Warum möchte SPD Politiker Sebastian Edathy Vorratsdatenspeicherung?", 
     "answers": [
       {
-        "text": "Catch terrorists"
+        "text": "Terroristen fangen"
       }, 
       {
-        "text": "Catch file sharers"
+        "text": "Tauschbörsennutzer fangen"
       }, 
       {
-        "text": "protect democracy"
+        "text": "Demokratie schützen"
       }, 
       {
-        "text": "find out who sent him that plastic pussy", 
+        "text": "Um herauszufinden, wer ihm Plastikmuschis zuschickt", 
+		"explanation": "data.ds2011-3/fleshlight.jpg",
         "right": true
       }
     ]
   }, 
   {
     "tier": 3844, 
-    "text": "What was not patented to our knowledge?", 
+    "text": "Was ist vermutlich noch nicht patentiert? (Also nicht, dass wir davon wüssten)", 
     "answers": [
       {
-        "text": "Snowman", 
+        "text": "Schneemann", 
         "right": true
       }, 
       {
-        "text": "Snowball"
+        "text": "Schneeball"
       }, 
       {
-        "text": "Patenting"
+        "text": "Patentieren"
       }, 
       {
         "text": "Geotracking"
