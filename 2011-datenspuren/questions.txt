@@ -1,3 +1,67 @@
+1. Frage nach tödlichen Milli-Sivert
+2. Wo begann der arabische Frühling?
+* Tunesien
+* Algerien
+* Ägypten
+* Libyen
+(Auflösung: Infografik)
+3. Welche SSL-CA wurde vom Iran 2011 für *.gmail.com genutzt?
+* Komodo
+* DigiNotar
+* Equifax
+* Verisign
+4. Wann war IPv6-Day?
+hatten wir schon das letzte mal
+5. Wann hat das JOIN-Projekt (3ffe::/16) den Dienst eingestellt?
+* 06.06.2006
+6. Wie war das Motto der Datenspuren 2010?
+* Mind the gap?
+* Heiter bis wolkig
+* Hands off, privacy on
+* Privatsphäre war gestern
+7. Wie werden die Nutzer in Facebooks Datenbank genannt?
++ Targets
+* Victims
+* Hostage
+* Product
+8. Wie heißt der urheberrechtsverletzende Politiker der 2-Strikes vorschlägt?
+* Volker Kauder
++ Siegfried Kauder
+* Welsch Kauder
+* Dieter Kauder
+9. Wie heißt die neueste Attacke gegen SSL?
++ BEAST
+* UNIQHORN
+* MONSTER
+* DEAR
+10. Welcher Smartphone-Hersteller muß M$ Kohle abdrücken, auch wenn er ein Nicht-Windows-OS auf seinen Geräten shippt?
+? Samsung
+* Siemens
++ HTC
+* RIM (Blackberry)
+11. Wozu führen rechtsweglose Zensurabmahnungen (in Italien)?
++ Schließung der Wikipedia
+* Kinderporno -250%
+* Ausschreitungen verhindern
+* Anonymous behindern
+12. Mit wie vielen Sitzen zogen bei der Wahl des Abgeordnetenhauses 2011 in Berlin die Piraten-Partei ins Parlament ein?
+* 9
+* 1,8
+* 18
++ 15
+13. Was sollte die EU nach der Atomkatastrophe in Japan machen, um den Japanern zu helfen?
++ Klammheimlich die Strahlungsgrenzwerte für eingeführte Lebensmittel erhöhen
+* Kostenfreie Lebensmittelhilfslieferungen aus der EU nach Japan
+* Keine weiteren Lebensmittel mehr aus Japan in die EU einführen
+* Welche Atomkatastrophe?
+14. Wie viele Verbindungsdatensätze wurden druch die Polizei während der Anti-Nazi Demonstrationen im Februar 2011 in Dresden abgefragt?
+* ca 12
+* ca. 100
+* ca. 5.000
++ Mehr als 1.000.000
+
+
+
 What did Google require to hand over e-mail data of Jacob Applebaum from authorities?;nothing;Gerichtsbeschluss;denied it;said he has no account;1;
 1422; Google Hands Wikileaks Volunteer's Gmail Data to U.S. Government; http://pentamedia.c3d2.de/submit/2011/10/11/googlehandswikileaksvolunteersgmaildatat/; http://pentamedia.c3d2.de/page_shots/2011/10/11/googlehandswikileaksvolunteersgmaildatat.png
 
