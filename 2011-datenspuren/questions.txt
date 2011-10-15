@@ -1,195 +1,53 @@
-1. Frage nach tödlichen Milli-Sivert
-2. Wo begann der arabische Frühling?
-* Tunesien
-* Algerien
-* Ägypten
-* Libyen
-(Auflösung: Infografik)
-3. Welche SSL-CA wurde vom Iran 2011 für *.gmail.com genutzt?
-* Komodo
-* DigiNotar
-* Equifax
-* Verisign
-4. Wann war IPv6-Day?
-hatten wir schon das letzte mal
-5. Wann hat das JOIN-Projekt (3ffe::/16) den Dienst eingestellt?
-* 06.06.2006
-6. Wie war das Motto der Datenspuren 2010?
-* Mind the gap?
-* Heiter bis wolkig
-* Hands off, privacy on
-* Privatsphäre war gestern
-7. Wie werden die Nutzer in Facebooks Datenbank genannt?
-+ Targets
-* Victims
-* Hostage
-* Product
-8. Wie heißt der urheberrechtsverletzende Politiker der 2-Strikes vorschlägt?
-* Volker Kauder
-+ Siegfried Kauder
-* Welsch Kauder
-* Dieter Kauder
-9. Wie heißt die neueste Attacke gegen SSL?
-+ BEAST
-* UNIQHORN
-* MONSTER
-* DEAR
-10. Welcher Smartphone-Hersteller muß M$ Kohle abdrücken, auch wenn er ein Nicht-Windows-OS auf seinen Geräten shippt?
-? Samsung
-* Siemens
-+ HTC
-* RIM (Blackberry)
-11. Wozu führen rechtsweglose Zensurabmahnungen (in Italien)?
-+ Schließung der Wikipedia
-* Kinderporno -250%
-* Ausschreitungen verhindern
-* Anonymous behindern
-12. Mit wie vielen Sitzen zogen bei der Wahl des Abgeordnetenhauses 2011 in Berlin die Piraten-Partei ins Parlament ein?
-* 9
-* 1,8
-* 18
-+ 15
-13. Was sollte die EU nach der Atomkatastrophe in Japan machen, um den Japanern zu helfen?
-+ Klammheimlich die Strahlungsgrenzwerte für eingeführte Lebensmittel erhöhen
-* Kostenfreie Lebensmittelhilfslieferungen aus der EU nach Japan
-* Keine weiteren Lebensmittel mehr aus Japan in die EU einführen
-* Welche Atomkatastrophe?
-14. Wie viele Verbindungsdatensätze wurden druch die Polizei während der Anti-Nazi Demonstrationen im Februar 2011 in Dresden abgefragt?
-* ca 12
-* ca. 100
-* ca. 5.000
-+ Mehr als 1.000.000
-
-
-
-What did Google require to hand over e-mail data of Jacob Applebaum from authorities?;nothing;Gerichtsbeschluss;denied it;said he has no account;1;
-1422; Google Hands Wikileaks Volunteer's Gmail Data to U.S. Government; http://pentamedia.c3d2.de/submit/2011/10/11/googlehandswikileaksvolunteersgmaildatat/; http://pentamedia.c3d2.de/page_shots/2011/10/11/googlehandswikileaksvolunteersgmaildatat.png
-
-Where are among other places mifare cards used that got just hacked?;NASA;NSA;Israeli Intelligence;Bundestag;1;
-1420; Those high-security swipe cards that secure your front door may be no good | ITworld; http://pentamedia.c3d2.de/submit/2011/10/10/thosehigh-securityswipecardsthatsecureyourf/; http://pentamedia.c3d2.de/page_shots/2011/10/10/thosehigh-securityswipecardsthatsecureyourf.png
-
-What detail the FIXME software doesn't take into account to compute potential criminals?;Ethnics;Body;Abstammung FIXME;Hair colour;4
-1418; gulli.com - news - view - Software berechnet mogliche Straftater durch ethnische und korperliche Merkmale; http://pentamedia.c3d2.de/submit/2011/10/10/gullicom-news-view-softwareberechnetmogli/; http://pentamedia.c3d2.de/page_shots/2011/10/10/gullicom-news-view-softwareberechnetmogli.png
-
-Who controls american drones in Afghanistan part time?;Virueses;Chinese Hackers;NSA;Operators;1
-1412; Amerikanische Drohnen Predator & Reaper sind virenverseucht; http://pentamedia.c3d2.de/submit/2011/10/08/amerikanischedrohnenpredatorreapersindviren/; http://pentamedia.c3d2.de/page_shots/2011/10/08/amerikanischedrohnenpredatorreapersindviren.png
-
-1408; AMEX Full Disclosure; http://pentamedia.c3d2.de/submit/2011/10/06/amexfulldisclosure/; http://pentamedia.c3d2.de/page_shots/2011/10/06/amexfulldisclosure.png
-
-How compatible is Libre Office w/ MS Office?;It can run it's virueses;It can import MS Word;It has the same UI;FIXME;1
-1407; heise online - LibreOffice anfallig fur trojanische Word-Dateien; http://pentamedia.c3d2.de/submit/2011/10/06/heiseonline-libreofficeanfalligfurtrojanisch/; http://pentamedia.c3d2.de/page_shots/2011/10/06/heiseonline-libreofficeanfalligfurtrojanisch.png
-
-
-1405; Australien, Japan, Kanada, Korea, Marokko, Neuseeland, Singapur und USA haben ACTA schon unterzeichnet; http://pentamedia.c3d2.de/submit/2011/10/05/australienjapankanadakoreamarokkoneuseel/; http://pentamedia.c3d2.de/page_shots/2011/10/05/australienjapankanadakoreamarokkoneuseel.png
-
-What was a new feature of the iPhone photo app concerning African girls?;grant 'em money;support FIXME Brunnenbau;Beschneidung;FIXME;4
-1403; Apple demonstriert "Beschneiden"-Funktion mit afrikanischem Madchen; http://pentamedia.c3d2.de/submit/2011/10/04/appledemonstriertbeschneiden-funktionmitafri/; http://pentamedia.c3d2.de/page_shots/2011/10/04/appledemonstriertbeschneiden-funktionmitafri.png
-
-
-1401; United States Patent Application: 0110231240; http://pentamedia.c3d2.de/submit/2011/10/03/unitedstatespatentapplication0110231240/; http://pentamedia.c3d2.de/page_shots/2011/10/03/no_page_shot.png
-
-How much money makes MS by patent bribing Android manufactures a year?;1 billion USD; 100 million USD; 500 million USD; 500 million;3;
-1399; heise online - Bericht: Microsoft verdient knapp eine halbe Milliarde an Android; http://pentamedia.c3d2.de/submit/2011/09/30/heiseonline-berichtmicrosoftverdientknappe/; http://pentamedia.c3d2.de/page_shots/2011/09/30/heiseonline-berichtmicrosoftverdientknappe.png
-
-Why did the Musikpiraten sue GEMA?;They charged them?;They thing it's unlauter FIXME
-1398; Musikpiraten e.V. pruft Strafanzeige gegen GEMA | musik.klarmachen-zum-aendern.de; http://pentamedia.c3d2.de/submit/2011/09/29/musikpiratenevpruftstrafanzeigegegengema/; http://pentamedia.c3d2.de/page_shots/2011/09/29/musikpiratenevpruftstrafanzeigegegengema.png
-
+Round;0
+Wie war das Motto der Datenspuren 2010?;Mind the gap?;Heiter bis wolkig;Hands off, privacy on;Privatsphäre war gestern;1;
+Wie werden die Nutzer in Facebooks Datenbank genannt?;Hostage;Victims;Target;Product;3;
+Wie heißt der urheberrechtsverletzende Politiker der 2-Strikes vorschlägt?;Volker Kauder;Siegfried Kauder;Welsch Kauder;Dieter Kauder;2;
+Wozu führen rechtsweglose Zensurabmahnungen (in Italien)?;Schließung der Wikipedia;Kinderporno -250%;Berlusconi im Amt fest tackern;Anonymous
+behindern;1;
+Wie viele Verbindungsdatensätze wurden druch die Polizei während der Anti-Nazi Demonstrationen im Februar 2011 in Dresden abgefragt?;ca 12;ca. 100;ca. 5.000;mehr als 1.000.000;4;
+Was verlangte Google als es die Maildaten von Jacob Applebaum ausgeliefert hat?;Nichts;Gerichtsbeschluss;hat dagegen geklagt;Sagte, er hat hier keinen Account;1;
+Where are among other places mifare cards used that got just hacked?;NASA;NSA;Mossad HQ;Bundestag;1;
+What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
+Who controls american drones in Afghanistan part time?;Virueses;Chinese Hackers;NSA;Operators;1;
+Wie kompatibel ist Libre Office zu MS Office?;It can run it's virueses;It can import MS Word;It has the same UI;Hat das selbe Plugin-API;1;
+Welches Land hat ACTA noch nicht unterzeichnet?;Australien;Japan;Kanada;Deutschland;4;
+Mit welchen Feature hat Apple die iPhone Fotoapp beworben in Bezug auf afrikanische Mädchen?;grant 'em money;Gesichtserkennung;Beschneidung;Farbkorrektur;3;
+How much money makes MS by patent bribing Android manufactures a year?;1 Mrd USD; 100 Mio USD; 500 Mio USD; 50 Mio;3;
+Warum prüfen die Musikpiraten die GEMA zu verklagen?;wollen Geld für freie Musik;wollen Geld für Samples;Veröffentlichungsverbot von CC Musik;Video auf Youtube gesperrt;1;
 Which company makes S/W that could be rebooted by a IPv6 ping in 2011?;Microsoft;Linux;DigiTaks;Cisco;4;
-1397; Cisco Security Advisory: Cisco IOS Software IPv6 over MPLS Vulnerabilities; http://pentamedia.c3d2.de/submit/2011/09/29/ciscosecurityadvisoryciscoiossoftwareipv6o/; http://pentamedia.c3d2.de/page_shots/2011/09/29/ciscosecurityadvisoryciscoiossoftwareipv6o.png
-
-What does Facebook when you click log out?;del session cookies;del some session cookies;clears browser cache;black lists user;2;
-1396; Wie Facebook den Logout simuliert.  Von Fabian Ordelmans  netzpolitik.org; http://pentamedia.c3d2.de/submit/2011/09/27/wiefacebookdenlogoutsimuliertvonfabianor/; http://pentamedia.c3d2.de/page_shots/2011/09/27/wiefacebookdenlogoutsimuliertvonfabianor.png
-
-
-1393; Siegfried Kauder (CDU) will Three-Strikes; http://pentamedia.c3d2.de/submit/2011/09/26/siegfriedkaudercduwillthree-strikes/; http://pentamedia.c3d2.de/page_shots/2011/09/26/siegfriedkaudercduwillthree-strikes.png
-
+Was macht Facebook wenn man sich ausloggt?;del session cookies;del some session cookies;clears browser cache;black lists user;2;
 How treats the CIA the Earth climate change?;denies it;lies about it;makes it a secret;tries to save the planet;3;
-1391; At CIA, Climate Change is a Secret | Secrecy News; http://pentamedia.c3d2.de/submit/2011/09/26/atciaclimatechangeisasecretsecrecynews/; http://pentamedia.c3d2.de/page_shots/2011/09/26/atciaclimatechangeisasecretsecrecynews.png
-
-How much former PC manufacturer HP spend on CEO FIXME Abfindung since 2005 in mio USD?;10; 5; 80; 50;3;
-1388; Internet Evolution - Robert McGarvey - HP's Tab for Fired CEOs Tops $80M; http://pentamedia.c3d2.de/submit/2011/09/26/internetevolution-robertmcgarvey-hpstabfo/; http://pentamedia.c3d2.de/page_shots/2011/09/26/internetevolution-robertmcgarvey-hpstabfo.png
-
-
-1387; FACT CHECK: SCADA Systems Are Online Now; http://pentamedia.c3d2.de/submit/2011/09/26/factcheckscadasystemsareonlinenow/; http://pentamedia.c3d2.de/page_shots/2011/09/26/factcheckscadasystemsareonlinenow.png
-
-What organisation is S. Kauder (Vorsitzender des Rechtsausschusses) also head of? He demands 2-strikes;reporters without borders;FIXME musik;UN kids;
-Humanistische Union;2; 1383; gulli.com - news - view - Bundestag: Vorsitzender des Rechtsausschusses will Gesetzentwurf fur 2-Strikes; http://pentamedia.c3d2.de/submit/2011/09/26/gullicom-news-view-bundestagvorsitzender/; http://pentamedia.c3d2.de/page_shots/2011/09/26/gullicom-news-view-bundestagvorsitzender.png
-
-What organisation did the former MS exec FIXME lead after he left MS?;BSA;Nokia;SCADA org;Lobby;4 FIXME
-1374;  Microsoft exec leaving to lead new IP rights advocacy group, with Microsoft's support - GeekWire; http://pentamedia.c3d2.de/submit/2011/09/21/microsoftexecleavingtoleadnewiprightsadvo/; http://pentamedia.c3d2.de/page_shots/2011/09/21/microsoftexecleavingtoleadnewiprightsadvo.png
-
+Wie viel hat der vormalige PC Hersteller HP für CEO Abfindungen seit 2005 gezehlt? In Mio USD;10;5;80;50;3;
+Welches Protokoll diente zur SCADA Triebwerksteuerungsbeeinflussung einer Boing 747?;SSH;SSL;Propritär;Telnet;4;
+What organisation did the former MS exec Pamela Passman lead after she left MS?;BSA;Nokia;SCADA org;Lobby;4;
 Which company did not pay MS for Android/Linux?;HTC;Motorola;Samsung;Casio;2;
-1373; Casio zahlt Linux Ablasssteuer an MS; http://pentamedia.c3d2.de/submit/2011/09/21/casiozahltlinuxablasssteueranms/; http://pentamedia.c3d2.de/page_shots/2011/09/21/casiozahltlinuxablasssteueranms.png
-
-What made Win not vulnerable/exploitable in 2011?;TXT file;Ping;Flash;FIXME
-1367; Windows durch Offnen von .txt-Dateien verwundbar; http://pentamedia.c3d2.de/submit/2011/09/17/windowsdurchoffnenvontxt-dateienverwundbar/; http://pentamedia.c3d2.de/page_shots/2011/09/17/windowsdurchoffnenvontxt-dateienverwundbar.png
-
-What was the reason for human loss at music festival in Belgium according to FIXME?;Wind;Rain;File sharing;Power outage;3;
-1364; 'Illegale Downloads schuld an todlichem Festivaldrama' | Netzwelt | Dnews.de | Nachrichten auf einen Blick; http://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/; http://pentamedia.c3d2.de/page_shots/2011/09/16/illegaledownloadsschuldantoumldlichemfesti.png
-
-
-1362; 	Zero day industrial control system exploits published - Hackers - SC Magazine Australia - Secure Business Intelligence; http://pentamedia.c3d2.de/submit/2011/09/15/zerodayindustrialcontrolsystemexploitspub/; http://pentamedia.c3d2.de/page_shots/2011/09/15/zerodayindustrialcontrolsystemexploitspub.png
-
-1359; danah boyd: Guilt Through Algorithmic Association; http://pentamedia.c3d2.de/submit/2011/09/15/danahboydguiltthroughalgorithmicassociation/; http://pentamedia.c3d2.de/page_shots/2011/09/15/danahboydguiltthroughalgorithmicassociation.png
-
-1358; New Jersey e-voting coverup; http://pentamedia.c3d2.de/submit/2011/09/15/newjerseye-votingcoverup/; http://pentamedia.c3d2.de/page_shots/2011/09/15/newjerseye-votingcoverup.png
-
-1356; Third gender option added to Australian passports; http://pentamedia.c3d2.de/submit/2011/09/15/thirdgenderoptionaddedtoaustralianpassports/; http://pentamedia.c3d2.de/page_shots/2011/09/15/thirdgenderoptionaddedtoaustralianpassports.png
-
+What made Win not vulnerable/exploitable in 2011?;TXT file;Ping;Flash;Power Button;4;
+What was the reason for human loss at Pukkelpop music festival in Belgium?;Wind;Rain;File sharing;Stümperei;3;
+Aus wie vielen Geschlechtern kann man in Australien wählen um das im Pass eintragen zu lassen?;0;1;2;3;4;
 Which country does not have a net neutrality law?;Belgium;Netherlands;Chile;USA;4;
-1354; Nach Chile & NL soll Belgien drittes Land mit gesetzlicher Netzneutralitat werden; http://pentamedia.c3d2.de/submit/2011/09/14/nachchilenlsollbelgiendritteslandmitgese/; http://pentamedia.c3d2.de/page_shots/2011/09/14/nachchilenlsollbelgiendritteslandmitgese.png
-
 How many percent of all US Americans are employed by the Department of Defense?;0.1;0.5;1;5;3;
-1353; Department of Defense employs 1 percent of Americans - BlogPost - The Washington Post; http://pentamedia.c3d2.de/submit/2011/09/14/departmentofdefenseemploys1percentofamerica/; http://pentamedia.c3d2.de/page_shots/2011/09/14/departmentofdefenseemploys1percentofamerica.png
-
-What is the gain in round trip time by the new $300 EU-US cable?;6s;0.6s;0.06s;0.006s;4;
-1350; The $300m cable that will save traders milliseconds - Telegraph; http://pentamedia.c3d2.de/submit/2011/09/13/the300mcablethatwillsavetradersmillisecond/; http://pentamedia.c3d2.de/page_shots/2011/09/13/the300mcablethatwillsavetradersmillisecond.png
-
-
-1349; Phone Story - iPhone game by Molleindustria; http://pentamedia.c3d2.de/submit/2011/09/13/phonestory-iphonegamebymolleindustria/; http://pentamedia.c3d2.de/page_shots/2011/09/13/phonestory-iphonegamebymolleindustria.png
-
-Why does Sebastian Edathy wants the data retention law?;Catch terrorists;Catch file sharers;protect democracy;find out who sent him that plastic pussy;4;
-1348; abgeordnetenwatch.de: Sebastian Edathy; http://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/; http://pentamedia.c3d2.de/page_shots/2011/09/13/abgeordnetenwatchdesebastianedathy.png
-
-
-1345; heise online - Linux.com gehackt und vorubergehend offline; http://pentamedia.c3d2.de/submit/2011/09/11/heiseonline-linuxcomgehacktundvorubergehend/; http://pentamedia.c3d2.de/page_shots/2011/09/11/heiseonline-linuxcomgehacktundvorubergehend.png
-
-What was not patented to our knowledge?;Snowman;Snowball;Patenting;FIXME;1;
-1341; Schneemann patentiert; http://pentamedia.c3d2.de/submit/2011/09/08/schneemannpatentiert/; http://pentamedia.c3d2.de/page_shots/2011/09/08/schneemannpatentiert.png
-
-1339; Angeklagte Anonymous Aktivisten durfen nicht mehr anonym surfen; http://pentamedia.c3d2.de/submit/2011/09/08/angeklagteanonymousaktivistendurfennichtmehr/; http://pentamedia.c3d2.de/page_shots/2011/09/08/angeklagteanonymousaktivistendurfennichtmehr.png
-
-
-1338; Wikileaks-Dokumente: Schwedens Urheberrechtspolitik ist "Made in USA" - Golem.de; http://pentamedia.c3d2.de/submit/2011/09/08/wikileaks-dokumenteschwedensurheberrechtspoliti/; http://pentamedia.c3d2.de/page_shots/2011/09/08/wikileaks-dokumenteschwedensurheberrechtspoliti.png
-
-Who did not track phone geo location?;Goggle;Apple;Microsoft;FIXME;4
-1330; Microsoft Sued Over Phone Tracking - Security - Privacy - Informationweek; http://pentamedia.c3d2.de/submit/2011/09/06/microsoftsuedoverphonetracking-security-pr/; http://pentamedia.c3d2.de/page_shots/2011/09/06/no_page_shot_1.png
-
+What is the gain in round trip time by the new $300 EU-US cable (Erstes in 10 Jahren)?;6s;0.6s;0.06s;0.006s;4;
+Welches Programm wurde nicht aus dem Apple App Store gelöscht?;Phone Stroy;Smuggle Truck;Cure-Gay;Conterfai Lugaru;3;
+Why does SPD Sebastian Edathy wants the data retention law?;Catch terrorists;Catch file sharers;protect democracy;find out who sent him that plastic pussy;4;
+What was not patented to our knowledge?;Snowman;Snowball;Patenting;Geotracking;1;
+Was durften angeklagte Anonymous Aktivisten nicht mehr?;DoS-Angriffe;Visa nutzen;anonym surfen;Telefonieren;3;
+Welches Urheberrecht wurde nicht durch die USA vorgeschrieben?;Kanada;Russland;Spanien;Schweden;2;
+Who did not track phone geo location?;Goggle;Apple;Microsoft;GMX;4;
 Who took longest to recover from Hack?;kernel.org;Sony;Wine HQ;The Register;2;
-1319; kernel.org hacked; http://pentamedia.c3d2.de/submit/2011/09/01/kernelorghacked/; http://pentamedia.c3d2.de/page_shots/2011/09/01/kernelorghacked.png
-
 What is the goal of a new party in Switzerland?;Make all voting on-line;ban Powerpoint;ban all on-line voting;allow all computers in parlament;2;
-1314;  The political party that wants to ban PowerPoint | Technology | The Guardian ; http://pentamedia.c3d2.de/submit/2011/08/30/thepoliticalpartythatwantstobanpowerpoint/; http://pentamedia.c3d2.de/page_shots/2011/08/30/thepoliticalpartythatwantstobanpowerpoint.png
+How did attackers gain access to RSA internal network?;Breaking RSA tokens;MIM of RSA token authentication;SQL injection;Excel trojan;4;
+What animal did the US army use in Western Berlin for intruder alarm?;goose;sheep;chicken;dog;1;
+To gather the 1st million patents took 80 years. How long does it take today?;6m;1y;5y;10y;3;
+What did the camp not do?;save a life;bring together great folks;fun;hack the weather;4;
+What wants Cameron prohibit in case of riots?;Blackberries;social media;Internet;GSM phones;2;
 
 FIXME
 1308; Schneier on Security: Terrorism in the U.S. Since 9/11; http://pentamedia.c3d2.de/submit/2011/08/28/schneieronsecurityterrorismintheussince/; http://pentamedia.c3d2.de/page_shots/2011/08/28/schneieronsecurityterrorismintheussince.png
 
-How did attackers gain access to RSA internal network?;Breaking RSA tokens;MIM of RSA token authentication;SQL injection;Excel trojan;4;
-1307; How we found the file that was used to Hack RSA - F-Secure Weblog : News from the Lab; http://pentamedia.c3d2.de/submit/2011/08/28/howwefoundthefilethatwasusedtohackrsa/; http://pentamedia.c3d2.de/page_shots/2011/08/28/howwefoundthefilethatwasusedtohackrsa.png
-
-What animal did the US army use in Western Berlin for intruder alarm?;goose;sheep;chicken;dog;1;
-1291; Schneier on Security: Alarm Geese; http://pentamedia.c3d2.de/submit/2011/08/17/schneieronsecurityalarmgeese/; http://pentamedia.c3d2.de/page_shots/2011/08/17/schneieronsecurityalarmgeese.png
-
-To gather the 1st million patents took 80 years. How long does it take today?;6m;1y;5y;10y;3;
-1290; Millions of Patents; http://pentamedia.c3d2.de/submit/2011/08/17/millionsofpatents/; http://pentamedia.c3d2.de/page_shots/2011/08/17/millionsofpatents.png
-
-What did the camp not do?;save a life;bring together great folks;fun;hack the weather;4;
 1288; The Camp saves a life.; http://pentamedia.c3d2.de/submit/2011/08/17/thecampsavesalife/; http://pentamedia.c3d2.de/page_shots/2011/08/17/thecampsavesalife.png
 
 
-1281; heise online - Apple will sich Drucken ohne Treibersoftware patentieren lassen; http://pentamedia.c3d2.de/submit/2011/08/15/heiseonline-applewillsichdruckenohnetreibe/; http://pentamedia.c3d2.de/page_shots/2011/08/15/heiseonline-applewillsichdruckenohnetreibe.png
 
-What wants Cameron prohibit in case of riots?;Blackberries;social media;Internet;GSM phones;2;
 1280; UK: Cameron will Gefahrdern Social Media verbieten; http://pentamedia.c3d2.de/submit/2011/08/14/ukcameronwillgefahrdernsocialmediaverbieten/; http://pentamedia.c3d2.de/page_shots/2011/08/14/ukcameronwillgefahrdernsocialmediaverbieten.png
 
 1278; The Ping of Death is back.; http://pentamedia.c3d2.de/submit/2011/08/10/thepingofdeathisback/; http://pentamedia.c3d2.de/page_shots/2011/08/10/thepingofdeathisback.png
