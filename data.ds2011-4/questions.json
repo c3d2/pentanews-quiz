@@ -157,23 +157,20 @@
   }, 
   {
     "tier": 2563, 
-    "text": "Wer hat dieses Jahr den Pwnie-Preis gewonnen?", 
+    "text": "Welcher deutsche Politiker wird morgen in der FAZ sagen: Das nachladen von Software durch Staatstrojaner ist gut und wird gebraucht?", 
     "answers": [
       {
-        "text": "Sony", 
+        "text": "Egon Krenz?", 
+      }, 
+      {
+        "text": "IM Friedrich"
         "right": true
       }, 
       {
-        "text": "Sony",
-        "right": true
+        "text": "Dieter Wiefelspuetz"
       }, 
       {
-        "text": "Sony",
-        "right": true
-      }, 
-      {
-        "text": "Sony",
-        "right": true
+        "text": "Markus Ulbig"
       }
     ]
   }, 
