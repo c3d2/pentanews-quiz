@@ -43,3 +43,4 @@
 10;What wants Cameron prohibit in case of riots?;Blackberries;social media;Internet;GSM phones;2;
 11;For whom Paypal accepts payments?;Wikileaks;Cuban Cigars;Ku Klux Klan;Bradley Manning support fund;3;
 12;What vendor/project did not violate the GPL?;AVM;VIM;Fortinet;Emacs;2;
+;;;;;;;

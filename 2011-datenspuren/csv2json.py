@@ -104,17 +104,6 @@ def main():
         else:
             fh = open('round_%s.json'% (round), 'w')
             fh.writelines(json.dumps(extract_data(questions), indent=2))
-            for q in extract_data(questions):
-                answers = ["<ol>\n",]
-                for answer in q['answers']:
-                    if answer.has_key('right'):
-                        answers.extend([
-                            "<li><b>", answer.get('text'), "</b></li>\n"]
-                        )
-                    else:
-                        answers.extend(["<li>", answer.get('text'), "</li>\n"])
-                answers.append("\n</ol>\n")
-                answers.append("<mbp:pagebreak />\n")
             questions = []
             round += 1
 
