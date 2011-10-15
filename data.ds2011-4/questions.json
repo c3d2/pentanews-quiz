@@ -11,6 +11,7 @@
       }, 
       {
         "text": "anonym surfen", 
+		"explanation": {"image": "data.ds2011-4/anonymous.jpg"},
         "right": true
       }, 
       {
@@ -27,6 +28,7 @@
       }, 
       {
         "text": "Russland", 
+		"explanation": {"image": "data.ds2011-4/slavery.gif"},
         "right": true
       }, 
       {
@@ -39,13 +41,14 @@
   }, 
   {
     "tier": 225, 
-    "text": "Who took longest to recover from Hack?", 
+    "text": "Bei wem dauerte es am längsten, sich von den zahlreichen Hacks zu erholen?", 
     "answers": [
       {
         "text": "kernel.org"
       }, 
       {
         "text": "Sony", 
+		"explanation": {"text": "http://hassonybeenhackedthisweek.com/"},
         "right": true
       }, 
       {
@@ -58,121 +61,126 @@
   }, 
   {
     "tier": 337, 
-    "text": "What is the goal of a new party in Switzerland?", 
+    "text": "In der Schweiz gib es eine neue Partei. Was ist ihr Ziel?", 
     "answers": [
       {
-        "text": "Make all voting on-line"
+        "text": "Alle Wahlen sollen online stattfinden"
       }, 
       {
-        "text": "ban Powerpoint", 
+        "text": "Powerpoint verbannen", 
+		"explanation" : { "image": "data.ds2011-4/powerpoint.jpg"},
         "right": true
       }, 
       {
-        "text": "ban all on-line voting"
+        "text": "Online-Wahlen sollen verboten werden"
       }, 
       {
-        "text": "allow all computers in parlament"
+        "text": "Sämmtliche Arten von Computern sollen im Parlament erlaubt werden"
       }
     ]
   }, 
   {
     "tier": 506, 
-    "text": "How did attackers gain access to RSA internal network?", 
+    "text": "Wie sind Hacker in das RSA Netz eingedrungen?", 
     "answers": [
       {
-        "text": "Breaking RSA tokens"
+        "text": "RSA Tokens gebrochen"
       }, 
       {
-        "text": "MIM of RSA token authentication"
+        "text": "MITM von RSA Token"
       }, 
       {
         "text": "SQL injection"
       }, 
       {
-        "text": "Excel trojan", 
+        "text": "Excel Trojaner", 
         "right": true
       }
     ]
   }, 
   {
     "tier": 759, 
-    "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
+    "text": "Welches Tier hat die US-Armee in Westberlin als Einbrecheralarm genutzt?", 
     "answers": [
       {
-        "text": "goose", 
+        "text": "Gänse", 
         "right": true
       }, 
       {
-        "text": "sheep"
+        "text": "Schaafe"
       }, 
       {
-        "text": "chicken"
+        "text": "Hühnchen"
       }, 
       {
-        "text": "dog"
+        "text": "Hunde"
       }
     ]
   }, 
   {
     "tier": 1139, 
-    "text": "To gather the 1st million patents took 80 years. How long does it take today?", 
+    "text": "Um die ersten 1 Mio Patente zu generieren benötigte man 1 Jahr. Wie lange dauern 1 Mio Patente jetzt?", 
     "answers": [
       {
-        "text": "6m"
+        "text": "6 Monate"
       }, 
       {
-        "text": "1y"
+        "text": "1 Jahr"
       }, 
       {
-        "text": "5y", 
+        "text": "5 Jahre", 
         "right": true
       }, 
       {
-        "text": "10y"
+        "text": "10 Jahre"
       }
     ]
   }, 
   {
     "tier": 1709, 
-    "text": "What did the camp not do?", 
+    "text": "Was haben wir auf dem letzten CCC-Camp nicht geschafft?", 
     "answers": [
       {
-        "text": "save a life"
+        "text": "Ein leben gerettet"
       }, 
       {
-        "text": "bring together great folks"
+        "text": "Coole Leute zusammengebracht"
       }, 
       {
-        "text": "fun"
+        "text": "Spaß erzeugt"
       }, 
       {
-        "text": "hack the weather", 
+        "text": "Das Wetter zu hacken", 
         "right": true
       }
     ]
   }, 
   {
     "tier": 2563, 
-    "text": "Who was awarded the Pwnie award this year?", 
+    "text": "Wer hat dieses Jahr den Pwnie-Preis gewonnen?", 
     "answers": [
       {
         "text": "Sony", 
         "right": true
       }, 
       {
-        "text": "Sony"
+        "text": "Sony",
+        "right": true
       }, 
       {
-        "text": "Sony"
+        "text": "Sony",
+        "right": true
       }, 
       {
-        "text": "Sony"
+        "text": "Sony",
+        "right": true
       }
     ]
   }, 
   {
     "tier": 3844, 
-    "text": "What wants Cameron prohibit in case of riots?", 
+    "text": "Was möchte Cameron im Fall von Unruhen verbieten?", 
+	"image": "data.ds2011/cameron.jpg",
     "answers": [
       {
         "text": "Blackberries"
@@ -185,13 +193,13 @@
         "text": "Internet"
       }, 
       {
-        "text": "GSM phones"
+        "text": "GSM Telephone"
       }
     ]
   }, 
   {
     "tier": 5555, 
-    "text": "For whom Paypal accepts payments?", 
+    "text": "Für wen akzeptiert Paypal Zahlungen?", 
     "answers": [
       {
         "text": "Wikileaks"
@@ -201,6 +209,7 @@
       }, 
       {
         "text": "Ku Klux Klan", 
+		"explanation": {"image":"data.ds2011-4/kkk.jpg"},
         "right": true
       }, 
       {
@@ -210,7 +219,7 @@
   }, 
   {
     "tier": 7531, 
-    "text": "What vendor/project did not violate the GPL?", 
+    "text": "Welches Projekt, oder welche Firma hat die GPL noch nicht verletzt?", 
     "answers": [
       {
         "text": "AVM"
