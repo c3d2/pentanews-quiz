@@ -462,7 +462,9 @@ function switchToGame() {
 	for(var i = 0; i < playerNames.length; i++) {
 	    sendToBackend({ buzzerLED: [i, i === player ? 1 : 0] });
 	}
-	sendToBackend({ buzzerLED: [player, 1] });
+	setTimeout(function() {
+	    sendToBackend({ buzzerLED: [player, 0] });
+	}, 500);
 	$('#audio_buzz')[0].load();
 	$('#audio_buzz')[0].play();
     };
