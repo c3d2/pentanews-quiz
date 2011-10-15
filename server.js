@@ -174,7 +174,7 @@ var MORSE_ALPHABET = {
     "@":	". - - . - ."
 };
 
-var DIT_LENGTH = 240;
+var DIT_LENGTH = 100;
 var DAH_LENGTH = 3 * DIT_LENGTH;
 var PAUSE_LENGTH = DIT_LENGTH;
 
