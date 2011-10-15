@@ -106,9 +106,13 @@ Timer.prototype.set = function(t, cb) {
 	if (t > 0) {
 	    t--;
 	    $('#timer').text('' + t);
-	    if (t > 21 && t < 23) {
+	    if (t > 25 && t < 27) {
 		$('#audio_timeout')[0].load();
 		$('#audio_timeout')[0].play();
+	    }
+	    if (t > 0 && t < 2) {
+		$('#audio_timeup')[0].load();
+		$('#audio_timeup')[0].play();
 	    }
 	} else {
 	    that.elapse();
@@ -180,6 +184,8 @@ function switchToScoreboard() {
     }
 
     $('#scoreboard').fadeIn(300);
+    if (currentQuestion >= questions.length)
+	$('#audio_final')[0].play();
 }
 
 function updateScores() {
