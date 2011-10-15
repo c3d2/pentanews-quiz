@@ -133,7 +133,7 @@
       }, 
       {
         "text": "0.006s", 
-		"explanation": "data.ds2011-3/cable africa.jpg",
+		"explanation": {"image": "data.ds2011-3/cable africa.jpg"},
         "right": true
       }
     ]
@@ -150,7 +150,7 @@
       }, 
       {
         "text": "Cure-Gay", 
-		"explanation": "ds2011-3/takei.jpg",
+		"explanation": {"image": "ds2011-3/takei.jpg"},
         "right": true
       }, 
       {
@@ -173,7 +173,7 @@
       }, 
       {
         "text": "Um herauszufinden, wer ihm Plastikmuschis zuschickt", 
-		"explanation": "data.ds2011-3/fleshlight.jpg",
+		"explanation": {"image": "data.ds2011-3/fleshlight.jpg"},
         "right": true
       }
     ]
