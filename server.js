@@ -57,39 +57,40 @@ var chat = new irc({ server: IRC_SERVER,
 		   });
 function connectChat() {
     chat.connect();
+    chat.addListener('376', function() {
+	chat.join(IRC_CHAN);
+    });
+    chat.addListener('366', function(msg) {
+	if (msg.params[1] === IRC_CHAN) {
+	    console.log('Successfully joined ' + IRC_CHAN);
+	    pushIrcInfo();
+	}
+    });
+    chat.addListener('privmsg', function(msg) {
+	console.log({PRIVMSG:msg});
+	var nick = msg.person.nick;
+	var channel = msg.params[0];
+	var text = msg.params[1];
+
+	var sText = "", i;
+	for(i = 0; i < text.length; i++) {
+	    if (text.charCodeAt(i) >= 32)
+		sText += text[i];
+	}
+
+	if (nick && channel === IRC_CHAN && sText && frontend) {
+	    sendToFrontend({ irc: { nick: nick,
+				    text: sText
+				  } });
+	}
+    });
+    chat.addListener('disconnected', function() {
+        console.error('Chat disconnected!');
+        process.nextTick(connectChat);
+    });
+    chat.on('error', connectChat);
 }
 connectChat();
-chat.addListener('376', function() {
-    chat.join(IRC_CHAN);
-});
-chat.addListener('366', function(msg) {
-    if (msg.params[1] === IRC_CHAN) {
-	console.log('Successfully joined ' + IRC_CHAN);
-	pushIrcInfo();
-    }
-});
-chat.addListener('privmsg', function(msg) {
-    console.log({PRIVMSG:msg});
-    var nick = msg.person.nick;
-    var channel = msg.params[0];
-    var text = msg.params[1];
-
-    var sText = "", i;
-    for(i = 0; i < text.length; i++) {
-	if (text.charCodeAt(i) >= 32)
-	    sText += text[i];
-    }
-
-    if (nick && channel === IRC_CHAN && sText && frontend) {
-	sendToFrontend({ irc: { nick: nick,
-				text: sText
-			      } });
-    }
-});
-chat.addListener('disconnected', function() {
-    console.error('Chat disconnected!');
-    process.nextTick(connectChat);
-});
 
 function pushIrcInfo() {
     sendToFrontend({ irc: { server: IRC_SERVER,
