@@ -5,6 +5,7 @@ body {
   text-align: center;
   font-size: 200%;
   font-family: sans-serif;
+  overflow: clip;
 }
 
 ul { 
@@ -166,4 +167,14 @@ ul#tiers li.done {
 }
 .elapsed#timer {
   border-color: red;
+}
+
+.leaks {
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    top: 1500px;
+    width: 80%;
+    height: 7000px;
+    overflow: visible;
 }
