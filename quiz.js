@@ -328,6 +328,23 @@ function takeJoker(activePlayer, joker) {
         });
 	sendToBackend({ morse: morseText });
     }
+    if (joker === 'leak') {
+	var iframe = $('<iframe class="leaks" src="leakjoker/SPIEGEL ONLINE - Nachrichten.html"></iframe>');
+	$('body').append(iframe);
+	iframe.load(function() {
+	    iframe.animate({ top: "-8000px" }, 10000, function() {
+		iframe.remove();
+	    });
+	    var answers = questions[currentQuestion].answers;
+	    for(var i = 0; i < answers.length; i++) {
+		if (answers[i].right) {
+		    var h2s = iframe.contents().find('.spTopThema h2');
+		    var h2 = h2s[Math.floor(Math.random() * h2s.length)];
+		    $(h2).text(answers[i].text);
+		}
+	    }
+	});
+    }
 }
 
 function setQuestionContents(q) {
@@ -514,6 +531,9 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'm') {
 	    takeJoker(activePlayer, 'morse');
+	} else if (activePlayer !== null &&
+		   key === 'l') {
+	    takeJoker(activePlayer, 'leak');
 	}
     };
 
