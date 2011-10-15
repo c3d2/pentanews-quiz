@@ -11,6 +11,7 @@ $(document).bind('keydown', function(event) {
 });
 
 $(window).bind('load', function() {
+    var started = false;
     $('#game').hide();
     $('#scoreboard').hide();
 
@@ -19,6 +20,7 @@ $(window).bind('load', function() {
         $('#setup').show();
         $('#start').bind('click', function() {
             try {
+		started = true;
 		for(var i = 0; i < 5; i++) {
 		    var name = $('#playername' + i).val();
 		    if (name) {
@@ -37,9 +39,11 @@ $(window).bind('load', function() {
     for(var i = 0; i < 5; i++) {
 	(function(i_) {
 	     $('#playername' + i_).focus(function() {
+		 if (started) return;
 		 sendToBackend({ buzzerLED: [i_, 1] });
 	     });
 	     $('#playername' + i_).focusout(function() {
+		 if (started) return;
 		 sendToBackend({ buzzerLED: [i_, 0] });
 	     });
 	 })(i);
