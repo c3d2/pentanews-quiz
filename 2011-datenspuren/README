@@ -1,0 +1,3 @@
+How to generate the round_X.json files?
+1) edit questions.txt
+2) run csv2json.py
