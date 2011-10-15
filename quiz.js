@@ -183,6 +183,9 @@ function switchToScoreboard() {
 	$('#tiers li').eq(i).addClass('done');
     }
 
+    for(var i = 0; i < playerNames.length; i++) {
+	sendToBackend({ buzzerLED: [i, 0] });
+    }
     $('#scoreboard').fadeIn(300);
     if (currentQuestion >= questions.length)
 	$('#audio_final')[0].play();
@@ -479,9 +482,6 @@ function switchToGame() {
 	for(var i = 0; i < playerNames.length; i++) {
 	    sendToBackend({ buzzerLED: [i, i === player ? 1 : 0] });
 	}
-	setTimeout(function() {
-	    sendToBackend({ buzzerLED: [player, 0] });
-	}, 500);
 	$('#audio_buzz')[0].load();
 	$('#audio_buzz')[0].play();
     };
