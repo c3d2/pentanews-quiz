@@ -33,6 +33,17 @@ $(window).bind('load', function() {
             return false;  // don't submit <form>
         });
     });
+
+    for(var i = 0; i < 5; i++) {
+	(function(i_) {
+	     $('#playername' + i_).focus(function() {
+		 sendToBackend({ buzzerLED: [i_, 1] });
+	     });
+	     $('#playername' + i_).focusout(function() {
+		 sendToBackend({ buzzerLED: [i_, 0] });
+	     });
+	 })(i);
+    }
 });
 
 var questions;
