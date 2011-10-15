@@ -1,0 +1,230 @@
+[
+  {
+    "tier": 100, 
+    "text": "Was durften angeklagte Anonymous Aktivisten nicht mehr?", 
+    "answers": [
+      {
+        "text": "DoS-Angriffe"
+      }, 
+      {
+        "text": "Visa nutzen"
+      }, 
+      {
+        "text": "anonym surfen", 
+        "right": true
+      }, 
+      {
+        "text": "Telefonieren"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "Welches Urheberrecht wurde nicht durch die USA vorgeschrieben?", 
+    "answers": [
+      {
+        "text": "Kanada"
+      }, 
+      {
+        "text": "Russland", 
+        "right": true
+      }, 
+      {
+        "text": "Spanien"
+      }, 
+      {
+        "text": "Schweden"
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "Who took longest to recover from Hack?", 
+    "answers": [
+      {
+        "text": "kernel.org"
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Wine HQ"
+      }, 
+      {
+        "text": "The Register"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "What is the goal of a new party in Switzerland?", 
+    "answers": [
+      {
+        "text": "Make all voting on-line"
+      }, 
+      {
+        "text": "ban Powerpoint", 
+        "right": true
+      }, 
+      {
+        "text": "ban all on-line voting"
+      }, 
+      {
+        "text": "allow all computers in parlament"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "How did attackers gain access to RSA internal network?", 
+    "answers": [
+      {
+        "text": "Breaking RSA tokens"
+      }, 
+      {
+        "text": "MIM of RSA token authentication"
+      }, 
+      {
+        "text": "SQL injection"
+      }, 
+      {
+        "text": "Excel trojan", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
+    "answers": [
+      {
+        "text": "goose", 
+        "right": true
+      }, 
+      {
+        "text": "sheep"
+      }, 
+      {
+        "text": "chicken"
+      }, 
+      {
+        "text": "dog"
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "To gather the 1st million patents took 80 years. How long does it take today?", 
+    "answers": [
+      {
+        "text": "6m"
+      }, 
+      {
+        "text": "1y"
+      }, 
+      {
+        "text": "5y", 
+        "right": true
+      }, 
+      {
+        "text": "10y"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "What did the camp not do?", 
+    "answers": [
+      {
+        "text": "save a life"
+      }, 
+      {
+        "text": "bring together great folks"
+      }, 
+      {
+        "text": "fun"
+      }, 
+      {
+        "text": "hack the weather", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 2563, 
+    "text": "Who was awarded the Pwnie award this year?", 
+    "answers": [
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony"
+      }, 
+      {
+        "text": "Sony"
+      }, 
+      {
+        "text": "Sony"
+      }
+    ]
+  }, 
+  {
+    "tier": 3844, 
+    "text": "What wants Cameron prohibit in case of riots?", 
+    "answers": [
+      {
+        "text": "Blackberries"
+      }, 
+      {
+        "text": "social media", 
+        "right": true
+      }, 
+      {
+        "text": "Internet"
+      }, 
+      {
+        "text": "GSM phones"
+      }
+    ]
+  }, 
+  {
+    "tier": 5555, 
+    "text": "For whom Paypal accepts payments?", 
+    "answers": [
+      {
+        "text": "Wikileaks"
+      }, 
+      {
+        "text": "Cuban Cigars"
+      }, 
+      {
+        "text": "Ku Klux Klan", 
+        "right": true
+      }, 
+      {
+        "text": "Bradley Manning support fund"
+      }
+    ]
+  }, 
+  {
+    "tier": 7531, 
+    "text": "What vendor/project did not violate the GPL?", 
+    "answers": [
+      {
+        "text": "AVM"
+      }, 
+      {
+        "text": "VIM", 
+        "right": true
+      }, 
+      {
+        "text": "Fortinet"
+      }, 
+      {
+        "text": "Emacs"
+      }
+    ]
+  }
+]
