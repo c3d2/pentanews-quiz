@@ -22,9 +22,9 @@ answers:
 tier: 1
 game_round: 1
 media:
-    - aaa
-    - bbb
-    - ccc
+    - pix/question1.png
+    - pix/question1_big.png
+    - videos/question1.webm
 
 --- !Question
 question: What are users in Facebook called?
@@ -36,6 +36,6 @@ answers:
 tier: 2
 game_round: 1
 media:
-    - aaa
-    - bbb
-    - ccc
+    - pix/facebook.jpg
+    - pix/facebook-jail.png
+    - videos/faschistbook.webm

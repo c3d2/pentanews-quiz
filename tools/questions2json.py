@@ -13,6 +13,7 @@ readeable format assuming yaml is more human readable
 TODO:
     * Add own constructor to Question() / nice to have
     * Deal with media files
+    * Fix to output only questions per round as json
 """
 
 __author__ = "Frank Becker <fb@alien8.de>"
@@ -178,6 +179,8 @@ def main():
         # yaml.add_constructor
         Question.register_question(q)
         questions.append(q)
+    if options.debug:
+        print Question.registered_questions
     print json.dumps([q.as_dict for q in questions], indent=2)
 
 if __name__ == '__main__':
