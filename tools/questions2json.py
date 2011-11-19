@@ -13,7 +13,6 @@ readeable format assuming yaml is more human readable
 TODO:
     * Add own constructor to Question() / nice to have
     * Deal with media files
-    * Fix to output only questions per round as json
 """
 
 __author__ = "Frank Becker <fb@alien8.de>"
@@ -160,6 +159,10 @@ def init_parser():
     options = parser.parse_args()[0]
     return options
 
+def questions_per_round(questions, game_round=None):
+    """docstring for questions_per_round"""
+    return [q for q in questions if q.game_round == game_round]
+
 def main():
     """docstring for main"""
 
@@ -181,7 +184,12 @@ def main():
         questions.append(q)
     if options.debug:
         print Question.registered_questions
-    print json.dumps([q.as_dict for q in questions], indent=2)
+
+    game_rounds = sorted(Question.registered_questions.keys())
+    for r in game_rounds:
+        print json.dumps([q.as_dict for q in questions_per_round(
+            questions, game_round=r)], indent=2)
+
 
 if __name__ == '__main__':
     main()
