@@ -10,7 +10,6 @@
 #media:
 #    - aaa
 #    - bbb
-#    - ccc
 
 !!python/object:__main__.Question
 question: What is the question?
@@ -22,9 +21,10 @@ answers:
 tier: 1
 game_round: 1
 media:
-    - pix/question1.png
-    - pix/question1_big.png
-    - videos/question1.webm
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
 
 --- !Question
 question: What are users in Facebook called?
@@ -36,20 +36,8 @@ answers:
 tier: 2
 game_round: 1
 media:
-    - pix/facebook.jpg
-    - pix/facebook-jail.png
-    - videos/faschistbook.webm
-
---- !Question
-question: What are users in Facebook called?
-answers:
-    - false: Hostage
-    - false: Victims
-    - true: Target
-    - false: Product
-tier: 2
-game_round: 2
-media:
-    - pix/facebook.jpg
-    - pix/facebook-jail.png
-    - videos/faschistbook.webm
+    question:
+        - pix/facebook.jpg
+        - pix/facebook-jail.png
+    explanation:
+        - videos/faschistbook.webm
