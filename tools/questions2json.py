@@ -16,11 +16,12 @@ TODO:
 """
 
 __author__ = "Frank Becker <fb@alien8.de>"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __date__ = "Fri 18 Nov 2011 18:10:44 CET"
 __copyright__ = "Copyright (c) 2011 Frank Becker"
 __license__ = "Python"
 
+import os
 import sys
 import json
 from optparse import OptionParser
@@ -54,7 +55,7 @@ class Question(yaml.YAMLObject):
     }
 
     def __init__(self, question=u"", tier=0, answers=[], game_round=0,
-                 media=("", "", "")):
+                 media=("", "", ""), media_path=""):
         """docstring for __init__
            @question - the Question 
            @rank - number of the question in the game
@@ -62,12 +63,32 @@ class Question(yaml.YAMLObject):
            @answers - list of answers, assumed are 4
            @media - (media show at question time, media shown at answer time,
                      media shown at resolution time)
+           @media_path - path to the media files
         """
         self.question = question
         self.answers = answers
         self.tier = tier
         self.game_round = game_round
         self.media = media
+        self.media_path = media_path
+
+    def __type_by_extension(self, media_file):
+        """returns the media type looked up by it's extension
+        FIXME (a8): maybe use file magic in the future
+
+        @media_file - path to the media file
+        """
+        media_types = dict(
+            video = ('webm'),
+            image = ('png', 'jpg', 'gif'),
+        )
+        if not os.path.isfile(media_file):
+            raise IOError("The file {0} does not exist.".format(media_file,))
+        ext = media_file.rsplit('.', 1)[1]
+        for k, v in media_types.items():
+            if ext in v:
+                return k
+        raise KeyError("Media type for {0} not found".format(media_file,))
 
     def __repr__(self):
         """docstring for __repr__"""
@@ -85,6 +106,27 @@ class Question(yaml.YAMLObject):
             else {'text': answer[True], 'right': True} \
             for answer in self.answers
         ]
+        if hasattr(self, 'media'):
+            def gen_questions():
+                q_data = {}
+                for f in self.media['question']:
+                    q_data[self.__type_by_extension(
+                        os.path.sep.join(os.path.join([self.media_path, f]))
+                    )] = f
+                return q_data
+            def gen_explanation():
+                return {'explanation': self.media['explanation']}
+            def k_not_found():
+                raise KeyError("Media keyword not found")
+
+            for k in self.media.keys():
+                m_data = dict(
+                    question = gen_questions,
+                     explanation= gen_explanation,
+                    k_not_found = "lambda x: pass",
+                ).get(k, 'k_not_found')()
+                for key, value in m_data.items():
+                    data[key] = value
         return data
 
     @classmethod
@@ -106,20 +148,6 @@ class Question(yaml.YAMLObject):
         else:
             Question.registered_questions[obj.game_round] = [obj.tier]
 
-#        if os.path.isfile("pix/{0}_expl.jpg".format(arg[7])):
-#            data['explanation'] = {
-#                'image': "pix/{0}_expl.jpg".format(arg[7])}
-#        if os.path.isfile("pix/{0}_expl.gif".format(arg[7])):
-#            data['explanation'] = {
-#                'image': "pix/{0}_expl.gif".format(arg[7])}
-#        if os.path.isfile("pix/{0}.jpg".format(arg[7])):
-#           data['image'] = "pix/{0}.jpg".format(arg[7])
-#        if os.path.isfile("video/{0}.webm".format(arg[7])):
-#           data['video'] = "video/{0}.webm".format(arg[7])
-#        if os.path.isfile("video/{0}_expl.webm".format(arg[7])):
-#            data['explanation'] = {
-#                'video': "video/{0}_expl.webm".format(arg[7])}
-#
 
 def init_parser():
     """Read command line options
@@ -181,15 +209,17 @@ def main():
         #FIXME (fb@alien8.de) 11-11-18 23:16:34 use yaml constructor
         # yaml.add_constructor
         Question.register_question(q)
+        if options.file:
+            q.media_path = os.path.abspath(os.path.dirname(options.file))
         questions.append(q)
     if options.debug:
         print Question.registered_questions
+        print [q.media for q in questions]
 
     game_rounds = sorted(Question.registered_questions.keys())
     for r in game_rounds:
         print json.dumps([q.as_dict for q in questions_per_round(
             questions, game_round=r)], indent=2)
-
 
 if __name__ == '__main__':
     main()
