@@ -9,10 +9,13 @@ some yaml format to json.
 It's just a helper to write the questions in a more human
 readeable format assuming yaml is more human readable
 
+Note:
+    - Media files are looked for relative to the questions file
+    - Media files are expected relative to the generated json files
 
 TODO:
     * Add own constructor to Question() / nice to have
-    * Deal with media files
+    * Use import logging for debug logging
 """
 
 __author__ = "Frank Becker <fb@alien8.de>"
@@ -191,6 +194,13 @@ def questions_per_round(questions, game_round=None):
     """docstring for questions_per_round"""
     return [q for q in questions if q.game_round == game_round]
 
+def write_json_file(questions):
+    """docstring for write_json_file"""
+    game_round = questions[0].game_round
+    file_name = 'round_{0}.json'.format(game_round)
+    fh = open(file_name, 'w')
+    fh.writelines(json.dumps([q.as_dict for q in questions], indent=2))
+
 def main():
     """docstring for main"""
 
@@ -218,8 +228,9 @@ def main():
 
     game_rounds = sorted(Question.registered_questions.keys())
     for r in game_rounds:
-        print json.dumps([q.as_dict for q in questions_per_round(
-            questions, game_round=r)], indent=2)
+        write_json_file(questions_per_round(questions, game_round=r))
+        if options.debug:
+            print "Written file for game round: {0}".format(r)
 
 if __name__ == '__main__':
     main()

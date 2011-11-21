@@ -23,9 +23,9 @@ game_round: 1
 media:
     question:
         - pix/question1.png
-        - videos/question1.webm
+        - videos/big-buck-bunny_trailer.webm
     explanation:
-        - videos/question1.webm
+        - videos/big-buck-bunny_trailer.webm
         - pix/question1.png
 
 --- !Question
@@ -42,4 +42,4 @@ media:
         - pix/facebook.jpg
         - pix/facebook-jail.png
     explanation:
-        - videos/faschistbook.webm
+        - videos/big-buck-bunny_trailer.webm
