@@ -350,7 +350,7 @@ function takeJoker(activePlayer, joker) {
 	var iframe = $('<iframe class="leaks" src="leakjoker/SPIEGEL ONLINE - Nachrichten.html"></iframe>');
 	$('body').append(iframe);
 	iframe.load(function() {
-	    iframe.animate({ top: "-8000px" }, 10000, function() {
+	    iframe.animate({ top: "-8000px" }, 15000, function() {
 		iframe.remove();
 	    });
 	    var answers = questions[currentQuestion].answers;

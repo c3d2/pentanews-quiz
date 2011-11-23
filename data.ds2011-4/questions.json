@@ -1,233 +1,233 @@
 [
   {
-    "tier": 100, 
-    "text": "Was durften angeklagte Anonymous Aktivisten nicht mehr?", 
+    "tier": 100,
+    "text": "Was durften angeklagte Anonymous Aktivisten nicht mehr?",
     "answers": [
       {
         "text": "DoS-Angriffe"
-      }, 
+      },
       {
         "text": "Visa nutzen"
-      }, 
+      },
       {
-        "text": "anonym surfen", 
+        "text": "anonym surfen",
 		"explanation": {"image": "data.ds2011-4/anonymous.jpg"},
         "right": true
-      }, 
+      },
       {
         "text": "Telefonieren"
       }
     ]
-  }, 
+  },
   {
-    "tier": 150, 
-    "text": "Welches Urheberrecht wurde nicht durch die USA vorgeschrieben?", 
+    "tier": 150,
+    "text": "Welches Urheberrecht wurde nicht durch die USA vorgeschrieben?",
     "answers": [
       {
         "text": "Kanada"
-      }, 
+      },
       {
-        "text": "Russland", 
+        "text": "Russland",
 		"explanation": {"image": "data.ds2011-4/slavery.gif"},
         "right": true
-      }, 
+      },
       {
         "text": "Spanien"
-      }, 
+      },
       {
         "text": "Schweden"
       }
     ]
-  }, 
+  },
   {
-    "tier": 225, 
-    "text": "Bei wem dauerte es am längsten, sich von den zahlreichen Hacks zu erholen?", 
+    "tier": 225,
+    "text": "Bei wem dauerte es am längsten, sich von den zahlreichen Hacks zu erholen?",
     "answers": [
       {
         "text": "kernel.org"
-      }, 
+      },
       {
-        "text": "Sony", 
+        "text": "Sony",
 		"explanation": {"text": "http://hassonybeenhackedthisweek.com/"},
         "right": true
-      }, 
+      },
       {
         "text": "Wine HQ"
-      }, 
+      },
       {
         "text": "The Register"
       }
     ]
-  }, 
+  },
   {
-    "tier": 337, 
-    "text": "In der Schweiz gib es eine neue Partei. Was ist ihr Ziel?", 
+    "tier": 337,
+    "text": "In der Schweiz gib es eine neue Partei. Was ist ihr Ziel?",
     "answers": [
       {
         "text": "Alle Wahlen sollen online stattfinden"
-      }, 
+      },
       {
-        "text": "Powerpoint verbannen", 
+        "text": "Powerpoint verbannen",
 		"explanation" : { "image": "data.ds2011-4/powerpoint.jpg"},
         "right": true
-      }, 
+      },
       {
         "text": "Online-Wahlen sollen verboten werden"
-      }, 
+      },
       {
         "text": "Sämmtliche Arten von Computern sollen im Parlament erlaubt werden"
       }
     ]
-  }, 
+  },
   {
-    "tier": 506, 
-    "text": "Wie sind Hacker in das RSA Netz eingedrungen?", 
+    "tier": 506,
+    "text": "Wie sind Hacker in das RSA Netz eingedrungen?",
     "answers": [
       {
         "text": "RSA Tokens gebrochen"
-      }, 
+      },
       {
         "text": "MITM von RSA Token"
-      }, 
+      },
       {
         "text": "SQL injection"
-      }, 
+      },
       {
-        "text": "Excel Trojaner", 
+        "text": "Excel Trojaner",
         "right": true
       }
     ]
-  }, 
+  },
   {
-    "tier": 759, 
-    "text": "Welches Tier hat die US-Armee in Westberlin als Einbrecheralarm genutzt?", 
+    "tier": 759,
+    "text": "Welches Tier hat die US-Armee in Westberlin als Einbrecheralarm genutzt?",
     "answers": [
       {
-        "text": "Gänse", 
+        "text": "Gänse",
         "right": true
-      }, 
+      },
       {
         "text": "Schaafe"
-      }, 
+      },
       {
         "text": "Hühnchen"
-      }, 
+      },
       {
         "text": "Hunde"
       }
     ]
-  }, 
+  },
   {
-    "tier": 1139, 
-    "text": "Um die ersten 1 Mio Patente zu generieren benötigte man 1 Jahr. Wie lange dauern 1 Mio Patente jetzt?", 
+    "tier": 1139,
+    "text": "Um die ersten 1 Mio Patente zu generieren benötigte man 1 Jahr. Wie lange dauern 1 Mio Patente jetzt?",
     "answers": [
       {
         "text": "6 Monate"
-      }, 
+      },
       {
         "text": "1 Jahr"
-      }, 
+      },
       {
-        "text": "5 Jahre", 
+        "text": "5 Jahre",
         "right": true
-      }, 
+      },
       {
         "text": "10 Jahre"
       }
     ]
-  }, 
+  },
   {
-    "tier": 1709, 
-    "text": "Was haben wir auf dem letzten CCC-Camp nicht geschafft?", 
+    "tier": 1709,
+    "text": "Was haben wir auf dem letzten CCC-Camp nicht geschafft?",
     "answers": [
       {
         "text": "Ein leben gerettet"
-      }, 
+      },
       {
         "text": "Coole Leute zusammengebracht"
-      }, 
+      },
       {
         "text": "Spaß erzeugt"
-      }, 
+      },
       {
-        "text": "Das Wetter zu hacken", 
+        "text": "Das Wetter zu hacken",
         "right": true
       }
     ]
-  }, 
+  },
   {
-    "tier": 2563, 
-    "text": "Welcher deutsche Politiker wird morgen in der FAZ sagen: Das nachladen von Software durch Staatstrojaner ist gut und wird gebraucht?", 
+    "tier": 2563,
+    "text": "Welcher deutsche Politiker wird morgen in der FAZ sagen: Das nachladen von Software durch Staatstrojaner ist gut und wird gebraucht?",
     "answers": [
       {
-        "text": "Egon Krenz?", 
-      }, 
+        "text": "Egon Krenz?"
+      },
       {
-        "text": "IM Friedrich"
+        "text": "IM Friedrich",
         "right": true
-      }, 
+      },
       {
         "text": "Dieter Wiefelspuetz"
-      }, 
+      },
       {
         "text": "Markus Ulbig"
       }
     ]
-  }, 
+  },
   {
-    "tier": 3844, 
-    "text": "Was möchte Cameron im Fall von Unruhen verbieten?", 
+    "tier": 3844,
+    "text": "Was möchte Cameron im Fall von Unruhen verbieten?",
 	"image": "data.ds2011/cameron.jpg",
     "answers": [
       {
         "text": "Blackberries"
-      }, 
+      },
       {
-        "text": "social media", 
+        "text": "social media",
         "right": true
-      }, 
+      },
       {
         "text": "Internet"
-      }, 
+      },
       {
         "text": "GSM Telephone"
       }
     ]
-  }, 
+  },
   {
-    "tier": 5555, 
-    "text": "Für wen akzeptiert Paypal Zahlungen?", 
+    "tier": 5555,
+    "text": "Für wen akzeptiert Paypal Zahlungen?",
     "answers": [
       {
         "text": "Wikileaks"
-      }, 
+      },
       {
         "text": "Cuban Cigars"
-      }, 
+      },
       {
-        "text": "Ku Klux Klan", 
+        "text": "Ku Klux Klan",
 		"explanation": {"image":"data.ds2011-4/kkk.jpg"},
         "right": true
-      }, 
+      },
       {
         "text": "Bradley Manning support fund"
       }
     ]
-  }, 
+  },
   {
-    "tier": 7531, 
-    "text": "Welches Projekt, oder welche Firma hat die GPL noch nicht verletzt?", 
+    "tier": 7531,
+    "text": "Welches Projekt, oder welche Firma hat die GPL noch nicht verletzt?",
     "answers": [
       {
         "text": "AVM"
-      }, 
+      },
       {
-        "text": "VIM", 
+        "text": "VIM",
         "right": true
-      }, 
+      },
       {
         "text": "Fortinet"
-      }, 
+      },
       {
         "text": "Emacs"
       }
