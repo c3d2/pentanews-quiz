@@ -1,0 +1,192 @@
+[
+  {
+    "tier": 100, 
+    "text": "Wie war das Motto der Datenspuren 2010?", 
+    "answers": [
+      {
+        "text": "Mind the gap?", 
+        "right": true
+      }, 
+      {
+        "text": "Heiter bis wolkig"
+      }, 
+      {
+        "text": "Hands off, privacy on"
+      }, 
+      {
+        "text": "Privatsph\u00e4re war gestern"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "Wie werden die Nutzer in Facebooks Datenbank genannt?", 
+    "answers": [
+      {
+        "text": "Hostage"
+      }, 
+      {
+        "text": "Victims"
+      }, 
+      {
+        "text": "Target", 
+        "right": true
+      }, 
+      {
+        "text": "Product"
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "Wie hei\u00dft der urheberrechtsverletzende Politiker der 2-Strikes vorschl\u00e4gt?", 
+    "answers": [
+      {
+        "text": "Volker Kauder"
+      }, 
+      {
+        "text": "Siegfried Kauder", 
+        "right": true
+      }, 
+      {
+        "text": "Welsch Kauder"
+      }, 
+      {
+        "text": "Dieter Kauder"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "Wozu f\u00fchren rechtsweglose Zensurabmahnungen (in Italien)?", 
+    "answers": [
+      {
+        "text": "Schlie\u00dfung der Wikipedia", 
+        "right": true
+      }, 
+      {
+        "text": "Kinderporno -250%"
+      }, 
+      {
+        "text": "Berlusconi im Amt fest tackern"
+      }, 
+      {
+        "text": "Anonymous behindern"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "Wie viele Verbindungsdatens\u00e4tze wurden druch die Polizei w\u00e4hrend der Anti-Nazi Demonstrationen im Februar 2011 in Dresden abgefragt?", 
+    "answers": [
+      {
+        "text": "ca 12"
+      }, 
+      {
+        "text": "ca. 100"
+      }, 
+      {
+        "text": "ca. 5.000"
+      }, 
+      {
+        "text": "mehr als 1.000.000", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "Was verlangte Google als es die Maildaten von Jacob Applebaum ausgeliefert hat?", 
+    "answers": [
+      {
+        "text": "Nichts", 
+        "right": true
+      }, 
+      {
+        "text": "Gerichtsbeschluss"
+      }, 
+      {
+        "text": "hat dagegen geklagt"
+      }, 
+      {
+        "text": "Sagte, er hat hier keinen Account"
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "Where are among other places mifare cards used that got just hacked?", 
+    "answers": [
+      {
+        "text": "NASA", 
+        "right": true
+      }, 
+      {
+        "text": "NSA"
+      }, 
+      {
+        "text": "Mossad HQ"
+      }, 
+      {
+        "text": "Bundestag"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?", 
+    "answers": [
+      {
+        "text": "ethnische Zugeh\u00f6rigkeit"
+      }, 
+      {
+        "text": "K\u00f6rperma\u00dfe"
+      }, 
+      {
+        "text": "Abstammung"
+      }, 
+      {
+        "text": "Haarfarbe", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 2563, 
+    "text": "Who controls american drones in Afghanistan part time?", 
+    "answers": [
+      {
+        "text": "Virueses", 
+        "right": true
+      }, 
+      {
+        "text": "Chinese Hackers"
+      }, 
+      {
+        "text": "NSA"
+      }, 
+      {
+        "text": "Operators"
+      }
+    ]
+  }, 
+  {
+    "tier": 3844, 
+    "text": "Wie kompatibel ist Libre Office zu MS Office?", 
+    "answers": [
+      {
+        "text": "It can run it's virueses", 
+        "right": true
+      }, 
+      {
+        "text": "It can import MS Word"
+      }, 
+      {
+        "text": "It has the same UI"
+      }, 
+      {
+        "text": "Hat das selbe Plugin-API"
+      }
+    ]
+  }
+]

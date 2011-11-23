@@ -1,0 +1,192 @@
+[
+  {
+    "tier": 100, 
+    "text": "Welches Land hat ACTA noch nicht unterzeichnet?", 
+    "answers": [
+      {
+        "text": "Australien"
+      }, 
+      {
+        "text": "Japan"
+      }, 
+      {
+        "text": "Kanada"
+      }, 
+      {
+        "text": "Deutschland", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "Mit welchen Feature hat Apple die iPhone Fotoapp beworben in Bezug auf afrikanische M\u00e4dchen?", 
+    "answers": [
+      {
+        "text": "grant 'em money"
+      }, 
+      {
+        "text": "Gesichtserkennung"
+      }, 
+      {
+        "text": "Beschneidung", 
+        "right": true
+      }, 
+      {
+        "text": "Farbkorrektur"
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "How much money makes MS by patent bribing Android manufactures a year?", 
+    "answers": [
+      {
+        "text": "1 Mrd USD"
+      }, 
+      {
+        "text": " 100 Mio USD"
+      }, 
+      {
+        "text": " 500 Mio USD", 
+        "right": true
+      }, 
+      {
+        "text": " 50 Mio"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "Warum pr\u00fcfen die Musikpiraten die GEMA zu verklagen?", 
+    "answers": [
+      {
+        "text": "wollen Geld f\u00fcr freie Musik", 
+        "right": true
+      }, 
+      {
+        "text": "wollen Geld f\u00fcr Samples"
+      }, 
+      {
+        "text": "Ver\u00f6ffentlichungsverbot von CC Musik"
+      }, 
+      {
+        "text": "Video auf Youtube gesperrt"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "Which company makes S/W that could be rebooted by a IPv6 ping in 2011?", 
+    "answers": [
+      {
+        "text": "Microsoft"
+      }, 
+      {
+        "text": "Linux"
+      }, 
+      {
+        "text": "DigiTaks"
+      }, 
+      {
+        "text": "Cisco", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "Was macht Facebook wenn man sich ausloggt?", 
+    "answers": [
+      {
+        "text": "del session cookies"
+      }, 
+      {
+        "text": "del some session cookies", 
+        "right": true
+      }, 
+      {
+        "text": "clears browser cache"
+      }, 
+      {
+        "text": "black lists user"
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "How treats the CIA the Earth climate change?", 
+    "answers": [
+      {
+        "text": "denies it"
+      }, 
+      {
+        "text": "lies about it"
+      }, 
+      {
+        "text": "makes it a secret", 
+        "right": true
+      }, 
+      {
+        "text": "tries to save the planet"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "Wie viel hat der vormalige PC Hersteller HP f\u00fcr CEO Abfindungen seit 2005 gezehlt? In Mio USD", 
+    "answers": [
+      {
+        "text": "10"
+      }, 
+      {
+        "text": "5"
+      }, 
+      {
+        "text": "80", 
+        "right": true
+      }, 
+      {
+        "text": "50"
+      }
+    ]
+  }, 
+  {
+    "tier": 2563, 
+    "text": "Welches Protokoll diente zur SCADA Triebwerksteuerungsbeeinflussung einer Boing 747?", 
+    "answers": [
+      {
+        "text": "SSH"
+      }, 
+      {
+        "text": "SSL"
+      }, 
+      {
+        "text": "Proprit\u00e4r"
+      }, 
+      {
+        "text": "Telnet", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 3844, 
+    "text": "What organisation did the former MS exec Pamela Passman lead after she left MS?", 
+    "answers": [
+      {
+        "text": "BSA"
+      }, 
+      {
+        "text": "Nokia"
+      }, 
+      {
+        "text": "SCADA org"
+      }, 
+      {
+        "text": "Lobby", 
+        "right": true
+      }
+    ]
+  }
+]
