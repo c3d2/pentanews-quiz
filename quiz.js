@@ -169,11 +169,6 @@ function startQuiz() {
     var i;
     console.log('startQuiz');
 
-    questions.forEach(function(q) {
-        $('#tiers').append('<li></li>');
-        $('#tiers li').last().text(q.tier);
-    });
-
     updateScores();
 
     $('#setup').fadeOut(700, function() {
@@ -220,6 +215,14 @@ function updateScores() {
 	    $('#scoreboard dl dd.p' + i).hide();
 	    $('#players .player' + i).hide();
 	}
+    }
+
+    /* Update tiers */
+    $('#tiers').empty();
+    for(i = 0; i < questions.length; i++) {
+	var text = i <= currentQuestion ? questions[i].tier : "?";
+        $('#tiers').append('<li></li>');
+        $('#tiers li').last().text(text);
     }
 }
 
@@ -488,6 +491,7 @@ function switchToGame() {
 	    if (key === " ") {
 		// next question:
 		currentQuestion++;
+		updateScores();
 		saveGamestate();
 		$('#game').fadeOut(500, function() {
                     switchToScoreboard();
