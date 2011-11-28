@@ -223,6 +223,20 @@ function updateScores() {
     }
 }
 
+function censorIrcMessage(text) {
+    var blocks = function(s) {
+	var r = "";
+	for(var i = 0; i < s.length; i++)
+	    r += "█";
+	return r;
+    };
+    return text.
+	replace(/p\s*e\s*n\s*i\s*s/i, blocks).
+	replace(/8=+/, blocks).
+	replace(/=+8/, blocks).
+	replace(/=+3/, blocks);
+}
+
 function takeJoker(activePlayer, joker) {
     if (activePlayer === null)
 	// No active player
@@ -318,7 +332,8 @@ function takeJoker(activePlayer, joker) {
 	    if (msg.irc && msg.irc.nick && msg.irc.text) {
 		var ircPane = $('#irc ul');
 		var line = $('<li></li>');
-		line.text('<' + msg.irc.nick + '> ' + msg.irc.text);
+		var text = censorIrcMessage(msg.irc.text);
+		line.text('<' + msg.irc.nick + '> ' + text);
 		line.hide();
 		ircPane.append(line);
 		line.slideDown(200);
