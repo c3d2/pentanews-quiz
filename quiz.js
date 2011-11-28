@@ -259,6 +259,7 @@ function takeJoker(activePlayer, joker) {
     playerJokers[activePlayer][joker] = true;
     saveGamestate();
     $('#tier').append('<img src="' + joker + '.png">');
+    $('#players .player' + activePlayer + ' .' + joker).hide();
 
     if (joker === 'fiftyfifty') {
 	var h1, h2, answers = questions[currentQuestion].answers;
