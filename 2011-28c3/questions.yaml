@@ -15,7 +15,7 @@
 #        - videos/question1.webm
 
 --- !Question
-question: What are users within Facebook called?
+question: How does Facebook call its users internally?
 answers:
     - false: Hostage
     - false: Victims
@@ -28,3 +28,279 @@ media:
         - pix/question1.png
     explanation:
         - videos/question1.webm
+
+--- !Question
+# http://de.wikipedia.org/wiki/Strahlenkrankheit
+# Wie gut koennen sich Leute die Fukushima facts merken?
+question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))
+answers:
+    - false: >6 mGy
+    - false: >600 mGy
+    - true: >6 Gy
+    - false: >600 Gy
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: Why did Saxony (German State) not use the Bundestrojaner (governmental trojan horse)?
+answers:
+    - true: Technically not capable of doing so.
+    - false: Ethically not justifiable.
+    - false: License too expansive.
+    - false: No crime that requires this measurement.
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: Which of the following organizations has not yet been blocked by paypal?
+answers:
+    - false: Wikileaks
+    - false: Crypto.me
+    - false: Diaspora
+    - true: Ku Klux Klan
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in russia?
+answers:
+    - false: Multi-Million-Rubel-Ad-Campain.
+    - false: Bribing the chief of federal TV.
+    - false: Forming a lightchain of trust.
+    - true: Use drones to get video footage and stream to the internet.
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_russian.jpg
+    explanation:
+        - pix/a_russian.jpg
+
+--- !Question
+question: Which of the following countries voted against a loosening of cluster munition restrictions at the UN?
+answers:
+    - true: Austria
+    - false: Germany
+    - false: Israel
+    - false: Pakistan
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: What is the definition of 1 Uhl?
+answers:
+    - false: Unit of a scale that describes the need of censorship for a certain website.
+    - false: Unit of boldness of a politician spreading lies to public knowingly.
+    - true: Amount of time passing between a random crime and a politician''s demand for the introduction of data retention laws.
+    - false: Degree of expert knowlege that a politician has, when he demands the wiretapping of encrypted data.
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: Which new investigation tool did Henrik Kaspersen, one of the founding fathers of the Convention on Cybercrime, demand during its 10th birthday to improve the work against cyber crime?
+answers:
+    - false: Email bombs
+    - false: 1days
+    - false: XSS
+    - true: Bot nets
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: How many days in a row has Belgium been run by a caretaker administration since the last government resigned in April 2010?
+answers:
+    - false: 415 days
+    - true: 541 days
+    - false: 451 days
+    - false: 154 days
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: How many 1st notifications have been sent during the first 12 months of the French Three-Strikes-Law (Hadopi) being active?
+answers:
+    - true: ~600k
+    - false: ~60k
+    - false: ~6M
+    - false: ~6k
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - videos/todo.webm
+
+--- !Question
+question: What do you see on the following picture?
+answers:
+    - true: Reconstructed picture from brain activity
+    - false: Automated blurring filter result for child porn filters
+    - false: Photoshopped picture of the anonymous-movement leader
+    - false: Picture taken with 1st digital camera
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_brain.png
+    explanation:
+        - pix/a_brain.jpg
+
+--- !Question
+question: How many weeks did it take to bring kernel.org back up after it has been hacked in end of August 2011?
+answers:
+    - false: ~ 1 week
+    - false: It is still not up
+    - true: ~ 4 weeks
+    - false: ~ 2 weeks
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo
+    explanation:
+        - pix/dodo
+
+--- !Question
+question: What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?
+answers:
+    - false: Programming new false targets
+    - false: Initiate self destruction
+    - false: Send military secrets do its creator
+    - true: Looking for facebook game accounts
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_drone.jpg
+    explanation:
+        - pix/a_drone.jpg
+
+--- !Question
+question: How did the US Airforce cyber security departement learn about the virus infected drones?
+answers:
+    - false: Advanced intrusion detection mechanisms
+    - true: Read it in the news
+    - false: The badly programmed virus caused system instabilities
+    - false: By random, during standart maintainance
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_drone2.jpg
+    explanation:
+        - pix/a_drone2.jpg
+
+--- !Question
+question: Which of the following terms does not autocomplete anymore in Google search since January 2011?
+answers:
+    - true: torrent
+    - false: MPAA
+    - false: RIAA
+    - false: Do no evil
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_autocomplete.jpg
+    explanation:
+        - pix/a_autocomplete.jpg
+
+--- !Question
+question: Which of the following CAs did not yet publish news about security problems this year?
+answers:
+    - false: Diginotar
+    - false: Corporate Market
+    - false: GlobalSign
+    - true: TÜRKTRUST
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_ca1.jpg
+        - pix/q_ca2.jpg
+        - pix/q_ca3.jpg
+        - pix/q_ca4.jpg
+    explanation:
+        - pix/q_ca4.jpg
+
+--- !Question
+question: What is the new TLD for "The Republic of South Sudan"?
+answers:
+    - false: .su
+    - false: .rs
+    - true: .ss
+    - false: .rss
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/q_sudan.jpg
+    explanation:
+        - pix/a_sudan.png
+
+--- !Question
+question: Which of the following companies announced via Twitter that they will tell the Police details about London rioters?
+answers:
+    - false: Cash and Carry (by publishing video footage)
+    - false: London Transport (by publishing RFID transportation data)
+    - true: RIM (by publishing "encrypted" Blackberry SMS)
+    - false: Virgin (by publishing a list of illegal downloaders)
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - pix/todo.png
+
+--- !Question
+question: Which of the following cities is helping to create 100 new hackerspaces in itself?
+answers:
+    - false: Berlin
+    - false: Seoul
+    - true: Shanghai
+    - false: Buenos Aires
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/todo.png
+    explanation:
+        - pix/todo.png
+
