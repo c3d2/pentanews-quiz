@@ -28,3 +28,65 @@ media:
         - pix/question1.png
     explanation:
         - videos/question1.webm
+
+--- !Question
+question: How many female Porn stars have their own article?
+answers:
+    - false: 448
+    - false: 58
+    - true: 995
+    - false: 623
+tier: 2
+game_round: 1
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+1;Wie war das Motto der Datenspuren 2010?;Mind the gap?;Heiter bis wolkig;Hands off, privacy on;Privatsphäre war gestern;1;
+2;Wie werden die Nutzer in Facebooks Datenbank genannt?;Hostage;Victims;Target;Product;3;
+3;Wie heißt der urheberrechtsverletzende Politiker der 2-Strikes vorschlägt?;Volker Kauder;Siegfried Kauder;Welsch Kauder;Dieter Kauder;2;
+4;Wozu führen rechtsweglose Zensurabmahnungen (in Italien)?;Schließung der Wikipedia;Kinderporno -250%;Berlusconi im Amt fest tackern;Anonymous behindern;1;
+5;Wie viele Verbindungsdatensätze wurden druch die Polizei während der Anti-Nazi Demonstrationen im Februar 2011 in Dresden abgefragt?;ca 12;ca. 100;ca. 5.000;mehr als 1.000.000;4;
+6;Was verlangte Google als es die Maildaten von Jacob Applebaum ausgeliefert hat?;Nichts;Gerichtsbeschluss;hat dagegen geklagt;Sagte, er hat hier keinen Account;1;
+7;Where are among other places mifare cards used that got just hacked?;NASA;NSA;Mossad HQ;Bundestag;1;
+8;What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
+9;Who controls american drones in Afghanistan part time?;Virueses;Chinese Hackers;NSA;Operators;1;
+10;Wie kompatibel ist Libre Office zu MS Office?;It can run it's virueses;It can import MS Word;It has the same UI;Hat das selbe Plugin-API;1;
+;;;;;;;
+1;Welches Land hat ACTA noch nicht unterzeichnet?;Australien;Japan;Kanada;Deutschland;4;
+2;Mit welchen Feature hat Apple die iPhone Fotoapp beworben in Bezug auf afrikanische Mädchen?;grant 'em money;Gesichtserkennung;Beschneidung;Farbkorrektur;3;
+3;How much money makes MS by patent bribing Android manufactures a year?;1 Mrd USD; 100 Mio USD; 500 Mio USD; 50 Mio;3;
+4;Warum prüfen die Musikpiraten die GEMA zu verklagen?;wollen Geld für freie Musik;wollen Geld für Samples;Veröffentlichungsverbot von CC Musik;Video auf Youtube gesperrt;1;
+5;Which company makes S/W that could be rebooted by a IPv6 ping in 2011?;Microsoft;Linux;DigiTaks;Cisco;4;
+6;Was macht Facebook wenn man sich ausloggt?;del session cookies;del some session cookies;clears browser cache;black lists user;2;
+7;How treats the CIA the Earth climate change?;denies it;lies about it;makes it a secret;tries to save the planet;3;
+8;Wie viel hat der vormalige PC Hersteller HP für CEO Abfindungen seit 2005 gezehlt? In Mio USD;10;5;80;50;3;
+9;Welches Protokoll diente zur SCADA Triebwerksteuerungsbeeinflussung einer Boing 747?;SSH;SSL;Propritär;Telnet;4;
+10;What organisation did the former MS exec Pamela Passman lead after she left MS?;BSA;Nokia;SCADA org;Lobby;4;
+;;;;;;;
+1;Which company did not pay MS for Android/Linux?;HTC;Motorola;Samsung;Casio;2;
+2;What made Win not vulnerable/exploitable in 2011?;TXT file;Ping;Flash;Power Button;4;
+3;What was the reason for human loss at Pukkelpop music festival in Belgium?;Wind;Rain;File sharing;Stümperei;3;
+4;Aus wie vielen Geschlechtern kann man in Australien wählen um das im Pass eintragen zu lassen?;0;1;2;3;4;
+5;Which country does not have a net neutrality law?;Belgium;Netherlands;Chile;USA;4;
+6;How many percent of all US Americans are employed by the Department of Defense?;0.1;0.5;1;5;3;
+7;What is the gain in round trip time by the new $300 EU-US cable (Erstes in 10 Jahren)?;6s;0.6s;0.06s;0.006s;4;
+8;Welches Programm wurde nicht aus dem Apple App Store gelöscht?;Phone Stroy;Smuggle Truck;Cure-Gay;Conterfai Lugaru;3;
+9;Why does SPD Sebastian Edathy wants the data retention law?;Catch terrorists;Catch file sharers;protect democracy;find out who sent him that plastic pussy;4;
+10;What was not patented to our knowledge?;Snowman;Snowball;Patenting;Geotracking;1;
+;;;;;;;
+1;Was durften angeklagte Anonymous Aktivisten nicht mehr?;DoS-Angriffe;Visa nutzen;anonym surfen;Telefonieren;3;
+2;Welches Urheberrecht wurde nicht durch die USA vorgeschrieben?;Kanada;Russland;Spanien;Schweden;2;
+3;Who took longest to recover from Hack?;kernel.org;Sony;Wine HQ;The Register;2;
+4;What is the goal of a new party in Switzerland?;Make all voting on-line;ban Powerpoint;ban all on-line voting;allow all computers in parlament;2;
+5;How did attackers gain access to RSA internal network?;Breaking RSA tokens;MIM of RSA token authentication;SQL injection;Excel trojan;4;
+6;What animal did the US army use in Western Berlin for intruder alarm?;goose;sheep;chicken;dog;1;
+7;To gather the 1st million patents took 80 years. How long does it take today?;6m;1y;5y;10y;3;
+8;What did the camp not do?;save a life;bring together great folks;fun;hack the weather;4;
+9;Who was awarded the Pwnie award this year?;Sony;Sony;Sony;Sony;1;
+10;What wants Cameron prohibit in case of riots?;Blackberries;social media;Internet;GSM phones;2;
+11;For whom Paypal accepts payments?;Wikileaks;Cuban Cigars;Ku Klux Klan;Bradley Manning support fund;3;
+12;What vendor/project did not violate the GPL?;AVM;VIM;Fortinet;Emacs;2;
+;;;;;;;
