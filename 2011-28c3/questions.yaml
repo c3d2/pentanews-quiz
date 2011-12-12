@@ -15,6 +15,7 @@
 #        - videos/question1.webm
 
 --- !Question
+# http://www.europe-v-facebook.org/EN/Data_Pool/data_pool.html
 question: How does Facebook call its users internally?
 answers:
     - false: Hostage
@@ -47,6 +48,7 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung
 question: Why did Saxony (German State) not use the Bundestrojaner (governmental trojan horse)?
 answers:
     - true: Technically not capable of doing so.
@@ -62,6 +64,9 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://www.golem.de/1110/87145.html
+# http://www.theregister.co.uk/2010/03/10/cryptome_paypal/
+# http://www.wired.com/threatlevel/2010/12/paypal-wikileaks/
 question: Which of the following organizations has not yet been blocked by paypal?
 answers:
     - false: Wikileaks
@@ -77,6 +82,7 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://www.spiegel.de/politik/ausland/0,1518,802967,00.html
 question: How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in russia?
 answers:
     - false: Multi-Million-Rubel-Ad-Campain.
@@ -92,6 +98,10 @@ media:
         - pix/a_russian.jpg
 
 --- !Question
+# http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125
+# http://www.general-anzeiger-bonn.de/news/kommentare/Die-Rueckkehr-der-Streubomben-Spur-des-Todes-article567503.html
+# http://www.krone.at/Welt/Oesterreich_kaempft_gegen_Comeback_der_Streubomben-Einsames_Vorhaben-Story-302663
+# http://taz.de/Abkommen-zu-Streumunition/!82648/
 question: Which of the following countries voted against a loosening of cluster munition restrictions at the UN?
 answers:
     - true: Austria
@@ -107,6 +117,7 @@ media:
         - videos/todo.webm
 
 --- !Question
+# keine Quelle gefunden.
 question: What is the definition of 1 Uhl?
 answers:
     - false: Unit of a scale that describes the need of censorship for a certain website.
@@ -122,6 +133,7 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html
 question: Which new investigation tool did Henrik Kaspersen, one of the founding fathers of the Convention on Cybercrime, demand during its 10th birthday to improve the work against cyber crime?
 answers:
     - false: Email bombs
@@ -137,6 +149,8 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://en.wikipedia.org/wiki/2010–2011_Belgian_government_formation
+# http://abcnews.go.com/International/wireStory/belgiums-government-sworn-541-days-15089331#.TuZ43WCJIYI
 question: How many days in a row has Belgium been run by a caretaker administration since the last government resigned in April 2010?
 answers:
     - false: 415 days
@@ -152,6 +166,7 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://www.heise.de/tp/blogs/8/150565
 question: How many 1st notifications have been sent during the first 12 months of the French Three-Strikes-Law (Hadopi) being active?
 answers:
     - true: ~600k
@@ -167,6 +182,7 @@ media:
         - videos/todo.webm
 
 --- !Question
+# http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/
 question: What do you see on the following picture?
 answers:
     - true: Reconstructed picture from brain activity
@@ -182,6 +198,7 @@ media:
         - pix/a_brain.jpg
 
 --- !Question
+# http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg
 question: How many weeks did it take to bring kernel.org back up after it has been hacked in end of August 2011?
 answers:
     - false: ~ 1 week
@@ -197,6 +214,7 @@ media:
         - pix/dodo
 
 --- !Question
+# http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/
 question: What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?
 answers:
     - false: Programming new false targets
@@ -212,6 +230,7 @@ media:
         - pix/a_drone.jpg
 
 --- !Question
+# http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars
 question: How did the US Airforce cyber security departement learn about the virus infected drones?
 answers:
     - false: Advanced intrusion detection mechanisms
@@ -227,6 +246,7 @@ media:
         - pix/a_drone2.jpg
 
 --- !Question
+# http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/
 question: Which of the following terms does not autocomplete anymore in Google search since January 2011?
 answers:
     - true: torrent
@@ -242,6 +262,9 @@ media:
         - pix/a_autocomplete.jpg
 
 --- !Question
+# http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/
+# http://www.heise.de/security/meldung/Falsches-Google-Zertifikat-ist-Folge-eines-Hacks-1333588.html
+# http://www.heise.de/security/meldung/Zertifikatsausgabestopp-nach-Einbruch-auf-einem-KPN-Server-1372279.html
 question: Which of the following CAs did not yet publish news about security problems this year?
 answers:
     - false: Diginotar
@@ -260,6 +283,7 @@ media:
         - pix/q_ca4.jpg
 
 --- !Question
+# http://en.wikipedia.org/wiki/South_Sudan
 question: What is the new TLD for "The Republic of South Sudan"?
 answers:
     - false: .su
@@ -275,6 +299,7 @@ media:
         - pix/a_sudan.png
 
 --- !Question
+# http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/
 question: Which of the following companies announced via Twitter that they will tell the Police details about London rioters?
 answers:
     - false: Cash and Carry (by publishing video footage)
@@ -290,6 +315,7 @@ media:
         - pix/todo.png
 
 --- !Question
+http://winfuture.de/news,66539.html
 question: Which of the following cities is helping to create 100 new hackerspaces in itself?
 answers:
     - false: Berlin
