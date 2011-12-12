@@ -236,9 +236,9 @@ tier: 4
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/van_gogh_ipad.jpg
     explanation:
-        - videos/question1.webm
+        - videos/phonestory.webm
 
 --- !Question
 question: Which App wasn't removed from the Apple app store this year?
