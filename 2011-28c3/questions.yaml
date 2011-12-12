@@ -26,9 +26,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/question1.png
+        - pix/q_target.png
     explanation:
-        - videos/question1.webm
+        - pix/a_target.jpg
 
 --- !Question
 # http://de.wikipedia.org/wiki/Strahlenkrankheit
@@ -43,9 +43,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_fukushima.jpg
     explanation:
-        - videos/todo.webm
+        - pix/a_fukushima.jpg
 
 --- !Question
 # http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung
@@ -59,9 +59,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_bundestrojaner.jpg
     explanation:
-        - videos/todo.webm
+        - pix/a_bundestrojaner.jpg
 
 --- !Question
 # http://www.golem.de/1110/87145.html
@@ -70,16 +70,19 @@ media:
 question: Which of the following organizations has not yet been blocked by paypal?
 answers:
     - false: Wikileaks
-    - false: Crypto.me
+    - false: Cryptome.org
     - false: Diaspora
     - true: Ku Klux Klan
 tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_paypal1.jpg
+        - pix/q_paypal2.jpg
+        - pix/q_paypal3.png
+        - pix/q_paypal4.jpg
     explanation:
-        - videos/todo.webm
+        - pix/a_paypal.gif
 
 --- !Question
 # http://www.spiegel.de/politik/ausland/0,1518,802967,00.html
@@ -112,9 +115,10 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_cluster.jpg
     explanation:
-        - videos/todo.webm
+        - pix/a_cluster1.jpg
+        - pix/a_cluster2.jpg
 
 --- !Question
 # keine Quelle gefunden.
@@ -128,9 +132,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_uhl.jpg
     explanation:
-        - videos/todo.webm
+        - pix/a_uhl.jpg
 
 --- !Question
 # http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html
@@ -144,9 +148,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_cybercrime.png
     explanation:
-        - videos/todo.webm
+        - pix/a_cybercrime.jpg
 
 --- !Question
 # http://en.wikipedia.org/wiki/2010–2011_Belgian_government_formation
@@ -161,9 +165,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_belgium.gif
     explanation:
-        - videos/todo.webm
+        - pix/a_belgium.jpg
 
 --- !Question
 # http://www.heise.de/tp/blogs/8/150565
@@ -177,9 +181,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_hadopi.png
     explanation:
-        - videos/todo.webm
+        - pix/q_hadopi.jpg
 
 --- !Question
 # http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/
@@ -209,9 +213,9 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo
+        - pix/q_kernel.gif
     explanation:
-        - pix/dodo
+        - pix/a_kernel.jpg
 
 --- !Question
 # http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/
@@ -310,12 +314,12 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_london.jpg
     explanation:
-        - pix/todo.png
+        - pix/a_london.jpg
 
 --- !Question
-http://winfuture.de/news,66539.html
+# http://winfuture.de/news,66539.html
 question: Which of the following cities is helping to create 100 new hackerspaces in itself?
 answers:
     - false: Berlin
@@ -326,7 +330,7 @@ tier: 1
 game_round: 1
 media:
     question:
-        - pix/todo.png
+        - pix/q_hackspace.jpg
     explanation:
-        - pix/todo.png
+        - pix/a_hackspace.jpg
 
