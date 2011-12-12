@@ -1,11 +1,12 @@
 var Connect = require('connect');
 var wss = require('websocket').server;
 var ltx = require('ltx');
+var formidable = require('formidable');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
 var MIME_HTML = 'text/html; charset=UTF-8';
 
-var backend, question, answers, scores;
+var backend, question, answers, scores, mode;
 
 
 function html(body) {
@@ -53,8 +54,10 @@ function updateBackend() {
 
 function nedap(app) {
     app.get('/', function(req, res) {
-	if (question && answers) {
-console.log({question:question,answers:answers})
+	if (mode === 'nedap' &&
+	    question && answers) {
+
+	    console.log({question:question,answers:answers})
 	    var form = new ltx.Element('form',
 				       { action: '/',
 					 method: 'POST',
@@ -77,6 +80,18 @@ console.log({question:question,answers:answers})
 			      value: 'Submit' });
 
 	    res.writeHead(200, { 'Content-type': MIME_HTML });
+	    res.write(html(form.toString()));
+	    res.end();
+	} else if (mode === 'gif') {
+	    res.writeHead(200, { 'Content-type': MIME_HTML });
+	    var form = new ltx.Element('form', { action: "/i",
+						 method: "POST",
+						 enctype: "multipart/form-data"
+					       });
+	    form.c('p', question);
+	    form.c('input', { type: 'file' });
+	    form.c('input', { type: 'submit', value: "Submit" });
+	    form.c('p', "Max file size: 2 MB");
 	    res.write(html(form.toString()));
 	    res.end();
 	} else {
@@ -116,6 +131,17 @@ console.log({question:question,answers:answers})
 	res.write(html("<p>Thanks, your vote may have been counted.</p>"));
 	res.end();
     });
+
+    app.post('/i', function(req, res) {
+	var form = new formidable.IncomingForm();
+	form.parse(req, function(err, fields, files) {
+	    /* TODO: pass to frontend */
+	    res.writeHead(200, { 'Content-type': MIME_HTML });
+	    res.write(html("<p>Image eval() successful!</p>"));
+	    res.end();
+	});
+    });
+
 }
 
 
@@ -153,10 +179,15 @@ new wss({ httpServer: server }).on('request', function(req) {
 		console.log({msg: msg});
 		if (msg.joker) {
 		    question = msg.joker.question;
-		    answers = msg.joker.answers;
-		    scores = [];
-		    for(var i = 0; i < answers.length; i++)
-			scores[i] = 0;
+		    if (msg.joker.type === 'nedap') {
+			mode = 'nedap';
+			answers = msg.joker.answers;
+			scores = [];
+			for(var i = 0; i < answers.length; i++)
+			    scores[i] = 0;
+		    } else if (msg.joker.type === 'gif') {
+			mode = 'gif';
+		    }
 		}
 		if (msg.clear) {
 		    question = null;
