@@ -15,15 +15,14 @@
 #        - videos/question1.webm
 
 --- !Question
-# http://www.europe-v-facebook.org/EN/Data_Pool/data_pool.html
-question: How does Facebook call its users internally?
+question: Who was awarded the Pwnie award this year?
 answers:
-    - false: Hostage
-    - false: Victims
-    - true: Target
-    - false: Product
+    - true: Sony
+    - true: Sony
+    - true: Sony
+    - true: Sony
 tier: 1
-game_round: 1
+game_round: 2
 media:
     question:
         - pix/q_target.png
@@ -35,10 +34,10 @@ media:
 # Wie gut koennen sich Leute die Fukushima facts merken?
 question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))
 answers:
-    - false: >6 mGy
-    - false: >600 mGy
-    - true: >6 Gy
-    - false: >600 Gy
+    - false: "> 6 mGy"
+    - false: "> 600 mGy"
+    - true: "> 6 Gy"
+    - false: "> 600 Gy"
 tier: 1
 game_round: 1
 media:
@@ -55,7 +54,7 @@ answers:
     - false: Ethically not justifiable.
     - false: License too expansive.
     - false: No crime that requires this measurement.
-tier: 1
+tier: 2
 game_round: 1
 media:
     question:
@@ -73,7 +72,7 @@ answers:
     - false: Cryptome.org
     - false: Diaspora
     - true: Ku Klux Klan
-tier: 1
+tier: 3
 game_round: 1
 media:
     question:
@@ -92,7 +91,7 @@ answers:
     - false: Bribing the chief of federal TV.
     - false: Forming a lightchain of trust.
     - true: Use drones to get video footage and stream to the internet.
-tier: 1
+tier: 4
 game_round: 1
 media:
     question:
@@ -111,7 +110,7 @@ answers:
     - false: Germany
     - false: Israel
     - false: Pakistan
-tier: 1
+tier: 5
 game_round: 1
 media:
     question:
@@ -128,7 +127,7 @@ answers:
     - false: Unit of boldness of a politician spreading lies to public knowingly.
     - true: Amount of time passing between a random crime and a politician''s demand for the introduction of data retention laws.
     - false: Degree of expert knowlege that a politician has, when he demands the wiretapping of encrypted data.
-tier: 1
+tier: 6
 game_round: 1
 media:
     question:
@@ -144,7 +143,7 @@ answers:
     - false: 1days
     - false: XSS
     - true: Bot nets
-tier: 1
+tier: 7
 game_round: 1
 media:
     question:
@@ -161,7 +160,7 @@ answers:
     - true: 541 days
     - false: 451 days
     - false: 154 days
-tier: 1
+tier: 8
 game_round: 1
 media:
     question:
@@ -177,7 +176,7 @@ answers:
     - false: ~60k
     - false: ~6M
     - false: ~6k
-tier: 1
+tier: 9
 game_round: 1
 media:
     question:
@@ -193,7 +192,7 @@ answers:
     - false: Automated blurring filter result for child porn filters
     - false: Photoshopped picture of the anonymous-movement leader
     - false: Picture taken with 1st digital camera
-tier: 1
+tier: 10
 game_round: 1
 media:
     question:
@@ -209,7 +208,7 @@ answers:
     - false: It is still not up
     - true: ~ 4 weeks
     - false: ~ 2 weeks
-tier: 1
+tier: 11
 game_round: 1
 media:
     question:
@@ -225,7 +224,7 @@ answers:
     - false: Initiate self destruction
     - false: Send military secrets do its creator
     - true: Looking for facebook game accounts
-tier: 1
+tier: 12
 game_round: 1
 media:
     question:
@@ -241,7 +240,7 @@ answers:
     - true: Read it in the news
     - false: The badly programmed virus caused system instabilities
     - false: By random, during standart maintainance
-tier: 1
+tier: 13
 game_round: 1
 media:
     question:
@@ -257,7 +256,7 @@ answers:
     - false: MPAA
     - false: RIAA
     - false: Do no evil
-tier: 1
+tier: 14
 game_round: 1
 media:
     question:
@@ -275,7 +274,7 @@ answers:
     - false: Corporate Market
     - false: GlobalSign
     - true: TÜRKTRUST
-tier: 1
+tier: 15
 game_round: 1
 media:
     question:
@@ -294,11 +293,11 @@ answers:
     - false: .rs
     - true: .ss
     - false: .rss
-tier: 1
+tier: 16
 game_round: 1
 media:
     question:
-        - pix/q_sudan.jpg
+        - pix/q_sudan.png
     explanation:
         - pix/a_sudan.png
 
@@ -310,7 +309,7 @@ answers:
     - false: London Transport (by publishing RFID transportation data)
     - true: RIM (by publishing "encrypted" Blackberry SMS)
     - false: Virgin (by publishing a list of illegal downloaders)
-tier: 1
+tier: 17
 game_round: 1
 media:
     question:
@@ -326,7 +325,7 @@ answers:
     - false: Seoul
     - true: Shanghai
     - false: Buenos Aires
-tier: 1
+tier: 18
 game_round: 1
 media:
     question:
@@ -334,3 +333,453 @@ media:
     explanation:
         - pix/a_hackspace.jpg
 
+--- !Question
+question: How many female Porn stars have their own WP article?
+answers:
+    - false: 448
+    - false: 58
+    - true: 995
+    - false: 623
+tier: 2
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?
+answers:
+    - false: 540
+    - true: 54k
+    - false: 540k
+    - false: 940k
+tier: 3
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?
+answers:
+    - true: hand over the data
+    - false: nothing
+    - false: fought the order
+    - false: denied his account
+tier: 4
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Who controls american drones in Afghanistan part time?
+answers:
+    - false: Iran Army
+    - false: NSA
+    - false: Chinese Hackers
+    - true: Viruses
+tier: 5
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: To what degree Libre Office is compatible to MS Office documents?
+answers:
+    - true: It can run the same viruses?
+    - false: It can import MS Word now.
+    - false: It has the same plugin-api.
+    - true: It fucks up documents just as well.
+tier: 6
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: How much money makes MS by patent bribing Android manufactures a year?
+answers:
+    - false: $1 billion
+    - false: $100 mio
+    - true: $500 mio
+    - false: $50 mio
+tier: 7
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which company delivers software that could reboot by a IPv6 ping in 2011?
+answers:
+    - false: Microsoft
+    - true: Cisco
+    - false: Netapp
+    - false: Huawei
+tier: 8
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: How much money has HP spent in CEO pay-offs since 2005?
+answers:
+    - false: $10 mio
+    - true: $80 mio
+    - false: $50 mio
+    - false: $25 mio
+tier: 9
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?
+answers:
+    - false: ssh
+    - false: ssl
+    - true: telnet
+    - false: proprietary
+tier: 10
+game_round: 2
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What was the reason for human loss at Pukkelpop music festival in Belgium?
+answers:
+    - false: stormy wind
+    - false: heavy rain
+    - true: file sharing
+    - false: bungling
+tier: 1
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which country does not have a net neutrality law?
+answers:
+    - false: Belgium
+    - false: Netherlands
+    - true: USA
+    - false: Chile
+tier: 2
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What is the gain in round trip time by the new $300 mio EU-US cable (first in 10 years)?
+answers:
+    - false: 6s
+    - false: 0.6s
+    - false: 0.06s
+    - true: 0.006s
+tier: 3
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which App was pulled off the Apple app store this year after massive protests?
+answers:
+    - false: Phone Story
+    - true: Cure-Gay
+    - false: Smuggle Truck
+    - false: Conterfai Lugary
+tier: 4
+game_round: 3
+media:
+    question:
+        - pix/van_gogh_ipad.jpg
+    explanation:
+        - videos/phonestory.webm
+
+--- !Question
+question: Which App wasn't removed from the Apple app store this year?
+answers:
+    - false: Phone Story
+    - true: Cure-Gay
+    - false: Smuggle Truck
+    - false: Conterfai Lugary
+tier: 5
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Why does the German SPD politician Sebastian Edathy wants the data retention law?
+answers:
+    - true: to catch who send him a plastic pussy
+    - false: to catch file sharers
+    - false: to catch terrorist
+    - false: to protect democracy
+tier: 6
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What was not patented to our knowledge?;Snowman;Snowball;Patenting;Geotracking;1;
+answers:
+    - true: Snowman
+    - false: Snowball
+    - false: Patenting itself
+    - false: Geo-tracking
+tier: 7
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which country did not get his copyright law dictated by the US?
+answers:
+    - false: Canada
+    - false: Spain
+    - false: Sweden
+    - true: Russia
+tier: 8
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which country did not get his copyright law dictated by the US?
+answers:
+    - false: Canada
+    - false: Spain
+    - false: Sweden
+    - true: Russia
+tier: 9
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What vendor/project did not violate the GPL?
+answers:
+    - false: AVM
+    - true: Vim
+    - false: Gigabyte
+    - false: Emacs
+tier: 10
+game_round: 3
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+--- !Question
+question: What company does this org chart show?
+answers:
+    - false: Google
+    - true: Microsoft
+    - false: Apple
+    - false: Oracle
+tier: 1
+game_round: 4
+media:
+    question:
+        - pix/orgchart-ms.png
+    explanation:
+        - pix/organigram.png
+
+--- !Question
+question: What programming language Fefe isn't able to read?
+answers:
+    - false: C
+    - false: Assembler
+    - false: Machine Code
+    - true: Erlang
+tier: 2
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: Which city is going to support founding of 100 hackerspaces?
+answers:
+    - false: Paris
+    - false: New York
+    - true: Shanghai
+    - false: Rio de Janeiro
+tier: 3
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/shanghai.jpg
+
+--- !Question
+question: Who did not die this year?
+answers:
+    - false: Steve Jobs
+    - true: Rupert Murdoch
+    - false: John McCarthy
+    - false: Dennis Ritchie
+tier: 4
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/anonymous-sun.jpg
+
+--- !Question
+question: Which programming language can calculate?
+answers:
+    - false: PHP
+    - true: 
+    - false: Java
+    - false: Dennis Ritchie
+tier: 5
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/shanghai.jpg
+
+--- !Question
+question: How many babies were given away in Spain between and the 90-es?
+answers:
+    - false: PHP
+    - true: 300,000
+    - false: Java
+    - false: Dennis Ritchie
+tier: 6
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/shanghai.jpg
+
+--- !Question
+question: How many Mrs USA finalists think evolution should be taught in school?
+answers:
+    - false: PHP
+    - true: 300,000
+    - false: Java
+    - false: Dennis Ritchie
+tier: 7
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/shanghai.jpg
+
+--- !Question
+question: What could not be used to exploit Win systems in 2011?
+answers:
+    - false: TXT file
+    - false: Ping
+    - false: Flash and other Adobe stuff
+    - true: Power Button
+tier: 8
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What animal did the US army use in Western Berlin for intruder alarm?
+answers:
+    - true: goose
+    - false: sheep
+    - false: chicken
+    - false: dog
+tier: 9
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What was the most common password?
+answers:
+    - true: goose
+    - false: sheep
+    - false: chicken
+    - false: dog
+tier: 10
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+
+#8;What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
+#1;Welches Land hat ACTA noch nicht unterzeichnet?;Australien;Japan;Kanada;Deutschland;4;
+#2;Mit welchen Feature hat Apple die iPhone Fotoapp beworben in Bezug auf afrikanische Mädchen?;grant 'em money;Gesichtserkennung;Beschneidung;Farbkorrektur;3;
+#6;Was macht Facebook wenn man sich ausloggt?;del session cookies;del some session cookies;clears browser cache;black lists user;2;
+#7;How treats the CIA the Earth climate change?;denies it;lies about it;makes it a secret;tries to save the planet;3;
+#1;Which company did not pay MS for Android/Linux?;HTC;Motorola;Samsung;Casio;2;
+#6;How many percent of all US Americans are employed by the Department of Defense?;0.1;0.5;1;5;3;
+#1;Was durften angeklagte Anonymous Aktivisten nicht mehr?;DoS-Angriffe;Visa nutzen;anonym surfen;Telefonieren;3;
+#3;Who took longest to recover from Hack?;kernel.org;Sony;Wine HQ;The Register;2;
+#4;What is the goal of a new party in Switzerland?;Make all voting on-line;ban Powerpoint;ban all on-line voting;allow all computers in parlament;2;
+#5;How did attackers gain access to RSA internal network?;Breaking RSA tokens;MIM of RSA token authentication;SQL injection;Excel trojan;4;
+#7;To gather the 1st million patents took 80 years. How long does it take today?;6m;1y;5y;10y;3;
+#8;What did the camp not do?;save a life;bring together great folks;fun;hack the weather;4;
+#10;What wants Cameron prohibit in case of riots?;Blackberries;social media;Internet;GSM phones;2;
+#11;For whom Paypal accepts payments?;Wikileaks;Cuban Cigars;Ku Klux Klan;Bradley Manning support fund;3;
