@@ -1,10 +1,13 @@
 var Connect = require('connect');
 var wss = require('websocket').server;
 var ltx = require('ltx');
-var formidable = require('formidable');
+var fs = require('fs');
+var mime = require('mime');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
 var MIME_HTML = 'text/html; charset=UTF-8';
+var UPLOAD_DIR="static/gifs";
+try { fs.mkdirSync(UPLOAD_DIR); } catch (e) {}
 
 var backend, question, answers, scores, mode;
 
@@ -89,7 +92,7 @@ function nedap(app) {
 						 enctype: "multipart/form-data"
 					       });
 	    form.c('p', question);
-	    form.c('input', { type: 'file' });
+	    form.c('input', { type: 'file', name: 'gif' });
 	    form.c('input', { type: 'submit', value: "Submit" });
 	    form.c('p', "Max file size: 2 MB");
 	    res.write(html(form.toString()));
@@ -133,13 +136,27 @@ function nedap(app) {
     });
 
     app.post('/i', function(req, res) {
-	var form = new formidable.IncomingForm();
-	form.parse(req, function(err, fields, files) {
-	    /* TODO: pass to frontend */
+	if (req.files.gif) {
+	    /* pass to frontend */
+	    var gif = req.files.gif;
+	    var path = gif.path + "." + mime.extension(gif.type);
+	    fs.rename(gif.path, path, function(err) {
+		if (err)
+		    return;
+		path = path.split('/').pop();
+		console.log("file", gif.name, path, gif.type);
+		if (backend)
+		    backend.sendUTF(JSON.stringify({ gif: "/gifs/" + path }));
+	    });
+
 	    res.writeHead(200, { 'Content-type': MIME_HTML });
 	    res.write(html("<p>Image eval() successful!</p>"));
 	    res.end();
-	});
+	} else {
+	    console.error(err.stack || err);
+	    res.writeHead(500, { 'Content-type': 'text/plain' });
+	    res.end("Oops");
+	}
     });
 
 }
@@ -147,7 +164,7 @@ function nedap(app) {
 
 var server = Connect.createServer(
     Connect.logger(),
-    Connect.bodyParser(),
+    Connect.bodyParser({ uploadDir: UPLOAD_DIR }),
     Connect.router(nedap),
     Connect.static(__dirname + '/static'),
     Connect.errorHandler({ dumpExceptions: true, showStack: true })
