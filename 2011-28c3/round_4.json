@@ -1,0 +1,209 @@
+[
+  {
+    "tier": 100, 
+    "text": "What company does this org chart show?", 
+    "explanation": [
+      "pix/organigram.png"
+    ], 
+    "image": "pix/orgchart-ms.png", 
+    "answers": [
+      {
+        "text": "Google"
+      }, 
+      {
+        "text": "Microsoft", 
+        "right": true
+      }, 
+      {
+        "text": "Apple"
+      }, 
+      {
+        "text": "Oracle"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "What programming language Fefe isn't able to read?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "C"
+      }, 
+      {
+        "text": "Assembler"
+      }, 
+      {
+        "text": "Machine Code"
+      }, 
+      {
+        "text": "Erlang", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "Which city is going to support founding of 100 hackerspaces?", 
+    "explanation": [
+      "pix/shanghai.jpg"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "Paris"
+      }, 
+      {
+        "text": "New York"
+      }, 
+      {
+        "text": "Shanghai", 
+        "right": true
+      }, 
+      {
+        "text": "Rio de Janeiro"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "Who did not die this year?", 
+    "explanation": [
+      "pix/shanghai.jpg"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "Steve Jobs"
+      }, 
+      {
+        "text": null, 
+        "right": true
+      }, 
+      {
+        "text": "John McCarthy"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "Which programming language can calculate?", 
+    "explanation": [
+      "pix/shanghai.jpg"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": null, 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "How many babies were given away in Spain between and the 90-es?", 
+    "explanation": [
+      "pix/shanghai.jpg"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": "300,000", 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "How many Mrs USA finalists think evolution should be taught in school?", 
+    "explanation": [
+      "pix/shanghai.jpg"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": "300,000", 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "What could not be used to exploit Win systems in 2011?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "TXT file"
+      }, 
+      {
+        "text": "Ping"
+      }, 
+      {
+        "text": "Flash and other Adobe stuff"
+      }, 
+      {
+        "text": "Power Button", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 2563, 
+    "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "goose", 
+        "right": true
+      }, 
+      {
+        "text": "sheep"
+      }, 
+      {
+        "text": "chicken"
+      }, 
+      {
+        "text": "dog"
+      }
+    ]
+  }
+]
