@@ -6,7 +6,8 @@ var mime = require('mime');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
 var MIME_HTML = 'text/html; charset=UTF-8';
-var UPLOAD_DIR="static/gifs";
+var UPLOAD_DIR = "static/gifs";
+var GIFS_PREFIX = "http://localhost:2342/gifs/";
 try { fs.mkdirSync(UPLOAD_DIR); } catch (e) {}
 
 var backend, question, answers, scores, mode;
@@ -146,7 +147,10 @@ function nedap(app) {
 		path = path.split('/').pop();
 		console.log("file", gif.name, path, gif.type);
 		if (backend)
-		    backend.sendUTF(JSON.stringify({ gif: "/gifs/" + path }));
+		    backend.sendUTF(JSON.stringify({ gif: { path: GIFS_PREFIX + path,
+							    name: gif.name,
+							    size: gif.size
+							  } }));
 	    });
 
 	    res.writeHead(200, { 'Content-type': MIME_HTML });

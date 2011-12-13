@@ -3,7 +3,7 @@ var wss = require('websocket').server;
 var wsc = require('websocket').client;
 var irc = require('irc-js');
 
-var frontend;
+var frontend, sendToCensor;
 
 
 /*
@@ -30,7 +30,10 @@ function connectNedap() {
 	    try {
 		var msg = JSON.parse(wsmsg.utf8Data);
 		console.log({ fromNedap: msg });
-		sendToFrontend({ nedap: msg });
+		if (msg.gif) {
+		    sendToCensor(msg);
+		} else
+		    sendToFrontend({ nedap: msg });
 	    } catch (e) {
 		console.error(e.stack);
 	    }
@@ -243,37 +246,61 @@ var gamestate = {};
 
 new wss({ httpServer: server }).on('request', function(req) {
     var conn = req.accept(null, req.origin);
-    frontend = conn;
 
-    conn.on('message', function(wsmsg) {
-	console.log(wsmsg);
-	try {
-	    var msg = JSON.parse(wsmsg.utf8Data);
-	    if (msg.nedap) {
-		console.log({ toNedap: msg.nedap });
-		if (nedap)
-		    nedap.sendUTF(JSON.stringify(msg.nedap));
-	    } else if (msg.irc === "activate") {
-		pushIrcInfo();
-	    } else if (msg.buzzerLED) {
-		buzz.set_led(msg.buzzerLED[0], msg.buzzerLED[1]);
-	    } else if (msg.morse) {
-		morse(msg.morse);
-	    } else if (msg.gamestate) {
-		gamestate = msg.gamestate;
-	    } else if (msg.requestGamestate) {
-		conn.sendUTF(JSON.stringify({ gamestate: gamestate }));
+    if (req.requestedProtocols && req.requestedProtocols.indexOf('censor') >= 0) {
+	/* Censor frontend */
+	sendToCensor = function(obj) {
+	    conn.sendUTF(JSON.stringify(obj));
+	};
+	conn.on('message', function(wsmsg) {
+	    console.log(wsmsg);
+	    try {
+		var msg = JSON.parse(wsmsg.utf8Data);
+		if (msg.gif)
+		    sendToFrontend(msg);
+	    } catch (e) {
+		console.error(e.stack);
 	    }
-	} catch (e) {
-	    console.error(e.stack);
-	}
-    });
+	});
 
-    var reset = function() {
-	frontend = null;
-    };
-    conn.on('close', reset);
-    conn.on('error', reset);
+	var reset = function() {
+	    sendToCensor = function() { };
+	};
+	conn.on('close', reset);
+	conn.on('error', reset);
+    } else {
+	/* Game frontend */
+	frontend = conn;
+	conn.on('message', function(wsmsg) {
+	    console.log(wsmsg);
+	    try {
+		var msg = JSON.parse(wsmsg.utf8Data);
+		if (msg.nedap) {
+		    console.log({ toNedap: msg.nedap });
+		    if (nedap)
+			nedap.sendUTF(JSON.stringify(msg.nedap));
+		} else if (msg.irc === "activate") {
+		    pushIrcInfo();
+		} else if (msg.buzzerLED) {
+		    buzz.set_led(msg.buzzerLED[0], msg.buzzerLED[1]);
+		} else if (msg.morse) {
+		    morse(msg.morse);
+		} else if (msg.gamestate) {
+		    gamestate = msg.gamestate;
+		} else if (msg.requestGamestate) {
+		    conn.sendUTF(JSON.stringify({ gamestate: gamestate }));
+		}
+	    } catch (e) {
+		console.error(e.stack);
+	    }
+	});
+
+	var reset = function() {
+	    frontend = null;
+	};
+	conn.on('close', reset);
+	conn.on('error', reset);
+    }
 });
 
 function sendToFrontend(obj) {

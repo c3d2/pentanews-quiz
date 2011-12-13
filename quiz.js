@@ -1,5 +1,3 @@
-var GIF_PREFIX = "http://localhost:2342";
-
 if (!window.console) {
     var stub = function() { };
     window.console = { log: stub, error: stub, warn: stub };
@@ -394,12 +392,12 @@ function takeJoker(activePlayer, joker) {
 	$('#gifs img').remove();
 	$('#gifs').show();
 	onBackendMessage = function(msg) {
-	    if (msg.nedap.gif) {
+	    if (msg.gif) {
 		for(var imgs = $('#gifs img'); imgs.length > 2; imgs = $('#gifs img')) {
 		    $(imgs[0]).remove();
 		}
 		var img = $('<img/>');
-		img.attr('src', GIF_PREFIX + msg.nedap.gif);
+		img.attr('src', msg.gif);
 		$('#gifs').append(img);
 	    }
 	};
