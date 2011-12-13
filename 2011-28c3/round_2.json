@@ -1,0 +1,236 @@
+[
+  {
+    "tier": 100, 
+    "text": "Who was awarded the Pwnie award this year?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "How many female Porn stars have their own WP article?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": 448
+      }, 
+      {
+        "text": 58
+      }, 
+      {
+        "text": 995, 
+        "right": true
+      }, 
+      {
+        "text": 623
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": 540
+      }, 
+      {
+        "text": "54k", 
+        "right": true
+      }, 
+      {
+        "text": "540k"
+      }, 
+      {
+        "text": "940k"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "hand over the data", 
+        "right": true
+      }, 
+      {
+        "text": "nothing"
+      }, 
+      {
+        "text": "fought the order"
+      }, 
+      {
+        "text": "denied his account"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "Who controls american drones in Afghanistan part time?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "Iran Army"
+      }, 
+      {
+        "text": "NSA"
+      }, 
+      {
+        "text": "Chinese Hackers"
+      }, 
+      {
+        "text": "Viruses", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "To what degree Libre Office is compatible to MS Office documents?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "It can run the same viruses?", 
+        "right": true
+      }, 
+      {
+        "text": "It can import MS Word now."
+      }, 
+      {
+        "text": "It has the same plugin-api."
+      }, 
+      {
+        "text": "It fucks up documents just as well.", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "How much money makes MS by patent bribing Android manufactures a year?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "$1 billion"
+      }, 
+      {
+        "text": "$100 mio"
+      }, 
+      {
+        "text": "$500 mio", 
+        "right": true
+      }, 
+      {
+        "text": "$50 mio"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "Which company delivers software that could reboot by a IPv6 ping in 2011?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "Microsoft"
+      }, 
+      {
+        "text": "Cisco", 
+        "right": true
+      }, 
+      {
+        "text": "Netapp"
+      }, 
+      {
+        "text": "Huawei"
+      }
+    ]
+  }, 
+  {
+    "tier": 2563, 
+    "text": "How much money has HP spent in CEO pay-offs since 2005?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "$10 mio"
+      }, 
+      {
+        "text": "$80 mio", 
+        "right": true
+      }, 
+      {
+        "text": "$50 mio"
+      }, 
+      {
+        "text": "$25 mio"
+      }
+    ]
+  }, 
+  {
+    "tier": 3844, 
+    "text": "Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?", 
+    "explanation": [
+      "videos/question1.webm"
+    ], 
+    "image": "pix/question1.png", 
+    "answers": [
+      {
+        "text": "ssh"
+      }, 
+      {
+        "text": "ssl"
+      }, 
+      {
+        "text": "telnet", 
+        "right": true
+      }, 
+      {
+        "text": "proprietary"
+      }
+    ]
+  }
+]
