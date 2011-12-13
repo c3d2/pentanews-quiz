@@ -91,10 +91,10 @@ function nedap(app) {
 						 method: "POST",
 						 enctype: "multipart/form-data"
 					       });
-	    form.c('p', question);
+	    form.c('p').t(question);
 	    form.c('input', { type: 'file', name: 'gif' });
 	    form.c('input', { type: 'submit', value: "Submit" });
-	    form.c('p', "Max file size: 2 MB");
+	    form.c('p').t("Max file size: 2 MB");
 	    res.write(html(form.toString()));
 	    res.end();
 	} else {

@@ -1,3 +1,5 @@
+var GIF_PREFIX = "http://localhost:2342";
+
 if (!window.console) {
     var stub = function() { };
     window.console = { log: stub, error: stub, warn: stub };
@@ -255,6 +257,7 @@ function takeJoker(activePlayer, joker) {
     /* Hide previous special jokers */
     $('#nedap').hide();
     $('#irc').hide();
+    $('#gifs').hide();
 
     playerJokers[activePlayer][joker] = true;
     saveGamestate();
@@ -272,7 +275,8 @@ function takeJoker(activePlayer, joker) {
     }
     if (joker === 'nedap') {
 	var q = questions[currentQuestion];
-	sendToBackend({ nedap: { joker: { question: q.text,
+	sendToBackend({ nedap: { joker: { type: 'nedap',
+					  question: q.text,
 					  answers: q.answers
 	} } });
 
@@ -381,6 +385,24 @@ function takeJoker(activePlayer, joker) {
 		}
 	    }
 	});
+    }
+    if (joker === 'gif') {
+	var q = questions[currentQuestion];
+	sendToBackend({ nedap: { joker: { type: 'gif',
+					  question: q.text
+	} } });
+	$('#gifs img').remove();
+	$('#gifs').show();
+	onBackendMessage = function(msg) {
+	    if (msg.nedap.gif) {
+		for(var imgs = $('#gifs img'); imgs.length > 2; imgs = $('#gifs img')) {
+		    $(imgs[0]).remove();
+		}
+		var img = $('<img/>');
+		img.attr('src', GIF_PREFIX + msg.nedap.gif);
+		$('#gifs').append(img);
+	    }
+	};
     }
 }
 
@@ -569,6 +591,9 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'l') {
 	    takeJoker(activePlayer, 'leak');
+	} else if (activePlayer !== null &&
+		   key === 'g') {
+	    takeJoker(activePlayer, 'gif');
 	}
     };
 
@@ -578,6 +603,7 @@ function switchToGame() {
     };
 
     $('#nedap').hide();
+    $('#gifs').hide();
     $('#irc').hide();
     // Instantly show the question:
     $('#game').show();
