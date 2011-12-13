@@ -362,7 +362,7 @@ media:
 question: Who did not die this year?
 answers:
     - false: Steve Jobs
-    - true: 
+    - true: Rupert Murdoch
     - false: John McCarthy
     - false: Dennis Ritchie
 tier: 4
@@ -371,7 +371,7 @@ media:
     question:
         - pix/question1.png
     explanation:
-        - pix/shanghai.jpg
+        - pix/anonymous-sun.jpg
 
 --- !Question
 question: Which programming language can calculate?
@@ -441,6 +441,21 @@ answers:
     - false: chicken
     - false: dog
 tier: 9
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What was the most common password?
+answers:
+    - true: goose
+    - false: sheep
+    - false: chicken
+    - false: dog
+tier: 10
 game_round: 4
 media:
     question:
