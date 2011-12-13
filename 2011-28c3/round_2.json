@@ -3,9 +3,9 @@
     "tier": 100, 
     "text": "Who was awarded the Pwnie award this year?", 
     "explanation": [
-      "videos/question1.webm"
+      "pix/a_target.jpg"
     ], 
-    "image": "pix/question1.png", 
+    "image": "pix/q_target.png", 
     "answers": [
       {
         "text": "Sony", 

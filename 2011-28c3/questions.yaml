@@ -34,10 +34,10 @@ media:
 # Wie gut koennen sich Leute die Fukushima facts merken?
 question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))
 answers:
-    - false: >6 mGy
-    - false: >600 mGy
-    - true: >6 Gy
-    - false: >600 Gy
+    - false: "> 6 mGy"
+    - false: "> 600 mGy"
+    - true: "> 6 Gy"
+    - false: "> 600 Gy"
 tier: 1
 game_round: 1
 media:
@@ -54,7 +54,7 @@ answers:
     - false: Ethically not justifiable.
     - false: License too expansive.
     - false: No crime that requires this measurement.
-tier: 1
+tier: 2
 game_round: 1
 media:
     question:
@@ -72,7 +72,7 @@ answers:
     - false: Cryptome.org
     - false: Diaspora
     - true: Ku Klux Klan
-tier: 1
+tier: 3
 game_round: 1
 media:
     question:
@@ -91,7 +91,7 @@ answers:
     - false: Bribing the chief of federal TV.
     - false: Forming a lightchain of trust.
     - true: Use drones to get video footage and stream to the internet.
-tier: 1
+tier: 4
 game_round: 1
 media:
     question:
@@ -110,7 +110,7 @@ answers:
     - false: Germany
     - false: Israel
     - false: Pakistan
-tier: 1
+tier: 5
 game_round: 1
 media:
     question:
@@ -127,7 +127,7 @@ answers:
     - false: Unit of boldness of a politician spreading lies to public knowingly.
     - true: Amount of time passing between a random crime and a politician''s demand for the introduction of data retention laws.
     - false: Degree of expert knowlege that a politician has, when he demands the wiretapping of encrypted data.
-tier: 1
+tier: 6
 game_round: 1
 media:
     question:
@@ -143,7 +143,7 @@ answers:
     - false: 1days
     - false: XSS
     - true: Bot nets
-tier: 1
+tier: 7
 game_round: 1
 media:
     question:
@@ -160,7 +160,7 @@ answers:
     - true: 541 days
     - false: 451 days
     - false: 154 days
-tier: 1
+tier: 8
 game_round: 1
 media:
     question:
@@ -176,7 +176,7 @@ answers:
     - false: ~60k
     - false: ~6M
     - false: ~6k
-tier: 1
+tier: 9
 game_round: 1
 media:
     question:
@@ -192,7 +192,7 @@ answers:
     - false: Automated blurring filter result for child porn filters
     - false: Photoshopped picture of the anonymous-movement leader
     - false: Picture taken with 1st digital camera
-tier: 1
+tier: 10
 game_round: 1
 media:
     question:
@@ -208,7 +208,7 @@ answers:
     - false: It is still not up
     - true: ~ 4 weeks
     - false: ~ 2 weeks
-tier: 1
+tier: 11
 game_round: 1
 media:
     question:
@@ -224,7 +224,7 @@ answers:
     - false: Initiate self destruction
     - false: Send military secrets do its creator
     - true: Looking for facebook game accounts
-tier: 1
+tier: 12
 game_round: 1
 media:
     question:
@@ -240,7 +240,7 @@ answers:
     - true: Read it in the news
     - false: The badly programmed virus caused system instabilities
     - false: By random, during standart maintainance
-tier: 1
+tier: 13
 game_round: 1
 media:
     question:
@@ -256,7 +256,7 @@ answers:
     - false: MPAA
     - false: RIAA
     - false: Do no evil
-tier: 1
+tier: 14
 game_round: 1
 media:
     question:
@@ -274,7 +274,7 @@ answers:
     - false: Corporate Market
     - false: GlobalSign
     - true: TÜRKTRUST
-tier: 1
+tier: 15
 game_round: 1
 media:
     question:
@@ -293,11 +293,11 @@ answers:
     - false: .rs
     - true: .ss
     - false: .rss
-tier: 1
+tier: 16
 game_round: 1
 media:
     question:
-        - pix/q_sudan.jpg
+        - pix/q_sudan.png
     explanation:
         - pix/a_sudan.png
 
@@ -309,7 +309,7 @@ answers:
     - false: London Transport (by publishing RFID transportation data)
     - true: RIM (by publishing "encrypted" Blackberry SMS)
     - false: Virgin (by publishing a list of illegal downloaders)
-tier: 1
+tier: 17
 game_round: 1
 media:
     question:
@@ -325,16 +325,13 @@ answers:
     - false: Seoul
     - true: Shanghai
     - false: Buenos Aires
-tier: 1
+tier: 18
 game_round: 1
 media:
     question:
         - pix/q_hackspace.jpg
     explanation:
         - pix/a_hackspace.jpg
-
-=======
-        - videos/question1.webm
 
 --- !Question
 question: How many female Porn stars have their own WP article?
