@@ -353,7 +353,7 @@ answers:
     - false: Apple
     - false: Oracle
 tier: 1
-game_round: 3
+game_round: 4
 media:
     question:
         - pix/orgchart-ms.png
@@ -367,8 +367,8 @@ answers:
     - false: Assembler
     - false: Machine Code
     - true: Erlang
-tier: 1
-game_round: 3
+tier: 2
+game_round: 4
 media:
     question:
         - pix/question1.png
@@ -382,8 +382,8 @@ answers:
     - false: New York
     - true: Shanghai
     - false: Rio de Janeiro
-tier: 1
-game_round: 3
+tier: 3
+game_round: 4
 media:
     question:
         - pix/question1.png
@@ -397,8 +397,8 @@ answers:
     - true: 
     - false: John McCarthy
     - false: Dennis Ritchie
-tier: 1
-game_round: 3
+tier: 4
+game_round: 4
 media:
     question:
         - pix/question1.png
@@ -412,8 +412,38 @@ answers:
     - true: 
     - false: Java
     - false: Dennis Ritchie
-tier: 1
-game_round: 3
+tier: 5
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/shanghai.jpg
+
+--- !Question
+question: How many babies were given away in Spain between and the 90-es?
+answers:
+    - false: PHP
+    - true: 300,000
+    - false: Java
+    - false: Dennis Ritchie
+tier: 6
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - pix/shanghai.jpg
+
+--- !Question
+question: How many Mrs USA finalists think evolution should be taught in school?
+answers:
+    - false: PHP
+    - true: 300,000
+    - false: Java
+    - false: Dennis Ritchie
+tier: 7
+game_round: 4
 media:
     question:
         - pix/question1.png
