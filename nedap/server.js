@@ -95,6 +95,9 @@ function nedap(app) {
 	    form.c('p').t(question);
 	    form.c('input', { type: 'file', name: 'gif' });
 	    form.c('input', { type: 'submit', value: "Submit" });
+	    form.c('input', { type: 'hidden',
+			      name: 'token',
+			      value: Token.generate() });
 	    form.c('p').t("Max file size: 2 MB");
 	    res.write(html(form.toString()));
 	    res.end();
@@ -138,6 +141,11 @@ function nedap(app) {
 
     app.post('/i', function(req, res) {
 	if (req.files.gif) {
+	    if (!Token.validate(req.body.token)) {
+		res.writeHead(200, { 'Content-type': MIME_HTML });
+		res.end("Cheater!");
+		return;
+	    }
 	    /* pass to frontend */
 	    var gif = req.files.gif;
 	    var path = gif.path + "." + mime.extension(gif.type);
