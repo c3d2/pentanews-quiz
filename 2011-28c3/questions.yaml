@@ -463,6 +463,22 @@ media:
     explanation:
         - videos/question1.webm
 
+--- !Question
+question: What answers Siri when you ask it "Can you call me an ambulance?"
+answers:
+    - true: goose
+    - false: sheep
+    - false: chicken
+    - false: dog
+tier: 10
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+
 
 #8;What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
 #1;Welches Land hat ACTA noch nicht unterzeichnet?;Australien;Japan;Kanada;Deutschland;4;
