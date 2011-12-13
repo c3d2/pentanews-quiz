@@ -6,7 +6,8 @@ var mime = require('mime');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
 var MIME_HTML = 'text/html; charset=UTF-8';
-var UPLOAD_DIR="static/gifs";
+var UPLOAD_DIR = "static/gifs";
+var GIFS_PREFIX = "http://localhost:2342/gifs/";
 try { fs.mkdirSync(UPLOAD_DIR); } catch (e) {}
 
 var backend, question, answers, scores, mode;
@@ -94,6 +95,9 @@ function nedap(app) {
 	    form.c('p').t(question);
 	    form.c('input', { type: 'file', name: 'gif' });
 	    form.c('input', { type: 'submit', value: "Submit" });
+	    form.c('input', { type: 'hidden',
+			      name: 'token',
+			      value: Token.generate() });
 	    form.c('p').t("Max file size: 2 MB");
 	    res.write(html(form.toString()));
 	    res.end();
@@ -137,6 +141,11 @@ function nedap(app) {
 
     app.post('/i', function(req, res) {
 	if (req.files.gif) {
+	    if (!Token.validate(req.body.token)) {
+		res.writeHead(200, { 'Content-type': MIME_HTML });
+		res.end("Cheater!");
+		return;
+	    }
 	    /* pass to frontend */
 	    var gif = req.files.gif;
 	    var path = gif.path + "." + mime.extension(gif.type);
@@ -146,7 +155,10 @@ function nedap(app) {
 		path = path.split('/').pop();
 		console.log("file", gif.name, path, gif.type);
 		if (backend)
-		    backend.sendUTF(JSON.stringify({ gif: "/gifs/" + path }));
+		    backend.sendUTF(JSON.stringify({ gif: { path: GIFS_PREFIX + path,
+							    name: gif.name,
+							    size: gif.size
+							  } }));
 	    });
 
 	    res.writeHead(200, { 'Content-type': MIME_HTML });
