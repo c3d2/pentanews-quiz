@@ -39,6 +39,7 @@ class Question(yaml.YAMLObject):
     """Represents a question
     """
     yaml_tag = u"!Question"
+    web_root = "data"
 
     # {round_no1: [tier1, tier2, ...], round_no2: [tier1, ...]}
     registered_questions = {}
@@ -58,7 +59,7 @@ class Question(yaml.YAMLObject):
     }
 
     def __init__(self, question=u"", tier=0, answers=[], game_round=0,
-                 media=("", "", ""), media_path=""):
+                 media=("", "", ""), media_path="data", web_root="data"):
         """docstring for __init__
            @question - the Question 
            @rank - number of the question in the game
@@ -74,6 +75,7 @@ class Question(yaml.YAMLObject):
         self.game_round = game_round
         self.media = media
         self.media_path = media_path
+        self.web_root = web_root
 
     def __type_by_extension(self, media_file):
         """returns the media type looked up by it's extension
@@ -115,10 +117,11 @@ class Question(yaml.YAMLObject):
                 for f in self.media['question']:
                     q_data[self.__type_by_extension(
                         os.path.sep.join(os.path.join([self.media_path, f]))
-                    )] = f
+                    )] = os.sep.join([self.web_root, f])
                 return q_data
             def gen_explanation():
-                return {'explanation': self.media['explanation']}
+                return {'explanation': [os.sep.join([self.web_root, expl]) \
+                                        for expl in self.media['explanation']]}
             def k_not_found():
                 raise KeyError("Media keyword not found")
 

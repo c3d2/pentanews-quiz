@@ -3,9 +3,9 @@
     "tier": 100, 
     "text": "What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))", 
     "explanation": [
-      "pix/a_fukushima.jpg"
+      "data/pix/a_fukushima.jpg"
     ], 
-    "image": "pix/q_fukushima.jpg", 
+    "image": "data/pix/q_fukushima.jpg", 
     "answers": [
       {
         "text": "> 6 mGy"
@@ -26,9 +26,9 @@
     "tier": 150, 
     "text": "Why did Saxony (German State) not use the Bundestrojaner (governmental trojan horse)?", 
     "explanation": [
-      "pix/a_bundestrojaner.jpg"
+      "data/pix/a_bundestrojaner.jpg"
     ], 
-    "image": "pix/q_bundestrojaner.jpg", 
+    "image": "data/pix/q_bundestrojaner.jpg", 
     "answers": [
       {
         "text": "Technically not capable of doing so.", 
@@ -49,9 +49,9 @@
     "tier": 225, 
     "text": "Which of the following organizations has not yet been blocked by paypal?", 
     "explanation": [
-      "pix/a_paypal.gif"
+      "data/pix/a_paypal.gif"
     ], 
-    "image": "pix/q_paypal4.jpg", 
+    "image": "data/pix/q_paypal4.jpg", 
     "answers": [
       {
         "text": "Wikileaks"
@@ -72,9 +72,9 @@
     "tier": 337, 
     "text": "How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in russia?", 
     "explanation": [
-      "pix/a_russian.jpg"
+      "data/pix/a_russian.jpg"
     ], 
-    "image": "pix/q_russian.jpg", 
+    "image": "data/pix/q_russian.jpg", 
     "answers": [
       {
         "text": "Multi-Million-Rubel-Ad-Campain."
@@ -95,10 +95,10 @@
     "tier": 506, 
     "text": "Which of the following countries voted against a loosening of cluster munition restrictions at the UN?", 
     "explanation": [
-      "pix/a_cluster1.jpg", 
-      "pix/a_cluster2.jpg"
+      "data/pix/a_cluster1.jpg", 
+      "data/pix/a_cluster2.jpg"
     ], 
-    "image": "pix/q_cluster.jpg", 
+    "image": "data/pix/q_cluster.jpg", 
     "answers": [
       {
         "text": "Austria", 
@@ -119,9 +119,9 @@
     "tier": 759, 
     "text": "What is the definition of 1 Uhl?", 
     "explanation": [
-      "pix/a_uhl.jpg"
+      "data/pix/a_uhl.jpg"
     ], 
-    "image": "pix/q_uhl.jpg", 
+    "image": "data/pix/q_uhl.jpg", 
     "answers": [
       {
         "text": "Unit of a scale that describes the need of censorship for a certain website."
@@ -142,9 +142,9 @@
     "tier": 1139, 
     "text": "Which new investigation tool did Henrik Kaspersen, one of the founding fathers of the Convention on Cybercrime, demand during its 10th birthday to improve the work against cyber crime?", 
     "explanation": [
-      "pix/a_cybercrime.jpg"
+      "data/pix/a_cybercrime.jpg"
     ], 
-    "image": "pix/q_cybercrime.png", 
+    "image": "data/pix/q_cybercrime.png", 
     "answers": [
       {
         "text": "Email bombs"
@@ -165,9 +165,9 @@
     "tier": 1709, 
     "text": "How many days in a row has Belgium been run by a caretaker administration since the last government resigned in April 2010?", 
     "explanation": [
-      "pix/a_belgium.jpg"
+      "data/pix/a_belgium.jpg"
     ], 
-    "image": "pix/q_belgium.gif", 
+    "image": "data/pix/q_belgium.gif", 
     "answers": [
       {
         "text": "415 days"
@@ -188,9 +188,9 @@
     "tier": 2563, 
     "text": "How many 1st notifications have been sent during the first 12 months of the French Three-Strikes-Law (Hadopi) being active?", 
     "explanation": [
-      "pix/q_hadopi.jpg"
+      "data/pix/q_hadopi.jpg"
     ], 
-    "image": "pix/q_hadopi.png", 
+    "image": "data/pix/q_hadopi.png", 
     "answers": [
       {
         "text": "~600k", 
@@ -211,9 +211,9 @@
     "tier": 3844, 
     "text": "What do you see on the following picture?", 
     "explanation": [
-      "pix/a_brain.jpg"
+      "data/pix/a_brain.jpg"
     ], 
-    "image": "pix/q_brain.png", 
+    "image": "data/pix/q_brain.png", 
     "answers": [
       {
         "text": "Reconstructed picture from brain activity", 
@@ -234,9 +234,9 @@
     "tier": 5555, 
     "text": "How many weeks did it take to bring kernel.org back up after it has been hacked in end of August 2011?", 
     "explanation": [
-      "pix/a_kernel.jpg"
+      "data/pix/a_kernel.jpg"
     ], 
-    "image": "pix/q_kernel.gif", 
+    "image": "data/pix/q_kernel.gif", 
     "answers": [
       {
         "text": "~ 1 week"
@@ -257,9 +257,9 @@
     "tier": 7531, 
     "text": "What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?", 
     "explanation": [
-      "pix/a_drone.jpg"
+      "data/pix/a_drone.jpg"
     ], 
-    "image": "pix/q_drone.jpg", 
+    "image": "data/pix/q_drone.jpg", 
     "answers": [
       {
         "text": "Programming new false targets"
@@ -280,9 +280,9 @@
     "tier": 0, 
     "text": "How did the US Airforce cyber security departement learn about the virus infected drones?", 
     "explanation": [
-      "pix/a_drone2.jpg"
+      "data/pix/a_drone2.jpg"
     ], 
-    "image": "pix/q_drone2.jpg", 
+    "image": "data/pix/q_drone2.jpg", 
     "answers": [
       {
         "text": "Advanced intrusion detection mechanisms"
@@ -303,9 +303,9 @@
     "tier": 0, 
     "text": "Which of the following terms does not autocomplete anymore in Google search since January 2011?", 
     "explanation": [
-      "pix/a_autocomplete.jpg"
+      "data/pix/a_autocomplete.jpg"
     ], 
-    "image": "pix/q_autocomplete.jpg", 
+    "image": "data/pix/q_autocomplete.jpg", 
     "answers": [
       {
         "text": "torrent", 
@@ -326,9 +326,9 @@
     "tier": 0, 
     "text": "Which of the following CAs did not yet publish news about security problems this year?", 
     "explanation": [
-      "pix/q_ca4.jpg"
+      "data/pix/q_ca4.jpg"
     ], 
-    "image": "pix/q_ca4.jpg", 
+    "image": "data/pix/q_ca4.jpg", 
     "answers": [
       {
         "text": "Diginotar"
@@ -349,9 +349,9 @@
     "tier": 0, 
     "text": "What is the new TLD for \"The Republic of South Sudan\"?", 
     "explanation": [
-      "pix/a_sudan.png"
+      "data/pix/a_sudan.png"
     ], 
-    "image": "pix/q_sudan.png", 
+    "image": "data/pix/q_sudan.png", 
     "answers": [
       {
         "text": ".su"
@@ -372,9 +372,9 @@
     "tier": 0, 
     "text": "Which of the following companies announced via Twitter that they will tell the Police details about London rioters?", 
     "explanation": [
-      "pix/a_london.jpg"
+      "data/pix/a_london.jpg"
     ], 
-    "image": "pix/q_london.jpg", 
+    "image": "data/pix/q_london.jpg", 
     "answers": [
       {
         "text": "Cash and Carry (by publishing video footage)"
@@ -395,9 +395,9 @@
     "tier": 0, 
     "text": "Which of the following cities is helping to create 100 new hackerspaces in itself?", 
     "explanation": [
-      "pix/a_hackspace.jpg"
+      "data/pix/a_hackspace.jpg"
     ], 
-    "image": "pix/q_hackspace.jpg", 
+    "image": "data/pix/q_hackspace.jpg", 
     "answers": [
       {
         "text": "Berlin"
