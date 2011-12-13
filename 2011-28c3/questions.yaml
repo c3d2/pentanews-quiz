@@ -81,7 +81,7 @@ answers:
     - false: NSA
     - false: Chinese Hackers
     - true: Viruses
-tier: 4
+tier: 5
 game_round: 2
 media:
     question:
@@ -96,7 +96,7 @@ answers:
     - false: It can import MS Word now.
     - false: It has the same plugin-api.
     - true: It fucks up documents just as well.
-tier: 5
+tier: 6
 game_round: 2
 media:
     question:
@@ -111,7 +111,7 @@ answers:
     - false: $100 mio
     - true: $500 mio
     - false: $50 mio
-tier: 5
+tier: 7
 game_round: 2
 media:
     question:
@@ -126,7 +126,7 @@ answers:
     - true: Cisco
     - false: Netapp
     - false: Huawei
-tier: 6
+tier: 8
 game_round: 2
 media:
     question:
@@ -141,22 +141,6 @@ answers:
     - true: $80 mio
     - false: $50 mio
     - false: $25 mio
-tier: 8
-game_round: 2
-media:
-    question:
-        - pix/question1.png
-    explanation:
-        - videos/question1.webm
-
---- !Question
-question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video
-entertainment system?
-answers:
-    - false: ssh
-    - false: ssl
-    - true: telnet
-    - false: proprietary
 tier: 9
 game_round: 2
 media:
@@ -166,12 +150,12 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: What could not be used to exploit Win systems in 2011?
+question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?
 answers:
-    - false: TXT file
-    - false: Ping
-    - false: Flash and other Adobe stuff
-    - true: Power Button
+    - false: ssh
+    - false: ssl
+    - true: telnet
+    - false: proprietary
 tier: 10
 game_round: 2
 media:
@@ -247,7 +231,7 @@ answers:
     - true: Cure-Gay
     - false: Smuggle Truck
     - false: Conterfai Lugary
-tier: 4
+tier: 5
 game_round: 3
 media:
     question:
@@ -262,7 +246,7 @@ answers:
     - false: to catch file sharers
     - false: to catch terrorist
     - false: to protect democracy
-tier: 5
+tier: 6
 game_round: 3
 media:
     question:
@@ -307,21 +291,6 @@ answers:
     - false: Spain
     - false: Sweden
     - true: Russia
-tier: 8
-game_round: 3
-media:
-    question:
-        - pix/question1.png
-    explanation:
-        - videos/question1.webm
-
---- !Question
-question: What vendor/project did not violate the GPL?;AVM;VIM;Fortinet;Emacs;2;
-answers:
-    - false: AVM
-    - true: Vim
-    - false: Gigabyte
-    - false: Emacs
 tier: 9
 game_round: 3
 media:
@@ -331,12 +300,12 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: What animal did the US army use in Western Berlin for intruder alarm?
+question: What vendor/project did not violate the GPL?
 answers:
-    - true: goose
-    - false: sheep
-    - false: chicken
-    - false: dog
+    - false: AVM
+    - true: Vim
+    - false: Gigabyte
+    - false: Emacs
 tier: 10
 game_round: 3
 media:
@@ -344,7 +313,6 @@ media:
         - pix/question1.png
     explanation:
         - videos/question1.webm
-
 --- !Question
 question: What company does this org chart show?
 answers:
@@ -449,6 +417,37 @@ media:
         - pix/question1.png
     explanation:
         - pix/shanghai.jpg
+
+--- !Question
+question: What could not be used to exploit Win systems in 2011?
+answers:
+    - false: TXT file
+    - false: Ping
+    - false: Flash and other Adobe stuff
+    - true: Power Button
+tier: 8
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
+--- !Question
+question: What animal did the US army use in Western Berlin for intruder alarm?
+answers:
+    - true: goose
+    - false: sheep
+    - false: chicken
+    - false: dog
+tier: 9
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
 
 #8;What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
 #1;Welches Land hat ACTA noch nicht unterzeichnet?;Australien;Japan;Kanada;Deutschland;4;
