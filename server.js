@@ -101,7 +101,7 @@ function pushIrcInfo() {
 /*
  * Buttons
  */
-var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
+var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A400gqnA-if00-port0');
 buzz.on('button', function(key) {
     console.log({button:key});
     sendToFrontend({ buzzer: key });
