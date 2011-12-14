@@ -185,5 +185,6 @@ ul#tiers li.done {
 }
 
 #gifs img {
+    display: inline-block;
     max-width: 20%;
 }
