@@ -61,6 +61,12 @@ function updateBackend() {
     }
 }
 
+function errorResponse(res) {
+    res.writeHead(503, { 'Content-type': MIME_HTML });
+    res.write("<img src=\"/503.png\">");
+    res.end();
+}
+
 function nedap(app) {
     app.get('/', function(req, res) {
 	if (mode === 'nedap' &&
@@ -125,16 +131,10 @@ function nedap(app) {
 				     'Location': '/thanks' });
 		res.end();
 	    } else {
-		res.writeHead(400, { 'Content-type': MIME_HTML,
-				     'Location': '/' });
-		res.write(html("<p>Face validation error.</p>"));
-		res.end();
+		errorResponse(res);
 	    }
 	} else {
-	    res.writeHead(400, { 'Content-type': MIME_HTML,
-				 'Location': '/' });
-	    res.write(html("<p>Huh?</p>"));
-	    res.end();
+	    errorResponse(res);
 	}
     });
 
@@ -147,8 +147,7 @@ function nedap(app) {
     app.post('/i', function(req, res) {
 	if (req.files.gif) {
 	    if (!Token.validate(req.body.token)) {
-		res.writeHead(200, { 'Content-type': MIME_HTML });
-		res.end("Cheater!");
+		errorResponse(res);
 		return;
 	    }
 	    /* pass to frontend */
@@ -171,8 +170,7 @@ function nedap(app) {
 	    res.end();
 	} else {
 	    console.error(err.stack || err);
-	    res.writeHead(500, { 'Content-type': 'text/plain' });
-	    res.end("Oops");
+	    errorResponse(res);
 	}
     });
 
