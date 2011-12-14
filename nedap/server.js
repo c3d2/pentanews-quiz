@@ -6,6 +6,11 @@ var mime = require('mime');
 
 var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
 var MIME_HTML = 'text/html; charset=UTF-8';
+var ROOT_HEADERS = { 'Content-type': MIME_HTML,
+		     'Pragma': 'no-cache',
+		     'Expires': '-1',
+		     'Cache-Control': 'no-cache, must-revalidate, max-age=1'
+		   };
 var UPLOAD_DIR = "static/gifs";
 var GIFS_PREFIX = "http://localhost:2342/gifs/";
 try { fs.mkdirSync(UPLOAD_DIR); } catch (e) {}
@@ -83,11 +88,10 @@ function nedap(app) {
 	    form.c('input', { type: 'submit',
 			      value: 'Submit' });
 
-	    res.writeHead(200, { 'Content-type': MIME_HTML });
+	    res.writeHead(200, ROOT_HEADERS);
 	    res.write(html(form.toString()));
 	    res.end();
 	} else if (mode === 'gif') {
-	    res.writeHead(200, { 'Content-type': MIME_HTML });
 	    var form = new ltx.Element('form', { action: "/i",
 						 method: "POST",
 						 enctype: "multipart/form-data"
@@ -99,10 +103,11 @@ function nedap(app) {
 			      name: 'token',
 			      value: Token.generate() });
 	    form.c('p').t("Max file size: 2 MB");
+	    res.writeHead(200, ROOT_HEADERS);
 	    res.write(html(form.toString()));
 	    res.end();
 	} else {
-	    res.writeHead(404, { 'Content-type': MIME_HTML });
+	    res.writeHead(404, ROOT_HEADERS);
 	    res.write(html('<p>No question left on server.</p>'));
 	    res.end();
 	}
@@ -135,7 +140,7 @@ function nedap(app) {
 
     app.get('/thanks', function(req, res) {
 	res.writeHead(200, { 'Content-type': MIME_HTML });
-	res.write(html("<p>Thanks, your vote may have been counted.</p>"));
+	res.write(html("<p>Thanks, your vote may have been counted. <a href='/'>Back</a></p>"));
 	res.end();
     });
 
@@ -161,8 +166,8 @@ function nedap(app) {
 							  } }));
 	    });
 
-	    res.writeHead(200, { 'Content-type': MIME_HTML });
-	    res.write(html("<p>Image eval() successful!</p>"));
+	    res.writeHead(303, { 'Content-type': MIME_HTML,
+				 'Location': '/thanks' });
 	    res.end();
 	} else {
 	    console.error(err.stack || err);
