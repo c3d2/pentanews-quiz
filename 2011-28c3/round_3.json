@@ -3,9 +3,9 @@
     "tier": 100, 
     "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "stormy wind"
@@ -26,9 +26,9 @@
     "tier": 150, 
     "text": "Which country does not have a net neutrality law?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Belgium"
@@ -49,9 +49,9 @@
     "tier": 225, 
     "text": "What is the gain in round trip time by the new $300 mio EU-US cable (first in 10 years)?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "6s"
@@ -72,9 +72,9 @@
     "tier": 337, 
     "text": "Which App was pulled off the Apple app store this year after massive protests?", 
     "explanation": [
-      "videos/phonestory.webm"
+      "data/videos/phonestory.webm"
     ], 
-    "image": "pix/van_gogh_ipad.jpg", 
+    "image": "data/pix/van_gogh_ipad.jpg", 
     "answers": [
       {
         "text": "Phone Story"
@@ -95,9 +95,9 @@
     "tier": 506, 
     "text": "Which App wasn't removed from the Apple app store this year?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Phone Story"
@@ -118,9 +118,9 @@
     "tier": 759, 
     "text": "Why does the German SPD politician Sebastian Edathy wants the data retention law?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "to catch who send him a plastic pussy", 
@@ -141,9 +141,9 @@
     "tier": 1139, 
     "text": "What was not patented to our knowledge?;Snowman;Snowball;Patenting;Geotracking;1;", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Snowman", 
@@ -164,9 +164,9 @@
     "tier": 1709, 
     "text": "Which country did not get his copyright law dictated by the US?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Canada"
@@ -187,9 +187,9 @@
     "tier": 2563, 
     "text": "Which country did not get his copyright law dictated by the US?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Canada"
@@ -210,9 +210,9 @@
     "tier": 3844, 
     "text": "What vendor/project did not violate the GPL?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "AVM"
