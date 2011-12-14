@@ -144,8 +144,9 @@ ul#tiers li.done {
   font-size: 175%;
 }
 #scoreboard dl dd {
-  margin-left: 4em;
+  margin-left: 1em;
   margin-bottom: 0.65em;
+  font-size: 90%;
 }
 #scoreboard dl dd .score {
   font-size: 125%;
@@ -153,7 +154,7 @@ ul#tiers li.done {
 }
 
 #scoreboard dl dd img {
-  margin-left: 0.5em;
+  margin-left: 0.2em;
 }
 
 #timer {
