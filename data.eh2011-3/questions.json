@@ -1,0 +1,155 @@
+[
+  {
+    "tier": 33,
+    "text": "Wie heißt der neue Missbrauchsformat? (auf dem EH2011 vorgestellt)?",
+    "answers": [
+      { "text": "IDMEF" },
+      { "text": "CRISP" },
+      { "text": "X-ARF", "right": true },
+      { "text": "XDMCP" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Firma wird uns alle umbringen?",
+    "answers": [
+      { "text": "Cyber Dyne", "right": true },
+      { "text": "Umbrella Corp", "right": true },
+      { "text": "Google" },
+      { "text": "Samsung" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Was liegt vor, wenn man den Zensus 2011 boykottiert?",
+    "answers": [
+      { "text": "Eine Ordnungswidrigkeit", "right": true },
+      { "text": "Eine Straftat" },
+      { "text": "Vertragsbruch" },
+      { "text": "Ohne Abendbrot ins Bett" }
+    ]
+  },
+
+{
+	"tier": 66,
+		"text": "Welche der folgenden Neusprechs wurde noch nicht im Neusprechblog behandelt?",
+		"answers": [
+		{
+			"text": "Schutzlücke"
+		},
+		{
+			"text": "Vorwärtsverteidigung",
+				"right": true
+		},
+		{
+			"text": "Stresstest"
+		},
+		{
+			"text": "Restrisiko"
+		}
+	]
+},
+
+  {
+    "tier": 66,
+    "text": "Wer tritt in der neuen “YouTube Copyright School” auf?",
+    "answers": [
+      {
+        "text": "Simpsons"
+      },
+      {
+        "text": "Beavis and Butthead"
+      },
+      {
+        "text": "Eric aus South Park"
+      },
+      {
+        "text": "Happy Tree Friends",
+        "right": true
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo ist laut Symantecs Internet Security Threat Report 2010 der beliebteste Logistikstandort für Cyberkriminelle?",
+    "explanation": { "image": "bundestrojaner_sm.gif" },
+    "answers": [
+      {
+        "text": "USA"
+      },
+      {
+        "text": "Deutschland",
+        "right": true
+      },
+      {
+        "text": "Russland"
+      },
+      {
+        "text": "China"
+      }
+    ]
+  },
+
+  {
+    "tier": 100,
+    "text": "Wann ist IPv6 Day?",
+    "answers": [
+      { "text": "6. Juni" },
+      { "text": "8. Juni", "right": true },
+      { "text": "1. Juli" },
+      { "text": "4. Juli" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wer forderte Vermummungsverbot im Internet?",
+    "explanation": { "text": "Axel E. Fischer, CDU, fordert Sicherheitsabstand auf Datenautobahnen." },
+    "answers": [
+      { "text": "Hans-Peter Friedrich (CSU)" },
+      { "text": "Ursula von der Leyen (CDU)" },
+      { "text": "Günter Krings (CDU)" },
+      { "text": "Axel E. Fischer (CDU)", "right": true }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wann wird die Gulaschprogrammiernacht 11 in Karlsruhe stattfinden?",
+    "answers": [
+      { "text": "2.-5.6.2011" },
+      { "text": "23.-26.6.2011", "right": true },
+      { "text": "10.-14.8.2011" },
+      { "text": "17.-21.8.2011" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welche der folgenden Hardcore-Pornoseiten bietet keine spezielle Version ihrer Seite für mobile Endgeräte ohne Flashplayer?",
+   "explanation": { "image": "xvideos.gif" },
+    "answers": [
+      { "text": "youporn.com" },
+      { "text": "videarn.com" },
+      { "text": "xvideos.com", "right": true },
+      { "text": "xhamster.com" }
+    ]
+  },
+  {
+    "tier": 133,
+    "text": "Wieviele Folgen des Pentacast wurden bisher veröffentlicht?",
+    "answers": [
+      {
+        "text": "13"
+      },
+      {
+        "text": "31",
+	"right": true
+      },
+      {
+        "text": "43"
+      },
+      {
+        "text": "0x1F",
+	"right": true
+      }
+    ]
+  }
+]

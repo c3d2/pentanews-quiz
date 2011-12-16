@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Pennanews quiz</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="quiz.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery-1.4.2.js" defer></script>
+    <script type="text/javascript" src="quiz.js" defer></script>
+  </head>
+  <body>
+
+    <div id="setup">
+      <h1>Pentanews<br>Game Show</h1>
+
+      <form>
+	<label for="playername0">Player 1:</label><input id="playername0"><br>
+	<label for="playername1">Player 2:</label><input id="playername1"><br>
+	<label for="playername2">Player 3:</label><input id="playername2"><br>
+	<!--label for="playername3">Player 4:</label><input id="playername3"><br>
+	<label for="playername4">Player 5:</label><input id="playername4"><br-->
+	<input id="start" type="submit" value="▶">
+      </form>
+
+      <p>
+      irc.hackint.eu #pentanews
+      </p>
+    </div>
+
+    <div id="game">
+      <ul id="players">
+	<li class="player0"><span class="name"></span><span class="score">0</span>
+	  <br>
+	  <img src="fiftyfifty.png" class="fiftyfifty">
+	  <img src="nedap.png" class="nedap">
+	  <img src="irc.png" class="irc">
+	  <img src="fwd.png" class="fwd">
+	  <img src="morse.png" class="morse">
+	  <img src="leak.png" class="leak">
+	  <img src="gif.png" class="gif">
+	</li>
+	<li class="player1"><span class="name"></span><span class="score">0</span>
+	  <br>
+	  <img src="fiftyfifty.png" class="fiftyfifty">
+	  <img src="nedap.png" class="nedap">
+	  <img src="irc.png" class="irc">
+	  <img src="fwd.png" class="fwd">
+	  <img src="morse.png" class="morse">
+	  <img src="leak.png" class="leak">
+	  <img src="gif.png" class="gif">
+	</li>
+	<li class="player2"><span class="name"></span><span class="score">0</span>
+	  <br>
+	  <img src="fiftyfifty.png" class="fiftyfifty">
+	  <img src="nedap.png" class="nedap">
+	  <img src="irc.png" class="irc">
+	  <img src="fwd.png" class="fwd">
+	  <img src="morse.png" class="morse">
+	  <img src="leak.png" class="leak">
+	  <img src="gif.png" class="gif">
+	</li>
+      </ul>
+      <p id="tier">
+	0
+      </p>
+      <div id="question">
+	<p>Welches Land erlaubt Filesharing für private Zwecke straffrei?</p>
+      </div>
+      <div id="nedap">
+	<p class="url">http://spaceboyz.net:2342/</p>
+	<canvas id="polls" width="400" height="400">
+	</canvas>
+      </div>
+      <div id="gifs">
+	<p class="url">http://spaceboyz.net:2342/</p>
+      </div>
+      <div id="irc">
+	<p class="caption">Backend, where are thou?</p>
+	<ul>
+	</ul>
+      </div>
+      <div id="answers">
+	<ul>
+	  <li id="answer0">Montenegro</li>
+	  <li id="answer1">China</li>
+	</ul>
+	<ul>
+	  <li id="answer2">Deutschland</li>
+	  <li id="answer3">Brasilien</li>
+	</ul>
+      </div>
+    </div>
+
+    <div id="scoreboard">
+      <ul id="tiers">
+      </ul>
+
+      <dl>
+        <dt class="p0"></dt>
+	<dd class="p0">
+	  <span class="score">0</span>
+	  <img src="fiftyfifty.png" class="fiftyfifty">
+	  <img src="nedap.png" class="nedap">
+	  <img src="irc.png" class="irc">
+	  <img src="fwd.png" class="fwd">
+	  <img src="morse.png" class="morse">
+	  <img src="leak.png" class="leak">
+	  <img src="gif.png" class="gif">
+	</dd>
+        <dt class="p1"></dt>
+	<dd class="p1">
+	  <span class="score">0</span>
+	  <img src="fiftyfifty.png" class="fiftyfifty">
+	  <img src="nedap.png" class="nedap">
+	  <img src="irc.png" class="irc">
+	  <img src="fwd.png" class="fwd">
+	  <img src="morse.png" class="morse">
+	  <img src="leak.png" class="leak">
+	  <img src="gif.png" class="gif">
+	</dd>
+        <dt class="p2"></dt>
+	<dd class="p2">
+	  <span class="score">0</span>
+	  <img src="fiftyfifty.png" class="fiftyfifty">
+	  <img src="nedap.png" class="nedap">
+	  <img src="irc.png" class="irc">
+	  <img src="fwd.png" class="fwd">
+	  <img src="morse.png" class="morse">
+	  <img src="leak.png" class="leak">
+	  <img src="gif.png" class="gif">
+	</dd>
+      </dl>
+    </div>
+
+    <div id="timer">
+      10
+    </div>
+
+    <div style="display: none">
+      <audio src="slay.ogg" id="audio_right"></audio>
+      <audio src="gameover.ogg" id="audio_wrong"></audio>
+      <audio src="timeout.ogg" id="audio_timeout"></audio>
+      <audio src="timeup.ogg" id="audio_timeup"></audio>
+      <audio src="buzz.ogg" id="audio_buzz"></audio>
+      <audio src="levelcomplete.ogg" id="audio_final"></audio>
+    </div>
+  </body>
+</html>

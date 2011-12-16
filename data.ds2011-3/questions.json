@@ -1,0 +1,200 @@
+[
+  {
+    "tier": 100, 
+    "text": "Welche Firma muss keine Kohle an M$ abdrücken, wenn sie Hardware mit Linux verkauft?", 
+    "answers": [
+      {
+        "text": "HTC"
+      }, 
+      {
+        "text": "Motorola", 
+		"explanation": { "image": "data.ds2011-3/motorola.jpg" },
+        "right": true
+      }, 
+      {
+        "text": "Samsung"
+      }, 
+      {
+        "text": "Casio"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "Welche der folgenden war KEINE Ursache, um das Windows-Betriebssystem anzugreifen?", 
+    "answers": [
+      {
+        "text": "TXT file"
+      }, 
+      {
+        "text": "Ping"
+      }, 
+      {
+        "text": "Flash"
+      }, 
+      {
+        "text": "Power Button", 
+		"explanation": { "image": "data.ds2011-3/power.jpg" },
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "Warum sind beim Pukkelpop-Festival in Belgien ein Menschen gestorben?", 
+    "answers": [
+      {
+        "text": "Wind"
+      }, 
+      {
+        "text": "Regen"
+      }, 
+      {
+        "text": "Tauschbörsen", 
+		"explanation": { "image": "data.ds2011-3/bittorrent.jpeg" },
+        "right": true
+      }, 
+      {
+        "text": "Stümperei"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "Aus wie vielen Geschlechtern kann man in Australien wählen um das im Pass eintragen zu lassen?", 
+    "answers": [
+      {
+        "text": "0"
+      }, 
+      {
+        "text": "1"
+      }, 
+      {
+        "text": "2"
+      }, 
+      {
+        "text": "3", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "Welches der folgenden Länder hat kein Gesetz zur Netzneutralität?", 
+    "answers": [
+      {
+        "text": "Belgien"
+      }, 
+      {
+        "text": "Die Niederlande"
+      }, 
+      {
+        "text": "Chile"
+      }, 
+      {
+        "text": "USA", 
+		"explanation": { "image": "data.ds2011-3/usa.jpeg" },
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "Wie viel Prozent aller US-Amerikaner sind im Verteidigungsministerium angestellt?", 
+    "answers": [
+      {
+        "text": "0.1"
+      }, 
+      {
+        "text": "0.5"
+      }, 
+      {
+        "text": "1", 
+		"explanation": { "text": "3.114.846 Menschen" },
+        "right": true
+      }, 
+      {
+        "text": "5"
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "Welchen Gewinn bei der Round-Trip-Zeit konnte durch das neue EU-US Kabel erzielt werden?", 
+    "answers": [
+      {
+        "text": "6s"
+      }, 
+      {
+        "text": "0.6s"
+      }, 
+      {
+        "text": "0.06s"
+      }, 
+      {
+        "text": "0.006s", 
+		"explanation": {"image": "data.ds2011-3/cable africa.jpg"},
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "Welches Programm wurde nicht aus dem Apple App Store gel\u00f6scht?", 
+    "answers": [
+      {
+        "text": "Phone Stroy"
+      }, 
+      {
+        "text": "Smuggle Truck"
+      }, 
+      {
+        "text": "Cure-Gay", 
+		"explanation": {"image": "ds2011-3/takei.jpg"},
+        "right": true
+      }, 
+      {
+        "text": "Conterfai Lugaru"
+      }
+    ]
+  }, 
+  {
+    "tier": 2563, 
+    "text": "Warum möchte SPD Politiker Sebastian Edathy Vorratsdatenspeicherung?", 
+    "answers": [
+      {
+        "text": "Terroristen fangen"
+      }, 
+      {
+        "text": "Tauschbörsennutzer fangen"
+      }, 
+      {
+        "text": "Demokratie schützen"
+      }, 
+      {
+        "text": "Um herauszufinden, wer ihm Plastikmuschis zuschickt", 
+		"explanation": {"image": "data.ds2011-3/fleshlight.jpg"},
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 3844, 
+    "text": "Was ist vermutlich noch nicht patentiert? (Also nicht, dass wir davon wüssten)", 
+    "answers": [
+      {
+        "text": "Schneemann", 
+        "right": true
+      }, 
+      {
+        "text": "Schneeball"
+      }, 
+      {
+        "text": "Patentieren"
+      }, 
+      {
+        "text": "Geotracking"
+      }
+    ]
+  }
+]

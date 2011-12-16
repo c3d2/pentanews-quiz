@@ -3,9 +3,9 @@
     "tier": 100, 
     "text": "Who was awarded the Pwnie award this year?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/pix/a_target.jpg"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/q_target.png", 
     "answers": [
       {
         "text": "Sony", 
@@ -29,9 +29,9 @@
     "tier": 150, 
     "text": "How many female Porn stars have their own WP article?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": 448
@@ -52,9 +52,9 @@
     "tier": 225, 
     "text": "How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": 540
@@ -75,9 +75,9 @@
     "tier": 337, 
     "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "hand over the data", 
@@ -98,9 +98,9 @@
     "tier": 506, 
     "text": "Who controls american drones in Afghanistan part time?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Iran Army"
@@ -121,9 +121,9 @@
     "tier": 759, 
     "text": "To what degree Libre Office is compatible to MS Office documents?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "It can run the same viruses?", 
@@ -145,9 +145,9 @@
     "tier": 1139, 
     "text": "How much money makes MS by patent bribing Android manufactures a year?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "$1 billion"
@@ -168,9 +168,9 @@
     "tier": 1709, 
     "text": "Which company delivers software that could reboot by a IPv6 ping in 2011?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Microsoft"
@@ -191,9 +191,9 @@
     "tier": 2563, 
     "text": "How much money has HP spent in CEO pay-offs since 2005?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "$10 mio"
@@ -214,9 +214,9 @@
     "tier": 3844, 
     "text": "Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?", 
     "explanation": [
-      "videos/question1.webm"
+      "data/videos/question1.webm"
     ], 
-    "image": "pix/question1.png", 
+    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "ssh"

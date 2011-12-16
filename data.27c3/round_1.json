@@ -1,0 +1,162 @@
+[
+  {
+    "tier": 100, 
+    "text": "Which company did not cancel the Wikileaks account?", 
+    "image": "pix/5000.jpg", 
+    "answers": [
+      {
+        "text": "Amazon"
+      }, 
+      {
+        "text": "Paypal"
+      }, 
+      {
+        "text": "Twitter", 
+        "right": true
+      }, 
+      {
+        "text": "MasterCard / Visa"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "Which country does not allow porn scanners?", 
+    "image": "pix/293.jpg", 
+    "answers": [
+      {
+        "text": "Israel", 
+        "right": true
+      }, 
+      {
+        "text": "USA"
+      }, 
+      {
+        "text": "France"
+      }, 
+      {
+        "text": "Germany"
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "Which page did Wikipedia not delete?", 
+    "image": "pix/5001.jpg", 
+    "answers": [
+      {
+        "text": "Pentaradio", 
+        "right": true
+      }, 
+      {
+        "text": "Alternativlos"
+      }, 
+      {
+        "text": "Club Mate"
+      }, 
+      {
+        "text": "Wikileaksmirror"
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "History: How old is the Web?", 
+    "image": "pix/637.jpg", 
+    "answers": [
+      {
+        "text": "15y"
+      }, 
+      {
+        "text": "20y", 
+        "right": true
+      }, 
+      {
+        "text": "25y"
+      }, 
+      {
+        "text": "35y"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "How was the Web forum of the Epilepsy Foundation attacked?", 
+    "explanation": {
+      "image": "pix/5006_expl.gif"
+    }, 
+    "answers": [
+      {
+        "text": "password guessing"
+      }, 
+      {
+        "text": "animated gifs", 
+        "right": true
+      }, 
+      {
+        "text": "phishing to free treatment site"
+      }, 
+      {
+        "text": "free screensavers"
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "What happened in Turkey after the spell checking changed s/You change the topic every time you run out of arguments/You change the topic every time they are fucking you/ in a SMS?", 
+    "answers": [
+      {
+        "text": "The couple broke up"
+      }, 
+      {
+        "text": "The couple got married"
+      }, 
+      {
+        "text": "Phone manufacturer had to pay 50k EUR"
+      }, 
+      {
+        "text": "The couple killed themselfs", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "For what patent violation 36 companies got sued by the Marshall patent troll?", 
+    "answers": [
+      {
+        "text": "Spyware"
+      }, 
+      {
+        "text": "Anti-Spam", 
+        "right": true
+      }, 
+      {
+        "text": "O/S shutdown"
+      }, 
+      {
+        "text": "VoIP"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "Which organization got nervous when they found out that some employees consume child porn?", 
+    "image": "pix/327.jpg", 
+    "answers": [
+      {
+        "text": "FBI", 
+        "right": true
+      }, 
+      {
+        "text": "FSB"
+      }, 
+      {
+        "text": "MI6"
+      }, 
+      {
+        "text": "BND"
+      }
+    ]
+  }
+]

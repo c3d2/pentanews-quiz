@@ -1,0 +1,172 @@
+[
+  {
+    "tier": 100, 
+    "text": "Which company caused a big media hype for sniffing WLAN traffic for a fraction of a second?", 
+    "answers": [
+      {
+        "text": "Apple"
+      }, 
+      {
+        "text": "Nokia/Navsat"
+      }, 
+      {
+        "text": "Google", 
+        "right": true
+      }, 
+      {
+        "text": "Tele Atlas"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "Which Web Site did not distribute trojans this year (To our knowledge)?", 
+    "answers": [
+      {
+        "text": "Lenovo Support"
+      }, 
+      {
+        "text": "Nobel Peace Price"
+      }, 
+      {
+        "text": "US Treasury"
+      }, 
+      {
+        "text": "events.ccc.de", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "text": "Cheng Jianping was sent to a labour camp for one year. What did she do?", 
+    "explanation": {
+      "image": "pix/664_expl.jpg"
+    }, 
+    "answers": [
+      {
+        "text": "Retweeting that her fellow Chinese people should be angry at the Japanese.", 
+        "right": true
+      }, 
+      {
+        "text": "Uploading the video of the boat attack"
+      }, 
+      {
+        "text": "Uploading a cartoon of the boat attack"
+      }, 
+      {
+        "text": "Demanding that the Chinese captain should stay in jail in Japan"
+      }
+    ], 
+    "video": "video/664.webm", 
+    "tier": 225, 
+    "image": "pix/664.jpg"
+  }, 
+  {
+    "tier": 337, 
+    "text": "For what reason pupils of a Pennsylvania school exploited the remote admin software of their school laptops?", 
+    "image": "pix/108.jpg", 
+    "answers": [
+      {
+        "text": "Turn off camera spy ware", 
+        "right": true
+      }, 
+      {
+        "text": "Canceling lessons to get time off"
+      }, 
+      {
+        "text": "Fake a bomb alert"
+      }, 
+      {
+        "text": "Change their marks"
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "What was the punishment for the Sahra Palin e-mail hacker?", 
+    "image": "pix/643.jpg", 
+    "answers": [
+      {
+        "text": "300 h public service"
+      }, 
+      {
+        "text": "1 year prison", 
+        "right": true
+      }, 
+      {
+        "text": "250 k USD fine"
+      }, 
+      {
+        "text": "acquittal"
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "What gadget makes one to stay detained in Guantanamo bay?", 
+    "explanation": {
+      "image": "pix/565_expl.jpg"
+    }, 
+    "answers": [
+      {
+        "text": "iPod without music"
+      }, 
+      {
+        "text": "Satellite phone"
+      }, 
+      {
+        "text": "camera with a large telephoto"
+      }, 
+      {
+        "text": "wrist watch", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "Which language holds about \u00bc of all NIST entries and is 15 years old?", 
+    "explanation": {
+      "image": "pix/214_expl.jpg"
+    }, 
+    "image": "pix/214.jpg", 
+    "answers": [
+      {
+        "text": "Perl"
+      }, 
+      {
+        "text": "PHP", 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "C#"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "What was the most cracked password of the Gawker (Gawker, Jezebel, Gizmodo, Lifehacker, Deadspin, io9, Kotaku, Jalopnik) Web page user database?", 
+    "explanation": {
+      "image": "pix/725_expl.jpg"
+    }, 
+    "image": "pix/725.jpg", 
+    "answers": [
+      {
+        "text": "123456", 
+        "right": true
+      }, 
+      {
+        "text": "password"
+      }, 
+      {
+        "text": "12345678"
+      }, 
+      {
+        "text": "querty"
+      }
+    ]
+  }
+]

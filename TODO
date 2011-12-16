@@ -1,0 +1,60 @@
+= Fragen =
+* klobs -(  0%)- Fragen ausarbeiten.
+* klobs -(  0%)- Bilder/Filme sammeln. Jede Frage ein Bild, wenn es was gibt.
+* klobs -(  0%)- Antwortbilder sammeln. Zur Auflösung der Fragen kann ein Bild gezeigt werden
+
+= Game =
+* astro -(100%)- Timer: Wird für folgendes gebraucht:
+                      * Begrenzung der Antwortzeit (30, 60 oder 90s - oder noch anders)
+                        quiz.js: TIMER_QUESTION
+                      * Begrenzung der Klick-Zeit nach Fragestellung
+                        quiz.js: TIMER_ANSWER
+* astro -(100%)- Auflösung: Bei der Auflösung der Frage, kann ein Bild/Film angezeigt werden.
+                            Feld "explanation" in questions.json
+* astro -( 90$)- Sound Effects: Rewind before Play (TODO: start timeout on 10s)
+* astro -(100%)- Keine Antwort? Der mit den meisten Punkten
+   verlieren. Bei Gleichstand Zufall.
+
+= Joker =
+5 Joker sollten reichen.
+* astro -(99%)- Nedap-Joker: Voting WebApp mit Timer, Frage, vier Antworten zum klicken.
+          Abstimmung wird live angezeigt.
+* astro -(99%)- Chat-Joker: Frage kann in einem dedizierten IRC-Channel gestellt werden.
+        * a8 -(0%)- irc-Web gateway (asto finded das blöd. Aber vllt. hat jemand keinen irc-Client zur Hand
+* astro -(0%)- Google-Joker: ggf. anderer Name; Spieler darf für 30s bei Google suchen und im Web klicken.
+               Dafür gibt es ein unbeschriftetes Keyboard mit engl. oder dt. Tastaturlayout
+* astro -(100%)- Shift-Joker: Spieler gibt die Frage an einen anderen Spieler weiter
+* astro -(100%)- Wikipedia-Joker: 2 Antworten werden wegen Irrelevanz gelöscht (Logo!)
+* astro -(100%)- vote.c3d2.de & IRC auf Startscreen
+* astro -( 99%)- nedap-joker rate limiting
+* astro -(100%)- nedap-joker vote w/ token
+
+== Ideen ==
+* - -()- Eliza-Joker: Frage kann wie bei Eliza per Text-Chat erörtert werden. Da ist aber der Aufwand für
+         die Vorbereitung zu hoch.
+* - -()- Game-Joker: Statt die Frage zu beantworten muss ein kurzes Spiel gewonnen werden.
+* - -()- Forum-Joker: Die Antwort kann in einem öffentl. Web-Forum diskutiert werden.
+
+= Hardware =
+* thammi -(  0%)- node.js interface
+* astro -(  0%)- tastendruck vom backend an frontend reichen
+
+= Server =
+* astro -(  0%)- vote fürs easterhegg
+
+
+= Hotfixes =
+DONE: nedap flush
+DONE: nedap encoding
+DONE: timeout sound
+DONE: irc+nedap auf 1. screen
+DONE: overload
+
+
+= 28C3 =
+
+how to reproduce: shift to self & dead keys?
+
+credits + battletoads.ogg
+websocket keys change
+fragen mit quelle live auf identi.ca posten

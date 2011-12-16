@@ -1,0 +1,210 @@
+[
+  {
+    "tier": 100,
+    "text": "Wie war das Motto der Datenspuren 2010?",
+    "answers": [
+      {
+        "text": "Mind the gap",
+        "right": true
+      },
+      {
+        "text": "Heiter bis wolkig"
+      },
+      {
+        "text": "Hands off, privacy on"
+      },
+      {
+        "text": "Privatsph\u00e4re war gestern"
+      }
+    ],
+    "explanation": {
+      "image": "data.ds2011-1/ds2010.png"
+    }
+  },
+  {
+    "tier": 150,
+    "text": "Wie werden die Nutzer in Facebooks Datenbank genannt?",
+    "image": "data.ds2011-1/fb_areyousure.gif",
+    "answers": [
+      {
+        "text": "Hostage"
+      },
+      {
+        "text": "Subject"
+      },
+      {
+        "text": "Target",
+        "right": true
+      },
+      {
+        "text": "Product"
+      }
+    ]
+  },
+  {
+    "tier": 225,
+    "text": "Wie hei\u00dft der urheberrechtsverletzende Politiker der 2-Strikes vorschl\u00e4gt?",
+    "answers": [
+      {
+        "text": "Volker Kauder"
+      },
+      {
+        "text": "Siegfried Kauder",
+        "right": true
+      },
+      {
+        "text": "Welsch Kauder"
+      },
+      {
+        "text": "Dieter Kauder"
+      }
+    ],
+    "explanation": {
+      "image": "data.ds2011-1/kauder.jpg"
+    }
+  },
+  {
+    "tier": 337,
+    "text": "Wozu f\u00fchren rechtsweglose Zensurabmahnungen (in Italien)?",
+    "image": "data.ds2011-1/berlusconi.jpg",
+    "answers": [
+      {
+        "text": "Schlie\u00dfung der Wikipedia",
+        "right": true
+      },
+      {
+        "text": "Kinderporno -250%"
+      },
+      {
+        "text": "Berlusconi im Amt fest tackern"
+      },
+      {
+        "text": "Anonymous behindern"
+      }
+    ]
+  },
+  {
+    "tier": 506,
+    "text": "Wie viele Verbindungsdatens\u00e4tze wurden druch die Polizei w\u00e4hrend der Anti-Nazi Demonstrationen im Februar 2011 in Dresden abgefragt?",
+    "answers": [
+      {
+        "text": "ca 12"
+      },
+      {
+        "text": "ca. 100"
+      },
+      {
+        "text": "ca. 5.000"
+      },
+      {
+        "text": "mehr als 1.000.000",
+        "right": true
+      }
+    ]
+  },
+  {
+    "tier": 759,
+    "text": "Was verlangte Google als es die Maildaten von Jacob Applebaum ausgeliefert hat?",
+    "image": "ds2011-1/gmail.jpg",
+    "answers": [
+      {
+        "text": "Nichts",
+        "right": true
+      },
+      {
+        "text": "Gerichtsbeschluss"
+      },
+      {
+        "text": "hat dagegen geklagt"
+      },
+      {
+        "text": "Sagte, er hat hier keinen Account"
+      }
+    ]
+  },
+  {
+    "tier": 1139,
+    "text": "Wo werden Mifare Cards verwendet die gerade erst gehackt wurden?",
+    "image": "data.ds2011-1/mifare.jpg",
+    "answers": [
+      {
+        "text": "NASA",
+        "right": true
+      },
+      {
+        "text": "NSA"
+      },
+      {
+        "text": "Mossad HQ"
+      },
+      {
+        "text": "Bundestag"
+      }
+    ]
+  },
+  {
+    "tier": 1709,
+    "text": "Worauf hat die Homeland Security Software FAST bei der Berechnung potentieller Straftäter nicht geachtet?",
+    "answers": [
+      {
+        "text": "ethnische Zugeh\u00f6rigkeit"
+      },
+      {
+        "text": "K\u00f6rperma\u00dfe"
+      },
+      {
+        "text": "Abstammung"
+      },
+      {
+        "text": "Haarfarbe",
+        "right": true
+      }
+    ],
+    "explanation": {
+      "image": "data.ds2011-1/homeland-obama.jpg"
+    }
+  },
+  {
+    "tier": 2563,
+    "text": "Wer kontrolliert zeitweise Drohnen in Afghanistan?",
+    "answers": [
+      {
+        "text": "Viren",
+        "right": true
+      },
+      {
+        "text": "Chinesische Hackers"
+      },
+      {
+        "text": "NSA"
+      },
+      {
+        "text": "Piloten"
+      }
+    ],
+    "image": "data.ds2011-1/predator-drone.jpg"
+  },
+  {
+    "tier": 3844,
+    "text": "Wie kompatibel ist Libre Office zu MS Office?",
+    "image": "data.ds2011-1/clippy1.jpg",
+    "answers": [
+      {
+        "text": "Viren laufen",
+        "right": true
+      },
+      {
+        "text": "MS Word importierbar"
+      },
+      {
+        "text": "Gleiches UI"
+      },
+      {
+        "text": "Gleiche Plugin-API"
+      }
+    ],
+    "explanation": {
+	"image": "data.ds2011-1/clippy2.jpg"
+    }
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "tier": 33,
+    "text": "Welche Bank war beim legendären CCC-BTX-Hack betroffen?",
+    "answers": [
+      { "text": "Deutsche Bank" },
+      { "text": "Berliner Volksbank" },
+      { "text": "Dresdner Bank" },
+      { "text": "Hamburger Sparkasse", "right": true }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wann gab es das letzte “CCC” im Google-Doodle?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "Sysadmin Day"},
+      { "text": "Jubiläum Juri Gagarin" , "right": true},
+      { "text": "25. CCC-Congress" },
+      { "text": "25. CCC Geburtstag"}
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Wie heissen die auf dem EH2011 präsentierten Ansätze für dezentrale soziale Netze?",
+    "answers": [
+      { "text": "Diaspora" },
+      { "text": "protonet", "right": true },
+      { "text": "buddycloud", "right": true },
+      { "text": "Facebook" }
+    ]
+  },
+  {
+    "tier": 33,
+    "text": "Welche Firma sagte im April 2011 von sich, sie biete momentan zuviel Meinungsfreiheit für einige Länder?",
+    "answers": [
+      { "text": "Deutsche Post" },
+      { "text": "FAZ" },
+      { "text": "Twitter" },
+      { "text": "Facebook", "right": true }
+    ]
+  },
+
+  {
+    "tier": 66,
+    "text": "Wer klagt gegen das französische Dekret Nutzerdaten 1 Jahr aufzuheben?",
+    "answers": [
+      {
+        "text": "Google",
+        "right": true
+      },
+      {
+        "text": "Facebook",
+        "right": true
+      },
+      {
+        "text": "Microsoft"
+      },
+      {
+        "text": "Yahoo!"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo hat sich eine Smart City einen Virus eingefangen?",
+    "explanation": {
+	"text": "“We've put our entire city's operations in the cloud, and now we can't get it out,”"
+    },
+    "answers": [
+      {
+        "text": "Südkorea",
+        "right": true
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "China"
+      },
+      {
+        "text": "USA"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wie ist die Altersfreigabe für Opera im Apple App Store?",
+    "answers": [
+      {
+        "text": "unbeschränkt"
+      },
+      {
+        "text": "ab 6"
+      },
+      {
+        "text": "ab 17",
+	"right": true
+      },
+      {
+        "text": "ab 21"
+      }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wie wird das geigercrowd.net Projekt implementiert?",
+    "answers": [
+      { "text": "Google Web Toolkit (GWT)" },
+      { "text": "Django" },
+      { "text": "Ruby on Rails", "right": true },
+      { "text": ".net" }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Mit welchem Schiff entdeckt James Cook 1778 Hawaii?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "Titanic"},
+      { "text": "Santa Maria"},
+      { "text": "Black Pearl" },
+      { "text": "Discovery" , "right": true }
+    ]
+  },
+  {
+    "tier": 66,
+    "text": "Wo speichert Apple Bewegungsdaten?",
+    "answers": [
+      { "text": "spy.dat" },
+      { "text": "locator.xml" },
+      { "text": "location.sqlite" },
+      { "text": "consolidated.db", "right": true }
+    ]
+  },
+
+  {
+    "tier": 100,
+    "text": "In welcher Stadt sitzt die deutsche Firma Gamma, die Spionagesoftware an die ehemalige ägyptische Regierung lieferte?",
+    "answers": [
+      { "text": "Dortmund" },
+      { "text": "München", "right": true },
+      { "text": "Bielefeld" },
+      { "text": "Berlin" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Wie heisst der Bittorrent Server, über den CRE verteilt wird?",
+    "answers": [
+      { "text": "BitLove"},
+      { "text": "PritTorrent" , "right": true },
+      { "text": "TimTracker" },
+      { "text": "TPTorrent" }
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Ab wann kann ein Start eines Spaceshuttles nur noch von Board gestoppt werden?",
+    "explanation": { "text": "Einsender: Waldmeister" },
+    "answers": [
+      { "text": "10 sec"},
+      { "text": "31 sec" , "right": true},
+      { "text": "42 sec" },
+      { "text": "120 sec"}
+    ]
+  },
+  {
+    "tier": 100,
+    "text": "Welchen Stückpreis hatten die IPs im Adressblock von Nortel? ($7.5m total)?",
+    "answers": [
+      {
+        "text": "$0.03"
+      },
+      {
+        "text": "$0.47"
+      },
+      {
+        "text": "$1.00"
+      },
+      {
+        "text": "$11.25",
+        "right": true
+      }
+    ]
+  }
+]

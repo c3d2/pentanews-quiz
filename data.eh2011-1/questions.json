@@ -1,0 +1,174 @@
+[
+
+{ "tier": 33,
+   "text": "Was sind die Hauptkritikpunkte des CCC am digitalen Radiergummi?",
+   "explanation": { "text": "Einsender: payload" },
+   "answers": [{ "text": "Es öffnet dem Missbrauch Tür und Tor." },
+	       { "text": "Ja es funktioniert nicht.", "right": true },
+	       { "text": "Da gibt es viele!" },
+	       { "text": "Wir finden das eigentlich ganz okay." }]
+ },
+
+{
+	"tier": 33,
+		"text": "Warum sollen Bibliotheken ihre DRM-Ebooks nach 26 Ausleihen neu kaufen?",
+		"answers": [
+		{
+			"text": "Weil die proprietären Dateiformate dann nicht mehr lesbar sind."
+		},
+		{
+			"text": "Weil einige Ausleihende vergessen, die Bücher wieder zurück zu laden."
+		},
+		{
+			"text": "Damit anschliessend wegen erhöhter Nachfrage mehrere Digitale Exemplare vorliegen."
+		},
+		{
+			"text": "Weil die echten Bücher nach 26 Ausleihen auch neu gekauft werden würden.",
+			"right": true
+		}
+	]
+},
+
+{
+	"tier": 33,
+		"text": "Warum können Atomunfälle bei uns nicht passieren?",
+		"image": "bundesatom.jpg",
+		"answers": [
+		{
+			"text": "Weil nicht genügend Strahlenschutzanzüge vorligen.",
+				"right": true
+		},
+		{
+			"text": "Weil unsere Technik sicher ist.",
+				"right": true
+		},
+		{
+			"text": "Weil wir keine atomare Technik nutzen.",
+				"right": true
+		},
+		{
+			"text": "Fliegt dahinten eine rote Taube?",
+				"right": true
+		}
+	]
+},
+
+ { "tier": 66,
+   "text": "Warum wollten sich am 20. Jannuar 2011 17 Menschen in einem Flugzeug von Paris nach Mali nicht setzen?",
+   "explanation": { "text": "Einsender: payload" },
+   "answers": [{ "text": "Schlangen im Flugzeug" },
+	       { "text": "Abschiebung verhindern ", "right": true },
+	       { "text": "Flugzeugentführung durchführen" },
+	       { "text": "Flugzeugentführung verhindern" }]
+ },
+ { "tier": 66,
+   "text": "Welche Band veröffentlichte Ihr Debutalbum “Narwhalingus-EP” forkbar auf Github?",
+   "explanation": { "image": "narwhalingus-ep.png" },
+   "answers": [{ "text": "The Bristol 7s", "right": true },
+	       { "text": "The London 9s" },
+		{ "text": "Dieter Bohlen" },
+		{ "text": "Polarkreis 18" }
+	]
+},
+{ "tier": 66,
+		"text": "Wie sehen die Pentalobes (Spezialschrauben) aus, mit denen Apple im iPhone 4 Probiert die Nutzer am Öffnen zu hindern?",
+		"image": "schrauben.jpg",
+		"answers": [
+		{ "text": "a" },
+		{ "text": "b" },
+		{ "text": "c", "right": true },
+		{ "text": "d" } ]
+},
+
+{
+	"tier": 100,
+		"text": "Von welchem Land verzeichnet Googlemaps weder Strassen-, noch Städtenamen?",
+		"explanation": { "image": "nordkorea.gif" },
+		"answers": [
+		{
+			"text": "Iran"
+		},
+		{
+			"text": "Pakistan"
+		},
+		{
+			"text": "Bhutan"
+		},
+		{
+			"text": "Nordkorea",
+			"right": true
+		}
+	]
+},
+
+{
+	"tier": 100,
+		"text": "Wie viele Hausdurchsuchungen mussten Walter und Rose Martin aufgrund eines Fehlers in der Polizeidatenbank ertragen?",
+		"answers": [
+		{
+			"text": "<=15"
+		},
+		{
+			"text": ">15, <42"
+		},
+		{
+			"text": "42"
+		},
+		{
+			"text": ">50",
+			"right": true
+		}
+	]
+},
+{
+	"tier": 100,
+		"text": "Wie groß ist die radioaktive Belastung in Deutschland im Durchschnitt?",
+		"explanation": { "text": "Einsender: seb7" },
+		"answers": [
+		{
+			"text": "0,9 Sv/Jahr"
+		},
+		{
+			"text": "3,9 mSv/Jahr",
+			"right": true
+		},
+		{
+			"text": "0,2 µSv/Stunde"
+		},
+		{
+			"text": "1000 mSv/Stunde"
+		}
+	]
+},
+{
+	"tier": 100,
+		"text": "Wie viel Gründungsmitglieder waren beim Gründungstreffen vom Zwiebelfreunde e.V. (Verein hinter Torservers.net) anwesend?",
+		"explanation": { "text": "Quelle: Pentacast 31" },
+		"answers": [
+		{
+			"text": "13",
+			"right": true
+		},
+		{
+			"text": "23"
+		},
+		{
+			"text": "42"
+		},
+		{
+			"text": "99"
+		}
+	]
+},
+  {
+    "tier": 133,
+    "text": "Welches Motiv zierte die Tasse beim ersten Easterhegg 2001?",
+    "answers": [
+      { "text": "Eine S-Bahn mit Pesthörnchen" },
+      { "text": "Zwei Hasen mit Laptops" },
+      { "text": "Eine Tasse auf einer Tasse (Rekursion)" },
+      { "text": "Eine Antenne aus einem Ei", "right": true }
+    ]
+  }
+
+]

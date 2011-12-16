@@ -1,0 +1,190 @@
+body { 
+  margin: 0 auto;
+  color: white;
+  background-color: #20203f;
+  text-align: center;
+  font-size: 200%;
+  font-family: sans-serif;
+  overflow: clip;
+}
+
+ul { 
+  list-style-type: none;
+  margin: 0;
+}
+li { 
+  display: inline-block;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#players { 
+  margin-bottom: 2em;
+}
+#players li { 
+  margin: 0 0.5em;
+}
+#players li span {
+  margin: 0 0.2em;
+}
+#players li img {
+  display: inline-block;
+  height: 0.8em;
+}
+.name {
+  color: #7f7f7f;
+}
+#players .score {
+  font-size: 88%;
+  color: #fff;
+}
+.active { 
+  color: white;
+  font-weight: bold;
+}
+
+#tier { 
+  color: #ddd;
+  font-weight: bold;
+  font-size: 150%;
+  font-familiy: sans-serif;
+}
+#question { 
+  font-size: 250%;
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+#question img {
+  display: inline;
+}
+
+#question p {
+	margin: 5px 40px 30px 40px;
+}
+
+#nedap .url {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#irc ul {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 150%;
+  text-align: left;
+  width: 40em;
+}
+
+#answers {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#answers ul {
+  margin: 0.5em 0.5em;
+  text-align: center;
+}
+#answers ul li {
+  color: #ddd;
+  width: 30%;
+  padding: 0.1em 0.5em;
+  border: 0.15em solid #ddd;
+  border-radius: 0.85em 0.85em 1em 1em;
+}
+
+#answers ul li.selected {
+  background-color: #ff9600;
+  color: black;
+}
+#answers ul li.right {
+  background-color: #06ff00;
+  color: black;
+}
+#answers ul li.wrong {
+  background-color: #ff0600;
+  color: white;
+}
+
+form {
+  background-color: #30304f;
+  padding: 1em 0;
+}
+form label {
+  margin-right: 1em;
+}
+input {
+  color: white;
+  background-color: #00003f;
+  font-size: 100%;
+}
+
+ul#tiers {
+  text-align: right;
+  float: right;
+  margin: 2em auto;
+}
+ul#tiers li {
+  display: list-item;
+  color: #777;
+}
+ul#tiers li.done {
+  font-weight: bold;
+  color: white;
+}
+
+#scoreboard dl {
+  width: 20em;
+  text-align: left;
+  margin: 1em auto;
+  font-size: 175%;
+}
+#scoreboard dl dd {
+  margin-left: 1em;
+  margin-bottom: 0.65em;
+  font-size: 90%;
+}
+#scoreboard dl dd .score {
+  font-size: 125%;
+  color: #fff;
+}
+
+#scoreboard dl dd img {
+  margin-left: 0.2em;
+}
+
+#timer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.05em 0.2em;
+  padding: 0px;
+  width: 1.6em;
+  border: 0.1em solid #ddd;
+  border-radius: 0.25em 0.25em 0.35em 0.35em;
+  font-weight: bold;
+  font-size: 300%;
+  text-align: center;
+}
+.elapsed#timer {
+  border-color: red;
+}
+
+.leaks {
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    top: 1500px;
+    width: 80%;
+    height: 7000px;
+    overflow: visible;
+}
+
+#gifs img {
+    display: inline-block;
+    max-width: 20%;
+}

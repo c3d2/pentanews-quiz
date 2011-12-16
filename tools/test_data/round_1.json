@@ -1,0 +1,50 @@
+[
+  {
+    "text": "What is the question?", 
+    "explanation": [
+      "videos/question1.webm", 
+      "pix/question1.png"
+    ], 
+    "answers": [
+      {
+        "text": "Answer 1", 
+        "right": true
+      }, 
+      {
+        "text": "Answer 2"
+      }, 
+      {
+        "text": "Answer 3"
+      }, 
+      {
+        "text": "Answer 4"
+      }
+    ], 
+    "video": "videos/question1.webm", 
+    "tier": 100, 
+    "image": "pix/question1.png"
+  }, 
+  {
+    "tier": 150, 
+    "text": "What are users in Facebook called?", 
+    "explanation": [
+      "videos/faschistbook.webm"
+    ], 
+    "image": "pix/facebook-jail.png", 
+    "answers": [
+      {
+        "text": "Hostage"
+      }, 
+      {
+        "text": "Victims"
+      }, 
+      {
+        "text": "Target", 
+        "right": true
+      }, 
+      {
+        "text": "Product"
+      }
+    ]
+  }
+]

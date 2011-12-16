@@ -1,0 +1,165 @@
+[
+  {
+    "tier": 100, 
+    "text": "Which O/S will quote 'Only one FBI sponsored backdoor in 10 years\u201d- once verified?'", 
+    "answers": [
+      {
+        "text": "Solaris"
+      }, 
+      {
+        "text": "Windows"
+      }, 
+      {
+        "text": "OpenBSD", 
+        "right": true
+      }, 
+      {
+        "text": "Linux"
+      }
+    ]
+  }, 
+  {
+    "tier": 150, 
+    "text": "In which country it doesn't even need a judge to block Web pages?", 
+    "answers": [
+      {
+        "text": "France", 
+        "right": true
+      }, 
+      {
+        "text": "Spain"
+      }, 
+      {
+        "text": "Mexico"
+      }, 
+      {
+        "text": "Norway"
+      }
+    ]
+  }, 
+  {
+    "tier": 225, 
+    "text": "What was an operator at Denver int. Airport doing while a group of highschool netball players passed the porn scanner?", 
+    "image": "pix/677.jpg", 
+    "answers": [
+      {
+        "text": "Saving pix to an usb drive."
+      }, 
+      {
+        "text": "Uploading pix to the Net"
+      }, 
+      {
+        "text": "Making 'em to go through the scanner again"
+      }, 
+      {
+        "text": "Masturbating", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 337, 
+    "text": "Who answered\u201cI am working on clarity around that at the moment\u201dafter being asked about the purpose of Twitter?", 
+    "explanation": {
+      "image": "pix/5004_expl.jpg"
+    }, 
+    "image": "pix/5004.jpg", 
+    "answers": [
+      {
+        "text": "Steve Jobs"
+      }, 
+      {
+        "text": "Dick Cheney"
+      }, 
+      {
+        "text": "Nicolas Sarkozy"
+      }, 
+      {
+        "text": "Dick Costolo", 
+        "right": true
+      }
+    ]
+  }, 
+  {
+    "tier": 506, 
+    "text": "In which country Web pages open after 10pm to show a docu about the French revolution?", 
+    "explanation": {
+      "image": "pix/316_expl.jpg"
+    }, 
+    "answers": [
+      {
+        "text": "Germany", 
+        "right": true
+      }, 
+      {
+        "text": "France"
+      }, 
+      {
+        "text": "Brazil"
+      }, 
+      {
+        "text": "Japan"
+      }
+    ]
+  }, 
+  {
+    "tier": 759, 
+    "text": "Who lost 4 mio user accounts in July?", 
+    "answers": [
+      {
+        "text": "Facebook"
+      }, 
+      {
+        "text": "Foursquare"
+      }, 
+      {
+        "text": "Pirate Bay", 
+        "right": true
+      }, 
+      {
+        "text": "Verizon (iPad)"
+      }
+    ]
+  }, 
+  {
+    "tier": 1139, 
+    "text": "In what year was the 1st ascii art movie created?", 
+    "explanation": {
+      "video": "video/36_expl.webm"
+    }, 
+    "answers": [
+      {
+        "text": "1976"
+      }, 
+      {
+        "text": "1982"
+      }, 
+      {
+        "text": "1968", 
+        "right": true
+      }, 
+      {
+        "text": "1954"
+      }
+    ]
+  }, 
+  {
+    "tier": 1709, 
+    "text": "The concerts of what band were announced to be canceled by a hacked twitter account of the band?", 
+    "answers": [
+      {
+        "text": "Guns'n'Roses", 
+        "right": true
+      }, 
+      {
+        "text": "AC/DC"
+      }, 
+      {
+        "text": "KISS"
+      }, 
+      {
+        "text": "Rolling Stones"
+      }
+    ]
+  }
+]
