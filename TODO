@@ -46,6 +46,15 @@
 = Hotfixes =
 DONE: nedap flush
 DONE: nedap encoding
-timeout sound
+DONE: timeout sound
 DONE: irc+nedap auf 1. screen
-overload
+DONE: overload
+
+
+= 28C3 =
+
+how to reproduce: shift to self & dead keys?
+
+credits + battletoads.ogg
+websocket keys change
+fragen mit quelle live auf identi.ca posten

@@ -1,3 +1,4 @@
+#TODO Sojus Koppelmanöver
 #--- !Question
 #question: What is the question?
 #answers:
@@ -22,17 +23,17 @@ answers:
     - true: Sony
     - true: Sony
 tier: 1
-game_round: 2
+game_round: 1
 media:
     question:
-        - pix/q_target.png
+        - pix/q_target.png TODO
     explanation:
-        - pix/a_target.jpg
+        - pix/a_target.jpg TODO
 
 --- !Question
 # http://de.wikipedia.org/wiki/Strahlenkrankheit
 # Wie gut koennen sich Leute die Fukushima facts merken?
-question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))
+question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv)) #TODO Inforgrafik, und Frage kuerzer
 answers:
     - false: "> 6 mGy"
     - false: "> 600 mGy"
@@ -48,7 +49,7 @@ media:
 
 --- !Question
 # http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung
-question: Why did Saxony (German State) not use the Bundestrojaner (governmental trojan horse)?
+question: Why did Saxony (German State) not use the Staatstrojaner (governmental trojan horse)?
 answers:
     - true: Technically not capable of doing so.
     - false: Ethically not justifiable.
@@ -159,7 +160,7 @@ answers:
     - false: 415 days
     - true: 541 days
     - false: 451 days
-    - false: 154 days
+    - false: 514 days
 tier: 8
 game_round: 1
 media:
@@ -202,7 +203,7 @@ media:
 
 --- !Question
 # http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg
-question: How many weeks did it take to bring kernel.org back up after it has been hacked in end of August 2011?
+question: How many weeks did it take to bring kernel.org back up after they found out that it has been hacked in end of August 2011?
 answers:
     - false: ~ 1 week
     - false: It is still not up
@@ -236,7 +237,7 @@ media:
 # http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars
 question: How did the US Airforce cyber security departement learn about the virus infected drones?
 answers:
-    - false: Advanced intrusion detection mechanisms
+    - false: Intrusion detection mechanisms
     - true: Read it in the news
     - false: The badly programmed virus caused system instabilities
     - false: By random, during standart maintainance
@@ -399,7 +400,7 @@ answers:
     - true: It can run the same viruses?
     - false: It can import MS Word now.
     - false: It has the same plugin-api.
-    - true: It fucks up documents just as well.
+    - false: It fucks up documents just as well.
 tier: 6
 game_round: 2
 media:
@@ -424,7 +425,7 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: Which company delivers software that could reboot by a IPv6 ping in 2011?
+question: Which company delivers software that could be rebooted by a IPv6 ping in 2011?
 answers:
     - false: Microsoft
     - true: Cisco
@@ -441,10 +442,10 @@ media:
 --- !Question
 question: How much money has HP spent in CEO pay-offs since 2005?
 answers:
-    - false: $10 mio
+    - false: $100 mio
     - true: $80 mio
-    - false: $50 mio
-    - false: $25 mio
+    - false: $1 bln
+    - false: $500 mio
 tier: 9
 game_round: 2
 media:
@@ -499,7 +500,7 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: What is the gain in round trip time by the new $300 mio EU-US cable (first in 10 years)?
+question: What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?
 answers:
     - false: 6s
     - false: 0.6s
@@ -529,22 +530,7 @@ media:
         - videos/phonestory.webm
 
 --- !Question
-question: Which App wasn't removed from the Apple app store this year?
-answers:
-    - false: Phone Story
-    - true: Cure-Gay
-    - false: Smuggle Truck
-    - false: Conterfai Lugary
-tier: 5
-game_round: 3
-media:
-    question:
-        - pix/question1.png
-    explanation:
-        - videos/question1.webm
-
---- !Question
-question: Why does the German SPD politician Sebastian Edathy wants the data retention law?
+question: Why does the German SPD politician Sebastian Edathy want the data retention law?
 answers:
     - true: to catch who send him a plastic pussy
     - false: to catch file sharers
@@ -559,7 +545,7 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: What was not patented to our knowledge?;Snowman;Snowball;Patenting;Geotracking;1;
+question: What was not patented to our knowledge?
 answers:
     - true: Snowman
     - false: Snowball
@@ -581,21 +567,6 @@ answers:
     - false: Sweden
     - true: Russia
 tier: 8
-game_round: 3
-media:
-    question:
-        - pix/question1.png
-    explanation:
-        - videos/question1.webm
-
---- !Question
-question: Which country did not get his copyright law dictated by the US?
-answers:
-    - false: Canada
-    - false: Spain
-    - false: Sweden
-    - true: Russia
-tier: 9
 game_round: 3
 media:
     question:
@@ -648,21 +619,6 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: Which city is going to support founding of 100 hackerspaces?
-answers:
-    - false: Paris
-    - false: New York
-    - true: Shanghai
-    - false: Rio de Janeiro
-tier: 3
-game_round: 4
-media:
-    question:
-        - pix/question1.png
-    explanation:
-        - pix/shanghai.jpg
-
---- !Question
 question: Who did not die this year?
 answers:
     - false: Steve Jobs
@@ -693,7 +649,7 @@ media:
         - pix/shanghai.jpg
 
 --- !Question
-question: How many babies were given away in Spain between and the 90-es?
+question: How many babies were given away in Spain between TODO and the 90-es?
 answers:
     - false: PHP
     - true: 300,000
@@ -708,12 +664,14 @@ media:
         - pix/shanghai.jpg
 
 --- !Question
-question: How many Mrs USA finalists think evolution should be taught in school?
+question: How many Mrs USA finalists think evolution should be taught in school (out of 51)?
+source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
+comment: I’m a big science geek
 answers:
-    - false: PHP
-    - true: 300,000
-    - false: Java
-    - false: Dennis Ritchie
+    - true: 1
+    - false: 2
+    - false: 4
+    - false: 8
 tier: 7
 game_round: 4
 media:
@@ -766,6 +724,22 @@ media:
         - pix/question1.png
     explanation:
         - videos/question1.webm
+
+--- !Question
+question: What answers Siri when you ask it "Can you call me an ambulance?"
+answers:
+    - true: goose
+    - false: sheep
+    - false: chicken
+    - false: dog
+tier: 10
+game_round: 4
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - videos/question1.webm
+
 
 
 #8;What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
