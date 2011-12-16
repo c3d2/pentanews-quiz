@@ -664,12 +664,14 @@ media:
         - pix/shanghai.jpg
 
 --- !Question
-question: How many Mrs USA finalists think evolution should be taught in school?
+question: How many Mrs USA finalists think evolution should be taught in school (out of 51)?
+source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
+comment: I’m a big science geek
 answers:
-    - false: PHP
-    - true: 300,000
-    - false: Java
-    - false: Dennis Ritchie
+    - true: 1
+    - false: 2
+    - false: 4
+    - false: 8
 tier: 7
 game_round: 4
 media:
