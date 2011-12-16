@@ -56,7 +56,7 @@ var IRC_SERVER = 'irc.hackint.eu';
 var IRC_CHAN = '#pentanews';
 var chat = new irc({ server: IRC_SERVER,
 		     encoding: 'utf-8',
-		     nick: '[Ceiling]Cat'
+		     nick: '[Ceiling]Katze'
 		   });
 function connectChat() {
     chat.connect();
@@ -104,7 +104,7 @@ function pushIrcInfo() {
 /*
  * Buttons
  */
-var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/pentabuzzer');
+var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
 buzz.on('button', function(key) {
     console.log({button:key});
     sendToFrontend({ buzzer: key });
