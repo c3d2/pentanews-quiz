@@ -1,11 +1,9 @@
 [
   {
-    "tier": 100, 
     "text": "What company does this org chart show?", 
     "explanation": [
       "data/pix/organigram.png"
     ], 
-    "image": "data/pix/orgchart-ms.png", 
     "answers": [
       {
         "text": "Google"
@@ -20,15 +18,16 @@
       {
         "text": "Oracle"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 100, 
+    "image": "data/pix/orgchart-ms.png"
   }, 
   {
-    "tier": 150, 
     "text": "What programming language Fefe isn't able to read?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "C"
@@ -43,38 +42,16 @@
         "text": "Erlang", 
         "right": true
       }
-    ]
-  }, 
-  {
-    "tier": 225, 
-    "text": "Which city is going to support founding of 100 hackerspaces?", 
-    "explanation": [
-      "data/pix/shanghai.jpg"
     ], 
-    "image": "data/pix/question1.png", 
-    "answers": [
-      {
-        "text": "Paris"
-      }, 
-      {
-        "text": "New York"
-      }, 
-      {
-        "text": "Shanghai", 
-        "right": true
-      }, 
-      {
-        "text": "Rio de Janeiro"
-      }
-    ]
+    "source": "", 
+    "tier": 150, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 337, 
     "text": "Who did not die this year?", 
     "explanation": [
       "data/pix/anonymous-sun.jpg"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Steve Jobs"
@@ -89,15 +66,16 @@
       {
         "text": "Dennis Ritchie"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 337, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 506, 
     "text": "Which programming language can calculate?", 
     "explanation": [
       "data/pix/shanghai.jpg"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "PHP"
@@ -112,61 +90,64 @@
       {
         "text": "Dennis Ritchie"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 506, 
+    "image": "data/pix/question1.png"
   }, 
   {
+    "text": "How many babies were given away in Spain between TODO and the 90-es?", 
+    "explanation": [
+      "data/pix/shanghai.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": "300,000", 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ], 
+    "source": "", 
     "tier": 759, 
-    "text": "How many babies were given away in Spain between and the 90-es?", 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "How many Mrs USA finalists think evolution should be taught in school (out of 51)?", 
     "explanation": [
       "data/pix/shanghai.jpg"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
-        "text": "PHP"
-      }, 
-      {
-        "text": "300,000", 
+        "text": 1, 
         "right": true
       }, 
       {
-        "text": "Java"
+        "text": 2
       }, 
       {
-        "text": "Dennis Ritchie"
+        "text": 4
+      }, 
+      {
+        "text": 8
       }
-    ]
-  }, 
-  {
+    ], 
+    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
     "tier": 1139, 
-    "text": "How many Mrs USA finalists think evolution should be taught in school?", 
-    "explanation": [
-      "data/pix/shanghai.jpg"
-    ], 
-    "image": "data/pix/question1.png", 
-    "answers": [
-      {
-        "text": "PHP"
-      }, 
-      {
-        "text": "300,000", 
-        "right": true
-      }, 
-      {
-        "text": "Java"
-      }, 
-      {
-        "text": "Dennis Ritchie"
-      }
-    ]
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 1709, 
     "text": "What could not be used to exploit Win systems in 2011?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "TXT file"
@@ -181,15 +162,16 @@
         "text": "Power Button", 
         "right": true
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 1709, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 2563, 
     "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "goose", 
@@ -204,15 +186,16 @@
       {
         "text": "dog"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 2563, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 3844, 
     "text": "What was the most common password?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "goose", 
@@ -227,6 +210,33 @@
       {
         "text": "dog"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 3844, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What answers Siri when you ask it \"Can you call me an ambulance?\"", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "goose", 
+        "right": true
+      }, 
+      {
+        "text": "sheep"
+      }, 
+      {
+        "text": "chicken"
+      }, 
+      {
+        "text": "dog"
+      }
+    ], 
+    "source": "", 
+    "tier": 5555, 
+    "image": "data/pix/question1.png"
   }
 ]

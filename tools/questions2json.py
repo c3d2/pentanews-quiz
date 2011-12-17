@@ -40,6 +40,7 @@ class Question(yaml.YAMLObject):
     """
     yaml_tag = u"!Question"
     web_root = "data"
+    media_path = ""
 
     # {round_no1: [tier1, tier2, ...], round_no2: [tier1, ...]}
     registered_questions = {}
@@ -59,7 +60,7 @@ class Question(yaml.YAMLObject):
     }
 
     def __init__(self, question=u"", tier=0, answers=[], game_round=0,
-                 media=("", "", ""), media_path="data", web_root="data"):
+                 media=("", "", ""), source="", media_path="", web_root="data"):
         """docstring for __init__
            @question - the Question 
            @rank - number of the question in the game
@@ -67,12 +68,14 @@ class Question(yaml.YAMLObject):
            @answers - list of answers, assumed are 4
            @media - (media show at question time, media shown at answer time,
                      media shown at resolution time)
-           @media_path - path to the media files
+           @media_path - src path to the media files 
+           @web_root - path to media files on the web server
         """
         self.question = question
         self.answers = answers
         self.tier = tier
         self.game_round = game_round
+        self.source = source
         self.media = media
         self.media_path = media_path
         self.web_root = web_root
@@ -105,6 +108,10 @@ class Question(yaml.YAMLObject):
 
         data = {}
         data['text'] = self.question
+        try:
+            data['source'] = self.source
+        except AttributeError:
+            data['source'] = ""
         data['tier'] = self.points.get(int(self.tier), 0)
         data['answers'] = [
             {'text': answer[False]} if answer.has_key(False) \
@@ -115,9 +122,14 @@ class Question(yaml.YAMLObject):
             def gen_questions():
                 q_data = {}
                 for f in self.media['question']:
-                    q_data[self.__type_by_extension(
-                        os.path.sep.join(os.path.join([self.media_path, f]))
-                    )] = os.sep.join([self.web_root, f])
+                    try:
+                        q_data[self.__type_by_extension(
+                            os.path.sep.join(os.path.join([self.media_path, f])
+                            )
+                        )] = os.sep.join([self.web_root, f])
+                    except AttributeError, e:
+                        raise AttributeError, \
+                            "Question {0} cannot be generated: {1}".format(self.question, e)
                 return q_data
             def gen_explanation():
                 return {'explanation': [os.sep.join([self.web_root, expl]) \

@@ -1,11 +1,9 @@
 [
   {
-    "tier": 100, 
     "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "stormy wind"
@@ -20,15 +18,16 @@
       {
         "text": "bungling"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 100, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 150, 
     "text": "Which country does not have a net neutrality law?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Belgium"
@@ -43,15 +42,16 @@
       {
         "text": "Chile"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 150, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 225, 
-    "text": "What is the gain in round trip time by the new $300 mio EU-US cable (first in 10 years)?", 
+    "text": "What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "6s"
@@ -66,15 +66,16 @@
         "text": "0.006s", 
         "right": true
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 225, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 337, 
     "text": "Which App was pulled off the Apple app store this year after massive protests?", 
     "explanation": [
       "data/videos/phonestory.webm"
     ], 
-    "image": "data/pix/van_gogh_ipad.jpg", 
     "answers": [
       {
         "text": "Phone Story"
@@ -89,38 +90,16 @@
       {
         "text": "Conterfai Lugary"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 337, 
+    "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
-    "tier": 506, 
-    "text": "Which App wasn't removed from the Apple app store this year?", 
+    "text": "Why does the German SPD politician Sebastian Edathy want the data retention law?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
-    "answers": [
-      {
-        "text": "Phone Story"
-      }, 
-      {
-        "text": "Cure-Gay", 
-        "right": true
-      }, 
-      {
-        "text": "Smuggle Truck"
-      }, 
-      {
-        "text": "Conterfai Lugary"
-      }
-    ]
-  }, 
-  {
-    "tier": 759, 
-    "text": "Why does the German SPD politician Sebastian Edathy wants the data retention law?", 
-    "explanation": [
-      "data/videos/question1.webm"
-    ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "to catch who send him a plastic pussy", 
@@ -135,15 +114,16 @@
       {
         "text": "to protect democracy"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 759, 
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 1139, 
-    "text": "What was not patented to our knowledge?;Snowman;Snowball;Patenting;Geotracking;1;", 
+    "text": "What was not patented to our knowledge?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "Snowman", 
@@ -158,61 +138,40 @@
       {
         "text": "Geo-tracking"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 1139, 
+    "image": "data/pix/question1.png"
   }, 
   {
+    "text": "Which country did not get his copyright law dictated by the US?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "Canada"
+      }, 
+      {
+        "text": "Spain"
+      }, 
+      {
+        "text": "Sweden"
+      }, 
+      {
+        "text": "Russia", 
+        "right": true
+      }
+    ], 
+    "source": "", 
     "tier": 1709, 
-    "text": "Which country did not get his copyright law dictated by the US?", 
-    "explanation": [
-      "data/videos/question1.webm"
-    ], 
-    "image": "data/pix/question1.png", 
-    "answers": [
-      {
-        "text": "Canada"
-      }, 
-      {
-        "text": "Spain"
-      }, 
-      {
-        "text": "Sweden"
-      }, 
-      {
-        "text": "Russia", 
-        "right": true
-      }
-    ]
+    "image": "data/pix/question1.png"
   }, 
   {
-    "tier": 2563, 
-    "text": "Which country did not get his copyright law dictated by the US?", 
-    "explanation": [
-      "data/videos/question1.webm"
-    ], 
-    "image": "data/pix/question1.png", 
-    "answers": [
-      {
-        "text": "Canada"
-      }, 
-      {
-        "text": "Spain"
-      }, 
-      {
-        "text": "Sweden"
-      }, 
-      {
-        "text": "Russia", 
-        "right": true
-      }
-    ]
-  }, 
-  {
-    "tier": 3844, 
     "text": "What vendor/project did not violate the GPL?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
-    "image": "data/pix/question1.png", 
     "answers": [
       {
         "text": "AVM"
@@ -227,6 +186,9 @@
       {
         "text": "Emacs"
       }
-    ]
+    ], 
+    "source": "", 
+    "tier": 3844, 
+    "image": "data/pix/question1.png"
   }
 ]
