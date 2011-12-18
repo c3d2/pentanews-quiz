@@ -19,8 +19,8 @@
         "text": "bungling"
       }
     ], 
-    "source": "", 
-    "tier": 100, 
+    "source": false, 
+    "tier": 2278, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -43,8 +43,8 @@
         "text": "Chile"
       }
     ], 
-    "source": "", 
-    "tier": 150, 
+    "source": false, 
+    "tier": 2599, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -67,8 +67,8 @@
         "right": true
       }
     ], 
-    "source": "", 
-    "tier": 225, 
+    "source": false, 
+    "tier": 2033, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -91,8 +91,8 @@
         "text": "Conterfai Lugary"
       }
     ], 
-    "source": "", 
-    "tier": 337, 
+    "source": false, 
+    "tier": 1178, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
@@ -115,8 +115,8 @@
         "text": "to protect democracy"
       }
     ], 
-    "source": "", 
-    "tier": 759, 
+    "source": false, 
+    "tier": 2616, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -139,8 +139,8 @@
         "text": "Geo-tracking"
       }
     ], 
-    "source": "", 
-    "tier": 1139, 
+    "source": false, 
+    "tier": 2286, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -163,8 +163,8 @@
         "right": true
       }
     ], 
-    "source": "", 
-    "tier": 1709, 
+    "source": false, 
+    "tier": 2478, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -187,8 +187,8 @@
         "text": "Emacs"
       }
     ], 
-    "source": "", 
-    "tier": 3844, 
+    "source": false, 
+    "tier": 3577, 
     "image": "data/pix/question1.png"
   }
 ]

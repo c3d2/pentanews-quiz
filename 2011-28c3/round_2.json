@@ -19,9 +19,9 @@
         "text": 623
       }
     ], 
-    "source": "", 
-    "tier": 150, 
-    "image": "data/pix/question1.png"
+    "source": false, 
+    "tier": 1652, 
+    "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
     "text": "How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?", 
@@ -43,8 +43,8 @@
         "text": "940k"
       }
     ], 
-    "source": "", 
-    "tier": 225, 
+    "source": false, 
+    "tier": 135, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -67,8 +67,8 @@
         "text": "denied his account"
       }
     ], 
-    "source": "", 
-    "tier": 337, 
+    "source": false, 
+    "tier": 1342, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -91,8 +91,8 @@
         "right": true
       }
     ], 
-    "source": "", 
-    "tier": 506, 
+    "source": false, 
+    "tier": 954, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -115,8 +115,8 @@
         "text": "It fucks up documents just as well."
       }
     ], 
-    "source": "", 
-    "tier": 759, 
+    "source": false, 
+    "tier": 1514, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -139,8 +139,8 @@
         "text": "$50 mio"
       }
     ], 
-    "source": "", 
-    "tier": 1139, 
+    "source": false, 
+    "tier": 1074, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -163,8 +163,8 @@
         "text": "Huawei"
       }
     ], 
-    "source": "", 
-    "tier": 1709, 
+    "source": false, 
+    "tier": 918, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -187,8 +187,8 @@
         "text": "$500 mio"
       }
     ], 
-    "source": "", 
-    "tier": 2563, 
+    "source": false, 
+    "tier": 1549, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -211,8 +211,8 @@
         "text": "proprietary"
       }
     ], 
-    "source": "", 
-    "tier": 3844, 
+    "source": false, 
+    "tier": 921, 
     "image": "data/pix/question1.png"
   }
 ]

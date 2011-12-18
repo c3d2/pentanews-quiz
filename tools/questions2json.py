@@ -26,6 +26,7 @@ __license__ = "Python"
 
 import os
 import sys
+import random
 import json
 from optparse import OptionParser
 
@@ -41,39 +42,17 @@ class Question(yaml.YAMLObject):
     yaml_tag = u"!Question"
     web_root = "data"
 
-    # {round_no1: [tier1, tier2, ...], round_no2: [tier1, ...]}
-    registered_questions = {}
-    points_fixed = {
-       1: 100,
-       2: 150,
-       3: 225,
-       4: 337,
-       5: 506,
-       6: 759,
-       7: 1139,
-       8: 1709,
-       9: 2563,
-       10: 3844,
-       11: 5555,
-       12: 7531,
-    }
-    points_rnd_by_round = {
-       1: 100,
-       2: 150,
-       3: 225,
-       4: 337,
-       5: 506,
-       6: 759,
-       7: 1139,
-       8: 1709,
-       9: 2563,
-       10: 3844,
-       11: 5555,
-       12: 7531,
+    # Generate random points in range of points_per_round
+    gen_random_points = True
+    points_per_round = {
+        1: (1, 10),
+        2: (100, 2000),
+        3: (50, 4000),
+        4: (5, 80),
     }
 
-    # kinda a symlink to the points generating dict
-    points = points_rnd_by_round
+    # {round_no1: [tier1, tier2, ...], round_no2: [tier1, ...]}
+    registered_questions = {}
 
     def __init__(self, question=u"", tier=0, answers=[], game_round=0,
                  media=("", "", ""), media_path="data", web_root="data"):
@@ -116,13 +95,38 @@ class Question(yaml.YAMLObject):
         """docstring for __repr__"""
         return "%s(%r)" % (self.__class__.__name__, self.question)
 
+    def _get_points(self, game_round, tier):
+        """returns the points by game_round/tier combo"""
+
+        points_fixed = {
+           1: 100,
+           2: 150,
+           3: 225,
+           4: 337,
+           5: 506,
+           6: 759,
+           7: 1139,
+           8: 1709,
+           9: 2563,
+           10: 3844,
+           11: 5555,
+           12: 7531,
+        }
+
+        if not self.gen_random_points:
+            return points_fixed.get(tier, 0)
+
+        range = self.points_per_round.get(game_round)
+        points = random.randint(*range)
+        return points
+
     @property
     def as_dict(self):
         """dump data suiteable for json conversion"""
 
         data = {}
         data['text'] = self.question
-        data['tier'] = self.points.get(int(self.tier), 0)
+        data['tier'] = self._get_points(int(self.game_round), int(self.tier))
         try:
             data['source'] = self.source
         except AttributeError:

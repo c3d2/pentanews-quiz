@@ -19,8 +19,8 @@
         "text": "Oracle"
       }
     ], 
-    "source": "", 
-    "tier": 100, 
+    "source": false, 
+    "tier": 25, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -43,8 +43,8 @@
         "right": true
       }
     ], 
-    "source": "", 
-    "tier": 150, 
+    "source": false, 
+    "tier": 26, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -67,8 +67,8 @@
         "text": "Dennis Ritchie"
       }
     ], 
-    "source": "", 
-    "tier": 337, 
+    "source": false, 
+    "tier": 10, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -91,8 +91,8 @@
         "text": "Dennis Ritchie"
       }
     ], 
-    "source": "", 
-    "tier": 506, 
+    "source": false, 
+    "tier": 55, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -115,8 +115,8 @@
         "text": "Dennis Ritchie"
       }
     ], 
-    "source": "", 
-    "tier": 759, 
+    "source": false, 
+    "tier": 62, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 1139, 
+    "tier": 18, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -163,8 +163,8 @@
         "right": true
       }
     ], 
-    "source": "", 
-    "tier": 1709, 
+    "source": false, 
+    "tier": 43, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -187,8 +187,8 @@
         "text": "dog"
       }
     ], 
-    "source": "", 
-    "tier": 2563, 
+    "source": false, 
+    "tier": 10, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -211,8 +211,8 @@
         "text": "dog"
       }
     ], 
-    "source": "", 
-    "tier": 3844, 
+    "source": false, 
+    "tier": 53, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -235,8 +235,35 @@
         "text": "dog"
       }
     ], 
-    "source": "", 
-    "tier": 5555, 
+    "source": false, 
+    "tier": 57, 
     "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "Who was awarded the Pwnie award this year?", 
+    "explanation": [
+      "data/pix/a_target.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }
+    ], 
+    "source": false, 
+    "tier": 23, 
+    "image": "data/pix/q_target.png"
   }
 ]
