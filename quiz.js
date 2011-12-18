@@ -265,13 +265,25 @@ function takeJoker(activePlayer, joker) {
     $('#players .player' + activePlayer + ' .' + joker).hide();
 
     if (joker === 'fiftyfifty') {
-	var h1, h2, answers = questions[currentQuestion].answers;
-	do {
-	    h1 = Math.floor(Math.random() * 4);
-	    h2 = Math.floor(Math.random() * 4);
-	} while(answers[h1].right || answers[h2].right || h1 === h2);
-	$('#answer' + h1).fadeTo(500, 0.1);
-	$('#answer' + h2).fadeTo(500, 0.1);
+	    var h1, h2, answers = questions[currentQuestion].answers;
+	    var i,rightcount = 0;
+	    for (i=0;i<4;i++){
+		    if (answers[i].right ) {
+			    rightcount++ ;
+		    }
+	    }
+	    if (rightcount >= 3) {
+		    $('#answer' + 1).fadeTo(500, 0.1);
+		    $('#answer' + 2).fadeTo(500, 0.1);
+	    } else {
+
+		    do {
+			    h1 = Math.floor(Math.random() * 4);
+			    h2 = Math.floor(Math.random() * 4);
+		    } while(answers[h1].right || answers[h2].right || h1 === h2);
+		    $('#answer' + h1).fadeTo(500, 0.1);
+		    $('#answer' + h2).fadeTo(500, 0.1);
+	    }
     }
     if (joker === 'nedap') {
 	var q = questions[currentQuestion];

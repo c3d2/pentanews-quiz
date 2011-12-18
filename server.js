@@ -56,7 +56,7 @@ var IRC_SERVER = 'irc.hackint.eu';
 var IRC_CHAN = '#pentanews';
 var chat = new irc({ server: IRC_SERVER,
 		     encoding: 'utf-8',
-		     nick: '[Ceiling]Cat'
+		     nick: '[Ceiling]Katze'
 		   });
 function connectChat() {
     chat.connect();
