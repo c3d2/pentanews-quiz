@@ -320,23 +320,6 @@ media:
         - pix/a_hackspace.jpg
 
 --- !Question
-question: Who was awarded the Pwnie award this year?
-answers:
-    - true: Sony
-    - true: Sony
-    - true: Sony
-    - true: Sony
-tier: 19
-game_round: 1
-media:
-    question:
-        - pix/q_target.png
-        #TODO
-    explanation:
-        - pix/a_target.jpg
-        #TODO
-
---- !Question
 question: How many female Porn stars have their own WP article?
 answers:
     - false: 448
@@ -741,6 +724,21 @@ media:
         - pix/question1.png
     explanation:
         - videos/question1.webm
+
+--- !Question
+question: Who was awarded the Pwnie award this year?
+answers:
+    - true: Sony
+    - true: Sony
+    - true: Sony
+    - true: Sony
+tier: 12
+game_round: 4
+media:
+    question:
+        - pix/q_target.png #TODO
+    explanation:
+        - pix/a_target.jpg #TODO
 
 
 
