@@ -691,7 +691,7 @@ tier: 9
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_berlin_wall.jpg
     explanation:
         - videos/question1.webm
 
@@ -721,12 +721,14 @@ tier: 11
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_berlin_wall.jpg
     explanation:
-        - videos/question1.webm
+        - pix/question1.jpg
 
 --- !Question
-question: Who was awarded the Pwnie award this year?
+question: Who was awarded the Pwnie award for Most Epic FAIL this year?
+source: http://pwnies.com/winners/
+comment: Sony was legaly chasing presenters of the 27c3 for hacking.
 answers:
     - true: Sony
     - true: Sony
@@ -736,10 +738,27 @@ tier: 12
 game_round: 4
 media:
     question:
-        - pix/q_target.png #TODO
+        - pix/q_sony.png
     explanation:
-        - pix/a_target.jpg #TODO
+        - pix/a_sony.jpg
 
+
+--- !Question
+question: What happend when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?
+source: http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/
+comment: This year was 50 years of human space flight. Joke about Ms America. Wouldn't know it was a Russian. First rendevouz by the Chinese. This is our story to honour that.
+answers:
+    - false: He was landed by Huston Control Center
+    - false: He landed in the Sahara.
+    - true: He burned up in space.
+    - false: He reprogrammed the on board computer.
+tier: 13
+game_round: 4
+media:
+    question:
+        - pix/q_soyuz.jpg
+    explanation:
+        - pix/a_komarov.jpg
 
 
 #8;What detail the Homeland Security software FAST doesn't take into account to compute potential criminals?;ethnische Zugehörigkeit;Körpermaße;Abstammung;Haarfarbe;4
