@@ -44,7 +44,7 @@
       }
     ], 
     "source": false, 
-    "tier": 10, 
+    "tier": 9, 
     "image": "data/pix/q_bundestrojaner.jpg"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": false, 
-    "tier": 3, 
+    "tier": 2, 
     "image": "data/pix/q_paypal4.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": false, 
-    "tier": 9, 
+    "tier": 2, 
     "image": "data/pix/q_russian.jpg"
   }, 
   {
@@ -117,7 +117,7 @@
       }
     ], 
     "source": false, 
-    "tier": 6, 
+    "tier": 4, 
     "image": "data/pix/q_cluster.jpg"
   }, 
   {
@@ -141,7 +141,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1, 
+    "tier": 6, 
     "image": "data/pix/q_uhl.jpg"
   }, 
   {
@@ -165,7 +165,7 @@
       }
     ], 
     "source": false, 
-    "tier": 6, 
+    "tier": 8, 
     "image": "data/pix/q_cybercrime.png"
   }, 
   {
@@ -189,7 +189,7 @@
       }
     ], 
     "source": false, 
-    "tier": 8, 
+    "tier": 7, 
     "image": "data/pix/q_belgium.gif"
   }, 
   {
@@ -213,7 +213,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1, 
+    "tier": 2, 
     "image": "data/pix/q_hadopi.png"
   }, 
   {
@@ -261,7 +261,7 @@
       }
     ], 
     "source": false, 
-    "tier": 5, 
+    "tier": 6, 
     "image": "data/pix/q_kernel.gif"
   }, 
   {
@@ -285,7 +285,7 @@
       }
     ], 
     "source": false, 
-    "tier": 2, 
+    "tier": 6, 
     "image": "data/pix/q_drone.jpg"
   }, 
   {
@@ -309,7 +309,7 @@
       }
     ], 
     "source": false, 
-    "tier": 10, 
+    "tier": 4, 
     "image": "data/pix/q_drone2.jpg"
   }, 
   {
@@ -333,7 +333,7 @@
       }
     ], 
     "source": false, 
-    "tier": 6, 
+    "tier": 3, 
     "image": "data/pix/q_autocomplete.jpg"
   }, 
   {
@@ -357,7 +357,7 @@
       }
     ], 
     "source": false, 
-    "tier": 6, 
+    "tier": 10, 
     "image": "data/pix/q_ca4.jpg"
   }, 
   {
@@ -381,7 +381,7 @@
       }
     ], 
     "source": false, 
-    "tier": 7, 
+    "tier": 9, 
     "image": "data/pix/q_sudan.png"
   }, 
   {
@@ -405,7 +405,7 @@
       }
     ], 
     "source": false, 
-    "tier": 5, 
+    "tier": 10, 
     "image": "data/pix/q_london.jpg"
   }, 
   {
@@ -429,7 +429,7 @@
       }
     ], 
     "source": false, 
-    "tier": 6, 
+    "tier": 4, 
     "image": "data/pix/q_hackspace.jpg"
   }
 ]

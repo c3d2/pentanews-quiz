@@ -682,6 +682,7 @@ media:
 
 --- !Question
 question: What animal did the US army use in Western Berlin for intruder alarm?
+source: http://www.schneier.com/blog/archives/2011/08/alarm_geese.html
 answers:
     - true: goose
     - false: sheep
@@ -712,18 +713,19 @@ media:
 
 --- !Question
 question: What answers Siri when you ask it "Can you call me an ambulance?"
+source: http://toaskornottoask.com/to/shit-that-siri-says/page/2/
 answers:
-    - true: goose
-    - false: sheep
-    - false: chicken
-    - false: dog
+    - false: no emergancy calls
+    - true: I'll call you 'An ambulance'.
+    - false: You exceeded your dial plan.
+    - false: There is no ambulance in your phone book.
 tier: 11
 game_round: 4
 media:
     question:
-        - pix/q_berlin_wall.jpg
+        - pix/q_siri.jpg
     explanation:
-        - pix/question1.jpg
+        - pix/a_ambulance.jpg
 
 --- !Question
 question: Who was awarded the Pwnie award for Most Epic FAIL this year?
@@ -738,7 +740,7 @@ tier: 12
 game_round: 4
 media:
     question:
-        - pix/q_sony.png
+        - pix/q_sony.jpg
     explanation:
         - pix/a_sony.jpg
 

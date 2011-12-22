@@ -20,7 +20,7 @@
       }
     ], 
     "source": false, 
-    "tier": 25, 
+    "tier": 52, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": false, 
-    "tier": 26, 
+    "tier": 68, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": false, 
-    "tier": 10, 
+    "tier": 29, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": false, 
-    "tier": 55, 
+    "tier": 16, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": false, 
-    "tier": 62, 
+    "tier": 50, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 18, 
+    "tier": 66, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": false, 
-    "tier": 43, 
+    "tier": 16, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -187,9 +187,9 @@
         "text": "dog"
       }
     ], 
-    "source": false, 
-    "tier": 10, 
-    "image": "data/pix/question1.png"
+    "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
+    "tier": 52, 
+    "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
     "text": "What was the most common password?", 
@@ -212,37 +212,37 @@
       }
     ], 
     "source": false, 
-    "tier": 53, 
+    "tier": 38, 
     "image": "data/pix/question1.png"
   }, 
   {
     "text": "What answers Siri when you ask it \"Can you call me an ambulance?\"", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_ambulance.jpg"
     ], 
     "answers": [
       {
-        "text": "goose", 
+        "text": "no emergancy calls"
+      }, 
+      {
+        "text": "I'll call you 'An ambulance'.", 
         "right": true
       }, 
       {
-        "text": "sheep"
+        "text": "You exceeded your dial plan."
       }, 
       {
-        "text": "chicken"
-      }, 
-      {
-        "text": "dog"
+        "text": "There is no ambulance in your phone book."
       }
     ], 
-    "source": false, 
-    "tier": 57, 
-    "image": "data/pix/question1.png"
+    "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
+    "tier": 17, 
+    "image": "data/pix/q_siri.jpg"
   }, 
   {
-    "text": "Who was awarded the Pwnie award this year?", 
+    "text": "Who was awarded the Pwnie award for Most Epic FAIL this year?", 
     "explanation": [
-      "data/pix/a_target.jpg"
+      "data/pix/a_sony.jpg"
     ], 
     "answers": [
       {
@@ -262,8 +262,32 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 23, 
-    "image": "data/pix/q_target.png"
+    "source": "http://pwnies.com/winners/", 
+    "tier": 31, 
+    "image": "data/pix/q_sony.jpg"
+  }, 
+  {
+    "text": "What happend when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?", 
+    "explanation": [
+      "data/pix/a_komarov.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "He was landed by Huston Control Center"
+      }, 
+      {
+        "text": "He landed in the Sahara."
+      }, 
+      {
+        "text": "He burned up in space.", 
+        "right": true
+      }, 
+      {
+        "text": "He reprogrammed the on board computer."
+      }
+    ], 
+    "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
+    "tier": 72, 
+    "image": "data/pix/q_soyuz.jpg"
   }
 ]
