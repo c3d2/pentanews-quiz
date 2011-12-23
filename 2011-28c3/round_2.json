@@ -19,8 +19,8 @@
         "text": 623
       }
     ], 
-    "source": false, 
-    "tier": 683, 
+    "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
+    "tier": 686, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
@@ -44,11 +44,11 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 311, 
+    "tier": 920, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
-    "tier": 917, 
+    "tier": 407, 
     "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
     "image": "data/pix/q_dont_be_evil.jpg", 
     "answers": [
@@ -88,8 +88,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 513, 
+    "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
+    "tier": 1829, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -112,8 +112,8 @@
         "text": "It fucks up documents just as well."
       }
     ], 
-    "source": false, 
-    "tier": 1845, 
+    "source": "http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html", 
+    "tier": 289, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -136,8 +136,8 @@
         "text": "$50 mio"
       }
     ], 
-    "source": false, 
-    "tier": 1645, 
+    "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
+    "tier": 1030, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -160,8 +160,8 @@
         "text": "Huawei"
       }
     ], 
-    "source": false, 
-    "tier": 1856, 
+    "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
+    "tier": 379, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -184,8 +184,8 @@
         "text": "$500 mio"
       }
     ], 
-    "source": false, 
-    "tier": 975, 
+    "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
+    "tier": 1712, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -208,8 +208,8 @@
         "text": "proprietary"
       }
     ], 
-    "source": false, 
-    "tier": 1769, 
+    "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
+    "tier": 1231, 
     "image": "data/pix/question1.png"
   }
 ]

@@ -16,7 +16,7 @@
 #        - videos/question1.webm
 
 --- !Question
-# http://de.wikipedia.org/wiki/Strahlenkrankheit
+source: http://de.wikipedia.org/wiki/Strahlenkrankheit
 # Wie gut koennen sich Leute die Fukushima facts merken?
 question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv)) #TODO Inforgrafik, und Frage kuerzer
 answers:
@@ -33,7 +33,7 @@ media:
         - pix/a_fukushima.jpg
 
 --- !Question
-# http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung
+source: http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung
 question: Why did Saxony (German State) not use the Staatstrojaner (governmental trojan horse)?
 answers:
     - true: Technically not capable of doing so.
@@ -49,7 +49,7 @@ media:
         - pix/a_bundestrojaner.jpg
 
 --- !Question
-# http://www.golem.de/1110/87145.html
+source: http://www.golem.de/1110/87145.html
 # http://www.theregister.co.uk/2010/03/10/cryptome_paypal/
 # http://www.wired.com/threatlevel/2010/12/paypal-wikileaks/
 question: Which of the following organizations has not yet been blocked by paypal?
@@ -70,7 +70,7 @@ media:
         - pix/a_paypal.gif
 
 --- !Question
-# http://www.spiegel.de/politik/ausland/0,1518,802967,00.html
+source: http://www.spiegel.de/politik/ausland/0,1518,802967,00.html
 question: How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in russia?
 answers:
     - false: Multi-Million-Rubel-Ad-Campain.
@@ -86,7 +86,7 @@ media:
         - pix/a_russian.jpg
 
 --- !Question
-# http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125
+source: http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125
 # http://www.general-anzeiger-bonn.de/news/kommentare/Die-Rueckkehr-der-Streubomben-Spur-des-Todes-article567503.html
 # http://www.krone.at/Welt/Oesterreich_kaempft_gegen_Comeback_der_Streubomben-Einsames_Vorhaben-Story-302663
 # http://taz.de/Abkommen-zu-Streumunition/!82648/
@@ -107,6 +107,7 @@ media:
 
 --- !Question
 # keine Quelle gefunden.
+source: http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/
 question: What is the definition of 1 Uhl?
 answers:
     - false: Unit of a scale that describes the need of censorship for a certain website.
@@ -122,7 +123,7 @@ media:
         - pix/a_uhl.jpg
 
 --- !Question
-# http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html
+source: http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html
 question: Which new investigation tool did Henrik Kaspersen, one of the founding fathers of the Convention on Cybercrime, demand during its 10th birthday to improve the work against cyber crime?
 answers:
     - false: Email bombs
@@ -138,7 +139,7 @@ media:
         - pix/a_cybercrime.jpg
 
 --- !Question
-# http://en.wikipedia.org/wiki/2010–2011_Belgian_government_formation
+source: http://en.wikipedia.org/wiki/2010–2011_Belgian_government_formation
 # http://abcnews.go.com/International/wireStory/belgiums-government-sworn-541-days-15089331#.TuZ43WCJIYI
 question: How many days in a row has Belgium been run by a caretaker administration since the last government resigned in April 2010?
 answers:
@@ -155,7 +156,7 @@ media:
         - pix/a_belgium.jpg
 
 --- !Question
-# http://www.heise.de/tp/blogs/8/150565
+source: http://www.heise.de/tp/blogs/8/150565
 question: How many 1st notifications have been sent during the first 12 months of the French Three-Strikes-Law (Hadopi) being active?
 answers:
     - true: ~600k
@@ -171,7 +172,7 @@ media:
         - pix/q_hadopi.jpg
 
 --- !Question
-# http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/
+source: http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/
 question: What do you see on the following picture?
 answers:
     - true: Reconstructed picture from brain activity
@@ -187,7 +188,7 @@ media:
         - pix/a_brain.jpg
 
 --- !Question
-# http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg
+source: http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg
 question: How many weeks did it take to bring kernel.org back up after they found out that it has been hacked in end of August 2011?
 answers:
     - false: ~ 1 week
@@ -203,7 +204,7 @@ media:
         - pix/a_kernel.jpg
 
 --- !Question
-# http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/
+source: http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/
 question: What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?
 answers:
     - false: Programming new false targets
@@ -219,7 +220,7 @@ media:
         - pix/a_drone.jpg
 
 --- !Question
-# http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars
+source: http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars
 question: How did the US Airforce cyber security departement learn about the virus infected drones?
 answers:
     - false: Intrusion detection mechanisms
@@ -235,7 +236,7 @@ media:
         - pix/a_drone2.jpg
 
 --- !Question
-# http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/
+source: http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/
 question: Which of the following terms does not autocomplete anymore in Google search since January 2011?
 answers:
     - true: torrent
@@ -251,7 +252,7 @@ media:
         - pix/a_autocomplete.jpg
 
 --- !Question
-# http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/
+source: http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/
 # http://www.heise.de/security/meldung/Falsches-Google-Zertifikat-ist-Folge-eines-Hacks-1333588.html
 # http://www.heise.de/security/meldung/Zertifikatsausgabestopp-nach-Einbruch-auf-einem-KPN-Server-1372279.html
 question: Which of the following CAs did not yet publish news about security problems this year?
@@ -272,7 +273,7 @@ media:
         - pix/q_ca4.jpg
 
 --- !Question
-# http://en.wikipedia.org/wiki/South_Sudan
+source: http://en.wikipedia.org/wiki/South_Sudan
 question: What is the new TLD for "The Republic of South Sudan"?
 answers:
     - false: .su
@@ -288,7 +289,7 @@ media:
         - pix/a_sudan.png
 
 --- !Question
-# http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/
+source: http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/
 question: Which of the following companies announced via Twitter that they will tell the Police details about London rioters?
 answers:
     - false: Cash and Carry (by publishing video footage)
@@ -304,7 +305,7 @@ media:
         - pix/a_london.jpg
 
 --- !Question
-# http://winfuture.de/news,66539.html
+source: http://winfuture.de/news,66539.html
 question: Which of the following cities is helping to create 100 new hackerspaces in itself?
 answers:
     - false: Berlin
@@ -321,6 +322,7 @@ media:
 
 --- !Question
 question: How many female Porn stars have their own WP article?
+source: http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors
 answers:
     - false: 448
     - false: 58
@@ -366,6 +368,7 @@ media:
 
 --- !Question
 question: Who controls american drones in Afghanistan part time?
+source: http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars
 answers:
     - false: Iran Army
     - false: NSA
@@ -381,6 +384,7 @@ media:
 
 --- !Question
 question: To what degree Libre Office is compatible to MS Office documents?
+source: http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html
 answers:
     - true: It can run the same viruses?
     - false: It can import MS Word now.
@@ -396,6 +400,7 @@ media:
 
 --- !Question
 question: How much money makes MS by patent bribing Android manufactures a year?
+source: http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html
 answers:
     - false: $1 billion
     - false: $100 mio
@@ -411,6 +416,7 @@ media:
 
 --- !Question
 question: Which company delivers software that could be rebooted by a IPv6 ping in 2011?
+source: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls
 answers:
     - false: Microsoft
     - true: Cisco
@@ -426,6 +432,7 @@ media:
 
 --- !Question
 question: How much money has HP spent in CEO pay-offs since 2005?
+source: http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&
 answers:
     - false: $100 mio
     - true: $80 mio
@@ -441,6 +448,7 @@ media:
 
 --- !Question
 question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?
+source: https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html
 answers:
     - false: ssh
     - false: ssl
@@ -456,6 +464,8 @@ media:
 
 --- !Question
 question: What was the reason for human loss at Pukkelpop music festival in Belgium?
+source: https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/
+# orig link 404
 answers:
     - false: stormy wind
     - false: heavy rain
@@ -471,6 +481,7 @@ media:
 
 --- !Question
 question: Which country does not have a net neutrality law?
+source: http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/
 answers:
     - false: Belgium
     - false: Netherlands
@@ -486,6 +497,7 @@ media:
 
 --- !Question
 question: What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?
+source: http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html
 answers:
     - false: 6s
     - false: 0.6s
@@ -501,6 +513,7 @@ media:
 
 --- !Question
 question: Which App was pulled off the Apple app store this year after massive protests?
+source: http://www.truthwinsout.org/news/2011/03/15155/
 answers:
     - false: Phone Story
     - true: Cure-Gay
@@ -516,6 +529,7 @@ media:
 
 --- !Question
 question: Why does the German SPD politician Sebastian Edathy want the data retention law?
+source: https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/
 answers:
     - true: to catch who send him a plastic pussy
     - false: to catch file sharers
@@ -531,6 +545,7 @@ media:
 
 --- !Question
 question: What was not patented to our knowledge?
+source: http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/
 answers:
     - true: Snowman
     - false: Snowball
@@ -546,6 +561,7 @@ media:
 
 --- !Question
 question: Which country did not get his copyright law dictated by the US?
+source: http://www.michaelgeist.ca/content/view/5765/125/
 answers:
     - false: Canada
     - false: Spain
@@ -561,6 +577,7 @@ media:
 
 --- !Question
 question: What vendor/project did not violate the GPL?
+source: https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/
 answers:
     - false: AVM
     - true: Vim
@@ -575,6 +592,7 @@ media:
         - videos/question1.webm
 --- !Question
 question: What company does this org chart show?
+source: http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png
 answers:
     - false: Google
     - true: Microsoft
@@ -590,6 +608,7 @@ media:
 
 --- !Question
 question: What programming language Fefe isn't able to read?
+source: http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html
 answers:
     - false: C
     - false: Assembler
@@ -605,6 +624,7 @@ media:
 
 --- !Question
 question: Who did not die this year?
+source: http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg
 answers:
     - false: Steve Jobs
     - true: Rupert Murdoch
@@ -614,42 +634,44 @@ tier: 4
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_death_people.jpg
     explanation:
         - pix/anonymous-sun.jpg
 
 --- !Question
-question: Which programming language can calculate?
+source: http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/
+question: Which programming language hangs on certain fp numbers?
 answers:
     - false: PHP
-    - true: 
+    - true: Ruby
     - false: Java
-    - false: Dennis Ritchie
+    - false: Haskell
 tier: 5
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_php.png
     explanation:
-        - pix/shanghai.jpg
+        - pix/a_php-java.jpg
 
 --- !Question
-question: How many babies were given away in Spain between TODO and the 90-es?
+question: How many babies were stolen after birth in Spain by by doctors, priests and nuns between 50s and the 90s?
+source: http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies
 answers:
-    - false: PHP
+    - false: 300
     - true: 300,000
-    - false: Java
-    - false: Dennis Ritchie
+    - false: 3,000
+    - false: 30,000
 tier: 6
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_pope.jpg
     explanation:
-        - pix/shanghai.jpg
+        - pix/a_spain.jpg
 
 --- !Question
-question: How many Mrs USA finalists think evolution should be taught in school (out of 51)?
+question: How many Mrs USA finalists stood behind evolution when asked if it should be taught in school (out of 51)?
 source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
 comment: I’m a big science geek
 answers:
@@ -661,16 +683,17 @@ tier: 7
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_miss_usa.jpg
     explanation:
-        - pix/shanghai.jpg
+        - video/a_evolution.webm
 
 --- !Question
 question: What could not be used to exploit Win systems in 2011?
+source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
 answers:
     - false: TXT file
     - false: Ping
-    - false: Flash and other Adobe stuff
+    - false: html tag
     - true: Power Button
 tier: 8
 game_round: 4
@@ -697,12 +720,14 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: What was the most common password?
+question: How many intelligence violations the FBI may have commited since 9/11 according to the EFF?
+comment: E. g. access to password protected files without a warrant, ...
+source: https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/
 answers:
-    - true: goose
-    - false: sheep
-    - false: chicken
-    - false: dog
+    - true: 40k
+    - false: 4 Million
+    - false: 5k
+    - false: none
 tier: 10
 game_round: 4
 media:

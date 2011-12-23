@@ -19,8 +19,8 @@
         "text": "Oracle"
       }
     ], 
-    "source": false, 
-    "tier": 57, 
+    "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
+    "tier": 13, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -43,8 +43,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 75, 
+    "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
+    "tier": 22, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -67,62 +67,62 @@
         "text": "Dennis Ritchie"
       }
     ], 
-    "source": false, 
-    "tier": 73, 
-    "image": "data/pix/question1.png"
+    "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
+    "tier": 79, 
+    "image": "data/pix/q_death_people.jpg"
   }, 
   {
-    "text": "Which programming language can calculate?", 
+    "text": "Which programming language hangs on certain fp numbers?", 
     "explanation": [
-      "data/pix/shanghai.jpg"
+      "data/pix/a_php-java.jpg"
     ], 
     "answers": [
       {
         "text": "PHP"
       }, 
       {
-        "text": null, 
+        "text": "Ruby", 
         "right": true
       }, 
       {
         "text": "Java"
       }, 
       {
-        "text": "Dennis Ritchie"
+        "text": "Haskell"
       }
     ], 
-    "source": false, 
-    "tier": 60, 
-    "image": "data/pix/question1.png"
+    "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
+    "tier": 37, 
+    "image": "data/pix/q_php.png"
   }, 
   {
-    "text": "How many babies were given away in Spain between TODO and the 90-es?", 
+    "text": "How many babies were stolen after birth in Spain by by doctors, priests and nuns between 50s and the 90s?", 
     "explanation": [
-      "data/pix/shanghai.jpg"
+      "data/pix/a_spain.jpg"
     ], 
     "answers": [
       {
-        "text": "PHP"
+        "text": 300
       }, 
       {
         "text": "300,000", 
         "right": true
       }, 
       {
-        "text": "Java"
+        "text": "3,000"
       }, 
       {
-        "text": "Dennis Ritchie"
+        "text": "30,000"
       }
     ], 
-    "source": false, 
+    "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
     "tier": 19, 
-    "image": "data/pix/question1.png"
+    "image": "data/pix/q_pope.jpg"
   }, 
   {
-    "text": "How many Mrs USA finalists think evolution should be taught in school (out of 51)?", 
+    "text": "How many Mrs USA finalists stood behind evolution when asked if it should be taught in school (out of 51)?", 
     "explanation": [
-      "data/pix/shanghai.jpg"
+      "data/video/a_evolution.webm"
     ], 
     "answers": [
       {
@@ -140,8 +140,8 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 7, 
-    "image": "data/pix/question1.png"
+    "tier": 66, 
+    "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
     "text": "What could not be used to exploit Win systems in 2011?", 
@@ -156,15 +156,15 @@
         "text": "Ping"
       }, 
       {
-        "text": "Flash and other Adobe stuff"
+        "text": "html tag"
       }, 
       {
         "text": "Power Button", 
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 15, 
+    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
+    "tier": 43, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -188,31 +188,31 @@
       }
     ], 
     "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 70, 
+    "tier": 80, 
     "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
-    "text": "What was the most common password?", 
+    "text": "How many intelligence violations the FBI may have commited since 9/11 according to the EFF?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
     "answers": [
       {
-        "text": "goose", 
+        "text": "40k", 
         "right": true
       }, 
       {
-        "text": "sheep"
+        "text": "4 Million"
       }, 
       {
-        "text": "chicken"
+        "text": "5k"
       }, 
       {
-        "text": "dog"
+        "text": "none"
       }
     ], 
-    "source": false, 
-    "tier": 27, 
+    "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
+    "tier": 41, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 49, 
+    "tier": 38, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,7 +263,7 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 31, 
+    "tier": 35, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
@@ -287,7 +287,7 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 52, 
+    "tier": 6, 
     "image": "data/pix/q_soyuz.jpg"
   }
 ]

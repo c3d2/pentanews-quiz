@@ -19,8 +19,8 @@
         "text": "bungling"
       }
     ], 
-    "source": false, 
-    "tier": 2103, 
+    "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
+    "tier": 3982, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -43,8 +43,8 @@
         "text": "Chile"
       }
     ], 
-    "source": false, 
-    "tier": 2984, 
+    "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/", 
+    "tier": 428, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -67,8 +67,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 2240, 
+    "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html", 
+    "tier": 3516, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -91,8 +91,8 @@
         "text": "Conterfai Lugary"
       }
     ], 
-    "source": false, 
-    "tier": 3632, 
+    "source": "http://www.truthwinsout.org/news/2011/03/15155/", 
+    "tier": 2066, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
@@ -115,8 +115,8 @@
         "text": "to protect democracy"
       }
     ], 
-    "source": false, 
-    "tier": 1318, 
+    "source": "https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/", 
+    "tier": 2999, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -139,8 +139,8 @@
         "text": "Geo-tracking"
       }
     ], 
-    "source": false, 
-    "tier": 3590, 
+    "source": "http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/", 
+    "tier": 1485, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -163,8 +163,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 3578, 
+    "source": "http://www.michaelgeist.ca/content/view/5765/125/", 
+    "tier": 3553, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -187,8 +187,8 @@
         "text": "Emacs"
       }
     ], 
-    "source": false, 
-    "tier": 203, 
+    "source": "https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/", 
+    "tier": 1010, 
     "image": "data/pix/question1.png"
   }
 ]

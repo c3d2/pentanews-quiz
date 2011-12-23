@@ -19,8 +19,8 @@
         "text": "> 600 Gy"
       }
     ], 
-    "source": false, 
-    "tier": 3, 
+    "source": "http://de.wikipedia.org/wiki/Strahlenkrankheit", 
+    "tier": 2, 
     "image": "data/pix/q_fukushima.jpg"
   }, 
   {
@@ -43,8 +43,8 @@
         "text": "No crime that requires this measurement."
       }
     ], 
-    "source": false, 
-    "tier": 10, 
+    "source": "http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung", 
+    "tier": 2, 
     "image": "data/pix/q_bundestrojaner.jpg"
   }, 
   {
@@ -67,8 +67,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 2, 
+    "source": "http://www.golem.de/1110/87145.html", 
+    "tier": 5, 
     "image": "data/pix/q_paypal4.jpg"
   }, 
   {
@@ -91,8 +91,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 5, 
+    "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
+    "tier": 2, 
     "image": "data/pix/q_russian.jpg"
   }, 
   {
@@ -116,8 +116,8 @@
         "text": "Pakistan"
       }
     ], 
-    "source": false, 
-    "tier": 6, 
+    "source": "http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125", 
+    "tier": 3, 
     "image": "data/pix/q_cluster.jpg"
   }, 
   {
@@ -140,8 +140,8 @@
         "text": "Degree of expert knowlege that a politician has, when he demands the wiretapping of encrypted data."
       }
     ], 
-    "source": false, 
-    "tier": 7, 
+    "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
+    "tier": 10, 
     "image": "data/pix/q_uhl.jpg"
   }, 
   {
@@ -164,8 +164,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 6, 
+    "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
+    "tier": 4, 
     "image": "data/pix/q_cybercrime.png"
   }, 
   {
@@ -188,8 +188,8 @@
         "text": "514 days"
       }
     ], 
-    "source": false, 
-    "tier": 8, 
+    "source": "http://en.wikipedia.org/wiki/2010\u20132011_Belgian_government_formation", 
+    "tier": 6, 
     "image": "data/pix/q_belgium.gif"
   }, 
   {
@@ -212,8 +212,8 @@
         "text": "~6k"
       }
     ], 
-    "source": false, 
-    "tier": 7, 
+    "source": "http://www.heise.de/tp/blogs/8/150565", 
+    "tier": 8, 
     "image": "data/pix/q_hadopi.png"
   }, 
   {
@@ -236,8 +236,8 @@
         "text": "Picture taken with 1st digital camera"
       }
     ], 
-    "source": false, 
-    "tier": 5, 
+    "source": "http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/", 
+    "tier": 7, 
     "image": "data/pix/q_brain.png"
   }, 
   {
@@ -260,8 +260,8 @@
         "text": "~ 2 weeks"
       }
     ], 
-    "source": false, 
-    "tier": 4, 
+    "source": "http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg", 
+    "tier": 8, 
     "image": "data/pix/q_kernel.gif"
   }, 
   {
@@ -284,8 +284,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 3, 
+    "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
+    "tier": 4, 
     "image": "data/pix/q_drone.jpg"
   }, 
   {
@@ -308,8 +308,8 @@
         "text": "By random, during standart maintainance"
       }
     ], 
-    "source": false, 
-    "tier": 6, 
+    "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
+    "tier": 1, 
     "image": "data/pix/q_drone2.jpg"
   }, 
   {
@@ -332,8 +332,8 @@
         "text": "Do no evil"
       }
     ], 
-    "source": false, 
-    "tier": 6, 
+    "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/", 
+    "tier": 9, 
     "image": "data/pix/q_autocomplete.jpg"
   }, 
   {
@@ -356,8 +356,8 @@
         "right": true
       }
     ], 
-    "source": false, 
-    "tier": 2, 
+    "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/", 
+    "tier": 9, 
     "image": "data/pix/q_ca4.jpg"
   }, 
   {
@@ -380,8 +380,8 @@
         "text": ".rss"
       }
     ], 
-    "source": false, 
-    "tier": 1, 
+    "source": "http://en.wikipedia.org/wiki/South_Sudan", 
+    "tier": 9, 
     "image": "data/pix/q_sudan.png"
   }, 
   {
@@ -404,8 +404,8 @@
         "text": "Virgin (by publishing a list of illegal downloaders)"
       }
     ], 
-    "source": false, 
-    "tier": 5, 
+    "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
+    "tier": 7, 
     "image": "data/pix/q_london.jpg"
   }, 
   {
@@ -428,8 +428,8 @@
         "text": "Buenos Aires"
       }
     ], 
-    "source": false, 
-    "tier": 9, 
+    "source": "http://winfuture.de/news,66539.html", 
+    "tier": 2, 
     "image": "data/pix/q_hackspace.jpg"
   }
 ]
