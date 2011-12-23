@@ -345,9 +345,9 @@ tier: 3
 game_round: 2
 media:
     question:
-        - pix/question1.png
+        - pix/q_handygate.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_handygate.jpg
 
 --- !Question
 question: What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?
