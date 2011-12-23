@@ -1,0 +1,194 @@
+[
+  {
+    "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "stormy wind"
+      }, 
+      {
+        "text": "heavy rain"
+      }, 
+      {
+        "text": "file sharing", 
+        "right": true
+      }, 
+      {
+        "text": "bungling"
+      }
+    ], 
+    "source": false, 
+    "tier": 3959, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "Which country does not have a net neutrality law?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "Belgium"
+      }, 
+      {
+        "text": "Netherlands"
+      }, 
+      {
+        "text": "USA", 
+        "right": true
+      }, 
+      {
+        "text": "Chile"
+      }
+    ], 
+    "source": false, 
+    "tier": 1264, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "6s"
+      }, 
+      {
+        "text": "0.6s"
+      }, 
+      {
+        "text": "0.06s"
+      }, 
+      {
+        "text": "0.006s", 
+        "right": true
+      }
+    ], 
+    "source": false, 
+    "tier": 2613, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "Which App was pulled off the Apple app store this year after massive protests?", 
+    "explanation": [
+      "data/videos/phonestory.webm"
+    ], 
+    "answers": [
+      {
+        "text": "Phone Story"
+      }, 
+      {
+        "text": "Cure-Gay", 
+        "right": true
+      }, 
+      {
+        "text": "Smuggle Truck"
+      }, 
+      {
+        "text": "Conterfai Lugary"
+      }
+    ], 
+    "source": false, 
+    "tier": 1819, 
+    "image": "data/pix/van_gogh_ipad.jpg"
+  }, 
+  {
+    "text": "Why does the German SPD politician Sebastian Edathy want the data retention law?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "to catch who send him a plastic pussy", 
+        "right": true
+      }, 
+      {
+        "text": "to catch file sharers"
+      }, 
+      {
+        "text": "to catch terrorist"
+      }, 
+      {
+        "text": "to protect democracy"
+      }
+    ], 
+    "source": false, 
+    "tier": 3376, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What was not patented to our knowledge?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "Snowman", 
+        "right": true
+      }, 
+      {
+        "text": "Snowball"
+      }, 
+      {
+        "text": "Patenting itself"
+      }, 
+      {
+        "text": "Geo-tracking"
+      }
+    ], 
+    "source": false, 
+    "tier": 2888, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "Which country did not get his copyright law dictated by the US?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "Canada"
+      }, 
+      {
+        "text": "Spain"
+      }, 
+      {
+        "text": "Sweden"
+      }, 
+      {
+        "text": "Russia", 
+        "right": true
+      }
+    ], 
+    "source": false, 
+    "tier": 1755, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What vendor/project did not violate the GPL?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "AVM"
+      }, 
+      {
+        "text": "Vim", 
+        "right": true
+      }, 
+      {
+        "text": "Gigabyte"
+      }, 
+      {
+        "text": "Emacs"
+      }
+    ], 
+    "source": false, 
+    "tier": 1797, 
+    "image": "data/pix/question1.png"
+  }
+]

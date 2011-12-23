@@ -1,0 +1,293 @@
+[
+  {
+    "text": "What company does this org chart show?", 
+    "explanation": [
+      "data/pix/organigram.png"
+    ], 
+    "answers": [
+      {
+        "text": "Google"
+      }, 
+      {
+        "text": "Microsoft", 
+        "right": true
+      }, 
+      {
+        "text": "Apple"
+      }, 
+      {
+        "text": "Oracle"
+      }
+    ], 
+    "source": false, 
+    "tier": 17, 
+    "image": "data/pix/orgchart-ms.png"
+  }, 
+  {
+    "text": "What programming language Fefe isn't able to read?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "C"
+      }, 
+      {
+        "text": "Assembler"
+      }, 
+      {
+        "text": "Machine Code"
+      }, 
+      {
+        "text": "Erlang", 
+        "right": true
+      }
+    ], 
+    "source": false, 
+    "tier": 36, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "Who did not die this year?", 
+    "explanation": [
+      "data/pix/anonymous-sun.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Steve Jobs"
+      }, 
+      {
+        "text": "Rupert Murdoch", 
+        "right": true
+      }, 
+      {
+        "text": "John McCarthy"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ], 
+    "source": false, 
+    "tier": 18, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "Which programming language can calculate?", 
+    "explanation": [
+      "data/pix/shanghai.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": null, 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ], 
+    "source": false, 
+    "tier": 38, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "How many babies were given away in Spain between TODO and the 90-es?", 
+    "explanation": [
+      "data/pix/shanghai.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": "300,000", 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Dennis Ritchie"
+      }
+    ], 
+    "source": false, 
+    "tier": 79, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "How many Mrs USA finalists think evolution should be taught in school (out of 51)?", 
+    "explanation": [
+      "data/pix/shanghai.jpg"
+    ], 
+    "answers": [
+      {
+        "text": 1, 
+        "right": true
+      }, 
+      {
+        "text": 2
+      }, 
+      {
+        "text": 4
+      }, 
+      {
+        "text": 8
+      }
+    ], 
+    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
+    "tier": 45, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What could not be used to exploit Win systems in 2011?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "TXT file"
+      }, 
+      {
+        "text": "Ping"
+      }, 
+      {
+        "text": "Flash and other Adobe stuff"
+      }, 
+      {
+        "text": "Power Button", 
+        "right": true
+      }
+    ], 
+    "source": false, 
+    "tier": 29, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "goose", 
+        "right": true
+      }, 
+      {
+        "text": "sheep"
+      }, 
+      {
+        "text": "chicken"
+      }, 
+      {
+        "text": "dog"
+      }
+    ], 
+    "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
+    "tier": 57, 
+    "image": "data/pix/q_berlin_wall.jpg"
+  }, 
+  {
+    "text": "What was the most common password?", 
+    "explanation": [
+      "data/videos/question1.webm"
+    ], 
+    "answers": [
+      {
+        "text": "goose", 
+        "right": true
+      }, 
+      {
+        "text": "sheep"
+      }, 
+      {
+        "text": "chicken"
+      }, 
+      {
+        "text": "dog"
+      }
+    ], 
+    "source": false, 
+    "tier": 56, 
+    "image": "data/pix/question1.png"
+  }, 
+  {
+    "text": "What answers Siri when you ask it \"Can you call me an ambulance?\"", 
+    "explanation": [
+      "data/pix/a_ambulance.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "no emergancy calls"
+      }, 
+      {
+        "text": "I'll call you 'An ambulance'.", 
+        "right": true
+      }, 
+      {
+        "text": "You exceeded your dial plan."
+      }, 
+      {
+        "text": "There is no ambulance in your phone book."
+      }
+    ], 
+    "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
+    "tier": 16, 
+    "image": "data/pix/q_siri.jpg"
+  }, 
+  {
+    "text": "Who was awarded the Pwnie award for Most Epic FAIL this year?", 
+    "explanation": [
+      "data/pix/a_sony.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }, 
+      {
+        "text": "Sony", 
+        "right": true
+      }
+    ], 
+    "source": "http://pwnies.com/winners/", 
+    "tier": 20, 
+    "image": "data/pix/q_sony.jpg"
+  }, 
+  {
+    "text": "What happend when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?", 
+    "explanation": [
+      "data/pix/a_komarov.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "He was landed by Huston Control Center"
+      }, 
+      {
+        "text": "He landed in the Sahara."
+      }, 
+      {
+        "text": "He burned up in space.", 
+        "right": true
+      }, 
+      {
+        "text": "He reprogrammed the on board computer."
+      }
+    ], 
+    "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
+    "tier": 12, 
+    "image": "data/pix/q_soyuz.jpg"
+  }
+]
