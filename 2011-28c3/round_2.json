@@ -20,13 +20,13 @@
       }
     ], 
     "source": false, 
-    "tier": 1652, 
+    "tier": 1865, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
     "text": "How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_handygate.jpg"
     ], 
     "answers": [
       {
@@ -44,8 +44,8 @@
       }
     ], 
     "source": false, 
-    "tier": 135, 
-    "image": "data/pix/question1.png"
+    "tier": 1646, 
+    "image": "data/pix/q_handygate.jpg"
   }, 
   {
     "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
@@ -68,7 +68,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1342, 
+    "tier": 1859, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": false, 
-    "tier": 954, 
+    "tier": 1681, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1514, 
+    "tier": 291, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1074, 
+    "tier": 149, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": false, 
-    "tier": 918, 
+    "tier": 1885, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1549, 
+    "tier": 337, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -212,7 +212,7 @@
       }
     ], 
     "source": false, 
-    "tier": 921, 
+    "tier": 1646, 
     "image": "data/pix/question1.png"
   }
 ]
