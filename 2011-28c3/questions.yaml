@@ -336,6 +336,7 @@ media:
 
 --- !Question
 question: How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?
+source: http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/
 answers:
     - false: 540
     - true: 54k
@@ -351,6 +352,7 @@ media:
 
 --- !Question
 question: What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?
+source: http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html
 answers:
     - true: hand over the data
     - false: nothing
@@ -360,9 +362,7 @@ tier: 4
 game_round: 2
 media:
     question:
-        - pix/question1.png
-    explanation:
-        - videos/question1.webm
+        - pix/q_dont_be_evil.jpg
 
 --- !Question
 question: Who controls american drones in Afghanistan part time?

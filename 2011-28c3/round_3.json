@@ -20,7 +20,7 @@
       }
     ], 
     "source": false, 
-    "tier": 3959, 
+    "tier": 2103, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1264, 
+    "tier": 2984, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": false, 
-    "tier": 2613, 
+    "tier": 2240, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1819, 
+    "tier": 3632, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": false, 
-    "tier": 3376, 
+    "tier": 1318, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": false, 
-    "tier": 2888, 
+    "tier": 3590, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1755, 
+    "tier": 3578, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1797, 
+    "tier": 203, 
     "image": "data/pix/question1.png"
   }
 ]

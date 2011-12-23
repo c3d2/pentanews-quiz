@@ -20,7 +20,7 @@
       }
     ], 
     "source": false, 
-    "tier": 17, 
+    "tier": 57, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": false, 
-    "tier": 36, 
+    "tier": 75, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": false, 
-    "tier": 18, 
+    "tier": 73, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": false, 
-    "tier": 38, 
+    "tier": 60, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": false, 
-    "tier": 79, 
+    "tier": 19, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 45, 
+    "tier": 7, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": false, 
-    "tier": 29, 
+    "tier": 15, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 57, 
+    "tier": 70, 
     "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
@@ -212,7 +212,7 @@
       }
     ], 
     "source": false, 
-    "tier": 56, 
+    "tier": 27, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 16, 
+    "tier": 49, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,7 +263,7 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 20, 
+    "tier": 31, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
@@ -287,7 +287,7 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 12, 
+    "tier": 52, 
     "image": "data/pix/q_soyuz.jpg"
   }
 ]

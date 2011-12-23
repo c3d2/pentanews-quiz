@@ -20,7 +20,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1837, 
+    "tier": 683, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
@@ -43,15 +43,14 @@
         "text": "940k"
       }
     ], 
-    "source": false, 
-    "tier": 1692, 
+    "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
+    "tier": 311, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
+    "tier": 917, 
     "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
-    "explanation": [
-      "data/videos/question1.webm"
-    ], 
+    "image": "data/pix/q_dont_be_evil.jpg", 
     "answers": [
       {
         "text": "hand over the data", 
@@ -67,9 +66,7 @@
         "text": "denied his account"
       }
     ], 
-    "source": false, 
-    "tier": 1036, 
-    "image": "data/pix/question1.png"
+    "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html"
   }, 
   {
     "text": "Who controls american drones in Afghanistan part time?", 
@@ -92,7 +89,7 @@
       }
     ], 
     "source": false, 
-    "tier": 817, 
+    "tier": 513, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -116,7 +113,7 @@
       }
     ], 
     "source": false, 
-    "tier": 727, 
+    "tier": 1845, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -140,7 +137,7 @@
       }
     ], 
     "source": false, 
-    "tier": 336, 
+    "tier": 1645, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -164,7 +161,7 @@
       }
     ], 
     "source": false, 
-    "tier": 196, 
+    "tier": 1856, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -188,7 +185,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1318, 
+    "tier": 975, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -212,7 +209,7 @@
       }
     ], 
     "source": false, 
-    "tier": 1855, 
+    "tier": 1769, 
     "image": "data/pix/question1.png"
   }
 ]
