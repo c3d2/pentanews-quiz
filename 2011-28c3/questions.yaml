@@ -539,9 +539,9 @@ tier: 6
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_edathy.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_edathy.jpg
 
 --- !Question
 question: What was not patented to our knowledge?
@@ -555,12 +555,13 @@ tier: 7
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_snowman.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_snowman.jpg
 
 --- !Question
 question: Which country did not get his copyright law dictated by the US?
+comment: Einen der ersten XKCDs (Nr. 14)
 source: http://www.michaelgeist.ca/content/view/5765/125/
 answers:
     - false: Canada
@@ -571,9 +572,9 @@ tier: 8
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_copyright.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_copyright.jpg
 
 --- !Question
 question: What vendor/project did not violate the GPL?
@@ -587,9 +588,9 @@ tier: 10
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_gpl.png
     explanation:
-        - videos/question1.webm
+        - pix/a_gpl.png
 --- !Question
 question: What company does this org chart show?
 source: http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png
@@ -618,9 +619,9 @@ tier: 2
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_fefe.png
     explanation:
-        - videos/question1.webm
+        - pix/a_fefe.jpg
 
 --- !Question
 question: Who did not die this year?
