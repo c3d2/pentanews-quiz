@@ -475,9 +475,9 @@ tier: 1
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_p2p.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_p2p.jpg
 
 --- !Question
 question: Which country does not have a net neutrality law?
@@ -491,9 +491,9 @@ tier: 2
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_netneutrality.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_netneutrality.jpg
 
 --- !Question
 question: What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?
@@ -507,9 +507,9 @@ tier: 3
 game_round: 3
 media:
     question:
-        - pix/question1.png
+        - pix/q_300mdollar.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_300mdollar.png
 
 --- !Question
 question: Which App was pulled off the Apple app store this year after massive protests?
