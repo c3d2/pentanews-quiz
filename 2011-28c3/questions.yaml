@@ -17,7 +17,8 @@
 --- !Question
 source: http://de.wikipedia.org/wiki/Strahlenkrankheit
 # Wie gut koennen sich Leute die Fukushima facts merken?
-question: What is the lethal dose of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv)) #TODO Inforgrafik, und Frage kuerzer
+question: What is the lethal dose of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))
+#TODO Inforgrafik, und Frage kuerzer
 answers:
     - false: "> 6 mGy"
     - false: "> 600 mGy"
@@ -48,7 +49,8 @@ media:
         - pix/a_bundestrojaner.jpg
 
 --- !Question
-source: http://www.golem.de/1110/87145.html, http://www.theregister.co.uk/2010/03/10/cryptome_paypal/, http://www.wired.com/threatlevel/2010/12/paypal-wikileaks/
+#source: http://www.golem.de/1110/87145.html, http://www.theregister.co.uk/2010/03/10/cryptome_paypal/, http://www.wired.com/threatlevel/2010/12/paypal-wikileaks/
+source: http://www.theregister.co.uk/2010/03/10/cryptome_paypal/
 question: Which of the following organizations has not yet been blocked by paypal?
 answers:
     - false: Wikileaks
@@ -374,9 +376,9 @@ tier: 5
 game_round: 2
 media:
     question:
-        - pix/question1.png
+        - pix/q_drone-dove.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_drone_attack.jpg
 
 --- !Question
 question: To what degree Libre Office is compatible to MS Office documents?
@@ -390,9 +392,7 @@ tier: 6
 game_round: 2
 media:
     question:
-        - pix/question1.png
-    explanation:
-        - videos/question1.webm
+        - pix/q_office.jpg
 
 --- !Question
 question: How much money makes MS by patent bribing Android manufactures a year?
@@ -438,9 +438,9 @@ tier: 9
 game_round: 2
 media:
     question:
-        - pix/question1.png
+        - pix/q_hp_money.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_hp-money.jpg
 
 --- !Question
 question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?

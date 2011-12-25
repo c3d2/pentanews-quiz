@@ -2,7 +2,7 @@
   {
     "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_p2p.jpg"
     ], 
     "answers": [
       {
@@ -20,13 +20,13 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
-    "tier": 3982, 
-    "image": "data/pix/question1.png"
+    "tier": 882, 
+    "image": "data/pix/q_p2p.jpg"
   }, 
   {
     "text": "Which country does not have a net neutrality law?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_netneutrality.jpg"
     ], 
     "answers": [
       {
@@ -44,13 +44,13 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/", 
-    "tier": 428, 
-    "image": "data/pix/question1.png"
+    "tier": 3223, 
+    "image": "data/pix/q_netneutrality.jpg"
   }, 
   {
     "text": "What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_300mdollar.png"
     ], 
     "answers": [
       {
@@ -68,8 +68,8 @@
       }
     ], 
     "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html", 
-    "tier": 3516, 
-    "image": "data/pix/question1.png"
+    "tier": 1787, 
+    "image": "data/pix/q_300mdollar.jpg"
   }, 
   {
     "text": "Which App was pulled off the Apple app store this year after massive protests?", 
@@ -92,13 +92,13 @@
       }
     ], 
     "source": "http://www.truthwinsout.org/news/2011/03/15155/", 
-    "tier": 2066, 
+    "tier": 3618, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
     "text": "Why does the German SPD politician Sebastian Edathy want the data retention law?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_edathy.jpg"
     ], 
     "answers": [
       {
@@ -109,20 +109,20 @@
         "text": "to catch file sharers"
       }, 
       {
-        "text": "to catch terrorist"
+        "text": "to catch terrorists"
       }, 
       {
         "text": "to protect democracy"
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/", 
-    "tier": 2999, 
-    "image": "data/pix/question1.png"
+    "tier": 2661, 
+    "image": "data/pix/q_edathy.jpg"
   }, 
   {
     "text": "What was not patented to our knowledge?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_snowman.jpg"
     ], 
     "answers": [
       {
@@ -140,13 +140,13 @@
       }
     ], 
     "source": "http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/", 
-    "tier": 1485, 
-    "image": "data/pix/question1.png"
+    "tier": 3296, 
+    "image": "data/pix/q_snowman.jpg"
   }, 
   {
     "text": "Which country did not get his copyright law dictated by the US?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_copyright.jpg"
     ], 
     "answers": [
       {
@@ -164,13 +164,13 @@
       }
     ], 
     "source": "http://www.michaelgeist.ca/content/view/5765/125/", 
-    "tier": 3553, 
-    "image": "data/pix/question1.png"
+    "tier": 1622, 
+    "image": "data/pix/q_copyright.jpg"
   }, 
   {
     "text": "What vendor/project did not violate the GPL?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_gpl.png"
     ], 
     "answers": [
       {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/", 
-    "tier": 1010, 
-    "image": "data/pix/question1.png"
+    "tier": 407, 
+    "image": "data/pix/q_gpl.png"
   }
 ]

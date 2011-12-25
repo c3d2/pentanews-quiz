@@ -20,13 +20,13 @@
       }
     ], 
     "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
-    "tier": 13, 
+    "tier": 25, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
     "text": "What programming language Fefe isn't able to read?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_fefe.jpg"
     ], 
     "answers": [
       {
@@ -44,8 +44,8 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
-    "tier": 22, 
-    "image": "data/pix/question1.png"
+    "tier": 50, 
+    "image": "data/pix/q_fefe.png"
   }, 
   {
     "text": "Who did not die this year?", 
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
-    "tier": 79, 
+    "tier": 44, 
     "image": "data/pix/q_death_people.jpg"
   }, 
   {
@@ -92,11 +92,11 @@
       }
     ], 
     "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
-    "tier": 37, 
+    "tier": 51, 
     "image": "data/pix/q_php.png"
   }, 
   {
-    "text": "How many babies were stolen after birth in Spain by by doctors, priests and nuns between 50s and the 90s?", 
+    "text": "How many babies were stolen after birth in Spain by doctors, priests and nuns between 50s and the 90s?", 
     "explanation": [
       "data/pix/a_spain.jpg"
     ], 
@@ -116,7 +116,7 @@
       }
     ], 
     "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
-    "tier": 19, 
+    "tier": 8, 
     "image": "data/pix/q_pope.jpg"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 66, 
+    "tier": 47, 
     "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 43, 
+    "tier": 64, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -188,11 +188,11 @@
       }
     ], 
     "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 80, 
+    "tier": 35, 
     "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
-    "text": "How many intelligence violations the FBI may have commited since 9/11 according to the EFF?", 
+    "text": "How many intelligence violations the FBI may have committed since 9/11 according to the EFF?", 
     "explanation": [
       "data/videos/question1.webm"
     ], 
@@ -212,7 +212,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
-    "tier": 41, 
+    "tier": 26, 
     "image": "data/pix/question1.png"
   }, 
   {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 38, 
+    "tier": 55, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,11 +263,11 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 35, 
+    "tier": 22, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
-    "text": "What happend when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?", 
+    "text": "What happened when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?", 
     "explanation": [
       "data/pix/a_komarov.jpg"
     ], 
@@ -287,7 +287,7 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 6, 
+    "tier": 48, 
     "image": "data/pix/q_soyuz.jpg"
   }
 ]
