@@ -18,7 +18,7 @@
 --- !Question
 source: http://de.wikipedia.org/wiki/Strahlenkrankheit
 # Wie gut koennen sich Leute die Fukushima facts merken?
-question: What is leathal doses of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv)) #TODO Inforgrafik, und Frage kuerzer
+question: What is the lethal dose of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv)) #TODO Inforgrafik, und Frage kuerzer
 answers:
     - false: "> 6 mGy"
     - false: "> 600 mGy"
@@ -49,9 +49,7 @@ media:
         - pix/a_bundestrojaner.jpg
 
 --- !Question
-source: http://www.golem.de/1110/87145.html
-# http://www.theregister.co.uk/2010/03/10/cryptome_paypal/
-# http://www.wired.com/threatlevel/2010/12/paypal-wikileaks/
+source: http://www.golem.de/1110/87145.html, http://www.theregister.co.uk/2010/03/10/cryptome_paypal/, http://www.wired.com/threatlevel/2010/12/paypal-wikileaks/
 question: Which of the following organizations has not yet been blocked by paypal?
 answers:
     - false: Wikileaks
@@ -71,7 +69,7 @@ media:
 
 --- !Question
 source: http://www.spiegel.de/politik/ausland/0,1518,802967,00.html
-question: How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in russia?
+question: How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in Russia?
 answers:
     - false: Multi-Million-Rubel-Ad-Campain.
     - false: Bribing the chief of federal TV.
@@ -106,7 +104,6 @@ media:
         - pix/a_cluster2.jpg
 
 --- !Question
-# keine Quelle gefunden.
 source: http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/
 question: What is the definition of 1 Uhl?
 answers:
@@ -226,7 +223,7 @@ answers:
     - false: Intrusion detection mechanisms
     - true: Read it in the news
     - false: The badly programmed virus caused system instabilities
-    - false: By random, during standart maintainance
+    - false: By random, during standard maintainance
 tier: 13
 game_round: 1
 media:
@@ -290,7 +287,7 @@ media:
 
 --- !Question
 source: http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/
-question: Which of the following companies announced via Twitter that they will tell the Police details about London rioters?
+question: Which of the following companies announced via Twitter that they will tell the police details about London rioters?
 answers:
     - false: Cash and Carry (by publishing video footage)
     - false: London Transport (by publishing RFID transportation data)
@@ -321,7 +318,7 @@ media:
         - pix/a_hackspace.jpg
 
 --- !Question
-question: How many female Porn stars have their own WP article?
+question: How many female porn stars have their own WP article?
 source: http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors
 answers:
     - false: 448
@@ -337,7 +334,7 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?
+question: How many user-related data records (name, address, birth date) did the Saxon State retrieve after it caught about > 1 Mio cell phone connection records?
 source: http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/
 answers:
     - false: 540
@@ -367,7 +364,7 @@ media:
         - pix/q_dont_be_evil.jpg
 
 --- !Question
-question: Who controls american drones in Afghanistan part time?
+question: Who controls American drones in Afghanistan part time?
 source: http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars
 answers:
     - false: Iran Army
@@ -386,7 +383,7 @@ media:
 question: To what degree Libre Office is compatible to MS Office documents?
 source: http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html
 answers:
-    - true: It can run the same viruses?
+    - true: It can run the same viruses.
     - false: It can import MS Word now.
     - false: It has the same plugin-api.
     - false: It fucks up documents just as well.
@@ -403,9 +400,9 @@ question: How much money makes MS by patent bribing Android manufactures a year?
 source: http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html
 answers:
     - false: $1 billion
-    - false: $100 mio
-    - true: $500 mio
-    - false: $50 mio
+    - false: $100 Mio
+    - true: $500 Mio
+    - false: $50 Mio
 tier: 7
 game_round: 2
 media:
@@ -533,7 +530,7 @@ source: https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastia
 answers:
     - true: to catch who send him a plastic pussy
     - false: to catch file sharers
-    - false: to catch terrorist
+    - false: to catch terrorists
     - false: to protect democracy
 tier: 6
 game_round: 3
@@ -656,7 +653,7 @@ media:
         - pix/a_php-java.jpg
 
 --- !Question
-question: How many babies were stolen after birth in Spain by by doctors, priests and nuns between 50s and the 90s?
+question: How many babies were stolen after birth in Spain by doctors, priests and nuns between 50s and the 90s?
 source: http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies
 answers:
     - false: 300
@@ -721,7 +718,7 @@ media:
         - videos/question1.webm
 
 --- !Question
-question: How many intelligence violations the FBI may have commited since 9/11 according to the EFF?
+question: How many intelligence violations the FBI may have committed since 9/11 according to the EFF?
 comment: E. g. access to password protected files without a warrant, ...
 source: https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/
 answers:
@@ -772,7 +769,7 @@ media:
 
 
 --- !Question
-question: What happend when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?
+question: What happened when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?
 source: http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/
 comment: This year was 50 years of human space flight. Joke about Ms America. Wouldn't know it was a Russian. First rendevouz by the Chinese. This is our story to honour that.
 answers:
