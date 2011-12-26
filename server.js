@@ -310,6 +310,6 @@ function sendToFrontend(obj) {
     frontend.sendUTF(JSON.stringify(obj));
 }
 
-server.listen(8081);
+server.listen(8081, "::1");
 
 morse("c3d2");
