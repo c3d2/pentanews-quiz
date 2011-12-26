@@ -324,7 +324,7 @@ source: http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors
 answers:
     - false: 448
     - false: 58
-    - true: 995
+    - true: 1017
     - false: 623
 tier: 2
 game_round: 2
@@ -332,7 +332,7 @@ media:
     question:
         - pix/q_wp_pornstars.png
     explanation:
-        - videos/question1.webm
+        - pix/a_wp_pornstar.jpg
 
 --- !Question
 question: How many user-related data records (name, address, birth date) did the Saxon State retrieve after it caught about > 1 Mio cell phone connection records?
@@ -363,6 +363,9 @@ game_round: 2
 media:
     question:
         - pix/q_dont_be_evil.jpg
+    explanation:
+        - pix/a_google_mail.jpg
+
 
 --- !Question
 question: Who controls American drones in Afghanistan part time?
@@ -406,9 +409,9 @@ tier: 7
 game_round: 2
 media:
     question:
-        - pix/question1.png
+        - pix/q_android_ms.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_android_ms.jpg
 
 --- !Question
 question: Which company delivers software that could be rebooted by a IPv6 ping in 2011?
@@ -422,9 +425,9 @@ tier: 8
 game_round: 2
 media:
     question:
-        - pix/question1.png
+        - pix/q_ipv6_ping.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_ipv6_ping.jpg
 
 --- !Question
 question: How much money has HP spent in CEO pay-offs since 2005?
@@ -454,9 +457,9 @@ tier: 10
 game_round: 2
 media:
     question:
-        - pix/question1.png
+        - pix/q_747.jpg
     explanation:
-        - videos/question1.webm
+        - pix/q_747.jpg
 
 --- !Question
 question: What was the reason for human loss at Pukkelpop music festival in Belgium?
@@ -587,6 +590,7 @@ media:
         - pix/q_gpl.png
     explanation:
         - pix/a_gpl.png
+
 --- !Question
 question: What company does this org chart show?
 source: http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png
@@ -696,9 +700,9 @@ tier: 8
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_win_exploit.jpg
     explanation:
-        - videos/question1.webm
+        - pix/q_win_exploit.jpg
 
 --- !Question
 question: What animal did the US army use in Western Berlin for intruder alarm?
@@ -714,7 +718,7 @@ media:
     question:
         - pix/q_berlin_wall.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_goose.jpg
 
 --- !Question
 question: How many intelligence violations the FBI may have committed since 9/11 according to the EFF?
@@ -729,9 +733,9 @@ tier: 10
 game_round: 4
 media:
     question:
-        - pix/question1.png
+        - pix/q_fbi.jpg
     explanation:
-        - videos/question1.webm
+        - pix/a_fbi.jpg
 
 --- !Question
 question: What answers Siri when you ask it "Can you call me an ambulance?"

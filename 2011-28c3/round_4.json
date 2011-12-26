@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
-    "tier": 25, 
+    "tier": 69, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
-    "tier": 50, 
+    "tier": 48, 
     "image": "data/pix/q_fefe.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
-    "tier": 44, 
+    "tier": 35, 
     "image": "data/pix/q_death_people.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
-    "tier": 51, 
+    "tier": 63, 
     "image": "data/pix/q_php.png"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
-    "tier": 8, 
+    "tier": 59, 
     "image": "data/pix/q_pope.jpg"
   }, 
   {
@@ -140,13 +140,13 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 47, 
+    "tier": 9, 
     "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
     "text": "What could not be used to exploit Win systems in 2011?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/q_win_exploit.jpg"
     ], 
     "answers": [
       {
@@ -164,13 +164,13 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 64, 
-    "image": "data/pix/question1.png"
+    "tier": 14, 
+    "image": "data/pix/q_win_exploit.jpg"
   }, 
   {
     "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_goose.jpg"
     ], 
     "answers": [
       {
@@ -188,13 +188,13 @@
       }
     ], 
     "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 35, 
+    "tier": 30, 
     "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
     "text": "How many intelligence violations the FBI may have committed since 9/11 according to the EFF?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_fbi.jpg"
     ], 
     "answers": [
       {
@@ -212,8 +212,8 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
-    "tier": 26, 
-    "image": "data/pix/question1.png"
+    "tier": 72, 
+    "image": "data/pix/q_fbi.jpg"
   }, 
   {
     "text": "What answers Siri when you ask it \"Can you call me an ambulance?\"", 
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 55, 
+    "tier": 53, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,7 +263,7 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 22, 
+    "tier": 28, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
@@ -287,7 +287,7 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 48, 
+    "tier": 44, 
     "image": "data/pix/q_soyuz.jpg"
   }
 ]
