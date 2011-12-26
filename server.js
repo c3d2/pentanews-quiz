@@ -17,7 +17,7 @@ function connectNedap() {
     nedapClient.on('connect', function(conn) {
 	console.log('NEDAP opened');
 	nedap = conn;
-	nedap.sendUTF('nedap-kneemFothbedchoadHietEnobKavLub1');
+	nedap.sendUTF('nedap-RuJejdymmesAktiOdyitEdivRiectij');
 	nedap.on('close', function() {
 	    console.log('NEDAP closed');
 	    connectNedap();
