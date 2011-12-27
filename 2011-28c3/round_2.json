@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 1767, 
+    "tier": 140, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 571, 
+    "tier": 965, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
-    "tier": 700, 
+    "tier": 1879, 
     "image": "data/pix/q_dont_be_evil.jpg"
   }, 
   {
@@ -92,11 +92,11 @@
       }
     ], 
     "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
-    "tier": 328, 
+    "tier": 1307, 
     "image": "data/pix/q_drone-dove.jpg"
   }, 
   {
-    "tier": 194, 
+    "tier": 632, 
     "text": "To what degree Libre Office is compatible to MS Office documents?", 
     "image": "data/pix/q_office.jpg", 
     "answers": [
@@ -137,7 +137,7 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
-    "tier": 349, 
+    "tier": 372, 
     "image": "data/pix/q_android_ms.jpg"
   }, 
   {
@@ -161,7 +161,7 @@
       }
     ], 
     "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 1465, 
+    "tier": 1909, 
     "image": "data/pix/q_ipv6_ping.jpg"
   }, 
   {
@@ -185,7 +185,7 @@
       }
     ], 
     "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 1332, 
+    "tier": 1201, 
     "image": "data/pix/q_hp_money.jpg"
   }, 
   {
@@ -209,7 +209,7 @@
       }
     ], 
     "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 1776, 
+    "tier": 1383, 
     "image": "data/pix/q_747.jpg"
   }
 ]

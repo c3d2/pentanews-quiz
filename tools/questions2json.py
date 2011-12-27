@@ -28,6 +28,11 @@ import os
 import sys
 import random
 import json
+from reportlab.lib.pagesizes import A5, LETTER, landscape, portrait
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.units import inch, cm
+from reportlab.platypus.flowables import PageBreak
 from optparse import OptionParser
 
 try:
@@ -160,6 +165,18 @@ class Question(yaml.YAMLObject):
                     data[key] = value
         return data
 
+    @property
+    def as_pdf_dict(self):
+        """Return full data set. Includes comment field"""
+        data = self.as_dict
+        try:
+            data['comment'] = self.comment
+        except AttributeError:
+            data['comment'] = ""
+
+        return data
+
+
     @classmethod
     def get_points(cls):
         """docstring for get_points"""
@@ -207,6 +224,15 @@ def init_parser():
     )
 
     parser.add_option(
+        "-p",
+        "--generate-pdf",
+        dest="pdf",
+        help=("Generate the speaker PDF"),
+        action="store_true",
+        default=False,
+        )
+
+    parser.add_option(
         "-v",
         "--version",
         dest="version",
@@ -228,6 +254,61 @@ def write_json_file(questions):
     file_name = 'round_{0}.json'.format(game_round)
     fh = open(file_name, 'w')
     fh.writelines(json.dumps([q.as_dict for q in questions], indent=2))
+
+def gen_pdf(questions, game_rounds):
+    """generate speaker PDF"""
+
+    styles = getSampleStyleSheet()
+    doc = SimpleDocTemplate("pngs-speaker.pdf")
+    doc.pagesize = landscape(A5)
+    style = styles["Normal"]
+    page_elements = []
+    for round in game_rounds:
+        for num, question in enumerate(questions):
+            q_data = question.as_pdf_dict
+            page_elements.append(
+                Paragraph("<em>Game Round</em>: {0}".format(round),
+                          style)
+            )
+            page_elements.append(Spacer(0, 0.1*cm))
+            page_elements.append(
+                Paragraph(
+                    "<font size=12><em>Question {0}:</em> <bold>{1}</bold>"
+                    "</font>".format(num + 1, q_data['text'].encode('utf-8')),
+                          style)
+            )
+            page_elements.append(Spacer(0, 0.2*cm))
+            page_elements.append(
+                Paragraph("<em>Comment</em>: {0}".format(q_data.get('comment').encode('utf-8')),
+                style)
+            )
+            page_elements.append(Spacer(0, 0.2*cm))
+            page_elements.append(
+                Paragraph("<em>Answers</em>:",
+                          style)
+            )
+            page_elements.append(
+                Paragraph("* " + "<br />* ".join([unicode(t['text']) for t in q_data['answers']]),
+                          style)
+            )
+            page_elements.append(
+                Paragraph("<em>Points</em>: {0}".format(q_data.get('tier')),
+                          style)
+            )
+            page_elements.append(PageBreak())
+    doc.build(page_elements)
+    return
+
+    Story = [Spacer(0, 1*cm)]
+    p = Paragraph("Blubber1", styles["Normal"])
+    Story.append(p)
+    p = Paragraph("Blubber2", styles["Normal"])
+    Story.append(p)
+    Story.append(Spacer(10, 5*cm))
+    p = Paragraph("Blubber3", styles["Normal"])
+    Story.append(p)
+    #doc.build(Story, onFirstPage=myFirstPage, onLaterPages=myLaterPages) 
+    doc.build(Story)
 
 def main():
     """docstring for main"""
@@ -259,6 +340,9 @@ def main():
         write_json_file(questions_per_round(questions, game_round=r))
         if options.debug:
             print "Written file for game round: {0}".format(r)
+
+    if options.pdf:
+        gen_pdf(questions, game_rounds)
 
 if __name__ == '__main__':
     main()

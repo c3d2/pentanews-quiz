@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
-    "tier": 47, 
+    "tier": 39, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
-    "tier": 53, 
+    "tier": 8, 
     "image": "data/pix/q_fefe.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
-    "tier": 5, 
+    "tier": 35, 
     "image": "data/pix/q_death_people.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
-    "tier": 21, 
+    "tier": 14, 
     "image": "data/pix/q_php.png"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
-    "tier": 32, 
+    "tier": 11, 
     "image": "data/pix/q_pope.jpg"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 18, 
+    "tier": 76, 
     "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 27, 
+    "tier": 50, 
     "image": "data/pix/q_win_exploit.jpg"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 76, 
+    "tier": 67, 
     "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
@@ -212,7 +212,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
-    "tier": 62, 
+    "tier": 5, 
     "image": "data/pix/q_fbi.jpg"
   }, 
   {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 72, 
+    "tier": 46, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,7 +263,7 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 42, 
+    "tier": 64, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
@@ -287,7 +287,7 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 58, 
+    "tier": 59, 
     "image": "data/pix/q_soyuz.jpg"
   }
 ]

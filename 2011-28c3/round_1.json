@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://de.wikipedia.org/wiki/Strahlenkrankheit", 
-    "tier": 10, 
+    "tier": 1, 
     "image": "data/pix/q_fukushima.jpg"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung", 
-    "tier": 3, 
+    "tier": 10, 
     "image": "data/pix/q_bundestrojaner.jpg"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2010/03/10/cryptome_paypal/", 
-    "tier": 6, 
+    "tier": 4, 
     "image": "data/pix/q_paypal4.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
-    "tier": 7, 
+    "tier": 5, 
     "image": "data/pix/q_russian.jpg"
   }, 
   {
@@ -141,7 +141,7 @@
       }
     ], 
     "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
-    "tier": 10, 
+    "tier": 4, 
     "image": "data/pix/q_uhl.jpg"
   }, 
   {
@@ -165,7 +165,7 @@
       }
     ], 
     "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
-    "tier": 9, 
+    "tier": 4, 
     "image": "data/pix/q_cybercrime.png"
   }, 
   {
@@ -213,7 +213,7 @@
       }
     ], 
     "source": "http://www.heise.de/tp/blogs/8/150565", 
-    "tier": 8, 
+    "tier": 2, 
     "image": "data/pix/q_hadopi.png"
   }, 
   {
@@ -237,7 +237,7 @@
       }
     ], 
     "source": "http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/", 
-    "tier": 8, 
+    "tier": 5, 
     "image": "data/pix/q_brain.png"
   }, 
   {
@@ -261,7 +261,7 @@
       }
     ], 
     "source": "http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg", 
-    "tier": 4, 
+    "tier": 10, 
     "image": "data/pix/q_kernel.gif"
   }, 
   {
@@ -285,7 +285,7 @@
       }
     ], 
     "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
-    "tier": 7, 
+    "tier": 1, 
     "image": "data/pix/q_drone.jpg"
   }, 
   {
@@ -309,7 +309,7 @@
       }
     ], 
     "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
-    "tier": 6, 
+    "tier": 3, 
     "image": "data/pix/q_drone2.jpg"
   }, 
   {
@@ -333,7 +333,7 @@
       }
     ], 
     "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/", 
-    "tier": 3, 
+    "tier": 1, 
     "image": "data/pix/q_autocomplete.jpg"
   }, 
   {
@@ -357,7 +357,7 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/", 
-    "tier": 5, 
+    "tier": 8, 
     "image": "data/pix/q_ca4.jpg"
   }, 
   {
@@ -381,7 +381,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/South_Sudan", 
-    "tier": 1, 
+    "tier": 3, 
     "image": "data/pix/q_sudan.png"
   }, 
   {
@@ -405,7 +405,7 @@
       }
     ], 
     "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
-    "tier": 10, 
+    "tier": 1, 
     "image": "data/pix/q_london.jpg"
   }, 
   {
@@ -429,7 +429,7 @@
       }
     ], 
     "source": "http://winfuture.de/news,66539.html", 
-    "tier": 1, 
+    "tier": 7, 
     "image": "data/pix/q_hackspace.jpg"
   }
 ]
