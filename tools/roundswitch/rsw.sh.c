@@ -1,6 +1,5 @@
 #!/usr/bin/tcc -run
 /*
- * 
  * ============================================================================
  *
  *       Filename:  rsw.sh.c
@@ -28,8 +27,6 @@
 #define ROUNDFOMAT DATAPATH "round_%d.json"
 #define ACTIROUND DATAPATH "questions.json"
 
-
-
 static void usage(){
 	puts(
 			"bitte gib die rundennummer as einzigeb aufrufparameter ein\n"
@@ -38,9 +35,6 @@ static void usage(){
 	    );
 	exit(1);
 }
-
-
-
 
 int
 main ( int argc, char *argv[] )
@@ -52,8 +46,6 @@ main ( int argc, char *argv[] )
 		usage();
 	errno = 0;
 	i = strtol(argv[1],&eptr,0);
-	
-
 
 	if ((errno == ERANGE && (i == LONG_MAX || i == LONG_MIN))
 			|| (errno != 0 && i == 0)) {
@@ -66,7 +58,7 @@ main ( int argc, char *argv[] )
 		exit(EXIT_FAILURE);
 	}
 	
-	if ((i <1) || (i>5)){
+	if ((i <1) || (i>9)){
 		fprintf(stderr, "Round Number out of Range (1-5)\n");
 		exit(EXIT_FAILURE);
 	}
@@ -82,4 +74,4 @@ main ( int argc, char *argv[] )
 
        symlink(act,ACTIROUND);
 	return 0;
-}				/* ----------  end of function main  ---------- */
+}	/* ----------  end of function main  ---------- */
