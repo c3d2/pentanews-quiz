@@ -522,6 +522,9 @@ function switchToGame() {
             i++;
         });
 
+	// Tweet source
+	sendToBackend({ tweet: q.text + (q.source ? (" " + q.source) : "") });
+
 	keyHandler = function(key) {
 	    if (key === " ") {
 		// next question:
@@ -531,6 +534,27 @@ function switchToGame() {
 		$('#game').fadeOut(500, function() {
                     switchToScoreboard();
 		});
+		if (currentQuestion == questions.length) {
+		    var winners = [];
+		    for(var i = 0; i < playerNames.length; i++) {
+			if (playerNames[i])
+			    winners.push({ name: playerNames[i],
+					   score: playerScores[i]
+					 });
+		    }
+		    winners.sort(function(a, b) {
+			if (a.score < b.score)
+			    return 1;
+			else if (a.score > b.score)
+			    return -1;
+			else
+			    return 0;
+		    });
+		    var tweet = winners.map(function(winner) {
+			return winner.name + " (" + winner.score + ")";
+		    }).join(" > ");
+		    sendToBackend({ tweet: tweet });
+		}
 	    }
 	};
     };
