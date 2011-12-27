@@ -321,6 +321,7 @@ media:
 --- !Question
 question: How many female porn stars have their own WP article?
 source: http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors
+comment: According to the WP itself?
 answers:
     - false: 448
     - false: 58
@@ -337,6 +338,7 @@ media:
 --- !Question
 question: How many user-related data records (name, address, birth date) did the Saxon State retrieve after it gathered > 1 million cell phone connection records at a anti-Nazi demonstration?
 source: http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/
+comment: Dresden, town 200 km South of Berlin. 13th Feb. grown to biggest Nazi demonstration in Europe exploiting the fact that bombed in WW II in one night. On day 1 two talks on this congress.
 answers:
     - false: 540
     - true: 54k
@@ -352,6 +354,7 @@ media:
 
 --- !Question
 question: What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?
+comment: His ISP challenged the secret court order. That's why it became public.
 source: http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html
 answers:
     - true: handed the data over
@@ -370,6 +373,7 @@ media:
 --- !Question
 question: Who controls American drones in Afghanistan part time?
 source: http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars
+# FIXME: 3rd question about those drones. Answer pix is important.
 answers:
     - false: Iran Army
     - false: NSA
@@ -400,6 +404,7 @@ media:
 --- !Question
 question: How much money makes MS by patent bribing Android manufactures a year?
 source: http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html
+comment: They do not tell the public what the patents are. Probably it includes the Linux FUD.
 answers:
     - false: $1 billion
     - false: $100 Mio
@@ -416,6 +421,7 @@ media:
 --- !Question
 question: Which company delivers software that could be rebooted by an IPv6 ping in 2011?
 source: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls
+comment: Works only in MPLS networks.
 answers:
     - false: Microsoft
     - true: Cisco
@@ -431,6 +437,7 @@ media:
 
 --- !Question
 question: How much money has HP spent in CEO pay-offs since 2005?
+comment:About 3 CEOs.
 source: http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&
 answers:
     - false: $100 mio
@@ -447,6 +454,7 @@ media:
 
 --- !Question
 question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?
+comment: Fun fact: ssh was brokent but the engineers did not have the budget to fix it.
 source: https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html
 answers:
     - false: ssh
@@ -463,6 +471,7 @@ media:
 
 --- !Question
 question: What was the reason for human loss at Pukkelpop music festival in Belgium?
+comment: According to the content mafia.
 source: https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/
 # orig link 404
 answers:
@@ -496,6 +505,7 @@ media:
 
 --- !Question
 question: What is the improvement of transmission time by the new $300 mio EU-US cable (first in 10 years)?
+comment: It will pay off in about one year. For traders every ms counts.
 source: http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html
 answers:
     - false: 6s
@@ -512,6 +522,7 @@ media:
 
 --- !Question
 question: Which App was pulled off the Apple app store this year after massive protests?
+comment: There was an on-line petition. After 8k votes Apple took it off. Smuggle truck now is Snuggle truck with cute toy animals. Phone story is available on the Web. Conterfai Lugary became FOSS.
 source: http://www.truthwinsout.org/news/2011/03/15155/
 answers:
     - false: Phone Story
@@ -578,6 +589,7 @@ media:
 --- !Question
 question: What vendor/project did not violate the GPL?
 source: https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/
+comment: Stallmans very own project.
 answers:
     - false: AVM
     - true: Vim
@@ -594,6 +606,7 @@ media:
 --- !Question
 question: What company is represented by this org chart?
 source: http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png
+comment: Check out the other ones. Couldn't decide if MS or Oracle
 answers:
     - false: Google
     - true: Microsoft
@@ -610,6 +623,7 @@ media:
 --- !Question
 question: What programming language Fefe isn't able to read?
 source: http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html
+comment: After the OpenLeaks presentation on the camp a journalist of prominent German IT mag and Fefe had a chat.
 answers:
     - false: C
     - false: Assembler
@@ -643,6 +657,8 @@ media:
 --- !Question
 source: http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/
 question: Which programming language hangs on certain fp numbers?
+# FIXME Look that up in detail
+comment: There is an int overrun and the whole thing locks up.
 answers:
     - false: PHP
     - true: Ruby
@@ -693,6 +709,7 @@ media:
 --- !Question
 question: What mechanism wasn't used in Windows exploits in 2011?
 source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
+comment: Power button seems not to be of interest since it's not remotely exploitable.
 answers:
     - false: Text file
     - false: Ping
@@ -709,6 +726,7 @@ media:
 --- !Question
 question: What animal did the US army use in West Berlin for intruder alarm?
 source: http://www.schneier.com/blog/archives/2011/08/alarm_geese.html
+comment: News was that some prison in South America uses those animals now. Has long histroy though.
 answers:
     - true: goose
     - false: sheep
@@ -741,6 +759,7 @@ media:
 
 --- !Question
 question: What answers Siri when you ask it "Can you call me an ambulance?"
+comment: Sorry for the product placement.
 source: http://toaskornottoask.com/to/shit-that-siri-says/page/2/
 answers:
     - false: no emergancy calls
