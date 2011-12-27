@@ -20,13 +20,13 @@
       }
     ], 
     "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
-    "tier": 39, 
+    "tier": 67, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
     "text": "What programming language Fefe isn't able to read?", 
     "explanation": [
-      "data/pix/a_fefe.jpg"
+      "data/pix/a_fefe.png"
     ], 
     "answers": [
       {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
-    "tier": 8, 
+    "tier": 35, 
     "image": "data/pix/q_fefe.png"
   }, 
   {
@@ -68,56 +68,8 @@
       }
     ], 
     "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
-    "tier": 35, 
+    "tier": 59, 
     "image": "data/pix/q_death_people.jpg"
-  }, 
-  {
-    "text": "Which programming language hangs on certain fp numbers?", 
-    "explanation": [
-      "data/pix/a_php-java.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "PHP"
-      }, 
-      {
-        "text": "Ruby", 
-        "right": true
-      }, 
-      {
-        "text": "Java"
-      }, 
-      {
-        "text": "Haskell"
-      }
-    ], 
-    "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
-    "tier": 14, 
-    "image": "data/pix/q_php.png"
-  }, 
-  {
-    "text": "How many babies were stolen after birth in Spain by doctors, priests and nuns between 50s and the 90s?", 
-    "explanation": [
-      "data/pix/a_spain.jpg"
-    ], 
-    "answers": [
-      {
-        "text": 300
-      }, 
-      {
-        "text": "300,000", 
-        "right": true
-      }, 
-      {
-        "text": "3,000"
-      }, 
-      {
-        "text": "30,000"
-      }
-    ], 
-    "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
-    "tier": 11, 
-    "image": "data/pix/q_pope.jpg"
   }, 
   {
     "text": "How many Mrs USA finalists believe in the evolution theory when asked if it should be taught in school (out of 51)?", 
@@ -140,7 +92,7 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 76, 
+    "tier": 48, 
     "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
@@ -164,56 +116,8 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 50, 
+    "tier": 49, 
     "image": "data/pix/q_win_exploit.jpg"
-  }, 
-  {
-    "text": "What animal did the US army use in West Berlin for intruder alarm?", 
-    "explanation": [
-      "data/pix/a_goose.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "goose", 
-        "right": true
-      }, 
-      {
-        "text": "sheep"
-      }, 
-      {
-        "text": "chicken"
-      }, 
-      {
-        "text": "dog"
-      }
-    ], 
-    "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 67, 
-    "image": "data/pix/q_berlin_wall.jpg"
-  }, 
-  {
-    "text": "How many intelligence violations the FBI may have committed since 9/11 according to the EFF?", 
-    "explanation": [
-      "data/pix/a_fbi.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "40k", 
-        "right": true
-      }, 
-      {
-        "text": "4 Million"
-      }, 
-      {
-        "text": "5k"
-      }, 
-      {
-        "text": "none"
-      }
-    ], 
-    "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
-    "tier": 5, 
-    "image": "data/pix/q_fbi.jpg"
   }, 
   {
     "text": "What answers Siri when you ask it \"Can you call me an ambulance?\"", 
@@ -236,7 +140,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 46, 
+    "tier": 61, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,7 +167,7 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 64, 
+    "tier": 70, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
@@ -287,7 +191,100 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 59, 
+    "tier": 27, 
     "image": "data/pix/q_soyuz.jpg"
+  }, 
+  {
+    "tier": 62, 
+    "text": "To what degree Libre Office is compatible to MS Office documents?", 
+    "image": "data/pix/q_office.jpg", 
+    "answers": [
+      {
+        "text": "It can run the same viruses.", 
+        "right": true
+      }, 
+      {
+        "text": "It can import MS Word now."
+      }, 
+      {
+        "text": "It has the same plugin-api."
+      }, 
+      {
+        "text": "It fucks up documents just as well."
+      }
+    ], 
+    "source": "http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html"
+  }, 
+  {
+    "text": "How much money makes MS by patent bribing Android manufactures a year?", 
+    "explanation": [
+      "data/pix/a_android_ms.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "$1 billion"
+      }, 
+      {
+        "text": "$100 Mio"
+      }, 
+      {
+        "text": "$500 Mio", 
+        "right": true
+      }, 
+      {
+        "text": "$50 Mio"
+      }
+    ], 
+    "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
+    "tier": 9, 
+    "image": "data/pix/q_android_ms.jpg"
+  }, 
+  {
+    "text": "How many babies were stolen after birth in Spain by doctors, priests and nuns between 50s and the 90s?", 
+    "explanation": [
+      "data/pix/a_spain.jpg"
+    ], 
+    "answers": [
+      {
+        "text": 300
+      }, 
+      {
+        "text": "300,000", 
+        "right": true
+      }, 
+      {
+        "text": "3,000"
+      }, 
+      {
+        "text": "30,000"
+      }
+    ], 
+    "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
+    "tier": 25, 
+    "image": "data/pix/q_pope.jpg"
+  }, 
+  {
+    "text": "How many intelligence violations the FBI may have committed since 9/11 according to the EFF?", 
+    "explanation": [
+      "data/pix/a_fbi.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "40k", 
+        "right": true
+      }, 
+      {
+        "text": "4 Million"
+      }, 
+      {
+        "text": "5k"
+      }, 
+      {
+        "text": "none"
+      }
+    ], 
+    "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
+    "tier": 11, 
+    "image": "data/pix/q_fbi.jpg"
   }
 ]

@@ -54,6 +54,7 @@ class Question(yaml.YAMLObject):
         2: (100, 2000),
         3: (50, 4000),
         4: (5, 80),
+        5: (5, 80),
     }
 
     # {round_no1: [tier1, tier2, ...], round_no2: [tier1, ...]}
@@ -264,7 +265,8 @@ def gen_pdf(questions, game_rounds):
     style = styles["Normal"]
     page_elements = []
     for round in game_rounds:
-        for num, question in enumerate(questions):
+        for num, question in enumerate(
+            questions_per_round(questions, game_round=round)):
             q_data = question.as_pdf_dict
             page_elements.append(
                 Paragraph("<em>Game Round</em>: {0}".format(round),

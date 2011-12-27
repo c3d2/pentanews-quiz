@@ -1,5 +1,29 @@
 [
   {
+    "text": "Who controls American drones in Afghanistan part time?", 
+    "explanation": [
+      "data/pix/a_drone_attack.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Iran Army"
+      }, 
+      {
+        "text": "NSA"
+      }, 
+      {
+        "text": "Chinese Hackers"
+      }, 
+      {
+        "text": "Viruses", 
+        "right": true
+      }
+    ], 
+    "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
+    "tier": 1, 
+    "image": "data/pix/q_drone-dove.jpg"
+  }, 
+  {
     "text": "What is the lethal dose of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))", 
     "explanation": [
       "data/pix/a_fukushima.jpg"
@@ -20,7 +44,7 @@
       }
     ], 
     "source": "http://de.wikipedia.org/wiki/Strahlenkrankheit", 
-    "tier": 1, 
+    "tier": 2, 
     "image": "data/pix/q_fukushima.jpg"
   }, 
   {
@@ -44,7 +68,7 @@
       }
     ], 
     "source": "http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung", 
-    "tier": 10, 
+    "tier": 3, 
     "image": "data/pix/q_bundestrojaner.jpg"
   }, 
   {
@@ -68,32 +92,8 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2010/03/10/cryptome_paypal/", 
-    "tier": 4, 
-    "image": "data/pix/q_paypal4.jpg"
-  }, 
-  {
-    "text": "How did Russian bloggers try to raise attention for their demonstrations against fraud during the recent elections in Russia?", 
-    "explanation": [
-      "data/pix/a_russian.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Multi-Million-Rubel-Ad-Campain."
-      }, 
-      {
-        "text": "Bribing the chief of federal TV."
-      }, 
-      {
-        "text": "Forming a lightchain of trust."
-      }, 
-      {
-        "text": "Use drones to get video footage streamed to the Internet.", 
-        "right": true
-      }
-    ], 
-    "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
     "tier": 5, 
-    "image": "data/pix/q_russian.jpg"
+    "image": "data/pix/q_paypal4.jpg"
   }, 
   {
     "text": "Which of the following countries voted against loosening restrictions of cluster munition at the UN?", 
@@ -116,81 +116,9 @@
         "text": "Pakistan"
       }
     ], 
-    "source": "http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125", 
-    "tier": 10, 
+    "source": "http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125 http://www.general-anzeiger-bonn.de/news/kommentare/Die-Rueckkehr-der-Streubomben-Spur-des-Todes-article567503.html http://www.krone.at/Welt/Oesterreich_kaempft_gegen_Comeback_der_Streubomben-Einsames_Vorhaben-Story-302663 http://taz.de/Abkommen-zu-Streumunition/!82648/", 
+    "tier": 2, 
     "image": "data/pix/q_cluster.jpg"
-  }, 
-  {
-    "text": "What is the definition of the measurement unit one Uhl?", 
-    "explanation": [
-      "data/pix/a_uhl.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Unit of a scale that describes the need of censorship for a certain website."
-      }, 
-      {
-        "text": "Unit of boldness of a politician spreading lies to public knowingly."
-      }, 
-      {
-        "text": "Amount of time passing between a random crime and a politician's demand for the introduction of data retention laws.", 
-        "right": true
-      }, 
-      {
-        "text": "Degree of expert knowlege that a politician has, when he demands wiretapping of encrypted data."
-      }
-    ], 
-    "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
-    "tier": 4, 
-    "image": "data/pix/q_uhl.jpg"
-  }, 
-  {
-    "text": "Which new investigation tool did Henrik Kaspersen (one of the founders of the Convention on Cybercrime) demand during its 10th birthday to improve the work against cyber crime?", 
-    "explanation": [
-      "data/pix/a_cybercrime.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "E-mail bombs"
-      }, 
-      {
-        "text": "1days"
-      }, 
-      {
-        "text": "XSS"
-      }, 
-      {
-        "text": "Bot nets", 
-        "right": true
-      }
-    ], 
-    "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
-    "tier": 4, 
-    "image": "data/pix/q_cybercrime.png"
-  }, 
-  {
-    "text": "How many days in a row has Belgium been run by a caretaker administration since the last government resigned in April 2010?", 
-    "explanation": [
-      "data/pix/a_belgium.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "415 days"
-      }, 
-      {
-        "text": "541 days", 
-        "right": true
-      }, 
-      {
-        "text": "451 days"
-      }, 
-      {
-        "text": "514 days"
-      }
-    ], 
-    "source": "http://en.wikipedia.org/wiki/2010\u20132011_Belgian_government_formation", 
-    "tier": 10, 
-    "image": "data/pix/q_belgium.gif"
   }, 
   {
     "text": "How many 1st notifications have been sent during the first 12 months of the French Three-Strikes-Law (Hadopi) being active?", 
@@ -213,7 +141,7 @@
       }
     ], 
     "source": "http://www.heise.de/tp/blogs/8/150565", 
-    "tier": 2, 
+    "tier": 6, 
     "image": "data/pix/q_hadopi.png"
   }, 
   {
@@ -237,7 +165,7 @@
       }
     ], 
     "source": "http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/", 
-    "tier": 5, 
+    "tier": 8, 
     "image": "data/pix/q_brain.png"
   }, 
   {
@@ -261,152 +189,8 @@
       }
     ], 
     "source": "http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg", 
-    "tier": 10, 
+    "tier": 5, 
     "image": "data/pix/q_kernel.gif"
-  }, 
-  {
-    "text": "What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?", 
-    "explanation": [
-      "data/pix/a_drone.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Programming new false targets"
-      }, 
-      {
-        "text": "Initiate self destruction"
-      }, 
-      {
-        "text": "Send military secrets do its creator"
-      }, 
-      {
-        "text": "Looking for facebook game accounts", 
-        "right": true
-      }
-    ], 
-    "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
-    "tier": 1, 
-    "image": "data/pix/q_drone.jpg"
-  }, 
-  {
-    "text": "How did the US Airforce cyber security departement learn about the virus that infected drones?", 
-    "explanation": [
-      "data/pix/a_drone2.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Intrusion detection mechanisms"
-      }, 
-      {
-        "text": "Read it in the news", 
-        "right": true
-      }, 
-      {
-        "text": "The virus caused system instabilities"
-      }, 
-      {
-        "text": "By random, during standard maintainance"
-      }
-    ], 
-    "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
-    "tier": 3, 
-    "image": "data/pix/q_drone2.jpg"
-  }, 
-  {
-    "text": "Which of the following terms does not autocomplete anymore in Google search since January 2011?", 
-    "explanation": [
-      "data/pix/a_autocomplete.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "torrent", 
-        "right": true
-      }, 
-      {
-        "text": "MPAA"
-      }, 
-      {
-        "text": "RIAA"
-      }, 
-      {
-        "text": "Do no evil"
-      }
-    ], 
-    "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/", 
-    "tier": 1, 
-    "image": "data/pix/q_autocomplete.jpg"
-  }, 
-  {
-    "text": "Which of the following CAs did not publish news about security problems yet?", 
-    "explanation": [
-      "data/pix/q_ca4.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Diginotar"
-      }, 
-      {
-        "text": "Corporate Market"
-      }, 
-      {
-        "text": "GlobalSign"
-      }, 
-      {
-        "text": "T\u00dcRKTRUST", 
-        "right": true
-      }
-    ], 
-    "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/", 
-    "tier": 8, 
-    "image": "data/pix/q_ca4.jpg"
-  }, 
-  {
-    "text": "What is the new TLD for \"The Republic of South Sudan\"?", 
-    "explanation": [
-      "data/pix/a_sudan.png"
-    ], 
-    "answers": [
-      {
-        "text": ".su"
-      }, 
-      {
-        "text": ".rs"
-      }, 
-      {
-        "text": ".ss", 
-        "right": true
-      }, 
-      {
-        "text": ".rss"
-      }
-    ], 
-    "source": "http://en.wikipedia.org/wiki/South_Sudan", 
-    "tier": 3, 
-    "image": "data/pix/q_sudan.png"
-  }, 
-  {
-    "text": "Which of the following companies announced via Twitter that they will tell the police details about London rioters?", 
-    "explanation": [
-      "data/pix/a_london.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Cash and Carry (by publishing video footage)"
-      }, 
-      {
-        "text": "London Transport (by publishing RFID transportation data)"
-      }, 
-      {
-        "text": "RIM (by publishing \"encrypted\" Blackberry SMS)", 
-        "right": true
-      }, 
-      {
-        "text": "Virgin (by publishing a list of illegal downloaders)"
-      }
-    ], 
-    "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
-    "tier": 1, 
-    "image": "data/pix/q_london.jpg"
   }, 
   {
     "text": "Which of the following cities is helping to create 100 new hackerspaces in itself?", 
@@ -429,7 +213,31 @@
       }
     ], 
     "source": "http://winfuture.de/news,66539.html", 
-    "tier": 7, 
+    "tier": 10, 
     "image": "data/pix/q_hackspace.jpg"
+  }, 
+  {
+    "text": "Which of the following terms does not autocomplete anymore in Google search since January 2011?", 
+    "explanation": [
+      "data/pix/a_autocomplete.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "torrent", 
+        "right": true
+      }, 
+      {
+        "text": "MPAA"
+      }, 
+      {
+        "text": "RIAA"
+      }, 
+      {
+        "text": "Do no evil"
+      }
+    ], 
+    "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/", 
+    "tier": 9, 
+    "image": "data/pix/q_autocomplete.jpg"
   }
 ]

@@ -1,75 +1,27 @@
 [
   {
-    "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
+    "text": "How did the US Airforce cyber security departement learn about the virus that infected drones?", 
     "explanation": [
-      "data/pix/a_p2p.jpg"
+      "data/pix/a_drone2.jpg"
     ], 
     "answers": [
       {
-        "text": "stormy wind"
+        "text": "Intrusion detection mechanisms"
       }, 
       {
-        "text": "heavy rain"
-      }, 
-      {
-        "text": "file sharing", 
+        "text": "Read it in the news", 
         "right": true
       }, 
       {
-        "text": "bungling"
+        "text": "The virus caused system instabilities"
+      }, 
+      {
+        "text": "By random, during standard maintainance"
       }
     ], 
-    "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
-    "tier": 2899, 
-    "image": "data/pix/q_p2p.jpg"
-  }, 
-  {
-    "text": "Which country does not have a net neutrality law?", 
-    "explanation": [
-      "data/pix/a_netneutrality.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Belgium"
-      }, 
-      {
-        "text": "Netherlands"
-      }, 
-      {
-        "text": "USA", 
-        "right": true
-      }, 
-      {
-        "text": "Chile"
-      }
-    ], 
-    "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/", 
-    "tier": 2297, 
-    "image": "data/pix/q_netneutrality.jpg"
-  }, 
-  {
-    "text": "What is the improvement of transmission time by the new $300 mio EU-US cable (first in 10 years)?", 
-    "explanation": [
-      "data/pix/a_300mdollar.png"
-    ], 
-    "answers": [
-      {
-        "text": "6s"
-      }, 
-      {
-        "text": "6e-1s"
-      }, 
-      {
-        "text": "6e-2s"
-      }, 
-      {
-        "text": "6e-3s", 
-        "right": true
-      }
-    ], 
-    "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html", 
-    "tier": 3013, 
-    "image": "data/pix/q_300mdollar.jpg"
+    "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
+    "tier": 2286, 
+    "image": "data/pix/q_drone2.jpg"
   }, 
   {
     "text": "Which App was pulled off the Apple app store this year after massive protests?", 
@@ -92,7 +44,7 @@
       }
     ], 
     "source": "http://www.truthwinsout.org/news/2011/03/15155/", 
-    "tier": 3074, 
+    "tier": 1404, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
@@ -116,7 +68,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/", 
-    "tier": 3673, 
+    "tier": 3665, 
     "image": "data/pix/q_edathy.jpg"
   }, 
   {
@@ -140,11 +92,11 @@
       }
     ], 
     "source": "http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/", 
-    "tier": 3632, 
+    "tier": 206, 
     "image": "data/pix/q_snowman.jpg"
   }, 
   {
-    "text": "Which country did not get his copyright law dictated by the US?", 
+    "text": "Which country did not get its copyright law dictated by the US?", 
     "explanation": [
       "data/pix/a_copyright.jpg"
     ], 
@@ -164,7 +116,7 @@
       }
     ], 
     "source": "http://www.michaelgeist.ca/content/view/5765/125/", 
-    "tier": 367, 
+    "tier": 3778, 
     "image": "data/pix/q_copyright.jpg"
   }, 
   {
@@ -188,7 +140,103 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/", 
-    "tier": 474, 
+    "tier": 2179, 
     "image": "data/pix/q_gpl.png"
+  }, 
+  {
+    "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
+    "explanation": [
+      "data/pix/a_p2p.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "stormy wind"
+      }, 
+      {
+        "text": "heavy rain"
+      }, 
+      {
+        "text": "file sharing", 
+        "right": true
+      }, 
+      {
+        "text": "bungling"
+      }
+    ], 
+    "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
+    "tier": 621, 
+    "image": "data/pix/q_p2p.jpg"
+  }, 
+  {
+    "text": "Which of the following CAs did not publish news about security problems yet?", 
+    "explanation": [
+      "data/pix/q_ca4.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Diginotar"
+      }, 
+      {
+        "text": "Corporate Market"
+      }, 
+      {
+        "text": "GlobalSign"
+      }, 
+      {
+        "text": "T\u00dcRKTRUST", 
+        "right": true
+      }
+    ], 
+    "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/ http://www.heise.de/security/meldung/Falsches-Google-Zertifikat-ist-Folge-eines-Hacks-1333588.html http://www.heise.de/security/meldung/Zertifikatsausgabestopp-nach-Einbruch-auf-einem-KPN-Server-1372279.html", 
+    "tier": 400, 
+    "image": "data/pix/q_ca4.jpg"
+  }, 
+  {
+    "text": "What is the new TLD for \"The Republic of South Sudan\"?", 
+    "explanation": [
+      "data/pix/a_sudan.png"
+    ], 
+    "answers": [
+      {
+        "text": ".su"
+      }, 
+      {
+        "text": ".rs"
+      }, 
+      {
+        "text": ".ss", 
+        "right": true
+      }, 
+      {
+        "text": ".rss"
+      }
+    ], 
+    "source": "http://en.wikipedia.org/wiki/South_Sudan", 
+    "tier": 2148, 
+    "image": "data/pix/q_sudan.png"
+  }, 
+  {
+    "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
+    "explanation": [
+      "data/pix/a_google_mail.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "handed the data over", 
+        "right": true
+      }, 
+      {
+        "text": "nothing"
+      }, 
+      {
+        "text": "fought the order"
+      }, 
+      {
+        "text": "denied his account"
+      }
+    ], 
+    "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
+    "tier": 2298, 
+    "image": "data/pix/q_dont_be_evil.jpg"
   }
 ]

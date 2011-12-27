@@ -1,5 +1,29 @@
 [
   {
+    "text": "What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?", 
+    "explanation": [
+      "data/pix/a_drone.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Programming new false targets"
+      }, 
+      {
+        "text": "Initiate self destruction"
+      }, 
+      {
+        "text": "Send military secrets do its creator"
+      }, 
+      {
+        "text": "Looking for facebook game accounts", 
+        "right": true
+      }
+    ], 
+    "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
+    "tier": 123, 
+    "image": "data/pix/q_drone.jpg"
+  }, 
+  {
     "text": "How many female porn stars have their own WP article?", 
     "explanation": [
       "data/pix/a_wp_pornstar.jpg"
@@ -20,7 +44,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 140, 
+    "tier": 1416, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
@@ -44,101 +68,8 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 965, 
+    "tier": 1752, 
     "image": "data/pix/q_handygate.jpg"
-  }, 
-  {
-    "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
-    "explanation": [
-      "data/pix/a_google_mail.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "handed the data over", 
-        "right": true
-      }, 
-      {
-        "text": "nothing"
-      }, 
-      {
-        "text": "fought the order"
-      }, 
-      {
-        "text": "denied his account"
-      }
-    ], 
-    "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
-    "tier": 1879, 
-    "image": "data/pix/q_dont_be_evil.jpg"
-  }, 
-  {
-    "text": "Who controls American drones in Afghanistan part time?", 
-    "explanation": [
-      "data/pix/a_drone_attack.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "Iran Army"
-      }, 
-      {
-        "text": "NSA"
-      }, 
-      {
-        "text": "Chinese Hackers"
-      }, 
-      {
-        "text": "Viruses", 
-        "right": true
-      }
-    ], 
-    "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
-    "tier": 1307, 
-    "image": "data/pix/q_drone-dove.jpg"
-  }, 
-  {
-    "tier": 632, 
-    "text": "To what degree Libre Office is compatible to MS Office documents?", 
-    "image": "data/pix/q_office.jpg", 
-    "answers": [
-      {
-        "text": "It can run the same viruses.", 
-        "right": true
-      }, 
-      {
-        "text": "It can import MS Word now."
-      }, 
-      {
-        "text": "It has the same plugin-api."
-      }, 
-      {
-        "text": "It fucks up documents just as well."
-      }
-    ], 
-    "source": "http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html"
-  }, 
-  {
-    "text": "How much money makes MS by patent bribing Android manufactures a year?", 
-    "explanation": [
-      "data/pix/a_android_ms.jpg"
-    ], 
-    "answers": [
-      {
-        "text": "$1 billion"
-      }, 
-      {
-        "text": "$100 Mio"
-      }, 
-      {
-        "text": "$500 Mio", 
-        "right": true
-      }, 
-      {
-        "text": "$50 Mio"
-      }
-    ], 
-    "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
-    "tier": 372, 
-    "image": "data/pix/q_android_ms.jpg"
   }, 
   {
     "text": "Which company delivers software that could be rebooted by an IPv6 ping in 2011?", 
@@ -161,7 +92,7 @@
       }
     ], 
     "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 1909, 
+    "tier": 232, 
     "image": "data/pix/q_ipv6_ping.jpg"
   }, 
   {
@@ -185,7 +116,7 @@
       }
     ], 
     "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 1201, 
+    "tier": 1144, 
     "image": "data/pix/q_hp_money.jpg"
   }, 
   {
@@ -209,7 +140,103 @@
       }
     ], 
     "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 1383, 
+    "tier": 1428, 
     "image": "data/pix/q_747.jpg"
+  }, 
+  {
+    "text": "Which of the following companies announced via Twitter that they will tell the police details about London rioters?", 
+    "explanation": [
+      "data/pix/a_london.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Cash and Carry (by publishing video footage)"
+      }, 
+      {
+        "text": "London Transport (by publishing RFID transportation data)"
+      }, 
+      {
+        "text": "RIM (by publishing \"encrypted\" Blackberry SMS)", 
+        "right": true
+      }, 
+      {
+        "text": "Virgin (by publishing a list of illegal downloaders)"
+      }
+    ], 
+    "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
+    "tier": 1034, 
+    "image": "data/pix/q_london.jpg"
+  }, 
+  {
+    "text": "How did Russian bloggers try to raise attention for their demonstrations against fraud during the recent elections in Russia?", 
+    "explanation": [
+      "data/pix/a_russian.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Multi-Million-Rubel-Ad-Campain."
+      }, 
+      {
+        "text": "Bribing the chief of federal TV."
+      }, 
+      {
+        "text": "Forming a lightchain of trust."
+      }, 
+      {
+        "text": "Use drones to get video footage streamed to the Internet.", 
+        "right": true
+      }
+    ], 
+    "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
+    "tier": 1698, 
+    "image": "data/pix/q_russian.jpg"
+  }, 
+  {
+    "text": "What is the definition of the measurement unit one Uhl?", 
+    "explanation": [
+      "data/pix/a_uhl.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Unit of a scale that describes the need of censorship for a certain website."
+      }, 
+      {
+        "text": "Unit of boldness of a politician spreading lies to public knowingly."
+      }, 
+      {
+        "text": "Amount of time passing between a random crime and a politician's demand for the introduction of data retention laws.", 
+        "right": true
+      }, 
+      {
+        "text": "Degree of expert knowlege that a politician has, when he demands wiretapping of encrypted data."
+      }
+    ], 
+    "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
+    "tier": 285, 
+    "image": "data/pix/q_uhl.jpg"
+  }, 
+  {
+    "text": "Which new investigation tool did Henrik Kaspersen (one of the founders of the Convention on Cybercrime) demand during its 10th birthday to improve the work against cyber crime?", 
+    "explanation": [
+      "data/pix/a_cybercrime.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "E-mail bombs"
+      }, 
+      {
+        "text": "1days"
+      }, 
+      {
+        "text": "XSS"
+      }, 
+      {
+        "text": "Bot nets", 
+        "right": true
+      }
+    ], 
+    "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
+    "tier": 412, 
+    "image": "data/pix/q_cybercrime.png"
   }
 ]
