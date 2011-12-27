@@ -20,11 +20,11 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 832, 
+    "tier": 1767, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
-    "text": "How many user-related data records (name, address, birth date) did the Saxon State retrieve after it caught about > 1 Mio cell phone connection records?", 
+    "text": "How many user-related data records (name, address, birth date) did the Saxon State retrieve after it gathered > 1 million cell phone connection records at a anti-Nazi demonstration?", 
     "explanation": [
       "data/pix/a_handygate.jpg"
     ], 
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 1848, 
+    "tier": 571, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
@@ -54,7 +54,7 @@
     ], 
     "answers": [
       {
-        "text": "hand over the data", 
+        "text": "handed the data over", 
         "right": true
       }, 
       {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
-    "tier": 449, 
+    "tier": 700, 
     "image": "data/pix/q_dont_be_evil.jpg"
   }, 
   {
@@ -92,11 +92,11 @@
       }
     ], 
     "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
-    "tier": 1527, 
+    "tier": 328, 
     "image": "data/pix/q_drone-dove.jpg"
   }, 
   {
-    "tier": 144, 
+    "tier": 194, 
     "text": "To what degree Libre Office is compatible to MS Office documents?", 
     "image": "data/pix/q_office.jpg", 
     "answers": [
@@ -137,11 +137,11 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
-    "tier": 565, 
+    "tier": 349, 
     "image": "data/pix/q_android_ms.jpg"
   }, 
   {
-    "text": "Which company delivers software that could be rebooted by a IPv6 ping in 2011?", 
+    "text": "Which company delivers software that could be rebooted by an IPv6 ping in 2011?", 
     "explanation": [
       "data/pix/a_ipv6_ping.jpg"
     ], 
@@ -161,7 +161,7 @@
       }
     ], 
     "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 921, 
+    "tier": 1465, 
     "image": "data/pix/q_ipv6_ping.jpg"
   }, 
   {
@@ -185,7 +185,7 @@
       }
     ], 
     "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 383, 
+    "tier": 1332, 
     "image": "data/pix/q_hp_money.jpg"
   }, 
   {
@@ -209,7 +209,7 @@
       }
     ], 
     "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 774, 
+    "tier": 1776, 
     "image": "data/pix/q_747.jpg"
   }
 ]

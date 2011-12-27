@@ -437,7 +437,7 @@ media:
 
 --- !Question
 question: How much money has HP spent in CEO pay-offs since 2005?
-comment:About 3 CEOs.
+comment: About 3 CEOs.
 source: http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&
 answers:
     - false: $100 mio
@@ -454,7 +454,7 @@ media:
 
 --- !Question
 question: Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?
-comment: Fun fact: ssh was brokent but the engineers did not have the budget to fix it.
+comment: Fun fact, ssh was brokent but the engineers did not have the budget to fix it.
 source: https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html
 answers:
     - false: ssh

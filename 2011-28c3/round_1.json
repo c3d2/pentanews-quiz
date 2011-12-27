@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://de.wikipedia.org/wiki/Strahlenkrankheit", 
-    "tier": 8, 
+    "tier": 10, 
     "image": "data/pix/q_fukushima.jpg"
   }, 
   {
@@ -37,14 +37,14 @@
         "text": "Ethically not justifiable."
       }, 
       {
-        "text": "License too expansive."
+        "text": "License too expensive."
       }, 
       {
-        "text": "No crime that requires this measurement."
+        "text": "No crime that justifies this tool."
       }
     ], 
     "source": "http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung", 
-    "tier": 9, 
+    "tier": 3, 
     "image": "data/pix/q_bundestrojaner.jpg"
   }, 
   {
@@ -68,11 +68,11 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2010/03/10/cryptome_paypal/", 
-    "tier": 8, 
+    "tier": 6, 
     "image": "data/pix/q_paypal4.jpg"
   }, 
   {
-    "text": "How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in Russia?", 
+    "text": "How did Russian bloggers try to raise attention for their demonstrations against fraud during the recent elections in Russia?", 
     "explanation": [
       "data/pix/a_russian.jpg"
     ], 
@@ -87,16 +87,16 @@
         "text": "Forming a lightchain of trust."
       }, 
       {
-        "text": "Use drones to get video footage and stream to the internet.", 
+        "text": "Use drones to get video footage streamed to the Internet.", 
         "right": true
       }
     ], 
     "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
-    "tier": 6, 
+    "tier": 7, 
     "image": "data/pix/q_russian.jpg"
   }, 
   {
-    "text": "Which of the following countries voted against a loosening of cluster munition restrictions at the UN?", 
+    "text": "Which of the following countries voted against loosening restrictions of cluster munition at the UN?", 
     "explanation": [
       "data/pix/a_cluster1.jpg", 
       "data/pix/a_cluster2.jpg"
@@ -117,11 +117,11 @@
       }
     ], 
     "source": "http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125", 
-    "tier": 8, 
+    "tier": 10, 
     "image": "data/pix/q_cluster.jpg"
   }, 
   {
-    "text": "What is the definition of 1 Uhl?", 
+    "text": "What is the definition of the measurement unit one Uhl?", 
     "explanation": [
       "data/pix/a_uhl.jpg"
     ], 
@@ -133,25 +133,25 @@
         "text": "Unit of boldness of a politician spreading lies to public knowingly."
       }, 
       {
-        "text": "Amount of time passing between a random crime and a politician''s demand for the introduction of data retention laws.", 
+        "text": "Amount of time passing between a random crime and a politician's demand for the introduction of data retention laws.", 
         "right": true
       }, 
       {
-        "text": "Degree of expert knowlege that a politician has, when he demands the wiretapping of encrypted data."
+        "text": "Degree of expert knowlege that a politician has, when he demands wiretapping of encrypted data."
       }
     ], 
     "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
-    "tier": 7, 
+    "tier": 10, 
     "image": "data/pix/q_uhl.jpg"
   }, 
   {
-    "text": "Which new investigation tool did Henrik Kaspersen, one of the founding fathers of the Convention on Cybercrime, demand during its 10th birthday to improve the work against cyber crime?", 
+    "text": "Which new investigation tool did Henrik Kaspersen (one of the founders of the Convention on Cybercrime) demand during its 10th birthday to improve the work against cyber crime?", 
     "explanation": [
       "data/pix/a_cybercrime.jpg"
     ], 
     "answers": [
       {
-        "text": "Email bombs"
+        "text": "E-mail bombs"
       }, 
       {
         "text": "1days"
@@ -165,7 +165,7 @@
       }
     ], 
     "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
-    "tier": 8, 
+    "tier": 9, 
     "image": "data/pix/q_cybercrime.png"
   }, 
   {
@@ -189,7 +189,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/2010\u20132011_Belgian_government_formation", 
-    "tier": 5, 
+    "tier": 10, 
     "image": "data/pix/q_belgium.gif"
   }, 
   {
@@ -213,11 +213,11 @@
       }
     ], 
     "source": "http://www.heise.de/tp/blogs/8/150565", 
-    "tier": 3, 
+    "tier": 8, 
     "image": "data/pix/q_hadopi.png"
   }, 
   {
-    "text": "What do you see on the following picture?", 
+    "text": "What do you see on the picture?", 
     "explanation": [
       "data/pix/a_brain.jpg"
     ], 
@@ -237,11 +237,11 @@
       }
     ], 
     "source": "http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/", 
-    "tier": 4, 
+    "tier": 8, 
     "image": "data/pix/q_brain.png"
   }, 
   {
-    "text": "How many weeks did it take to bring kernel.org back up after they found out that it has been hacked in end of August 2011?", 
+    "text": "How long did it take to bring kernel.org back on-line after they found out that it has been hacked August 2011?", 
     "explanation": [
       "data/pix/a_kernel.jpg"
     ], 
@@ -250,7 +250,7 @@
         "text": "~ 1 week"
       }, 
       {
-        "text": "It is still not up"
+        "text": "still not up"
       }, 
       {
         "text": "~ 4 weeks", 
@@ -261,7 +261,7 @@
       }
     ], 
     "source": "http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg", 
-    "tier": 7, 
+    "tier": 4, 
     "image": "data/pix/q_kernel.gif"
   }, 
   {
@@ -285,11 +285,11 @@
       }
     ], 
     "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
-    "tier": 4, 
+    "tier": 7, 
     "image": "data/pix/q_drone.jpg"
   }, 
   {
-    "text": "How did the US Airforce cyber security departement learn about the virus infected drones?", 
+    "text": "How did the US Airforce cyber security departement learn about the virus that infected drones?", 
     "explanation": [
       "data/pix/a_drone2.jpg"
     ], 
@@ -302,14 +302,14 @@
         "right": true
       }, 
       {
-        "text": "The badly programmed virus caused system instabilities"
+        "text": "The virus caused system instabilities"
       }, 
       {
         "text": "By random, during standard maintainance"
       }
     ], 
     "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
-    "tier": 8, 
+    "tier": 6, 
     "image": "data/pix/q_drone2.jpg"
   }, 
   {
@@ -333,11 +333,11 @@
       }
     ], 
     "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/", 
-    "tier": 4, 
+    "tier": 3, 
     "image": "data/pix/q_autocomplete.jpg"
   }, 
   {
-    "text": "Which of the following CAs did not yet publish news about security problems this year?", 
+    "text": "Which of the following CAs did not publish news about security problems yet?", 
     "explanation": [
       "data/pix/q_ca4.jpg"
     ], 
@@ -357,7 +357,7 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/", 
-    "tier": 10, 
+    "tier": 5, 
     "image": "data/pix/q_ca4.jpg"
   }, 
   {
@@ -381,7 +381,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/South_Sudan", 
-    "tier": 4, 
+    "tier": 1, 
     "image": "data/pix/q_sudan.png"
   }, 
   {
@@ -405,7 +405,7 @@
       }
     ], 
     "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
-    "tier": 8, 
+    "tier": 10, 
     "image": "data/pix/q_london.jpg"
   }, 
   {

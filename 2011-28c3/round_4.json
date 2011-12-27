@@ -1,6 +1,6 @@
 [
   {
-    "text": "What company does this org chart show?", 
+    "text": "What company is represented by this org chart?", 
     "explanation": [
       "data/pix/organigram.png"
     ], 
@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
-    "tier": 69, 
+    "tier": 47, 
     "image": "data/pix/orgchart-ms.png"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
-    "tier": 48, 
+    "tier": 53, 
     "image": "data/pix/q_fefe.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
-    "tier": 35, 
+    "tier": 5, 
     "image": "data/pix/q_death_people.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
-    "tier": 63, 
+    "tier": 21, 
     "image": "data/pix/q_php.png"
   }, 
   {
@@ -116,11 +116,11 @@
       }
     ], 
     "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
-    "tier": 59, 
+    "tier": 32, 
     "image": "data/pix/q_pope.jpg"
   }, 
   {
-    "text": "How many Mrs USA finalists stood behind evolution when asked if it should be taught in school (out of 51)?", 
+    "text": "How many Mrs USA finalists believe in the evolution theory when asked if it should be taught in school (out of 51)?", 
     "explanation": [
       "data/video/a_evolution.webm"
     ], 
@@ -140,17 +140,17 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 9, 
+    "tier": 18, 
     "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
-    "text": "What could not be used to exploit Win systems in 2011?", 
+    "text": "What mechanism wasn't used in Windows exploits in 2011?", 
     "explanation": [
       "data/pix/q_win_exploit.jpg"
     ], 
     "answers": [
       {
-        "text": "TXT file"
+        "text": "Text file"
       }, 
       {
         "text": "Ping"
@@ -164,11 +164,11 @@
       }
     ], 
     "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
-    "tier": 14, 
+    "tier": 27, 
     "image": "data/pix/q_win_exploit.jpg"
   }, 
   {
-    "text": "What animal did the US army use in Western Berlin for intruder alarm?", 
+    "text": "What animal did the US army use in West Berlin for intruder alarm?", 
     "explanation": [
       "data/pix/a_goose.jpg"
     ], 
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 30, 
+    "tier": 76, 
     "image": "data/pix/q_berlin_wall.jpg"
   }, 
   {
@@ -212,7 +212,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
-    "tier": 72, 
+    "tier": 62, 
     "image": "data/pix/q_fbi.jpg"
   }, 
   {
@@ -225,7 +225,7 @@
         "text": "no emergancy calls"
       }, 
       {
-        "text": "I'll call you 'An ambulance'.", 
+        "text": "From now on I'll call you 'An ambulance'.", 
         "right": true
       }, 
       {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
-    "tier": 53, 
+    "tier": 72, 
     "image": "data/pix/q_siri.jpg"
   }, 
   {
@@ -263,7 +263,7 @@
       }
     ], 
     "source": "http://pwnies.com/winners/", 
-    "tier": 28, 
+    "tier": 42, 
     "image": "data/pix/q_sony.jpg"
   }, 
   {
@@ -287,7 +287,7 @@
       }
     ], 
     "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
-    "tier": 44, 
+    "tier": 58, 
     "image": "data/pix/q_soyuz.jpg"
   }
 ]

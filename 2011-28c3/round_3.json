@@ -20,7 +20,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
-    "tier": 995, 
+    "tier": 350, 
     "image": "data/pix/q_p2p.jpg"
   }, 
   {
@@ -44,11 +44,11 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/", 
-    "tier": 481, 
+    "tier": 261, 
     "image": "data/pix/q_netneutrality.jpg"
   }, 
   {
-    "text": "What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?", 
+    "text": "What is the improvement of transmission time by the new $300 mio EU-US cable (first in 10 years)?", 
     "explanation": [
       "data/pix/a_300mdollar.png"
     ], 
@@ -57,18 +57,18 @@
         "text": "6s"
       }, 
       {
-        "text": "0.6s"
+        "text": "6e-1s"
       }, 
       {
-        "text": "0.06s"
+        "text": "6e-2s"
       }, 
       {
-        "text": "0.006s", 
+        "text": "6e-3s", 
         "right": true
       }
     ], 
     "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html", 
-    "tier": 1743, 
+    "tier": 2591, 
     "image": "data/pix/q_300mdollar.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://www.truthwinsout.org/news/2011/03/15155/", 
-    "tier": 836, 
+    "tier": 228, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
@@ -116,11 +116,11 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/", 
-    "tier": 3802, 
+    "tier": 2942, 
     "image": "data/pix/q_edathy.jpg"
   }, 
   {
-    "text": "What was not patented to our knowledge?", 
+    "text": "What is not patented (to our knowledge)?", 
     "explanation": [
       "data/pix/a_snowman.jpg"
     ], 
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/", 
-    "tier": 1867, 
+    "tier": 2628, 
     "image": "data/pix/q_snowman.jpg"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": "http://www.michaelgeist.ca/content/view/5765/125/", 
-    "tier": 1015, 
+    "tier": 2084, 
     "image": "data/pix/q_copyright.jpg"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/", 
-    "tier": 1181, 
+    "tier": 951, 
     "image": "data/pix/q_gpl.png"
   }
 ]
