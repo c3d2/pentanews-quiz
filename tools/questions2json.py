@@ -132,6 +132,7 @@ class Question(yaml.YAMLObject):
 
         data = {}
         data['text'] = self.question
+        data['tier'] = self._get_points(int(self.game_round), int(self.tier))
         try:
             data['source'] = self.source
         except AttributeError:

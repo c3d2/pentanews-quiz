@@ -4,7 +4,6 @@
     "explanation": [
       "data/pix/organigram.png"
     ], 
-    "image": "data/pix/orgchart-ms.png", 
     "answers": [
       {
         "text": "Google"
@@ -20,14 +19,15 @@
         "text": "Oracle"
       }
     ], 
-    "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png"
+    "source": "http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png", 
+    "tier": 5, 
+    "image": "data/pix/orgchart-ms.png"
   }, 
   {
     "text": "What programming language Fefe isn't able to read?", 
     "explanation": [
       "data/pix/a_fefe.png"
     ], 
-    "image": "data/pix/q_fefe.png", 
     "answers": [
       {
         "text": "C"
@@ -43,14 +43,15 @@
         "right": true
       }
     ], 
-    "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html"
+    "source": "http://www.heise.de/newsticker/meldung/Chaos-Communication-Camp-Vom-Ausbeuten-des-guten-Rufes-2-Update-1323234.html", 
+    "tier": 19, 
+    "image": "data/pix/q_fefe.png"
   }, 
   {
     "text": "Who did not die this year?", 
     "explanation": [
       "data/pix/anonymous-sun.jpg"
     ], 
-    "image": "data/pix/q_death_people.jpg", 
     "answers": [
       {
         "text": "Steve Jobs"
@@ -66,14 +67,15 @@
         "text": "Dennis Ritchie"
       }
     ], 
-    "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg"
+    "source": "http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg", 
+    "tier": 21, 
+    "image": "data/pix/q_death_people.jpg"
   }, 
   {
     "text": "How many Mrs USA finalists believe in the evolution theory when asked if it should be taught in school (out of 51)?", 
     "explanation": [
       "data/video/a_evolution.webm"
     ], 
-    "image": "data/pix/q_miss_usa.jpg", 
     "answers": [
       {
         "text": 1, 
@@ -89,14 +91,15 @@
         "text": 8
       }
     ], 
-    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/"
+    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
+    "tier": 25, 
+    "image": "data/pix/q_miss_usa.jpg"
   }, 
   {
     "text": "What mechanism wasn't used in Windows exploits in 2011?", 
     "explanation": [
       "data/pix/q_win_exploit.jpg"
     ], 
-    "image": "data/pix/q_win_exploit.jpg", 
     "answers": [
       {
         "text": "Text file"
@@ -112,14 +115,15 @@
         "right": true
       }
     ], 
-    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/"
+    "source": "http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/", 
+    "tier": 16, 
+    "image": "data/pix/q_win_exploit.jpg"
   }, 
   {
     "text": "What answers Siri when you ask it \"Can you call me an ambulance?\"", 
     "explanation": [
       "data/pix/a_ambulance.jpg"
     ], 
-    "image": "data/pix/q_siri.jpg", 
     "answers": [
       {
         "text": "no emergancy calls"
@@ -135,14 +139,15 @@
         "text": "There is no ambulance in your phone book."
       }
     ], 
-    "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/"
+    "source": "http://toaskornottoask.com/to/shit-that-siri-says/page/2/", 
+    "tier": 17, 
+    "image": "data/pix/q_siri.jpg"
   }, 
   {
     "text": "Who was awarded the Pwnie award for Most Epic FAIL this year?", 
     "explanation": [
       "data/pix/a_sony.jpg"
     ], 
-    "image": "data/pix/q_sony.jpg", 
     "answers": [
       {
         "text": "Sony", 
@@ -161,14 +166,15 @@
         "right": true
       }
     ], 
-    "source": "http://pwnies.com/winners/"
+    "source": "http://pwnies.com/winners/", 
+    "tier": 12, 
+    "image": "data/pix/q_sony.jpg"
   }, 
   {
     "text": "What happened when Vladimir Komarov on board of Soyuz-1 had serious problems in 1967?", 
     "explanation": [
       "data/pix/a_komarov.jpg"
     ], 
-    "image": "data/pix/q_soyuz.jpg", 
     "answers": [
       {
         "text": "He was landed by Huston Control Center"
@@ -184,9 +190,12 @@
         "text": "He reprogrammed the on board computer."
       }
     ], 
-    "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/"
+    "source": "http://pentamedia.c3d2.de/submit/2011/12/22/usinterceptedrussiancosmonautvladimirkomarov/", 
+    "tier": 9, 
+    "image": "data/pix/q_soyuz.jpg"
   }, 
   {
+    "tier": 38, 
     "text": "To what degree Libre Office is compatible to MS Office documents?", 
     "image": "data/pix/q_office.jpg", 
     "answers": [
@@ -211,7 +220,6 @@
     "explanation": [
       "data/pix/a_android_ms.jpg"
     ], 
-    "image": "data/pix/q_android_ms.jpg", 
     "answers": [
       {
         "text": "$1 billion"
@@ -227,14 +235,15 @@
         "text": "$50 Mio"
       }
     ], 
-    "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html"
+    "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
+    "tier": 19, 
+    "image": "data/pix/q_android_ms.jpg"
   }, 
   {
     "text": "How many babies were stolen after birth in Spain by doctors, priests and nuns between 50s and the 90s?", 
     "explanation": [
       "data/pix/a_spain.jpg"
     ], 
-    "image": "data/pix/q_pope.jpg", 
     "answers": [
       {
         "text": 300
@@ -250,14 +259,15 @@
         "text": "30,000"
       }
     ], 
-    "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies"
+    "source": "http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies", 
+    "tier": 21, 
+    "image": "data/pix/q_pope.jpg"
   }, 
   {
     "text": "How many intelligence violations the FBI may have committed since 9/11 according to the EFF?", 
     "explanation": [
       "data/pix/a_fbi.jpg"
     ], 
-    "image": "data/pix/q_fbi.jpg", 
     "answers": [
       {
         "text": "40k", 
@@ -273,6 +283,8 @@
         "text": "none"
       }
     ], 
-    "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/"
+    "source": "https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/", 
+    "tier": 13, 
+    "image": "data/pix/q_fbi.jpg"
   }
 ]
