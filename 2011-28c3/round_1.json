@@ -4,6 +4,7 @@
     "explanation": [
       "data/pix/a_drone_attack.jpg"
     ], 
+    "image": "data/pix/q_drone-dove.jpg", 
     "answers": [
       {
         "text": "Iran Army"
@@ -19,15 +20,14 @@
         "right": true
       }
     ], 
-    "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
-    "tier": 7, 
-    "image": "data/pix/q_drone-dove.jpg"
+    "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars"
   }, 
   {
     "text": "What is the lethal dose of radioactivity that causes death with 100% probability within 14 days after exposition (LD100/14)? (1 Gray (Gy) == 1 Sievert (Sv))", 
     "explanation": [
       "data/pix/a_fukushima.jpg"
     ], 
+    "image": "data/pix/q_fukushima.jpg", 
     "answers": [
       {
         "text": "> 6 mGy"
@@ -43,15 +43,14 @@
         "text": "> 600 Gy"
       }
     ], 
-    "source": "http://de.wikipedia.org/wiki/Strahlenkrankheit", 
-    "tier": 4, 
-    "image": "data/pix/q_fukushima.jpg"
+    "source": "http://de.wikipedia.org/wiki/Strahlenkrankheit"
   }, 
   {
     "text": "Why did Saxony (German State) not use the Staatstrojaner (governmental trojan horse)?", 
     "explanation": [
       "data/pix/a_bundestrojaner.jpg"
     ], 
+    "image": "data/pix/q_bundestrojaner.jpg", 
     "answers": [
       {
         "text": "Technically not capable of doing so.", 
@@ -67,15 +66,14 @@
         "text": "No crime that justifies this tool."
       }
     ], 
-    "source": "http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung", 
-    "tier": 10, 
-    "image": "data/pix/q_bundestrojaner.jpg"
+    "source": "http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung"
   }, 
   {
     "text": "Which of the following organizations has not yet been blocked by paypal?", 
     "explanation": [
       "data/pix/a_paypal.gif"
     ], 
+    "image": "data/pix/q_paypal4.jpg", 
     "answers": [
       {
         "text": "Wikileaks"
@@ -91,9 +89,7 @@
         "right": true
       }
     ], 
-    "source": "http://www.theregister.co.uk/2010/03/10/cryptome_paypal/", 
-    "tier": 10, 
-    "image": "data/pix/q_paypal4.jpg"
+    "source": "http://www.theregister.co.uk/2010/03/10/cryptome_paypal/"
   }, 
   {
     "text": "Which of the following countries voted against loosening restrictions of cluster munition at the UN?", 
@@ -101,6 +97,7 @@
       "data/pix/a_cluster1.jpg", 
       "data/pix/a_cluster2.jpg"
     ], 
+    "image": "data/pix/q_cluster.jpg", 
     "answers": [
       {
         "text": "Austria", 
@@ -116,15 +113,14 @@
         "text": "Pakistan"
       }
     ], 
-    "source": "http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125 http://www.general-anzeiger-bonn.de/news/kommentare/Die-Rueckkehr-der-Streubomben-Spur-des-Todes-article567503.html http://www.krone.at/Welt/Oesterreich_kaempft_gegen_Comeback_der_Streubomben-Einsames_Vorhaben-Story-302663 http://taz.de/Abkommen-zu-Streumunition/!82648/", 
-    "tier": 5, 
-    "image": "data/pix/q_cluster.jpg"
+    "source": "http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTRE7AO1LF20111125 http://www.general-anzeiger-bonn.de/news/kommentare/Die-Rueckkehr-der-Streubomben-Spur-des-Todes-article567503.html http://www.krone.at/Welt/Oesterreich_kaempft_gegen_Comeback_der_Streubomben-Einsames_Vorhaben-Story-302663 http://taz.de/Abkommen-zu-Streumunition/!82648/"
   }, 
   {
     "text": "How many 1st notifications have been sent during the first 12 months of the French Three-Strikes-Law (Hadopi) being active?", 
     "explanation": [
       "data/pix/q_hadopi.jpg"
     ], 
+    "image": "data/pix/q_hadopi.png", 
     "answers": [
       {
         "text": "~600k", 
@@ -140,15 +136,14 @@
         "text": "~6k"
       }
     ], 
-    "source": "http://www.heise.de/tp/blogs/8/150565", 
-    "tier": 5, 
-    "image": "data/pix/q_hadopi.png"
+    "source": "http://www.heise.de/tp/blogs/8/150565"
   }, 
   {
     "text": "What do you see on the picture?", 
     "explanation": [
       "data/pix/a_brain.jpg"
     ], 
+    "image": "data/pix/q_brain.png", 
     "answers": [
       {
         "text": "Reconstructed picture from brain activity", 
@@ -164,15 +159,14 @@
         "text": "Picture taken with 1st digital camera"
       }
     ], 
-    "source": "http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/", 
-    "tier": 8, 
-    "image": "data/pix/q_brain.png"
+    "source": "http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/"
   }, 
   {
     "text": "How long did it take to bring kernel.org back on-line after they found out that it has been hacked August 2011?", 
     "explanation": [
       "data/pix/a_kernel.jpg"
     ], 
+    "image": "data/pix/q_kernel.gif", 
     "answers": [
       {
         "text": "~ 1 week"
@@ -188,15 +182,14 @@
         "text": "~ 2 weeks"
       }
     ], 
-    "source": "http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg", 
-    "tier": 9, 
-    "image": "data/pix/q_kernel.gif"
+    "source": "http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg"
   }, 
   {
     "text": "Which of the following cities is helping to create 100 new hackerspaces in itself?", 
     "explanation": [
       "data/pix/a_hackspace.jpg"
     ], 
+    "image": "data/pix/q_hackspace.jpg", 
     "answers": [
       {
         "text": "Berlin"
@@ -212,15 +205,14 @@
         "text": "Buenos Aires"
       }
     ], 
-    "source": "http://winfuture.de/news,66539.html", 
-    "tier": 6, 
-    "image": "data/pix/q_hackspace.jpg"
+    "source": "http://winfuture.de/news,66539.html"
   }, 
   {
     "text": "Which of the following terms does not autocomplete anymore in Google search since January 2011?", 
     "explanation": [
       "data/pix/a_autocomplete.jpg"
     ], 
+    "image": "data/pix/q_autocomplete.jpg", 
     "answers": [
       {
         "text": "torrent", 
@@ -236,8 +228,6 @@
         "text": "Do no evil"
       }
     ], 
-    "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/", 
-    "tier": 8, 
-    "image": "data/pix/q_autocomplete.jpg"
+    "source": "http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/"
   }
 ]

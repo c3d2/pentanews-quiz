@@ -4,6 +4,7 @@
     "explanation": [
       "data/pix/a_belgium.jpg"
     ], 
+    "image": "data/pix/q_belgium.gif", 
     "answers": [
       {
         "text": "415 days"
@@ -19,15 +20,14 @@
         "text": "514 days"
       }
     ], 
-    "source": "http://en.wikipedia.org/wiki/2010\u20132011_Belgian_government_formation", 
-    "tier": 69, 
-    "image": "data/pix/q_belgium.gif"
+    "source": "http://en.wikipedia.org/wiki/2010\u20132011_Belgian_government_formation"
   }, 
   {
     "text": "Which country does not have a net neutrality law?", 
     "explanation": [
       "data/pix/a_netneutrality.jpg"
     ], 
+    "image": "data/pix/q_netneutrality.jpg", 
     "answers": [
       {
         "text": "Belgium"
@@ -43,15 +43,14 @@
         "text": "Chile"
       }
     ], 
-    "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/", 
-    "tier": 20, 
-    "image": "data/pix/q_netneutrality.jpg"
+    "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/"
   }, 
   {
     "text": "What is the improvement of transmission time by the new $300 mio EU-US cable (first in 10 years)?", 
     "explanation": [
       "data/pix/a_300mdollar.png"
     ], 
+    "image": "data/pix/q_300mdollar.jpg", 
     "answers": [
       {
         "text": "6s"
@@ -67,15 +66,14 @@
         "right": true
       }
     ], 
-    "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html", 
-    "tier": 40, 
-    "image": "data/pix/q_300mdollar.jpg"
+    "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html"
   }, 
   {
     "text": "Which programming language hangs on certain fp numbers?", 
     "explanation": [
       "data/pix/a_php-java.jpg"
     ], 
+    "image": "data/pix/q_php.png", 
     "answers": [
       {
         "text": "PHP"
@@ -91,15 +89,14 @@
         "text": "Haskell"
       }
     ], 
-    "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
-    "tier": 58, 
-    "image": "data/pix/q_php.png"
+    "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/"
   }, 
   {
     "text": "What animal did the US army use in West Berlin for intruder alarm?", 
     "explanation": [
       "data/pix/a_goose.jpg"
     ], 
+    "image": "data/pix/q_berlin_wall.jpg", 
     "answers": [
       {
         "text": "goose", 
@@ -115,15 +112,14 @@
         "text": "dog"
       }
     ], 
-    "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
-    "tier": 65, 
-    "image": "data/pix/q_berlin_wall.jpg"
+    "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html"
   }, 
   {
     "text": "Why the godfather of the content mafia Warner Brothers was recently sued wrt. the movie Hangover II.", 
     "explanation": [
       "data/pix/a_bag.jpg"
     ], 
+    "image": "data/pix/q_bag.jpg", 
     "answers": [
       {
         "text": "Trademark issue, sued by Budweiser"
@@ -139,8 +135,6 @@
         "text": "Warner tried to upload to Rapidshare"
       }
     ], 
-    "source": "http://recordingindustryvspeople.blogspot.com/2011/12/warner-brothers-sued-for-trademark.html", 
-    "tier": 60, 
-    "image": "data/pix/q_bag.jpg"
+    "source": "http://recordingindustryvspeople.blogspot.com/2011/12/warner-brothers-sued-for-trademark.html"
   }
 ]

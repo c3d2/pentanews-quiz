@@ -4,6 +4,7 @@
     "explanation": [
       "data/pix/a_drone.jpg"
     ], 
+    "image": "data/pix/q_drone.jpg", 
     "answers": [
       {
         "text": "Programming new false targets"
@@ -19,15 +20,14 @@
         "right": true
       }
     ], 
-    "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
-    "tier": 174, 
-    "image": "data/pix/q_drone.jpg"
+    "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/"
   }, 
   {
     "text": "How many female porn stars have their own WP article?", 
     "explanation": [
       "data/pix/a_wp_pornstar.jpg"
     ], 
+    "image": "data/pix/q_wp_pornstars.png", 
     "answers": [
       {
         "text": 448
@@ -43,15 +43,14 @@
         "text": 623
       }
     ], 
-    "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 130, 
-    "image": "data/pix/q_wp_pornstars.png"
+    "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors"
   }, 
   {
     "text": "How many user-related data records (name, address, birth date) did the Saxon State retrieve after it gathered > 1 million cell phone connection records at a anti-Nazi demonstration?", 
     "explanation": [
       "data/pix/a_handygate.jpg"
     ], 
+    "image": "data/pix/q_handygate.jpg", 
     "answers": [
       {
         "text": 540
@@ -67,15 +66,14 @@
         "text": "940k"
       }
     ], 
-    "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 1615, 
-    "image": "data/pix/q_handygate.jpg"
+    "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/"
   }, 
   {
     "text": "Which company delivers software that could be rebooted by an IPv6 ping in 2011?", 
     "explanation": [
       "data/pix/a_ipv6_ping.jpg"
     ], 
+    "image": "data/pix/q_ipv6_ping.jpg", 
     "answers": [
       {
         "text": "Microsoft"
@@ -91,15 +89,14 @@
         "text": "Huawei"
       }
     ], 
-    "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 1256, 
-    "image": "data/pix/q_ipv6_ping.jpg"
+    "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls"
   }, 
   {
     "text": "How much money has HP spent in CEO pay-offs since 2005?", 
     "explanation": [
       "data/pix/a_hp-money.jpg"
     ], 
+    "image": "data/pix/q_hp_money.jpg", 
     "answers": [
       {
         "text": "$100 mio"
@@ -115,15 +112,14 @@
         "text": "$500 mio"
       }
     ], 
-    "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 878, 
-    "image": "data/pix/q_hp_money.jpg"
+    "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&"
   }, 
   {
     "text": "Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?", 
     "explanation": [
       "data/pix/q_747.jpg"
     ], 
+    "image": "data/pix/q_747.jpg", 
     "answers": [
       {
         "text": "ssh"
@@ -139,15 +135,14 @@
         "text": "proprietary"
       }
     ], 
-    "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 248, 
-    "image": "data/pix/q_747.jpg"
+    "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html"
   }, 
   {
     "text": "Which of the following companies announced via Twitter that they will tell the police details about London rioters?", 
     "explanation": [
       "data/pix/a_london.jpg"
     ], 
+    "image": "data/pix/q_london.jpg", 
     "answers": [
       {
         "text": "Cash and Carry (by publishing video footage)"
@@ -163,15 +158,14 @@
         "text": "Virgin (by publishing a list of illegal downloaders)"
       }
     ], 
-    "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
-    "tier": 194, 
-    "image": "data/pix/q_london.jpg"
+    "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/"
   }, 
   {
     "text": "How did Russian bloggers try to raise attention for their demonstrations against fraud during the recent elections in Russia?", 
     "explanation": [
       "data/pix/a_russian.jpg"
     ], 
+    "image": "data/pix/q_russian.jpg", 
     "answers": [
       {
         "text": "Multi-Million-Rubel-Ad-Campain."
@@ -187,15 +181,14 @@
         "right": true
       }
     ], 
-    "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
-    "tier": 1020, 
-    "image": "data/pix/q_russian.jpg"
+    "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html"
   }, 
   {
     "text": "What is the definition of the measurement unit one Uhl?", 
     "explanation": [
       "data/pix/a_uhl.jpg"
     ], 
+    "image": "data/pix/q_uhl.jpg", 
     "answers": [
       {
         "text": "Unit of a scale that describes the need of censorship for a certain website."
@@ -211,15 +204,14 @@
         "text": "Degree of expert knowlege that a politician has, when he demands wiretapping of encrypted data."
       }
     ], 
-    "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
-    "tier": 106, 
-    "image": "data/pix/q_uhl.jpg"
+    "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/"
   }, 
   {
     "text": "Which new investigation tool did Henrik Kaspersen (one of the founders of the Convention on Cybercrime) demand during its 10th birthday to improve the work against cyber crime?", 
     "explanation": [
       "data/pix/a_cybercrime.jpg"
     ], 
+    "image": "data/pix/q_cybercrime.png", 
     "answers": [
       {
         "text": "E-mail bombs"
@@ -235,8 +227,6 @@
         "right": true
       }
     ], 
-    "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
-    "tier": 1733, 
-    "image": "data/pix/q_cybercrime.png"
+    "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html"
   }
 ]

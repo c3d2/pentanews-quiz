@@ -50,11 +50,11 @@ class Question(yaml.YAMLObject):
     # Generate random points in range of points_per_round
     gen_random_points = True
     points_per_round = {
-        1: (1, 10),
-        2: (100, 2000),
-        3: (50, 4000),
-        4: (5, 80),
-        5: (5, 80),
+        1: (1, 100),
+        2: (100, 1000),
+        3: (10000, 100000),
+        4: (5, 42),
+        5: (13, 80),
     }
 
     # {round_no1: [tier1, tier2, ...], round_no2: [tier1, ...]}
@@ -132,7 +132,6 @@ class Question(yaml.YAMLObject):
 
         data = {}
         data['text'] = self.question
-        data['tier'] = self._get_points(int(self.game_round), int(self.tier))
         try:
             data['source'] = self.source
         except AttributeError:
