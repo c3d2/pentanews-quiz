@@ -298,6 +298,8 @@ new wss({ httpServer: server }).on('request', function(req) {
 		    gamestate = msg.gamestate;
 		} else if (msg.requestGamestate) {
 		    conn.sendUTF(JSON.stringify({ gamestate: gamestate }));
+		} else if (msg.tweet) {
+		    tweet(msg.tweet);
 		}
 	    } catch (e) {
 		console.error(e.stack);
@@ -322,3 +324,23 @@ function sendToFrontend(obj) {
 server.listen(8081, "::1");
 
 morse("c3d2");
+
+var twit = new (require('twitter'))({
+    consumer_key: 'sNWvbrAz11vVMwppORKA',
+    consumer_secret: 'MzAhGlzz3qWUIxse8vcHc3zqkPOBuWKJgjazGkeOc',
+    access_token_key: '108923470-KVfqQJc8oIhAYZj2RhL7ggrR5Y9eMGjTQD79Db12',
+    access_token_secret: 'uQ9ljbh5L3NGEuHhKSrrnQv3KmL59d0nS2pJBjiqgL8'
+});
+function tweet(text) {
+    // FIXME: remove next line for production!
+    return;
+
+    twit.updateStatus(text, function(res) {
+	if (res.statusCode && res.statusCode >= 400) {
+	    /* Failure */
+	    var m = text.match(/^(.+) /);
+	    if (m)
+		tweet(m[1]);
+	}
+    });
+}
