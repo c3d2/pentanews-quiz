@@ -1,8 +1,8 @@
 [
   {
-    "text": "How many female Porn stars have their own WP article?", 
+    "text": "How many female porn stars have their own WP article?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_wp_pornstar.jpg"
     ], 
     "answers": [
       {
@@ -12,7 +12,7 @@
         "text": 58
       }, 
       {
-        "text": 995, 
+        "text": 1017, 
         "right": true
       }, 
       {
@@ -20,11 +20,11 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 686, 
+    "tier": 140, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
-    "text": "How many user-related data records (name, address, birth date) did the Saxon State retriev after it cought about > 1 mio cell phone connection records?", 
+    "text": "How many user-related data records (name, address, birth date) did the Saxon State retrieve after it gathered > 1 million cell phone connection records at a anti-Nazi demonstration?", 
     "explanation": [
       "data/pix/a_handygate.jpg"
     ], 
@@ -44,16 +44,17 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 920, 
+    "tier": 965, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
-    "tier": 407, 
     "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
-    "image": "data/pix/q_dont_be_evil.jpg", 
+    "explanation": [
+      "data/pix/a_google_mail.jpg"
+    ], 
     "answers": [
       {
-        "text": "hand over the data", 
+        "text": "handed the data over", 
         "right": true
       }, 
       {
@@ -66,12 +67,14 @@
         "text": "denied his account"
       }
     ], 
-    "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html"
+    "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
+    "tier": 1879, 
+    "image": "data/pix/q_dont_be_evil.jpg"
   }, 
   {
-    "text": "Who controls american drones in Afghanistan part time?", 
+    "text": "Who controls American drones in Afghanistan part time?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_drone_attack.jpg"
     ], 
     "answers": [
       {
@@ -89,17 +92,16 @@
       }
     ], 
     "source": "http://arstechnica.com/business/news/2011/10/exclusive-computer-virus-hits-drone-fleet.ars", 
-    "tier": 1829, 
-    "image": "data/pix/question1.png"
+    "tier": 1307, 
+    "image": "data/pix/q_drone-dove.jpg"
   }, 
   {
+    "tier": 632, 
     "text": "To what degree Libre Office is compatible to MS Office documents?", 
-    "explanation": [
-      "data/videos/question1.webm"
-    ], 
+    "image": "data/pix/q_office.jpg", 
     "answers": [
       {
-        "text": "It can run the same viruses?", 
+        "text": "It can run the same viruses.", 
         "right": true
       }, 
       {
@@ -112,38 +114,36 @@
         "text": "It fucks up documents just as well."
       }
     ], 
-    "source": "http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html", 
-    "tier": 289, 
-    "image": "data/pix/question1.png"
+    "source": "http://www.heise.de/newsticker/meldung/LibreOffice-anfaellig-fuer-trojanische-Word-Dateien-1354893.html"
   }, 
   {
     "text": "How much money makes MS by patent bribing Android manufactures a year?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_android_ms.jpg"
     ], 
     "answers": [
       {
         "text": "$1 billion"
       }, 
       {
-        "text": "$100 mio"
+        "text": "$100 Mio"
       }, 
       {
-        "text": "$500 mio", 
+        "text": "$500 Mio", 
         "right": true
       }, 
       {
-        "text": "$50 mio"
+        "text": "$50 Mio"
       }
     ], 
     "source": "http://www.heise.de/newsticker/meldung/Bericht-Microsoft-verdient-knapp-eine-halbe-Milliarde-an-Android-1351900.html", 
-    "tier": 1030, 
-    "image": "data/pix/question1.png"
+    "tier": 372, 
+    "image": "data/pix/q_android_ms.jpg"
   }, 
   {
-    "text": "Which company delivers software that could be rebooted by a IPv6 ping in 2011?", 
+    "text": "Which company delivers software that could be rebooted by an IPv6 ping in 2011?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_ipv6_ping.jpg"
     ], 
     "answers": [
       {
@@ -161,13 +161,13 @@
       }
     ], 
     "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 379, 
-    "image": "data/pix/question1.png"
+    "tier": 1909, 
+    "image": "data/pix/q_ipv6_ping.jpg"
   }, 
   {
     "text": "How much money has HP spent in CEO pay-offs since 2005?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/a_hp-money.jpg"
     ], 
     "answers": [
       {
@@ -185,13 +185,13 @@
       }
     ], 
     "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 1712, 
-    "image": "data/pix/question1.png"
+    "tier": 1201, 
+    "image": "data/pix/q_hp_money.jpg"
   }, 
   {
     "text": "Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?", 
     "explanation": [
-      "data/videos/question1.webm"
+      "data/pix/q_747.jpg"
     ], 
     "answers": [
       {
@@ -209,7 +209,7 @@
       }
     ], 
     "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 1231, 
-    "image": "data/pix/question1.png"
+    "tier": 1383, 
+    "image": "data/pix/q_747.jpg"
   }
 ]

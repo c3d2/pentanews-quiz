@@ -4,7 +4,7 @@ var ltx = require('ltx');
 var fs = require('fs');
 var mime = require('mime');
 
-var WS_KEY = 'nedap-kneemFothbedchoadHietEnobKavLub1';
+var WS_KEY = 'nedap-RuJejdymmesAktiOdyitEdivRiectij';
 var MIME_HTML = 'text/html; charset=UTF-8';
 var ROOT_HEADERS = { 'Content-type': MIME_HTML,
 		     'Pragma': 'no-cache',

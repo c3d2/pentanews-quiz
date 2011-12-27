@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 300%;
+  font-family: serif;
+  overflow: hidden;
+}
+
+@-webkit-keyframes 'scroll' {
+  from {
+    -webkit-transform: translate(0, 100%);
+    color: black;
+  }
+  5% {
+    color: white;
+  }
+  50% {
+    -webkit-transform: translate(0, 0px);
+  }
+  95% {
+    color: white;
+  }
+  to {
+    -webkit-transform: translate(0, -100%);
+    color: black;
+  }
+}
+	
+.scroll {
+-webkit-animation-name: scroll;
+-webkit-animation-duration: 25s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+}
+
+h1 {
+  margin: 0 auto 2em;
+}
+dl {
+  width: 14em;
+  margin: 2em auto;
+}
+dt {
+  float: left;
+  width: 6em;
+  text-align: right;
+}
+dd {
+  margin-left: 8em;
+  text-align: left;
+}
+p {
+  line-height: 2em;
+}
+</style>
+</head>
+<body>
+<div class="scroll">
+  <h1>Pentanews Game Show</h1>
+  <dl>
+    <dt>moderators</dt>
+    <dd>alien8</dd>
+    <dd>klobs</dd>
+  </dl>
+  <dl>
+    <dt>buzzers</dt>
+    <dd>john</dd>
+    <dd>sebseb7</dd>
+  </dl>
+  <dl>
+    <dt>code</dt>
+    <dd>astro</dd>
+    <dd>thammi</dd>
+  </dl>
+  <p style="font-family: sans-serif">
+    http://www.c3d2.de/radio.html
+    <br/>
+    http://pentamedia.org/
+  </p>
+  <audio src="BattletoadsDoubleDragon.ogg" autoplay="autoplay">
+  </audio>
+</div>
+</body> </html>

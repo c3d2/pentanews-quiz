@@ -17,7 +17,7 @@ function connectNedap() {
     nedapClient.on('connect', function(conn) {
 	console.log('NEDAP opened');
 	nedap = conn;
-	nedap.sendUTF('nedap-kneemFothbedchoadHietEnobKavLub1');
+	nedap.sendUTF('nedap-RuJejdymmesAktiOdyitEdivRiectij');
 	nedap.on('close', function() {
 	    console.log('NEDAP closed');
 	    connectNedap();
@@ -54,22 +54,28 @@ connectNedap();
 
 var IRC_SERVER = 'irc.hackint.eu';
 var IRC_CHAN = '#pentanews';
-var chat = new irc({ server: IRC_SERVER,
-		     encoding: 'utf-8',
-		     nick: '[Ceiling]Katze'
-		   });
 function connectChat() {
+    var chat = new irc({ server: IRC_SERVER,
+			 encoding: 'utf-8',
+			 nick: '[Ceiling]Katze'
+		       });
     chat.connect();
     chat.addListener('376', function() {
+	if (!chat)
+	    return;
 	chat.join(IRC_CHAN);
     });
     chat.addListener('366', function(msg) {
+	if (!chat)
+	    return;
 	if (msg.params[1] === IRC_CHAN) {
 	    console.log('Successfully joined ' + IRC_CHAN);
 	    pushIrcInfo();
 	}
     });
     chat.addListener('privmsg', function(msg) {
+	if (!chat)
+	    return;
 	console.log({PRIVMSG:msg});
 	var nick = msg.person.nick;
 	var channel = msg.params[0];
@@ -88,8 +94,11 @@ function connectChat() {
 	}
     });
     chat.addListener('disconnected', function() {
+	if (!chat)
+	    return;
+	chat = undefined;
         console.error('Chat disconnected!');
-        process.nextTick(connectChat);
+        window.setTimeout(connectChat, 1000);
     });
     chat.on('error', connectChat);
 }
@@ -310,6 +319,6 @@ function sendToFrontend(obj) {
     frontend.sendUTF(JSON.stringify(obj));
 }
 
-server.listen(8081);
+server.listen(8081, "::1");
 
 morse("c3d2");
