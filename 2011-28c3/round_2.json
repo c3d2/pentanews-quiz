@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
-    "tier": 123, 
+    "tier": 174, 
     "image": "data/pix/q_drone.jpg"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 1416, 
+    "tier": 130, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 1752, 
+    "tier": 1615, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 232, 
+    "tier": 1256, 
     "image": "data/pix/q_ipv6_ping.jpg"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 1144, 
+    "tier": 878, 
     "image": "data/pix/q_hp_money.jpg"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 1428, 
+    "tier": 248, 
     "image": "data/pix/q_747.jpg"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
-    "tier": 1034, 
+    "tier": 194, 
     "image": "data/pix/q_london.jpg"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
-    "tier": 1698, 
+    "tier": 1020, 
     "image": "data/pix/q_russian.jpg"
   }, 
   {
@@ -212,7 +212,7 @@
       }
     ], 
     "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
-    "tier": 285, 
+    "tier": 106, 
     "image": "data/pix/q_uhl.jpg"
   }, 
   {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
-    "tier": 412, 
+    "tier": 1733, 
     "image": "data/pix/q_cybercrime.png"
   }
 ]

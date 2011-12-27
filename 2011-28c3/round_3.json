@@ -20,7 +20,7 @@
       }
     ], 
     "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
-    "tier": 2286, 
+    "tier": 1540, 
     "image": "data/pix/q_drone2.jpg"
   }, 
   {
@@ -44,7 +44,7 @@
       }
     ], 
     "source": "http://www.truthwinsout.org/news/2011/03/15155/", 
-    "tier": 1404, 
+    "tier": 2777, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
@@ -68,7 +68,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/", 
-    "tier": 3665, 
+    "tier": 2705, 
     "image": "data/pix/q_edathy.jpg"
   }, 
   {
@@ -92,7 +92,7 @@
       }
     ], 
     "source": "http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/", 
-    "tier": 206, 
+    "tier": 3420, 
     "image": "data/pix/q_snowman.jpg"
   }, 
   {
@@ -116,7 +116,7 @@
       }
     ], 
     "source": "http://www.michaelgeist.ca/content/view/5765/125/", 
-    "tier": 3778, 
+    "tier": 2738, 
     "image": "data/pix/q_copyright.jpg"
   }, 
   {
@@ -140,7 +140,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/", 
-    "tier": 2179, 
+    "tier": 1000, 
     "image": "data/pix/q_gpl.png"
   }, 
   {
@@ -164,7 +164,7 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
-    "tier": 621, 
+    "tier": 2320, 
     "image": "data/pix/q_p2p.jpg"
   }, 
   {
@@ -188,7 +188,7 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/ http://www.heise.de/security/meldung/Falsches-Google-Zertifikat-ist-Folge-eines-Hacks-1333588.html http://www.heise.de/security/meldung/Zertifikatsausgabestopp-nach-Einbruch-auf-einem-KPN-Server-1372279.html", 
-    "tier": 400, 
+    "tier": 3109, 
     "image": "data/pix/q_ca4.jpg"
   }, 
   {
@@ -212,7 +212,7 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/South_Sudan", 
-    "tier": 2148, 
+    "tier": 3455, 
     "image": "data/pix/q_sudan.png"
   }, 
   {
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
-    "tier": 2298, 
+    "tier": 3559, 
     "image": "data/pix/q_dont_be_evil.jpg"
   }
 ]
