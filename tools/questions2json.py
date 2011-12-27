@@ -325,6 +325,38 @@ def gen_pdf(questions, game_rounds):
     #doc.build(Story, onFirstPage=myFirstPage, onLaterPages=myLaterPages) 
     doc.build(Story)
 
+def gen_answers_html(questions, game_rounds):
+    """generate html"""
+    fh = open("answers.html", 'w')
+    html_header = """
+    <html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    """
+    html_footer = """
+
+    </body>
+    </html>
+    """
+    #fh.write(html_header)
+    fh.write('<ul>\n')
+    for round in game_rounds:
+        fh.write('<h2>Game Round {0}</h2>\n'.format(round))
+        for num, question in enumerate(
+            questions_per_round(questions, game_round=round)):
+            fh.write('<li>')
+            fh.write('Question {0}: {1}<br />'.format(num + 1, question.question))
+            answers = ['<link href="{0}">Link {1}</link> '.format(s, n) \
+                for n, s in enumerate(question.source.split())]
+            #encode('utf-8')),
+            fh.writelines(", ".join(answers))
+            fh.write('</li>\n')
+    fh.write('</ul>\n')
+    #fh.write(html_footer)
+    fh.close()
+
 def main():
     """docstring for main"""
 
@@ -358,6 +390,8 @@ def main():
 
     if options.pdf:
         gen_pdf(questions, game_rounds)
+
+    gen_answers_html(questions, game_rounds)
 
 if __name__ == '__main__':
     main()
