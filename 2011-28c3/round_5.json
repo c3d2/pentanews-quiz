@@ -1,0 +1,146 @@
+[
+  {
+    "text": "How many days in a row has Belgium been run by a caretaker administration since the last government resigned in April 2010?", 
+    "explanation": [
+      "data/pix/a_belgium.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "415 days"
+      }, 
+      {
+        "text": "541 days", 
+        "right": true
+      }, 
+      {
+        "text": "451 days"
+      }, 
+      {
+        "text": "514 days"
+      }
+    ], 
+    "source": "http://en.wikipedia.org/wiki/2010\u20132011_Belgian_government_formation", 
+    "tier": 69, 
+    "image": "data/pix/q_belgium.gif"
+  }, 
+  {
+    "text": "Which country does not have a net neutrality law?", 
+    "explanation": [
+      "data/pix/a_netneutrality.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Belgium"
+      }, 
+      {
+        "text": "Netherlands"
+      }, 
+      {
+        "text": "USA", 
+        "right": true
+      }, 
+      {
+        "text": "Chile"
+      }
+    ], 
+    "source": "http://www.theregister.co.uk/2011/09/13/belgium_headed_for_net_neutrality/", 
+    "tier": 20, 
+    "image": "data/pix/q_netneutrality.jpg"
+  }, 
+  {
+    "text": "What is the improvement of transmission time by the new $300 mio EU-US cable (first in 10 years)?", 
+    "explanation": [
+      "data/pix/a_300mdollar.png"
+    ], 
+    "answers": [
+      {
+        "text": "6s"
+      }, 
+      {
+        "text": "6e-1s"
+      }, 
+      {
+        "text": "6e-2s"
+      }, 
+      {
+        "text": "6e-3s", 
+        "right": true
+      }
+    ], 
+    "source": "http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html", 
+    "tier": 40, 
+    "image": "data/pix/q_300mdollar.jpg"
+  }, 
+  {
+    "text": "Which programming language hangs on certain fp numbers?", 
+    "explanation": [
+      "data/pix/a_php-java.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "PHP"
+      }, 
+      {
+        "text": "Ruby", 
+        "right": true
+      }, 
+      {
+        "text": "Java"
+      }, 
+      {
+        "text": "Haskell"
+      }
+    ], 
+    "source": "http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/", 
+    "tier": 58, 
+    "image": "data/pix/q_php.png"
+  }, 
+  {
+    "text": "What animal did the US army use in West Berlin for intruder alarm?", 
+    "explanation": [
+      "data/pix/a_goose.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "goose", 
+        "right": true
+      }, 
+      {
+        "text": "sheep"
+      }, 
+      {
+        "text": "chicken"
+      }, 
+      {
+        "text": "dog"
+      }
+    ], 
+    "source": "http://www.schneier.com/blog/archives/2011/08/alarm_geese.html", 
+    "tier": 65, 
+    "image": "data/pix/q_berlin_wall.jpg"
+  }, 
+  {
+    "text": "Why the godfather of the content mafia Warner Brothers was recently sued wrt. the movie Hangover II.", 
+    "explanation": [
+      "data/pix/a_bag.jpg"
+    ], 
+    "answers": [
+      {
+        "text": "Trademark issue, sued by Budweiser"
+      }, 
+      {
+        "text": "false BT seeders originating from Warner"
+      }, 
+      {
+        "text": "used a knock-off bag by Louis Vitton", 
+        "right": true
+      }, 
+      {
+        "text": "Warner tried to upload to Rapidshare"
+      }
+    ], 
+    "source": "http://recordingindustryvspeople.blogspot.com/2011/12/warner-brothers-sued-for-trademark.html", 
+    "tier": 60, 
+    "image": "data/pix/q_bag.jpg"
+  }
+]
