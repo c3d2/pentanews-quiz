@@ -1,9 +1,9 @@
 [
   {
     "text": "What was the main purpose of the Virus that infected the US Air Force drone fleet September 2011?", 
-    "explanation": [
-      "data/pix/a_drone.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_drone.jpg"
+    }, 
     "answers": [
       {
         "text": "Programming new false targets"
@@ -20,14 +20,14 @@
       }
     ], 
     "source": "http://www.wired.com/dangerroom/2011/10/drone-virus-nuisance/", 
-    "tier": 121, 
+    "tier": 502, 
     "image": "data/pix/q_drone.jpg"
   }, 
   {
     "text": "How many female porn stars have their own WP article?", 
-    "explanation": [
-      "data/pix/a_wp_pornstar.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_wp_pornstar.jpg"
+    }, 
     "answers": [
       {
         "text": 448
@@ -44,14 +44,14 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/Category:Lists_of_pornographic_film_actors", 
-    "tier": 361, 
+    "tier": 479, 
     "image": "data/pix/q_wp_pornstars.png"
   }, 
   {
     "text": "How many user-related data records (name, address, birth date) did the Saxon State retrieve after it gathered > 1 million cell phone connection records at a anti-Nazi demonstration?", 
-    "explanation": [
-      "data/pix/a_handygate.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_handygate.jpg"
+    }, 
     "answers": [
       {
         "text": 540
@@ -68,14 +68,14 @@
       }
     ], 
     "source": "http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/", 
-    "tier": 214, 
+    "tier": 850, 
     "image": "data/pix/q_handygate.jpg"
   }, 
   {
     "text": "Which company delivers software that could be rebooted by an IPv6 ping in 2011?", 
-    "explanation": [
-      "data/pix/a_ipv6_ping.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_ipv6_ping.jpg"
+    }, 
     "answers": [
       {
         "text": "Microsoft"
@@ -92,14 +92,14 @@
       }
     ], 
     "source": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls", 
-    "tier": 550, 
+    "tier": 355, 
     "image": "data/pix/q_ipv6_ping.jpg"
   }, 
   {
     "text": "How much money has HP spent in CEO pay-offs since 2005?", 
-    "explanation": [
-      "data/pix/a_hp-money.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_hp-money.jpg"
+    }, 
     "answers": [
       {
         "text": "$100 mio"
@@ -116,14 +116,14 @@
       }
     ], 
     "source": "http://www.internetevolution.com/author.asp?section_id=852&doc_id=233780&", 
-    "tier": 757, 
+    "tier": 809, 
     "image": "data/pix/q_hp_money.jpg"
   }, 
   {
     "text": "Which network protocol was used to demonstrate a PoC to control the engines of a Boing 747 starting from the video entertainment system?", 
-    "explanation": [
-      "data/pix/q_747.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/q_747.jpg"
+    }, 
     "answers": [
       {
         "text": "ssh"
@@ -140,14 +140,14 @@
       }
     ], 
     "source": "https://www.infosecisland.com/blogview/16696-FACT-CHECK-SCADA-Systems-Are-Online-Now.html", 
-    "tier": 295, 
+    "tier": 899, 
     "image": "data/pix/q_747.jpg"
   }, 
   {
     "text": "Which of the following companies announced via Twitter that they will tell the police details about London rioters?", 
-    "explanation": [
-      "data/pix/a_london.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_london.jpg"
+    }, 
     "answers": [
       {
         "text": "Cash and Carry (by publishing video footage)"
@@ -164,14 +164,14 @@
       }
     ], 
     "source": "http://netzpolitik.org/2011/blackberry-kundigt-an-londoner-plunderer-auszuliefern/", 
-    "tier": 331, 
+    "tier": 873, 
     "image": "data/pix/q_london.jpg"
   }, 
   {
     "text": "How did Russian bloggers try to raise attention for their demonstrations against fraud during the recent elections in Russia?", 
-    "explanation": [
-      "data/pix/a_russian.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_russian.jpg"
+    }, 
     "answers": [
       {
         "text": "Multi-Million-Rubel-Ad-Campain."
@@ -188,14 +188,14 @@
       }
     ], 
     "source": "http://www.spiegel.de/politik/ausland/0,1518,802967,00.html", 
-    "tier": 485, 
+    "tier": 600, 
     "image": "data/pix/q_russian.jpg"
   }, 
   {
     "text": "What is the definition of the measurement unit one Uhl?", 
-    "explanation": [
-      "data/pix/a_uhl.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_uhl.jpg"
+    }, 
     "answers": [
       {
         "text": "Unit of a scale that describes the need of censorship for a certain website."
@@ -212,14 +212,14 @@
       }
     ], 
     "source": "http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/", 
-    "tier": 345, 
+    "tier": 829, 
     "image": "data/pix/q_uhl.jpg"
   }, 
   {
     "text": "Which new investigation tool did Henrik Kaspersen (one of the founders of the Convention on Cybercrime) demand during its 10th birthday to improve the work against cyber crime?", 
-    "explanation": [
-      "data/pix/a_cybercrime.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_cybercrime.jpg"
+    }, 
     "answers": [
       {
         "text": "E-mail bombs"
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html", 
-    "tier": 277, 
+    "tier": 534, 
     "image": "data/pix/q_cybercrime.png"
   }
 ]

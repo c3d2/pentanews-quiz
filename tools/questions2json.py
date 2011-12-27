@@ -151,8 +151,21 @@ class Question(yaml.YAMLObject):
                     )] = os.sep.join([self.web_root, f])
                 return q_data
             def gen_explanation():
-                return {'explanation': [os.sep.join([self.web_root, expl]) \
-                                        for expl in self.media['explanation']]}
+                """Sorry, hacky. Quick fix required only 1st element is taken"""
+                f = self.media['explanation'][0]
+                k = self.__type_by_extension(os.path.sep.join(
+                    os.path.join([self.media_path, f])))
+                v = [os.sep.join([self.web_root, expl]) \
+                            for expl in self.media['explanation']]
+                if v:
+                    v = v[0]
+                else:
+                    v = ""
+                return {'explanation': {k: v}}
+                                #): os.sep.join([self.web_root, f])
+
+                            #[os.sep.join([self.web_root, expl]) \
+                            #            for expl in self.media['explanation']]}
             def k_not_found():
                 raise KeyError("Media keyword not found")
 
