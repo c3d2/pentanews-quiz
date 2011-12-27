@@ -38,8 +38,8 @@ question: Why did Saxony (German State) not use the Staatstrojaner (governmental
 answers:
     - true: Technically not capable of doing so.
     - false: Ethically not justifiable.
-    - false: License too expansive.
-    - false: No crime that requires this measurement.
+    - false: License too expensive.
+    - false: No crime that justifies this tool.
 tier: 2
 game_round: 1
 media:
@@ -70,12 +70,12 @@ media:
 
 --- !Question
 source: http://www.spiegel.de/politik/ausland/0,1518,802967,00.html
-question: How did Russian bloggers try to get attention for their demonstrations against election fraud during the recent elections in Russia?
+question: How did Russian bloggers try to raise attention for their demonstrations against fraud during the recent elections in Russia?
 answers:
     - false: Multi-Million-Rubel-Ad-Campain.
     - false: Bribing the chief of federal TV.
     - false: Forming a lightchain of trust.
-    - true: Use drones to get video footage and stream to the internet.
+    - true: Use drones to get video footage streamed to the Internet.
 tier: 4
 game_round: 1
 media:
@@ -89,7 +89,7 @@ source: http://www.reuters.com/article/2011/11/25/us-weapons-clusterbombs-idUSTR
 # http://www.general-anzeiger-bonn.de/news/kommentare/Die-Rueckkehr-der-Streubomben-Spur-des-Todes-article567503.html
 # http://www.krone.at/Welt/Oesterreich_kaempft_gegen_Comeback_der_Streubomben-Einsames_Vorhaben-Story-302663
 # http://taz.de/Abkommen-zu-Streumunition/!82648/
-question: Which of the following countries voted against a loosening of cluster munition restrictions at the UN?
+question: Which of the following countries voted against loosening restrictions of cluster munition at the UN?
 answers:
     - true: Austria
     - false: Germany
@@ -106,12 +106,12 @@ media:
 
 --- !Question
 source: http://www.piratenpartei-soest.de/2011/11/das-piraten-abc/
-question: What is the definition of 1 Uhl?
+question: What is the definition of the measurement unit one Uhl?
 answers:
     - false: Unit of a scale that describes the need of censorship for a certain website.
     - false: Unit of boldness of a politician spreading lies to public knowingly.
-    - true: Amount of time passing between a random crime and a politician''s demand for the introduction of data retention laws.
-    - false: Degree of expert knowlege that a politician has, when he demands the wiretapping of encrypted data.
+    - true: Amount of time passing between a random crime and a politician's demand for the introduction of data retention laws.
+    - false: Degree of expert knowlege that a politician has, when he demands wiretapping of encrypted data.
 tier: 6
 game_round: 1
 media:
@@ -122,9 +122,9 @@ media:
 
 --- !Question
 source: http://www.h-online.com/security/news/item/Tenth-anniversary-of-the-Convention-on-Cybercrime-1384180.html
-question: Which new investigation tool did Henrik Kaspersen, one of the founding fathers of the Convention on Cybercrime, demand during its 10th birthday to improve the work against cyber crime?
+question: Which new investigation tool did Henrik Kaspersen (one of the founders of the Convention on Cybercrime) demand during its 10th birthday to improve the work against cyber crime?
 answers:
-    - false: Email bombs
+    - false: E-mail bombs
     - false: 1days
     - false: XSS
     - true: Bot nets
@@ -171,7 +171,7 @@ media:
 
 --- !Question
 source: http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/
-question: What do you see on the following picture?
+question: What do you see on the picture?
 answers:
     - true: Reconstructed picture from brain activity
     - false: Automated blurring filter result for child porn filters
@@ -187,10 +187,10 @@ media:
 
 --- !Question
 source: http://linux.slashdot.org/story/11/10/05/1920255/welcome-back-kernelorg
-question: How many weeks did it take to bring kernel.org back up after they found out that it has been hacked in end of August 2011?
+question: How long did it take to bring kernel.org back on-line after they found out that it has been hacked August 2011?
 answers:
     - false: ~ 1 week
-    - false: It is still not up
+    - false: still not up
     - true: ~ 4 weeks
     - false: ~ 2 weeks
 tier: 11
@@ -219,11 +219,11 @@ media:
 
 --- !Question
 source: http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars
-question: How did the US Airforce cyber security departement learn about the virus infected drones?
+question: How did the US Airforce cyber security departement learn about the virus that infected drones?
 answers:
     - false: Intrusion detection mechanisms
     - true: Read it in the news
-    - false: The badly programmed virus caused system instabilities
+    - false: The virus caused system instabilities
     - false: By random, during standard maintainance
 tier: 13
 game_round: 1
@@ -253,7 +253,7 @@ media:
 source: http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/
 # http://www.heise.de/security/meldung/Falsches-Google-Zertifikat-ist-Folge-eines-Hacks-1333588.html
 # http://www.heise.de/security/meldung/Zertifikatsausgabestopp-nach-Einbruch-auf-einem-KPN-Server-1372279.html
-question: Which of the following CAs did not yet publish news about security problems this year?
+question: Which of the following CAs did not publish news about security problems yet?
 answers:
     - false: Diginotar
     - false: Corporate Market
@@ -335,7 +335,7 @@ media:
         - pix/a_wp_pornstar.jpg
 
 --- !Question
-question: How many user-related data records (name, address, birth date) did the Saxon State retrieve after it caught about > 1 Mio cell phone connection records?
+question: How many user-related data records (name, address, birth date) did the Saxon State retrieve after it gathered > 1 million cell phone connection records at a anti-Nazi demonstration?
 source: http://www.addn.me/freiraeume/handydatenskandal-nimmt-kein-ende/
 answers:
     - false: 540
@@ -354,7 +354,7 @@ media:
 question: What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?
 source: http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html
 answers:
-    - true: hand over the data
+    - true: handed the data over
     - false: nothing
     - false: fought the order
     - false: denied his account
@@ -414,7 +414,7 @@ media:
         - pix/a_android_ms.jpg
 
 --- !Question
-question: Which company delivers software that could be rebooted by a IPv6 ping in 2011?
+question: Which company delivers software that could be rebooted by an IPv6 ping in 2011?
 source: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20110928-ipv6mpls
 answers:
     - false: Microsoft
@@ -495,13 +495,13 @@ media:
         - pix/a_netneutrality.jpg
 
 --- !Question
-question: What is the improvement of round trip time by the new $300 mio EU-US cable (first in 10 years)?
+question: What is the improvement of transmission time by the new $300 mio EU-US cable (first in 10 years)?
 source: http://www.telegraph.co.uk/technology/news/8753784/The-300m-cable-that-will-save-traders-milliseconds.html
 answers:
     - false: 6s
-    - false: 0.6s
-    - false: 0.06s
-    - true: 0.006s
+    - false: 6e-1s
+    - false: 6e-2s
+    - true: 6e-3s
 tier: 3
 game_round: 3
 media:
@@ -543,7 +543,7 @@ media:
         - pix/a_edathy.jpg
 
 --- !Question
-question: What was not patented to our knowledge?
+question: What is not patented (to our knowledge)?
 source: http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/
 answers:
     - true: Snowman
@@ -592,7 +592,7 @@ media:
         - pix/a_gpl.png
 
 --- !Question
-question: What company does this org chart show?
+question: What company is represented by this org chart?
 source: http://www.bonkersworld.net/wp-content/uploads/2011/06/2011.06.27_organizational_charts.png
 answers:
     - false: Google
@@ -626,6 +626,7 @@ media:
 --- !Question
 question: Who did not die this year?
 source: http://cache.gawkerassets.com/assets/images/4/2011/07/sunpage-2.jpg
+comment: Rupert Murdoch was announced dead by a Lulzsec The Sun defacement.
 answers:
     - false: Steve Jobs
     - true: Rupert Murdoch
@@ -658,6 +659,7 @@ media:
 --- !Question
 question: How many babies were stolen after birth in Spain by doctors, priests and nuns between 50s and the 90s?
 source: http://www.guardian.co.uk/tv-and-radio/2011/oct/18/tv-review-spains-stolen-babies
+comment: It's saied to have started during the Franco regime. Parents were judged if they are worth to rais their kids by the Chruch.
 answers:
     - false: 300
     - true: 300,000
@@ -672,9 +674,9 @@ media:
         - pix/a_spain.jpg
 
 --- !Question
-question: How many Mrs USA finalists stood behind evolution when asked if it should be taught in school (out of 51)?
+question: How many Mrs USA finalists believe in the evolution theory when asked if it should be taught in school (out of 51)?
 source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
-comment: I’m a big science geek
+comment: The country all the geniouses that were mentioned in the death questions also have females. Each year they determine their favourite. I’m a big science geek was the only one.
 answers:
     - true: 1
     - false: 2
@@ -689,10 +691,10 @@ media:
         - video/a_evolution.webm
 
 --- !Question
-question: What could not be used to exploit Win systems in 2011?
+question: What mechanism wasn't used in Windows exploits in 2011?
 source: http://themoderatevoice.com/114102/americas-rejection-of-evolution-reflected-in-miss-usa-pageant/
 answers:
-    - false: TXT file
+    - false: Text file
     - false: Ping
     - false: html tag
     - true: Power Button
@@ -705,7 +707,7 @@ media:
         - pix/q_win_exploit.jpg
 
 --- !Question
-question: What animal did the US army use in Western Berlin for intruder alarm?
+question: What animal did the US army use in West Berlin for intruder alarm?
 source: http://www.schneier.com/blog/archives/2011/08/alarm_geese.html
 answers:
     - true: goose
@@ -722,7 +724,7 @@ media:
 
 --- !Question
 question: How many intelligence violations the FBI may have committed since 9/11 according to the EFF?
-comment: E. g. access to password protected files without a warrant, ...
+comment: E. g. access to password protected files without a warrant, ... EFF started a freedom of information act.
 source: https://pentamedia.c3d2.de/submit/2011/01/30/efffbimayhavecommittedmorethan40kintellig/
 answers:
     - true: 40k
@@ -742,7 +744,7 @@ question: What answers Siri when you ask it "Can you call me an ambulance?"
 source: http://toaskornottoask.com/to/shit-that-siri-says/page/2/
 answers:
     - false: no emergancy calls
-    - true: I'll call you 'An ambulance'.
+    - true: From now on I'll call you 'An ambulance'.
     - false: You exceeded your dial plan.
     - false: There is no ambulance in your phone book.
 tier: 11
@@ -756,7 +758,7 @@ media:
 --- !Question
 question: Who was awarded the Pwnie award for Most Epic FAIL this year?
 source: http://pwnies.com/winners/
-comment: Sony was legaly chasing presenters of the 27c3 for hacking.
+comment: Sony was legaly chasing presenters of the last congress for hacking.
 answers:
     - true: Sony
     - true: Sony
