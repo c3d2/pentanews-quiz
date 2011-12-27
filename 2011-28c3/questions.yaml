@@ -78,10 +78,7 @@ tier: 4
 game_round: 1
 media:
     question:
-        - pix/q_paypal1.jpg
-        - pix/q_paypal2.jpg
-        - pix/q_paypal3.png
-        - pix/q_paypal4.jpg
+        - pix/q_paypal.jpg
     explanation:
         - pix/a_paypal.gif
 
