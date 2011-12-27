@@ -1,9 +1,9 @@
 [
   {
     "text": "How did the US Airforce cyber security departement learn about the virus that infected drones?", 
-    "explanation": [
-      "data/pix/a_drone2.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_drone2.jpg"
+    }, 
     "answers": [
       {
         "text": "Intrusion detection mechanisms"
@@ -20,14 +20,14 @@
       }
     ], 
     "source": "http://arstechnica.com/tech-policy/news/2011/10/get-hacked-dont-tell-drone-base-didnt-report-virus.ars", 
-    "tier": 38748, 
+    "tier": 17436, 
     "image": "data/pix/q_drone2.jpg"
   }, 
   {
     "text": "Which App was pulled off the Apple app store this year after massive protests?", 
-    "explanation": [
-      "data/videos/phonestory.webm"
-    ], 
+    "explanation": {
+      "video": "data/videos/phonestory.webm"
+    }, 
     "answers": [
       {
         "text": "Phone Story"
@@ -44,14 +44,14 @@
       }
     ], 
     "source": "http://www.truthwinsout.org/news/2011/03/15155/", 
-    "tier": 59672, 
+    "tier": 86858, 
     "image": "data/pix/van_gogh_ipad.jpg"
   }, 
   {
     "text": "Why does the German SPD politician Sebastian Edathy want the data retention law?", 
-    "explanation": [
-      "data/pix/a_edathy.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_edathy.jpg"
+    }, 
     "answers": [
       {
         "text": "to catch who send him a plastic pussy", 
@@ -68,14 +68,14 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/13/abgeordnetenwatchdesebastianedathy/", 
-    "tier": 47655, 
+    "tier": 33878, 
     "image": "data/pix/q_edathy.jpg"
   }, 
   {
     "text": "What is not patented (to our knowledge)?", 
-    "explanation": [
-      "data/pix/a_snowman.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_snowman.jpg"
+    }, 
     "answers": [
       {
         "text": "Snowman", 
@@ -92,14 +92,14 @@
       }
     ], 
     "source": "http://www.improbable.com/2011/09/07/new-patent-granted-for-building-a-snow-manwoman/", 
-    "tier": 70527, 
+    "tier": 51367, 
     "image": "data/pix/q_snowman.jpg"
   }, 
   {
     "text": "Which country did not get its copyright law dictated by the US?", 
-    "explanation": [
-      "data/pix/a_copyright.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_copyright.jpg"
+    }, 
     "answers": [
       {
         "text": "Canada"
@@ -116,14 +116,14 @@
       }
     ], 
     "source": "http://www.michaelgeist.ca/content/view/5765/125/", 
-    "tier": 58357, 
+    "tier": 60790, 
     "image": "data/pix/q_copyright.jpg"
   }, 
   {
     "text": "What vendor/project did not violate the GPL?", 
-    "explanation": [
-      "data/pix/a_gpl.png"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_gpl.png"
+    }, 
     "answers": [
       {
         "text": "AVM"
@@ -140,14 +140,14 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/08/01/emacsverstotseitjahrengegendiegplheiseo/", 
-    "tier": 37718, 
+    "tier": 33852, 
     "image": "data/pix/q_gpl.png"
   }, 
   {
     "text": "What was the reason for human loss at Pukkelpop music festival in Belgium?", 
-    "explanation": [
-      "data/pix/a_p2p.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_p2p.jpg"
+    }, 
     "answers": [
       {
         "text": "stormy wind"
@@ -164,14 +164,14 @@
       }
     ], 
     "source": "https://pentamedia.c3d2.de/submit/2011/09/16/illegaledownloadsschuldantoumldlichemfesti/", 
-    "tier": 55973, 
+    "tier": 12989, 
     "image": "data/pix/q_p2p.jpg"
   }, 
   {
     "text": "Which of the following CAs did not publish news about security problems yet?", 
-    "explanation": [
-      "data/pix/q_ca4.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/q_ca4.jpg"
+    }, 
     "answers": [
       {
         "text": "Diginotar"
@@ -188,14 +188,14 @@
       }
     ], 
     "source": "http://www.theregister.co.uk/2011/09/07/globalsign_suspends_ssl_cert_biz/ http://www.heise.de/security/meldung/Falsches-Google-Zertifikat-ist-Folge-eines-Hacks-1333588.html http://www.heise.de/security/meldung/Zertifikatsausgabestopp-nach-Einbruch-auf-einem-KPN-Server-1372279.html", 
-    "tier": 60357, 
+    "tier": 99874, 
     "image": "data/pix/q_ca4.jpg"
   }, 
   {
     "text": "What is the new TLD for \"The Republic of South Sudan\"?", 
-    "explanation": [
-      "data/pix/a_sudan.png"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_sudan.png"
+    }, 
     "answers": [
       {
         "text": ".su"
@@ -212,14 +212,14 @@
       }
     ], 
     "source": "http://en.wikipedia.org/wiki/South_Sudan", 
-    "tier": 35852, 
+    "tier": 77707, 
     "image": "data/pix/q_sudan.png"
   }, 
   {
     "text": "What did Google do after it received a secret court order to hand over Jacob Applebaums e-mails?", 
-    "explanation": [
-      "data/pix/a_google_mail.jpg"
-    ], 
+    "explanation": {
+      "image": "data/pix/a_google_mail.jpg"
+    }, 
     "answers": [
       {
         "text": "handed the data over", 
@@ -236,7 +236,7 @@
       }
     ], 
     "source": "http://online.wsj.com/article/SB10001424052970203476804576613284007315072.html", 
-    "tier": 39084, 
+    "tier": 54525, 
     "image": "data/pix/q_dont_be_evil.jpg"
   }
 ]

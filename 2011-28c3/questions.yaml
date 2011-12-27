@@ -116,7 +116,7 @@ media:
     question:
         - pix/q_hadopi.png
     explanation:
-        - pix/q_hadopi.jpg
+        - pix/a_hadopi.jpg
 
 --- !Question
 source: http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/
@@ -164,7 +164,7 @@ media:
     question:
         - pix/q_hackspace.jpg
     explanation:
-        - pix/a_hackspace.jpg
+        - pix/a_hackerspace.jpg
 
 --- !Question
 source: http://torrentfreak.com/google-starts-censoring-bittorrent-rapidshare-and-more-110126/
@@ -583,7 +583,7 @@ media:
     question:
         - pix/q_miss_usa.jpg
     explanation:
-        - video/a_evolution.webm
+        - videos/a_miss_usa.webm
 
 --- !Question
 question: What mechanism wasn't used in Windows exploits in 2011?
