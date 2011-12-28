@@ -236,10 +236,10 @@ function censorIrcMessage(text) {
 	return r;
     };
     return text.
-	replace(/p\s*e\s*n\s*i\s*s/i, blocks).
-	replace(/8=+/, blocks).
-	replace(/=+8/, blocks).
-	replace(/=+3/, blocks);
+	replace(/p\s*e\s*n\s*i\s*s/ig, blocks).
+	replace(/8=+/g, blocks).
+	replace(/=+8/g, blocks).
+	replace(/=+3/g, blocks);
 }
 
 function takeJoker(activePlayer, joker) {
