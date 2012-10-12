@@ -1,0 +1,273 @@
+#--- !Question
+#question: What is the question?
+#answers:
+#    - Answer 1
+#    - Answer 2
+#    - Answer 3
+#    - Answer 4
+#tier: 1
+#game_round: 1
+#media:
+#    - aaa
+#    - bbb
+
+!!python/object:__main__.Question
+question: Wie heißt der Gewinner der SHA-3 Competition?
+answers:
+    - false: BLAKE
+    - false: Grøstl
+    - false: JH
+    - true: KECCAK
+    - false: skein
+tier: 1
+game_round: 1
+media:
+    question:
+        - pix/question1.png
+    explanation:
+        - Nachfolger von SHA2, ausgesprochen: ketschak, 2012 zum Gewinner der Cryptographical Hash Algorithm Competition
+
+question: Mit welchem Ausweis kann man wählen gehen?
+    - true: Studentenausweis
+    - false: Busfahrschein
+    - false: ....
+
+    !Question
+question: Wie hoch war das höchste Bußgeld was je wegen Dantenschutzverstößen gezahlt wurde?
+
+    !Question
+question: Was kostet eine De-Mail?
+    - true: 39 cent
+    - false: 37 cent
+    - false: 23 cent
+    - false: 42 cent
+
+    !Question
+question: Was verdienen Städt durch den Verkauf von Einwohnermeldedaten?
+    - false: 10 Millionen
+    - false: 15.3 Millionen
+    - true: 12.1 Millionen
+    - false: 23 Millionen
+
+    !Question
+question: Wie viele Daten verarbeitet Facebook täglich?
+    - true: 500 TB
+
+    !Question
+question: Welche Stichwörter dürfen eBooks bei Apple nicht enthalten?
+    - true Amazon
+
+    !Question
+question: Wie heißt der Gewinner der Best Server Side pwnie Attack?
+    - "Are we there yet" MySQL Authentication Bypass
+#evtl. in jeder Runde einen PWNIE Gewinner abfragen?
+
+    !Question
+question: Was würdest du mit $399 machen?
+    - true: Dein Polizeifoto löschen lassen
+    - false: Eine Facebook Party
+    - false: Tschunk, ganz viel Tschunk
+
+    !Question
+question: Wie lange speichert Siri deinen sprachlichen Fingerabdruck?
+    - true: auf unbestimmte Zeit (für immer)
+# a8 auf der Bühne Siri die Frage stellen
+
+    !Question
+question: Für was fordert Friedrich keine Vorratsdatenspeicherung?
+    - false: Twitter Täter
+    - false: ...
+    - false: ...
+    - true: (nichts)
+
+    !Question
+question: Welche Software enthält keinen GPL Code?
+    - true: Bundestrojaner
+    - false: Stuxnet
+    - false: Flame
+    - false: Duqu
+
+    !Question
+question: Welcher Artikel ist kein Wikipedia Löschkandidat?
+    - true: Datenspuren
+    - false:
+
+    !Question
+question: Welcher 0day Exploit bringt das meiste Geld ein?
+    - true: iOS
+    - false: MacOS X
+    - false: Adobe Reader
+    - false: Microsoft Word
+
+    !Question
+question: Was ist 2002:c247:6b96::1?
+    - true: IPv6 Adresse von The Pirate Bay
+# 18,446,744,073,709,551,616 possible other adresses
+
+    !Question
+question: ....?
+    - true: Adobe schliesst Sicherheitslueckern (erst) nach Nutzerprotesten
+
+    !Question
+question: Welcher Begriff wird nicht vom US Heimatschutzministerium als "Schlüsselbegriff" geführt?
+    - 
+
+    !Question
+question: Was ist der Weltrekord im Internet Download Speed?
+    - true: 4700Mbps
+
+    !Question
+question: Was hat das neue Microsoft Social Network nicht?
+    - false: Google Hangouts
+    - false: Facebook Login
+    - 
+
+    !Question
+question: Wer oder was ist nicht für Copyright Verletzungen verantwortlich?
+    - true: Open Wifis
+#1836
+#
+    !Question
+question: Welche Partei wird vom Schulfilterplus.de gesperrt?
+    - true: Piratenpartei NRW
+# 1829
+
+    !Question
+question: Was wird nicht im Klartext übertragen/liegt nicht im Klartext vor?
+    - true: ???
+    - false: Lion login Passwörter
+
+    !Question:
+question: Wer akzeptiert den FoeBuD Ausweis nicht?
+    - true: UK Nachtclubs
+    - false: Parlamentswahlen
+    - false: Niederländisches nationales Cyber Security Centrum
+
+    !Question
+question: Was wird von Al Qeida zur Steganographie genutzt?
+    - true: Porn
+    - false: Koran
+    - false: Bibel
+    - false: Politics
+
+    !Question
+question: In wie vielen Wlan Routern der Telekom ist (bekanntermaßen) eine Sicherheitslücke?
+    - false: 1
+    - false: 2
+    - false: 3
+    - false: 4
+# 1808
+
+    !Question
+question: Welches Patent gibt es nicht?
+    - false: Microsoft, Nummer 1805
+    - false: Interaktion in virtuellen Welten 1795...
+    - true: ...?
+
+    !Question
+question: Welches ist kein (amerikansiches) Gesetz?
+    - false: ACTA, PIPA, SOPA, CISPA, ...
+
+    !Question
+question: In welcher Stadt (land fluss) war flashbake nicht aktiv?
+    - false: Cupertino
+    - false: alle anderen acuH?
+
+    !Question
+question: Wie entsorgt man Patientenakten?
+    - true: Sperrmüll
+
+    !Question
+question: In welches Land verlegt Microsoft seine ehemalig deutsche Logistik Zentrale?
+    - true: Niederlande
+    - false: Polen, ...
+
+    !Question
+question: Woraus besteht der langsamste Linux PC?
+    - true: 8 Bit AVR (der 32 Bit Arm emuliert um linux zu booten)
+
+    !Question
+question: Wegen was wird Apple nicht verklagt (?) - was ist kein Kandidat der Crypto Hash Algo Compet?
+    - true: Woman sues Apple over "Glass Door Collision"
+
+    !Question
+question: Wo muss man nicht seinen Insurance/Tas Status checken?
+    - false: tanken
+
+    !Question
+question: Wie viel Internettraffic is "Non-Human"?
+    - true: Schätzfrage. 51% 1757
+
+    !Question
+question: Wie kann man an TSA Body Scannern Dinge vorbei schmuggeln?
+    - true: 1764
+
+    !Question
+question: Welche Browser Nutzer können am besten mit Zahlen umgehen?
+    - true: http://science.slashdot.org/story/12/03/03/2050250/chrome-users-are-best-with-numbers-ie-users-worst
+
+    !Question
+question: Wie viele E-Mails wurden von Deutschen Geheimdiensten 2010 überprüft?
+    - true : 37.292.862
+
+    !Question
+question: irgendwas mit meldung 1712 (Passwörter welcher Seite?)
+
+    !Question
+question: Was wird nicht von Britischen Ärzten verschrieben:
+    - true: Koks, mariuhana?
+    - false: Apps
+
+    !Question
+question: IRgendwas mit meldung 1697    
+
+    !Question
+question: Warum zeichnete Rumäniens Premier Minister ACTA?
+    - true: Dunno
+    - false: Kinderpornografie
+    - false: Terrorism
+    - false: Internetpiraterie
+
+    !Question
+question: Worüber funktioniert kein TCP/IP?
+    - false: Brieftauben Aviation Carrier
+    - false: Lego Zug
+
+    !Question
+question: Irgendwas mit dem Wasserkopf der MPAA, wil wheaton 1653
+
+    !Question
+question: irgendwas mit root Zugriff (und webview *hass*)
+
+    !Question
+question: Wie entsperrt man den Xserver?
+    - true: CTRL+ALT+Keypad-Multiply
+    - true: CTRL+ALT+F11
+
+    !Question
+question: Cop or Soldier?
+    - true: ??
+    - Bilder News 1637
+#    (evtl YDKJ Style: Bilder vorbeifliegen, drücken wenn "COP")
+
+    !Question
+question: Facebook und Scheidungen? 1633
+
+    !Question
+question: Wie viel Prozent der Lauschangriffe sind rechtswidrig?
+    - true: 3/4 1629
+    
+    !Question
+question: What is e-voting machine not good in?
+    - true: counting votes
+    - false: Screen Freezes
+    - false: Failure to log normal/abnormal voting events
+    - false: Skewing off the ballot
+# 1616
+
+    !Question
+question: Was ist eine offizielle Religion Schwedens? 1600
+    - false: Diskordianismus
+    - true: Kopism
+
+    
