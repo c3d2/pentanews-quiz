@@ -63,7 +63,7 @@ class Question(yaml.YAMLObject):
     def __init__(self, question=u"", tier=0, answers=[], game_round=0,
                  media=("", "", ""), media_path="data", web_root="data"):
         """docstring for __init__
-           @question - the Question 
+           @question - the Question
            @rank - number of the question in the game
            @game_round - number of the round in the game
            @answers - list of answers, assumed are 4
@@ -137,6 +137,8 @@ class Question(yaml.YAMLObject):
             data['source'] = self.source
         except AttributeError:
             data['source'] = False
+        print self.question
+        print self.answers
         data['answers'] = [
             {'text': answer[False]} if answer.has_key(False) \
             else {'text': answer[True], 'right': True} \
@@ -322,7 +324,7 @@ def gen_pdf(questions, game_rounds):
     Story.append(Spacer(10, 5*cm))
     p = Paragraph("Blubber3", styles["Normal"])
     Story.append(p)
-    #doc.build(Story, onFirstPage=myFirstPage, onLaterPages=myLaterPages) 
+    #doc.build(Story, onFirstPage=myFirstPage, onLaterPages=myLaterPages)
     doc.build(Story)
 
 def gen_answers_html(questions, game_rounds):
