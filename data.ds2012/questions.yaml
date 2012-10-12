@@ -12,7 +12,7 @@
 #    - bbb
 
 --- !Question
-question: Wie heißt der Gewinner der SHA-3 Competition?
+question: Wie heisst der Gewinner der SHA-3 Competition?
 answers:
     - false: BLAKE
     - false: Grostl
@@ -68,7 +68,7 @@ game_round: 1
 --- !Question
 question: Welche Stichwoerter duerfen eBooks bei Apple nicht enthalten?
 answers:
-    - true Amazon
+    - true: Amazon
     - false: Android
     - false: Gay
     - false: Nipples
@@ -403,7 +403,7 @@ tier: 10
 game_round: 3
 
 --- !Question
-question: Wie viel Prozent der Lauschangriffe sind rechtswidrig (verstossen mind. gegen Verfahrensvorschriften)?
+question: Wieviele Lauschangriffe verstossen in .de gegen die Vorschriften?
 answers:
     - true: 3/4
     - false: 1/2
@@ -431,9 +431,6 @@ game_round: 4
 #    (evtl YDKJ Style: Bilder vorbeifliegen, drücken wenn "COP")
 
 
-
-
-    
 #--- !Question
 #question: What is e-voting machine not good in?
 #    - true: counting votes
@@ -441,4 +438,3 @@ game_round: 4
 #    - false: Failure to log normal/abnormal voting events
 #    - false: Skewing off the ballot
 # 1616
-

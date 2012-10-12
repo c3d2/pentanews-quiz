@@ -349,7 +349,8 @@ def gen_answers_html(questions, game_rounds):
         for num, question in enumerate(
             questions_per_round(questions, game_round=round)):
             fh.write('<li>')
-            fh.write('Question {0}: {1}<br />'.format(num + 1, question.question))
+            print question.question
+            fh.write(u'Question {0}: {1}<br />'.format(num + 1, question.question))
             answers = ['<link href="{0}">Link {1}</link> '.format(s, n) \
                 for n, s in enumerate(question.source.split())]
             #encode('utf-8')),
@@ -393,7 +394,7 @@ def main():
     if options.pdf:
         gen_pdf(questions, game_rounds)
 
-    gen_answers_html(questions, game_rounds)
+    #gen_answers_html(questions, game_rounds)
 
 if __name__ == '__main__':
     main()
