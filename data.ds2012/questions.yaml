@@ -267,22 +267,24 @@ question: What is e-voting machine not good in?
 
 --- !Question
 question: Was ist eine offizielle Religion Schwedens? 1600
+answers:
     - false: Diskordianismus
     - true: Kopism
-
+    - false: Scientology
+    - false: Zeugen Jevoas
     
 --- !Question
-source: http://www.justiz.sachsen.de/smj/content/2674.php Offizielle Pressemitteilung
-question: Why did Saxony (German State) not use the Staatstrojaner (governmental trojan horse)?
+question: Wer bestellt sein Essen per iPad?
 answers:
-    - true: Technically not capable of doing so.
-    - false: Ethically not justifiable.
-    - false: License too expensive.
-    - false: No crime that justifies this tool.
-tier: 3
-game_round: 1
-media:
-    question:
-        - pix/q_bundestrojaner.jpg
-    explanation:
-        - pix/a_bundestrojaner.jpg
+    - true: Affen im Zoo
+    - false: Pflegebeduerftige
+    - false: Steven Hawkins
+    - false: Restaurant in Cupertino
+
+--- !Question
+question: In welchem Land ist Filesharing fuer privaten Gebrauch erlaubt?
+answers:
+    - false: Japan
+    - false: USA
+    - false: Frankreich
+    - true: Portugal
