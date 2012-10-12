@@ -31,16 +31,36 @@ question: Mit welchem Ausweis kann man wählen gehen?
     - true: Studentenausweis
     - false: Busfahrschein
     - false: ....
+    - true: FoeBuD's nicht amtlicher Lichtbildausweis
+media:
+    question:
+        - 
+    explanation:
+        - FoeBuD's nichtamtlicher Lichtbildausweis konnte in den Niederlanden ohne Probleme benutzt werden
 
     !Question
 question: Wie hoch war das höchste Bußgeld was je wegen Dantenschutzverstößen gezahlt wurde?
+    - true: 22.5 Millionen US-Dollar
+    - false: 23.5 Millionen US-Dollar
+    - false: 100 Millionen US Dollar
+    - false: 5 Millionen US Dollar
+media:
+    question:
+        - ?
+    explanation:
+        - Google musste 22.5 Millionen US Dollar zahlen, da sie Apple's Safari ausgetrickst haben, Cookies zu akzeptieren (kleines Formular auf Seiten eingebettet). 0.81 Prozent des Gewinns
 
     !Question
 question: Was kostet eine De-Mail?
     - true: 39 cent
-    - false: 37 cent
-    - false: 23 cent
+    - false: 55 cent
+    - false: 58 cent
     - false: 42 cent
+media:
+    question:
+        -
+    explanation:
+        - Stückpreis einer De-Mail von der Deutschen Telekom: 39 cent.
 
     !Question
 question: Was verdienen Städt durch den Verkauf von Einwohnermeldedaten?
@@ -48,6 +68,11 @@ question: Was verdienen Städt durch den Verkauf von Einwohnermeldedaten?
     - false: 15.3 Millionen
     - true: 12.1 Millionen
     - false: 23 Millionen
+media:
+    question:
+        - ?
+    explanation: 2025 
+
 
     !Question
 question: Wie viele Daten verarbeitet Facebook täglich?
