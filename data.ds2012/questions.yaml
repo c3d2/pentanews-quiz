@@ -145,6 +145,9 @@ media:
 question: Welche Firma schliesst Sicherheitslueckern (erst) nach Nutzerprotesten?
 answers:
     - true: Adobe
+    - true: Apple
+    - true: Digitask
+    - true: Microsoft
 tier: 1
 game_round: 2
 media:
@@ -381,7 +384,7 @@ game_round: 3
 question: Was ist eine offizielle Religion Schwedens?
 answers:
     - false: Diskordianismus
-    - true: Kopism
+    - true: Kopimism
     - false: Scientology
     - false: Zeugen Jehovas
 tier: 7
