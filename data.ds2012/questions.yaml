@@ -551,6 +551,16 @@ answers:
 tier: 11
 game_round: 4
 
+# FIXME (a8) needs to be checked for correcntess
+--- !Question
+question: Wie antwortet der Gamma Trojaner Kommandoserver?
+answers:
+    - true: Hallo Gabi?
+    - false: go away
+    - false: service not available
+    - false: Welcome to the dark side
+tier: 12
+game_round: 4
 
 #--- !Question
 #question: IRgendwas mit meldung 1697    
