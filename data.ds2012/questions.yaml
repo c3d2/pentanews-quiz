@@ -21,18 +21,6 @@ answers:
 tier: 1
 game_round: 1
 
-<<<<<<< HEAD
-question: Mit welchem Ausweis kann man wählen gehen?
-    - true: Studentenausweis
-    - false: Busfahrschein
-    - false: ....
-    - true: FoeBuD's nicht amtlicher Lichtbildausweis
-media:
-    question:
-        - 
-    explanation:
-        - FoeBuD's nichtamtlicher Lichtbildausweis konnte in den Niederlanden ohne Probleme benutzt werden
-
 --- !Question
 question: Was kostet eine De-Mail?
 answers:
@@ -42,10 +30,13 @@ answers:
     - false: 42 cent
 tier: 2
 game_round: 1
+media:
+    question:
+        - pix/email-stamps-cc-by-sa.jpg
 
 # FIXME (a8) Welche Städte? Die in Gesamtdeutschland?
 --- !Question
-question: Was verdienen Städte durch den Verkauf von Einwohnermeldedaten?
+question: Was verdienen die 28 von Spiegel Online ausgewerteten Städte durch den Verkauf von Einwohnermeldedaten?
 answers:
     - false: 121.000
     - false: 1.21 Millionen
@@ -53,8 +44,7 @@ answers:
     - false: 23 Millionen
 media:
     question:
-        - ?
-    explanation: 2025 
+        - pix/mony-cc-by-yomanimus.jpg
 
 tier: 3
 game_round: 1
@@ -68,6 +58,9 @@ answers:
     - true: 500 TB
 tier: 4
 game_round: 1
+media:
+    question:
+        - pix/storage-cc-by-sa-brewbooks.jpg
 
 --- !Question
 question: Welche Stichwoerter duerfen eBooks bei Apple nicht enthalten?
@@ -84,7 +77,7 @@ game_round: 1
 question: Was kann man mit $399 bezahlen?
 answers:
     - false: Ausweis mit Biometrievollerfassung
-    - true: Ein Polizeifoto löschen lassen
+    - true: Das Löschen seines Polizeifotos
     - false: eine Facebook Party
     - false: ganz viel Tschunk
 tier: 6
@@ -99,6 +92,9 @@ answers:
     - false: max. 1 GB
 tier: 7
 game_round: 1
+media:
+    question:
+        - pix/siri-tbbt.jpg
 
 --- !Question
 question: Wofuer fordert Friedrich keine Vorratsdatenspeicherung?
@@ -119,6 +115,9 @@ answers:
     - false: Duqu
 tier: 9
 game_round: 1
+media:
+    question:
+        - pix/gpl3.svg.png
 
 #--- !Question
 #question: Welcher Artikel ist kein Wikipedia Löschkandidat?
@@ -137,6 +136,10 @@ answers:
     - false: Microsoft Word
 tier: 10
 game_round: 1
+media:
+    explanation:
+        - pix/0dayprizes.jpg
+
 
 --- !Question
 question: Welche Firma schliesst Sicherheitslueckern (erst) nach Nutzerprotesten?
@@ -144,7 +147,9 @@ answers:
     - true: Adobe
 tier: 1
 game_round: 2
-
+media:
+    question:
+        - pix/citizens-in-their-v-masks.jpg
 
 --- !Question
 question: Wie schnell ist der schnellste Endkunden Internetzugang?
@@ -170,38 +175,40 @@ game_round: 2
 
 #FIXME
 --- !Question
-question: Welche politische Partei wird vom Schulfilterplus.de gesperrt?
+question: Welche politische Partei wird von Schulfilterplus.de gesperrt?
 answers:
-    - false: 230 Mpbs
-    - false: 1024 Mbps
-    - true: 4700 Mbps
-    - false: 10240 Mbps
+    - false: SPD
+    - false: CDU
     - true: Piratenpartei NRW
+    - false: Grüne
 tier: 3
 game_round: 2
 # 1829
 
 # FIXME (a8) Antworten unvollstaendig
 --- !Question
-question: Was wird nicht im Klartext gespeichert nicht im Klartext vor?
+question: Was wird nicht im Klartext gespeichert bzw liegt nicht im Klartext vor?
 answers:
     - false: Ubuntu Passwoerter
     - true: Lion Passwoerter
     - false: De-Mail Passwoerter
-    - false: FIXME
+    - false: Debian Passwoerter
 tier: 4
 game_round: 2
 
 # FIXME (a8) Frage unklar, bessere Antworten!
 --- !Question
-question: Wer akzeptiert den FoeBuD Ausweis nicht?
+question: Wo wird der nichtamtliche Lichtbildausweis vom FoeBuD nicht akzeptiert?
 answers:
-    - false: 
-    - true: UK Nachtclubs
-    - false: Parlamentswahlen
-    - false: Niederländisches nationales Cyber Security Centrum
+    - false: Ministerien
+    - true: in Nachtclubs
+    - false: Bei Parlamentswahlen
+    - false: Beim Niederländischen nationalen Cyber Security Centrum
 tier: 5
 game_round: 2
+media:
+    question:
+        - pix/foebud-ausweis.jpeg
 
 --- !Question
 question: Was wird von Al Qeida zur Steganographie genutzt?
@@ -209,9 +216,13 @@ answers:
     - true: Porn
     - false: Koran
     - false: Bibel
-    - false: Obama Reden
+    - false: O{b|s}ama Reden
 tier: 6
 game_round: 2
+media:
+    question:
+        - pix/Seganography_Encode.png
+# pic from http://www.henryfarrell.net/cybersecurity/jones/2009/10/lolcats_and_stenography.html
 
 # FIXME (a8): Das haben die behoben. Es war eine Backdoor IIRC.
 #--- !Question
@@ -246,7 +257,7 @@ game_round: 2
 
 #FIXME (a8): Noch mal die Stadt raus suchen!
 --- !Question
-question: Wie entsorgt man in XXX Patientenakten?
+question: Wie entsorgt man in Hamburg Patientenakten?
 answers:
     - false: Reisswolf
     - false: Krematorium
@@ -254,7 +265,9 @@ answers:
     - true: Sperrmüll
 tier: 8
 game_round: 2
-
+media:
+    question:
+        - pix/sperrmuell-cc-by-dierkschaefer.jpg
 
 #--- !Question
 #question: In welches Land verlegt Microsoft seine ehemalig deutsche Logistik Zentrale?
@@ -264,12 +277,15 @@ game_round: 2
 --- !Question
 question: Auf welchem System basiert der langsamste Linux PC?
 answers:
-    - true: 8 Bit AVR (der 32 Bit Arm emuliert um linux zu booten)
+    - true: 8 Bit AVR
     - false: Arduino
     - false: Z80
     - false: MOS 6510
 tier: 9
 game_round: 2
+#media:
+#    question:
+#        - pix/tux.jpg
 
 --- !Question
 question: Weshalb wurde Apple verklagt?
@@ -305,6 +321,8 @@ answers:
     - false: Gummianzug
 tier: 2
 game_round: 3
+#video noch runterladen?
+# https://tsaoutofourpants.wordpress.com/2012/03/06/1b-of-nude-body-scanners-made-worthless-by-blog-how-anyone-can-get-anything-past-the-tsas-nude-body-scanners/
 #1764
 
 # a8 - IIRC war das ein Hoax
@@ -322,8 +340,6 @@ answers:
 tier: 3
 game_round: 3
 
-#--- !Question
-#question: irgendwas mit meldung 1712 (Passwörter welcher Seite?)
 
 --- !Question
 question: Was wird nicht von Britischen Ärzten verschrieben?
@@ -335,8 +351,6 @@ answers:
 tier: 4
 game_round: 3
 
-#--- !Question
-#question: IRgendwas mit meldung 1697    
 
 --- !Question
 question: Warum zeichnete Rumaeniens Premier Minister ACTA?
@@ -357,6 +371,10 @@ answers:
     - false: Rauchzeichen
 tier: 6
 game_round: 3
+#media:
+#   explanation:
+#       - FIXME Video Runterladen http://www.extremetech.com/extreme/110603-tcpip-over-lego-model-train
+
 
 --- !Question
 question: Was ist eine offizielle Religion Schwedens?
@@ -367,7 +385,7 @@ answers:
     - false: Zeugen Jehovas
 tier: 7
 game_round: 3
-    
+
 --- !Question
 question: Wer bestellt sein Essen per iPad?
 answers:
@@ -377,6 +395,9 @@ answers:
     - false: Restaurantbesucher in Cupertino
 tier: 8
 game_round: 3
+media:
+    explanation:
+        - pic/monkey-ipad.jpg
 
 --- !Question
 question: In welchem Land ist Filesharing fuer privaten Gebrauch erlaubt?
@@ -417,6 +438,10 @@ answers:
     - false: Pentacast
 tier: 2
 game_round: 4
+#FIXME
+#media:
+#    explanation:
+#        - pix/bitloveheart.png
 
 --- !Question
 question: Welche Begriffe werden nicht von Google zensiert?
@@ -437,6 +462,9 @@ answers:
     - false: 15
 tier: 4
 game_round: 4
+media:
+    question:
+        - pix/curiosity-cc-by-gsfc.jpg
 
 --- !Question
 question: Wofür haben Apple+Google das meiste Geld ausgegeben?
@@ -449,7 +477,7 @@ tier: 5
 game_round: 4
 
 --- !Question
-question: Welche Stadt konkuriert mit Dresden um die meisten Funkzellenabfragen?
+question: Welche Stadt konkurriert mit Dresden um die meisten Funkzellenabfragen?
 answers:
     - true: Berlin
     - false: München
@@ -467,6 +495,10 @@ answers:
     - false: angeätzte Glashalbkugeln
 tier: 7
 game_round: 4
+#FIXME
+#media:
+#   question:
+#        - foto buzzer diffusor
 
 --- !Question
 question: Wie hoch war das höchste Bußgeld was je wegen Dantenschutzverstößen gezahlt wurde?
@@ -481,6 +513,29 @@ media:
 tier: 8
 game_round: 4
 
+--- !Question
+question: Mit welcher Tastenkombination kann man den Xserver entsperren?
+answers:
+    - true: CTRL+ALT+Keypad-Multiply
+    - true: CTRL+ALT+F11
+    - false: STRG+ALT+ENTF
+    - false: ESC
+tier: 9
+game_round: 4
+
+
+--- !Question
+question: Cop or Soldier?
+answers:
+    - true: Bild 1 (lo)
+    - false: Bild 2 (ro)
+    - false: Bild 3 (lu)
+    - false: Bild 4 (ru)
+media:
+    question:
+        - pix/spotthecop.png
+        
+
 #--- !Question
 #question: IRgendwas mit meldung 1697    
 
@@ -490,11 +545,6 @@ game_round: 4
 
 #--- !Question
 #question: irgendwas mit root Zugriff (und webview *hass*)
-
-#--- !Question
-#question: Wie entsperrt man den Xserver?
-#    - true: CTRL+ALT+Keypad-Multiply
-#    - true: CTRL+ALT+F11
 
 #--- !Question
 #question: Cop or Soldier?
