@@ -269,7 +269,7 @@ answers:
 tier: 8
 game_round: 2
 media:
-    question:
+    explanation:
         - pix/sperrmuell-cc-by-dierkschaefer.jpg
 
 #--- !Question
@@ -286,6 +286,7 @@ answers:
     - false: MOS 6510
 tier: 9
 game_round: 2
+# 2h kernel command line init=/bin/bash + 4h boot
 #media:
 #    question:
 #        - pix/tux.jpg
@@ -397,9 +398,9 @@ answers:
 tier: 8
 game_round: 3
 # FIXME (a8) Picture missing!
-#media:
-#    explanation:
-#        - pic/monkey-ipad.jpg
+media:
+    explanation:
+        - pic/monkey-ipad.jpg
 
 --- !Question
 question: In welchem Land ist Filesharing fuer privaten Gebrauch erlaubt?
@@ -440,7 +441,6 @@ answers:
     - false: Pentacast
 tier: 2
 game_round: 4
-#FIXME
 media:
     explanation:
         - pix/bitlove.png
@@ -467,6 +467,7 @@ game_round: 4
 media:
     question:
         - pix/curiosity-cc-by-gsfc.jpg
+# curiosity landungsvideo?
 
 --- !Question
 question: Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgelöst?
