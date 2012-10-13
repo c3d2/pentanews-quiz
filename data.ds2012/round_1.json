@@ -1,6 +1,6 @@
 [
   {
-    "tier": 79, 
+    "tier": 78, 
     "text": "Wie hei\u00dft der Gewinner der SHA-3 Competition?", 
     "answers": [
       {
@@ -20,8 +20,8 @@
     "source": false
   }, 
   {
-    "tier": 50, 
-    "text": "Was kostet eine De-Mail?", 
+    "tier": 4, 
+    "text": "Was kostet eine De-Mail den Kunden?", 
     "image": "data/pix/email-stamps-cc-by-sa.jpg", 
     "answers": [
       {
@@ -35,13 +35,13 @@
         "text": "58 cent"
       }, 
       {
-        "text": "42 cent"
+        "text": "19 cent"
       }
     ], 
     "source": false
   }, 
   {
-    "tier": 3, 
+    "tier": 76, 
     "text": "Was verdienen die 28 von Spiegel Online ausgewerteten St\u00e4dte durch den Verkauf von Einwohnermeldedaten?", 
     "image": "data/pix/mony-cc-by-yomanimus.jpg", 
     "answers": [
@@ -62,7 +62,7 @@
     "source": false
   }, 
   {
-    "tier": 40, 
+    "tier": 72, 
     "text": "Wie viele Daten werden t\u00e4glich zu Facebook hoch geladen?", 
     "image": "data/pix/storage-cc-by-sa-brewbooks.jpg", 
     "answers": [
@@ -83,7 +83,7 @@
     "source": false
   }, 
   {
-    "tier": 25, 
+    "tier": 70, 
     "text": "Welche Stichwoerter duerfen eBooks bei Apple nicht enthalten?", 
     "answers": [
       {
@@ -103,7 +103,7 @@
     "source": false
   }, 
   {
-    "tier": 82, 
+    "tier": 58, 
     "text": "Was kann man mit $399 bezahlen?", 
     "answers": [
       {
@@ -123,8 +123,8 @@
     "source": false
   }, 
   {
-    "tier": 52, 
-    "text": "Wie lange speichert Siri deinen sprachlichen Fingerabdruck?", 
+    "tier": 76, 
+    "text": "Wie lange speichert Siri deinen sprachlichen Fingerabdruck f\u00fcr EU-Kunden?", 
     "image": "data/pix/siri-tbbt.jpg", 
     "answers": [
       {
@@ -144,8 +144,8 @@
     "source": false
   }, 
   {
-    "tier": 1, 
-    "text": "Wofuer fordert Friedrich keine Vorratsdatenspeicherung?", 
+    "tier": 29, 
+    "text": "Wofuer fordert IM Friedrich keine Vorratsdatenspeicherung?", 
     "answers": [
       {
         "text": "Twitter"
@@ -164,7 +164,7 @@
     "source": false
   }, 
   {
-    "tier": 21, 
+    "tier": 1, 
     "text": "Welche Software enth\u00e4lt keinen GPL Code?", 
     "image": "data/pix/gpl3.svg.png", 
     "answers": [
@@ -185,7 +185,7 @@
     "source": false
   }, 
   {
-    "tier": 59, 
+    "tier": 40, 
     "text": "Welche 0day Exploits werden am teuersten gehandelt?", 
     "explanation": {
       "image": "data/pix/0dayprizes.jpg"
@@ -196,7 +196,7 @@
         "right": true
       }, 
       {
-        "text": "MacOS X"
+        "text": "Blackberry"
       }, 
       {
         "text": "Adobe Flash"

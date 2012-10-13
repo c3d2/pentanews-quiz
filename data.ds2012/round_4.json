@@ -1,6 +1,6 @@
 [
   {
-    "tier": 29, 
+    "tier": 21, 
     "text": "Wieviele Lauschangriffe verstossen in .de gegen die Vorschriften / sind nicht rechtm\u00e4\u00dfig?", 
     "answers": [
       {
@@ -20,8 +20,11 @@
     "source": false
   }, 
   {
-    "tier": 11, 
+    "tier": 36, 
     "text": "Was ist kein C3D2-Projekt?", 
+    "explanation": {
+      "image": "data/pix/bitlove.png"
+    }, 
     "answers": [
       {
         "text": "Pentawall"
@@ -30,7 +33,7 @@
         "text": "Pentafnord"
       }, 
       {
-        "text": "Bitlove", 
+        "text": "PentaEvents", 
         "right": true
       }, 
       {
@@ -40,8 +43,8 @@
     "source": false
   }, 
   {
-    "tier": 39, 
-    "text": "Welche Begriffe werden nicht von Google zensiert?", 
+    "tier": 23, 
+    "text": "Welche Begriffe werden nicht von Google zensiert (Sind nicht in Autocomplete)?", 
     "answers": [
       {
         "text": "hd-torrent"
@@ -50,7 +53,7 @@
         "text": "Pirate Bay"
       }, 
       {
-        "text": "cu clux clan", 
+        "text": "Cu Clux Clan", 
         "right": true
       }, 
       {
@@ -60,8 +63,8 @@
     "source": false
   }, 
   {
-    "tier": 10, 
-    "text": "Wie viele Mars Curiosity Missionen k\u00f6nnte man f\u00fcr die Patent-Wars Ausgaben im Jahr 2011 von Apple und Google fliegen?", 
+    "tier": 12, 
+    "text": "Wie viele Mars Curiosity Missionen k\u00f6nnte man f\u00fcr die Patent-Wars Ausgaben im Jahr 2011 allein von Apple und Google fliegen?", 
     "image": "data/pix/curiosity-cc-by-gsfc.jpg", 
     "answers": [
       {
@@ -81,27 +84,27 @@
     "source": false
   }, 
   {
-    "tier": 10, 
-    "text": "Wof\u00fcr haben Apple+Google das meiste Geld ausgegeben?", 
+    "tier": 14, 
+    "text": "Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgel\u00f6st?", 
     "answers": [
       {
-        "text": "Patente"
+        "text": "11 %"
       }, 
       {
-        "text": "R & D"
+        "text": "22 %"
       }, 
       {
-        "text": "Charity", 
+        "text": "33 %", 
         "right": true
       }, 
       {
-        "text": "Weiterbildung"
+        "text": "55 %"
       }
     ], 
     "source": false
   }, 
   {
-    "tier": 19, 
+    "tier": 21, 
     "text": "Welche Stadt konkurriert mit Dresden um die meisten Funkzellenabfragen?", 
     "answers": [
       {
@@ -121,18 +124,18 @@
     "source": false
   }, 
   {
-    "tier": 34, 
-    "text": "Aus was bestehen die Pentanewsgameshowbuzzerdiffusor?", 
+    "tier": 10, 
+    "text": "Woraus bestehen die Pentanewsgameshowbuzzerdiffusor?", 
     "answers": [
-      {
-        "text": "gebackene K\u00fcchenrolle mit Tapetenkleister", 
-        "right": true
-      }, 
       {
         "text": "Aramidfasern in Polyesterharz"
       }, 
       {
-        "text": "Kartoffelbrei mit Fischst\u00e4bchen und Spinat"
+        "text": "gebleichte Radkappen"
+      }, 
+      {
+        "text": "gebackene K\u00fcchenrolle mit Tapetenkleister", 
+        "right": true
       }, 
       {
         "text": "ange\u00e4tzte Glashalbkugeln"
@@ -142,12 +145,8 @@
   }, 
   {
     "tier": 9, 
-    "text": "Wie hoch war das h\u00f6chste Bu\u00dfgeld was je wegen Dantenschutzverst\u00f6\u00dfen gezahlt wurde?", 
+    "text": "Wie hoch war das h\u00f6chste Bu\u00dfgeld welches je wegen Dantenschutzverst\u00f6\u00dfen gezahlt wurde?", 
     "answers": [
-      {
-        "text": "22.5 Millionen US-Dollar", 
-        "right": true
-      }, 
       {
         "text": "23.5 Millionen US-Dollar"
       }, 
@@ -156,12 +155,16 @@
       }, 
       {
         "text": "5 Millionen US Dollar"
+      }, 
+      {
+        "text": "22.5 Millionen US-Dollar", 
+        "right": true
       }
     ], 
     "source": false
   }, 
   {
-    "tier": 12, 
+    "tier": 34, 
     "text": "Mit welcher Tastenkombination kann man den Xserver entsperren?", 
     "answers": [
       {
@@ -176,13 +179,13 @@
         "text": "STRG+ALT+ENTF"
       }, 
       {
-        "text": "ESC"
+        "text": "Fn+Rollen+Shift"
       }
     ], 
     "source": false
   }, 
   {
-    "tier": 6, 
+    "tier": 8, 
     "text": "Cop or Soldier?", 
     "image": "data/pix/spotthecop.png", 
     "answers": [
@@ -203,18 +206,18 @@
     "source": false
   }, 
   {
-    "tier": 14, 
+    "tier": 13, 
     "text": "Wer kann keine Trojaner programmieren?", 
     "answers": [
       {
-        "text": "deutsches Innenministerium", 
-        "right": true
-      }, 
-      {
-        "text": "Kinder"
+        "text": "Junghacker"
       }, 
       {
         "text": "Mafia"
+      }, 
+      {
+        "text": "deutsches Innenministerium", 
+        "right": true
       }, 
       {
         "text": "CIA"
@@ -223,21 +226,21 @@
     "source": false
   }, 
   {
-    "tier": 6, 
+    "tier": 31, 
     "text": "Wie antwortet der Gamma Trojaner Kommandoserver?", 
     "answers": [
       {
-        "text": "Hallo Gabi?", 
+        "text": "Redirect"
+      }, 
+      {
+        "text": "Hallo Steffi", 
         "right": true
       }, 
       {
-        "text": "go away"
+        "text": "Service not available"
       }, 
       {
-        "text": "service not available"
-      }, 
-      {
-        "text": "Welcome to the dark side"
+        "text": "Welcome to the dark side."
       }
     ], 
     "source": false

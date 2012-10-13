@@ -22,12 +22,12 @@ tier: 1
 game_round: 1
 
 --- !Question
-question: Was kostet eine De-Mail?
+question: Was kostet eine De-Mail den Kunden?
 answers:
     - true: 39 cent
     - false: 55 cent
     - false: 58 cent
-    - false: 42 cent
+    - false: 19 cent
 tier: 2
 game_round: 1
 media:
@@ -84,7 +84,7 @@ tier: 6
 game_round: 1
 
 --- !Question
-question: Wie lange speichert Siri deinen sprachlichen Fingerabdruck?
+question: Wie lange speichert Siri deinen sprachlichen Fingerabdruck für EU-Kunden?
 answers:
     - false: gar nicht
     - false: 6 Monate
@@ -97,7 +97,7 @@ media:
         - pix/siri-tbbt.jpg
 
 --- !Question
-question: Wofuer fordert Friedrich keine Vorratsdatenspeicherung?
+question: Wofuer fordert IM Friedrich keine Vorratsdatenspeicherung?
 answers:
     - false: Twitter
     - false: SMS
@@ -131,7 +131,7 @@ media:
 question: Welche 0day Exploits werden am teuersten gehandelt?
 answers:
     - true: iOS
-    - false: MacOS X
+    - false: Blackberry
     - false: Adobe Flash
     - false: Microsoft Word
 tier: 10
@@ -140,14 +140,13 @@ media:
     explanation:
         - pix/0dayprizes.jpg
 
-
 --- !Question
 question: Welche Firma schliesst Sicherheitslueckern (erst) nach Nutzerprotesten?
 answers:
     - true: Adobe
     - true: Apple
     - true: Digitask
-    - true: Microsoft
+    - true: Oracle
 tier: 1
 game_round: 2
 media:
@@ -180,9 +179,9 @@ game_round: 2
 --- !Question
 question: Welche politische Partei wird von Schulfilterplus.de gesperrt?
 answers:
-    - false: SPD
+    - false: NPD
     - false: CDU
-    - true: Piratenpartei NRW
+    - true: Piratenpartei
     - false: Grüne
 tier: 3
 game_round: 2
@@ -190,12 +189,12 @@ game_round: 2
 
 # FIXME (a8) Antworten unvollstaendig
 --- !Question
-question: Was wird nicht im Klartext gespeichert bzw liegt nicht im Klartext vor?
+question: Was wird nicht im Klartext gespeichert bzw liegt nicht im Klartext vor (2012)?
 answers:
     - false: Ubuntu Passwoerter
     - true: Lion Passwoerter
     - false: De-Mail Passwoerter
-    - false: Debian Passwoerter
+    - false: Debian Zufallszahlen
 tier: 4
 game_round: 2
 
@@ -245,11 +244,11 @@ game_round: 2
 #    - true: ...?
 
 --- !Question
-question: Welches Abkuerzung steht nicht fuer einen US Gesetzentwurf?
+question: Welche Abkuerzung steht nicht fuer einen US Gesetzentwurf?
 answers:
-    - false: ACTA,
-    - false: PIPA,
-    - true: COBRA,
+    - false: ACTA
+    - false: PIPA
+    - true: COBRA
     - false: CISPA
 tier: 7
 game_round: 2
@@ -265,7 +264,7 @@ question: Wie entsorgt man in Hamburg Patientenakten?
 answers:
     - false: Reisswolf
     - false: Krematorium
-    - false: Ausstopfen alter Matratzen
+    - false: Fenster putzen
     - true: Sperrmüll
 tier: 8
 game_round: 2
@@ -292,11 +291,11 @@ game_round: 2
 #        - pix/tux.jpg
 
 --- !Question
-question: Weshalb wurde Apple verklagt?
+question: Weshalb wurde 2012 Apple verklagt?
 answers:
     - false: Campen vor dem Store
     - true: Frau gegen Glastuer gerannt
-    - false: iPad Design geklaut
+    - false: in Fluß navigiert
     - false: Siri war obszoen
 tier: 10
 game_round: 2
@@ -306,7 +305,7 @@ game_round: 2
 #    - false: tanken
 
 --- !Question
-question: Wie viel Internettraffic ist von Maschinen?
+question: Wie hoch ist der Anteil von maschinengeneriertem Internettraffic?
 answers:
     - false: 23%
     - false: 32%
@@ -344,23 +343,21 @@ answers:
 tier: 3
 game_round: 3
 
-
 --- !Question
 question: Was wird nicht von Britischen Ärzten verschrieben?
 answers:
-    - true: Mariuhana
+    - true: Marihuana
     - false: Smartphone-Apps
     - false: Internetnutzung
     - false: Computerspiele
 tier: 4
 game_round: 3
 
-
 --- !Question
-question: Warum zeichnete Rumaeniens Premier Minister ACTA?
+question: Warum zeichnete Rumäniens Premier Minister ACTA?
 answers:
     - false: Kinderpornografie
-    - false: Terrorism
+    - false: Terrorismus
     - true: "keine Ahnung"
     - false: Internetpiraterie
 tier: 5
@@ -370,7 +367,7 @@ game_round: 3
 question: Worüber wurde 2011 kein TCP/IP demonstriert?
 answers:
     - false: Brieftauben Aviation Carrier
-    - true: Lego Zug
+    - true: Lego Eisenbahn
     - false: Trommeln
     - false: Rauchzeichen
 tier: 6
@@ -386,7 +383,7 @@ answers:
     - false: Diskordianismus
     - true: Kopimism
     - false: Scientology
-    - false: Zeugen Jehovas
+    - false: Spaghettimonster
 tier: 7
 game_round: 3
 
@@ -415,12 +412,12 @@ tier: 9
 game_round: 3
 
 --- !Question
-question: Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgeloest?
+question: Wofür haben Apple+Google das meiste Geld ausgegeben?
 answers:
-    - false: 11 %
-    - false: 22 %
-    - true: 33 %
-    - false: 55 %
+    - true: Patente
+    - false: R & D
+    - false: Charity
+    - false: Weiterbildung
 tier: 10
 game_round: 3
 
@@ -439,7 +436,7 @@ question: Was ist kein C3D2-Projekt?
 answers:
     - false: Pentawall
     - false: Pentafnord
-    - true: Bitlove
+    - true: PentaEvents
     - false: Pentacast
 tier: 2
 game_round: 4
@@ -449,17 +446,17 @@ media:
         - pix/bitlove.png
 
 --- !Question
-question: Welche Begriffe werden nicht von Google zensiert?
+question: Welche Begriffe werden nicht von Google zensiert (Sind nicht in Autocomplete)?
 answers:
     - false: hd-torrent
     - false: Pirate Bay
-    - true: cu clux clan
+    - true: Cu Clux Clan
     - false: Bettina Wulf
 tier: 3
 game_round: 4
 
 --- !Question
-question: Wie viele Mars Curiosity Missionen könnte man für die Patent-Wars Ausgaben im Jahr 2011 von Apple und Google fliegen?
+question: Wie viele Mars Curiosity Missionen könnte man für die Patent-Wars Ausgaben im Jahr 2011 allein von Apple und Google fliegen?
 answers:
     - false: 1/2
     - false: 1/4
@@ -472,12 +469,12 @@ media:
         - pix/curiosity-cc-by-gsfc.jpg
 
 --- !Question
-question: Wofür haben Apple+Google das meiste Geld ausgegeben?
+question: Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgelöst?
 answers:
-    - false: Patente
-    - false: R & D
-    - true: Charity
-    - false: Weiterbildung
+    - false: 11 %
+    - false: 22 %
+    - true: 33 %
+    - false: 55 %
 tier: 5
 game_round: 4
 
@@ -492,11 +489,11 @@ tier: 6
 game_round: 4
 
 --- !Question
-question: Aus was bestehen die Pentanewsgameshowbuzzerdiffusor?
+question: Woraus bestehen die Pentanewsgameshowbuzzerdiffusor?
 answers:
-    - true: gebackene Küchenrolle mit Tapetenkleister
     - false: Aramidfasern in Polyesterharz
-    - false: Kartoffelbrei mit Fischstäbchen und Spinat
+    - false: gebleichte Radkappen
+    - true: gebackene Küchenrolle mit Tapetenkleister
     - false: angeätzte Glashalbkugeln
 tier: 7
 game_round: 4
@@ -506,12 +503,12 @@ game_round: 4
 #        - foto buzzer diffusor
 
 --- !Question
-question: Wie hoch war das höchste Bußgeld was je wegen Dantenschutzverstößen gezahlt wurde?
+question: Wie hoch war das höchste Bußgeld welches je wegen Dantenschutzverstößen gezahlt wurde?
 answers:
-    - true: 22.5 Millionen US-Dollar
     - false: 23.5 Millionen US-Dollar
     - false: 100 Millionen US Dollar
     - false: 5 Millionen US Dollar
+    - true: 22.5 Millionen US-Dollar
 # FIXME (a8) Text is no media file
 #media:
 #    explanation:
@@ -525,10 +522,9 @@ answers:
     - true: CTRL+ALT+Keypad-Multiply
     - true: CTRL+ALT+F11
     - false: STRG+ALT+ENTF
-    - false: ESC
+    - false: Fn+Rollen+Shift
 tier: 9
 game_round: 4
-
 
 --- !Question
 question: Cop or Soldier?
@@ -543,13 +539,12 @@ media:
 tier: 10
 game_round: 4
 
-
 --- !Question
 question: Wer kann keine Trojaner programmieren?
 answers:
-    - true: deutsches Innenministerium
-    - false: Kinder
+    - false: Junghacker
     - false: Mafia
+    - true: deutsches Innenministerium
     - false: CIA
 tier: 11
 game_round: 4
@@ -558,10 +553,10 @@ game_round: 4
 --- !Question
 question: Wie antwortet der Gamma Trojaner Kommandoserver?
 answers:
-    - true: Hallo Steffi?
-    - false: go away
-    - false: service not available
-    - false: Welcome to the dark side
+    - false: Redirect
+    - true: Hallo Steffi
+    - false: Service not available
+    - false: Welcome to the dark side.
 tier: 12
 game_round: 4
 

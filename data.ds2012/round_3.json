@@ -1,7 +1,7 @@
 [
   {
-    "tier": 76750, 
-    "text": "Wie viel Internettraffic ist von Maschinen?", 
+    "tier": 10234, 
+    "text": "Wie hoch ist der Anteil von maschinengeneriertem Internettraffic?", 
     "answers": [
       {
         "text": "23%"
@@ -20,7 +20,7 @@
     "source": false
   }, 
   {
-    "tier": 79829, 
+    "tier": 17431, 
     "text": "Wie kann man an TSA Body Scannern Dinge vorbei schmuggeln?", 
     "answers": [
       {
@@ -40,7 +40,7 @@
     "source": false
   }, 
   {
-    "tier": 87866, 
+    "tier": 77380, 
     "text": "Wie viele E-Mails wurden von Deutschen Geheimdiensten 2010 nach Schlagworten durchsucht?", 
     "answers": [
       {
@@ -60,11 +60,11 @@
     "source": false
   }, 
   {
-    "tier": 39405, 
+    "tier": 25548, 
     "text": "Was wird nicht von Britischen \u00c4rzten verschrieben?", 
     "answers": [
       {
-        "text": "Mariuhana", 
+        "text": "Marihuana", 
         "right": true
       }, 
       {
@@ -80,14 +80,14 @@
     "source": false
   }, 
   {
-    "tier": 41723, 
-    "text": "Warum zeichnete Rumaeniens Premier Minister ACTA?", 
+    "tier": 15800, 
+    "text": "Warum zeichnete Rum\u00e4niens Premier Minister ACTA?", 
     "answers": [
       {
         "text": "Kinderpornografie"
       }, 
       {
-        "text": "Terrorism"
+        "text": "Terrorismus"
       }, 
       {
         "text": "keine Ahnung", 
@@ -100,14 +100,14 @@
     "source": false
   }, 
   {
-    "tier": 94802, 
+    "tier": 83135, 
     "text": "Wor\u00fcber wurde 2011 kein TCP/IP demonstriert?", 
     "answers": [
       {
         "text": "Brieftauben Aviation Carrier"
       }, 
       {
-        "text": "Lego Zug", 
+        "text": "Lego Eisenbahn", 
         "right": true
       }, 
       {
@@ -120,27 +120,27 @@
     "source": false
   }, 
   {
-    "tier": 49129, 
+    "tier": 75275, 
     "text": "Was ist eine offizielle Religion Schwedens?", 
     "answers": [
       {
         "text": "Diskordianismus"
       }, 
       {
-        "text": "Kopism", 
+        "text": "Kopimism", 
         "right": true
       }, 
       {
         "text": "Scientology"
       }, 
       {
-        "text": "Zeugen Jehovas"
+        "text": "Spaghettimonster"
       }
     ], 
     "source": false
   }, 
   {
-    "tier": 12152, 
+    "tier": 37786, 
     "text": "Wer bestellt sein Essen per iPad?", 
     "answers": [
       {
@@ -160,7 +160,7 @@
     "source": false
   }, 
   {
-    "tier": 56251, 
+    "tier": 74773, 
     "text": "In welchem Land ist Filesharing fuer privaten Gebrauch erlaubt?", 
     "answers": [
       {
@@ -180,21 +180,21 @@
     "source": false
   }, 
   {
-    "tier": 59532, 
-    "text": "Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgeloest?", 
+    "tier": 31190, 
+    "text": "Wof\u00fcr haben Apple+Google das meiste Geld ausgegeben?", 
     "answers": [
       {
-        "text": "11 %"
-      }, 
-      {
-        "text": "22 %"
-      }, 
-      {
-        "text": "33 %", 
+        "text": "Patente", 
         "right": true
       }, 
       {
-        "text": "55 %"
+        "text": "R & D"
+      }, 
+      {
+        "text": "Charity"
+      }, 
+      {
+        "text": "Weiterbildung"
       }
     ], 
     "source": false
