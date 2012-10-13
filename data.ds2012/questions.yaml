@@ -208,7 +208,7 @@ tier: 5
 game_round: 2
 media:
     question:
-        - pix/foebud-ausweis.jpeg
+        - pix/foebud-ausweis.jpg
 
 --- !Question
 question: Was wird von Al Qeida zur Steganographie genutzt?
@@ -219,9 +219,10 @@ answers:
     - false: O{b|s}ama Reden
 tier: 6
 game_round: 2
-media:
-    question:
-        - pix/Seganography_Encode.png
+# FIXME (a8) Picture is missing
+#media:
+#    question:
+#        - pix/Seganography_Encode.png
 # pic from http://www.henryfarrell.net/cybersecurity/jones/2009/10/lolcats_and_stenography.html
 
 # FIXME (a8): Das haben die behoben. Es war eine Backdoor IIRC.
@@ -395,9 +396,10 @@ answers:
     - false: Restaurantbesucher in Cupertino
 tier: 8
 game_round: 3
-media:
-    explanation:
-        - pic/monkey-ipad.jpg
+# FIXME (a8) Picture missing!
+#media:
+#    explanation:
+#        - pic/monkey-ipad.jpg
 
 --- !Question
 question: In welchem Land ist Filesharing fuer privaten Gebrauch erlaubt?
@@ -507,9 +509,10 @@ answers:
     - false: 23.5 Millionen US-Dollar
     - false: 100 Millionen US Dollar
     - false: 5 Millionen US Dollar
-media:
-    explanation:
-        - Google musste 22.5 Millionen US Dollar zahlen, da sie Apple's Safari ausgetrickst haben, Cookies zu akzeptieren (kleines Formular auf Seiten eingebettet). 0.81 Prozent des Gewinns
+# FIXME (a8) Text is no media file
+#media:
+#    explanation:
+#        - Google musste 22.5 Millionen US Dollar zahlen, da sie Apple's Safari ausgetrickst haben, Cookies zu akzeptieren (kleines Formular auf Seiten eingebettet). 0.81 Prozent des Gewinns
 tier: 8
 game_round: 4
 
