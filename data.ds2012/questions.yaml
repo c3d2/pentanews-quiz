@@ -558,7 +558,7 @@ game_round: 4
 --- !Question
 question: Wie antwortet der Gamma Trojaner Kommandoserver?
 answers:
-    - true: Hallo Gabi?
+    - true: Hallo Steffi?
     - false: go away
     - false: service not available
     - false: Welcome to the dark side
