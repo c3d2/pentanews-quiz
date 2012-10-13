@@ -534,7 +534,20 @@ answers:
 media:
     question:
         - pix/spotthecop.png
-        
+tier: 10
+game_round: 4
+
+
+--- !Question
+question: Wer kann keine Trojaner programmieren?
+answers:
+    - true: deutsches Innenministerium
+    - false: Kinder
+    - false: Mafia
+    - false: CIA
+tier: 11
+game_round: 4
+
 
 #--- !Question
 #question: IRgendwas mit meldung 1697    
