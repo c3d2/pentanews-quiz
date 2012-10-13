@@ -1,6 +1,6 @@
 [
   {
-    "tier": 78, 
+    "tier": 17, 
     "text": "Wie hei\u00dft der Gewinner der SHA-3 Competition?", 
     "answers": [
       {
@@ -20,7 +20,7 @@
     "source": false
   }, 
   {
-    "tier": 4, 
+    "tier": 95, 
     "text": "Was kostet eine De-Mail den Kunden?", 
     "image": "data/pix/email-stamps-cc-by-sa.jpg", 
     "answers": [
@@ -41,7 +41,7 @@
     "source": false
   }, 
   {
-    "tier": 76, 
+    "tier": 68, 
     "text": "Was verdienen die 28 von Spiegel Online ausgewerteten St\u00e4dte durch den Verkauf von Einwohnermeldedaten?", 
     "image": "data/pix/mony-cc-by-yomanimus.jpg", 
     "answers": [
@@ -62,7 +62,7 @@
     "source": false
   }, 
   {
-    "tier": 72, 
+    "tier": 1, 
     "text": "Wie viele Daten werden t\u00e4glich zu Facebook hoch geladen?", 
     "image": "data/pix/storage-cc-by-sa-brewbooks.jpg", 
     "answers": [
@@ -83,7 +83,7 @@
     "source": false
   }, 
   {
-    "tier": 70, 
+    "tier": 29, 
     "text": "Welche Stichwoerter duerfen eBooks bei Apple nicht enthalten?", 
     "answers": [
       {
@@ -103,7 +103,7 @@
     "source": false
   }, 
   {
-    "tier": 58, 
+    "tier": 32, 
     "text": "Was kann man mit $399 bezahlen?", 
     "answers": [
       {
@@ -123,7 +123,7 @@
     "source": false
   }, 
   {
-    "tier": 76, 
+    "tier": 77, 
     "text": "Wie lange speichert Siri deinen sprachlichen Fingerabdruck f\u00fcr EU-Kunden?", 
     "image": "data/pix/siri-tbbt.jpg", 
     "answers": [
@@ -144,7 +144,7 @@
     "source": false
   }, 
   {
-    "tier": 29, 
+    "tier": 82, 
     "text": "Wofuer fordert IM Friedrich keine Vorratsdatenspeicherung?", 
     "answers": [
       {
@@ -164,7 +164,7 @@
     "source": false
   }, 
   {
-    "tier": 1, 
+    "tier": 4, 
     "text": "Welche Software enth\u00e4lt keinen GPL Code?", 
     "image": "data/pix/gpl3.svg.png", 
     "answers": [
@@ -185,7 +185,7 @@
     "source": false
   }, 
   {
-    "tier": 40, 
+    "tier": 29, 
     "text": "Welche 0day Exploits werden am teuersten gehandelt?", 
     "explanation": {
       "image": "data/pix/0dayprizes.jpg"

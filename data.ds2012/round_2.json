@@ -1,6 +1,6 @@
 [
   {
-    "tier": 938, 
+    "tier": 195, 
     "text": "Welche Firma schliesst Sicherheitslueckern (erst) nach Nutzerprotesten?", 
     "image": "data/pix/citizens-in-their-v-masks.jpg", 
     "answers": [
@@ -24,7 +24,7 @@
     "source": false
   }, 
   {
-    "tier": 448, 
+    "tier": 177, 
     "text": "Wie schnell ist der schnellste Endkunden Internetzugang?", 
     "answers": [
       {
@@ -44,7 +44,7 @@
     "source": false
   }, 
   {
-    "tier": 453, 
+    "tier": 188, 
     "text": "Welche politische Partei wird von Schulfilterplus.de gesperrt?", 
     "answers": [
       {
@@ -64,7 +64,7 @@
     "source": false
   }, 
   {
-    "tier": 575, 
+    "tier": 986, 
     "text": "Was wird nicht im Klartext gespeichert bzw liegt nicht im Klartext vor (2012)?", 
     "answers": [
       {
@@ -84,7 +84,7 @@
     "source": false
   }, 
   {
-    "tier": 339, 
+    "tier": 371, 
     "text": "Wo wird der nichtamtliche Lichtbildausweis vom FoeBuD nicht akzeptiert?", 
     "image": "data/pix/foebud-ausweis.jpg", 
     "answers": [
@@ -105,7 +105,7 @@
     "source": false
   }, 
   {
-    "tier": 588, 
+    "tier": 152, 
     "text": "Was wird von Al Qeida zur Steganographie genutzt?", 
     "answers": [
       {
@@ -125,7 +125,7 @@
     "source": false
   }, 
   {
-    "tier": 134, 
+    "tier": 994, 
     "text": "Welche Abkuerzung steht nicht fuer einen US Gesetzentwurf?", 
     "answers": [
       {
@@ -145,7 +145,7 @@
     "source": false
   }, 
   {
-    "tier": 532, 
+    "tier": 792, 
     "text": "Wie entsorgt man in Hamburg Patientenakten?", 
     "image": "data/pix/sperrmuell-cc-by-dierkschaefer.jpg", 
     "answers": [
@@ -166,7 +166,7 @@
     "source": false
   }, 
   {
-    "tier": 326, 
+    "tier": 829, 
     "text": "Auf welchem System basiert der langsamste Linux PC?", 
     "answers": [
       {
@@ -186,7 +186,7 @@
     "source": false
   }, 
   {
-    "tier": 264, 
+    "tier": 156, 
     "text": "Weshalb wurde 2012 Apple verklagt?", 
     "answers": [
       {

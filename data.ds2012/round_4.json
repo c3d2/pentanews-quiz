@@ -1,6 +1,6 @@
 [
   {
-    "tier": 21, 
+    "tier": 16, 
     "text": "Wieviele Lauschangriffe verstossen in .de gegen die Vorschriften / sind nicht rechtm\u00e4\u00dfig?", 
     "answers": [
       {
@@ -20,7 +20,7 @@
     "source": false
   }, 
   {
-    "tier": 36, 
+    "tier": 12, 
     "text": "Was ist kein C3D2-Projekt?", 
     "explanation": {
       "image": "data/pix/bitlove.png"
@@ -43,7 +43,7 @@
     "source": false
   }, 
   {
-    "tier": 23, 
+    "tier": 12, 
     "text": "Welche Begriffe werden nicht von Google zensiert (Sind nicht in Autocomplete)?", 
     "answers": [
       {
@@ -63,7 +63,7 @@
     "source": false
   }, 
   {
-    "tier": 12, 
+    "tier": 10, 
     "text": "Wie viele Mars Curiosity Missionen k\u00f6nnte man f\u00fcr die Patent-Wars Ausgaben im Jahr 2011 allein von Apple und Google fliegen?", 
     "image": "data/pix/curiosity-cc-by-gsfc.jpg", 
     "answers": [
@@ -84,7 +84,7 @@
     "source": false
   }, 
   {
-    "tier": 14, 
+    "tier": 20, 
     "text": "Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgel\u00f6st?", 
     "answers": [
       {
@@ -104,7 +104,7 @@
     "source": false
   }, 
   {
-    "tier": 21, 
+    "tier": 8, 
     "text": "Welche Stadt konkurriert mit Dresden um die meisten Funkzellenabfragen?", 
     "answers": [
       {
@@ -124,7 +124,7 @@
     "source": false
   }, 
   {
-    "tier": 10, 
+    "tier": 23, 
     "text": "Woraus bestehen die Pentanewsgameshowbuzzerdiffusor?", 
     "answers": [
       {
@@ -144,7 +144,7 @@
     "source": false
   }, 
   {
-    "tier": 9, 
+    "tier": 16, 
     "text": "Wie hoch war das h\u00f6chste Bu\u00dfgeld welches je wegen Dantenschutzverst\u00f6\u00dfen gezahlt wurde?", 
     "answers": [
       {
@@ -164,7 +164,7 @@
     "source": false
   }, 
   {
-    "tier": 34, 
+    "tier": 23, 
     "text": "Mit welcher Tastenkombination kann man den Xserver entsperren?", 
     "answers": [
       {
@@ -185,7 +185,7 @@
     "source": false
   }, 
   {
-    "tier": 8, 
+    "tier": 34, 
     "text": "Cop or Soldier?", 
     "image": "data/pix/spotthecop.png", 
     "answers": [
@@ -206,7 +206,7 @@
     "source": false
   }, 
   {
-    "tier": 13, 
+    "tier": 16, 
     "text": "Wer kann keine Trojaner programmieren?", 
     "answers": [
       {
@@ -226,7 +226,7 @@
     "source": false
   }, 
   {
-    "tier": 31, 
+    "tier": 6, 
     "text": "Wie antwortet der Gamma Trojaner Kommandoserver?", 
     "answers": [
       {
