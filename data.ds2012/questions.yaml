@@ -441,9 +441,9 @@ answers:
 tier: 2
 game_round: 4
 #FIXME
-#media:
-#    explanation:
-#        - pix/bitloveheart.png
+media:
+    explanation:
+        - pix/bitlove.png
 
 --- !Question
 question: Welche Begriffe werden nicht von Google zensiert?
