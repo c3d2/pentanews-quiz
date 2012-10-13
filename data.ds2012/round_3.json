@@ -1,0 +1,202 @@
+[
+  {
+    "tier": 76750, 
+    "text": "Wie viel Internettraffic ist von Maschinen?", 
+    "answers": [
+      {
+        "text": "23%"
+      }, 
+      {
+        "text": "32%"
+      }, 
+      {
+        "text": "51%", 
+        "right": true
+      }, 
+      {
+        "text": "73%"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 79829, 
+    "text": "Wie kann man an TSA Body Scannern Dinge vorbei schmuggeln?", 
+    "answers": [
+      {
+        "text": "schwarz anmalen"
+      }, 
+      {
+        "text": "an der Koerperseite", 
+        "right": true
+      }, 
+      {
+        "text": "Stealth-Farbe"
+      }, 
+      {
+        "text": "Gummianzug"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 87866, 
+    "text": "Wie viele E-Mails wurden von Deutschen Geheimdiensten 2010 nach Schlagworten durchsucht?", 
+    "answers": [
+      {
+        "text": "1.324.890"
+      }, 
+      {
+        "text": "5.092.098"
+      }, 
+      {
+        "text": "12.341.074"
+      }, 
+      {
+        "text": "37.292.862", 
+        "right": true
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 39405, 
+    "text": "Was wird nicht von Britischen \u00c4rzten verschrieben?", 
+    "answers": [
+      {
+        "text": "Mariuhana", 
+        "right": true
+      }, 
+      {
+        "text": "Smartphone-Apps"
+      }, 
+      {
+        "text": "Internetnutzung"
+      }, 
+      {
+        "text": "Computerspiele"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 41723, 
+    "text": "Warum zeichnete Rumaeniens Premier Minister ACTA?", 
+    "answers": [
+      {
+        "text": "Kinderpornografie"
+      }, 
+      {
+        "text": "Terrorism"
+      }, 
+      {
+        "text": "keine Ahnung", 
+        "right": true
+      }, 
+      {
+        "text": "Internetpiraterie"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 94802, 
+    "text": "Wor\u00fcber wurde 2011 kein TCP/IP demonstriert?", 
+    "answers": [
+      {
+        "text": "Brieftauben Aviation Carrier"
+      }, 
+      {
+        "text": "Lego Zug", 
+        "right": true
+      }, 
+      {
+        "text": "Trommeln"
+      }, 
+      {
+        "text": "Rauchzeichen"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 49129, 
+    "text": "Was ist eine offizielle Religion Schwedens?", 
+    "answers": [
+      {
+        "text": "Diskordianismus"
+      }, 
+      {
+        "text": "Kopism", 
+        "right": true
+      }, 
+      {
+        "text": "Scientology"
+      }, 
+      {
+        "text": "Zeugen Jehovas"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 12152, 
+    "text": "Wer bestellt sein Essen per iPad?", 
+    "answers": [
+      {
+        "text": "Affen im Zoo", 
+        "right": true
+      }, 
+      {
+        "text": "Pflegebeduerftige"
+      }, 
+      {
+        "text": "Steven Hawkins"
+      }, 
+      {
+        "text": "Restaurantbesucher in Cupertino"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 56251, 
+    "text": "In welchem Land ist Filesharing fuer privaten Gebrauch erlaubt?", 
+    "answers": [
+      {
+        "text": "Japan"
+      }, 
+      {
+        "text": "USA"
+      }, 
+      {
+        "text": "Frankreich"
+      }, 
+      {
+        "text": "Portugal", 
+        "right": true
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 59532, 
+    "text": "Wieviel Scheidungen werden in UK (Divorce-Online) durch Facebook ausgeloest?", 
+    "answers": [
+      {
+        "text": "11 %"
+      }, 
+      {
+        "text": "22 %"
+      }, 
+      {
+        "text": "33 %", 
+        "right": true
+      }, 
+      {
+        "text": "55 %"
+      }
+    ], 
+    "source": false
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "tier": 79, 
+    "text": "Wie hei\u00dft der Gewinner der SHA-3 Competition?", 
+    "answers": [
+      {
+        "text": "BLAKE"
+      }, 
+      {
+        "text": "Gr\u00f8stl"
+      }, 
+      {
+        "text": "KECCAK", 
+        "right": true
+      }, 
+      {
+        "text": "skein"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 50, 
+    "text": "Was kostet eine De-Mail?", 
+    "image": "data/pix/email-stamps-cc-by-sa.jpg", 
+    "answers": [
+      {
+        "text": "39 cent", 
+        "right": true
+      }, 
+      {
+        "text": "55 cent"
+      }, 
+      {
+        "text": "58 cent"
+      }, 
+      {
+        "text": "42 cent"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 3, 
+    "text": "Was verdienen die 28 von Spiegel Online ausgewerteten St\u00e4dte durch den Verkauf von Einwohnermeldedaten?", 
+    "image": "data/pix/mony-cc-by-yomanimus.jpg", 
+    "answers": [
+      {
+        "text": 121.0
+      }, 
+      {
+        "text": "1.21 Millionen"
+      }, 
+      {
+        "text": "12.1 Millionen", 
+        "right": true
+      }, 
+      {
+        "text": "23 Millionen"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 40, 
+    "text": "Wie viele Daten werden t\u00e4glich zu Facebook hoch geladen?", 
+    "image": "data/pix/storage-cc-by-sa-brewbooks.jpg", 
+    "answers": [
+      {
+        "text": "500 GB"
+      }, 
+      {
+        "text": "5 TB"
+      }, 
+      {
+        "text": "50 TB"
+      }, 
+      {
+        "text": "500 TB", 
+        "right": true
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 25, 
+    "text": "Welche Stichwoerter duerfen eBooks bei Apple nicht enthalten?", 
+    "answers": [
+      {
+        "text": "Amazon", 
+        "right": true
+      }, 
+      {
+        "text": "Android"
+      }, 
+      {
+        "text": "Gay"
+      }, 
+      {
+        "text": "Nipples"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 82, 
+    "text": "Was kann man mit $399 bezahlen?", 
+    "answers": [
+      {
+        "text": "Ausweis mit Biometrievollerfassung"
+      }, 
+      {
+        "text": "Das L\u00f6schen seines Polizeifotos", 
+        "right": true
+      }, 
+      {
+        "text": "eine Facebook Party"
+      }, 
+      {
+        "text": "ganz viel Tschunk"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 52, 
+    "text": "Wie lange speichert Siri deinen sprachlichen Fingerabdruck?", 
+    "image": "data/pix/siri-tbbt.jpg", 
+    "answers": [
+      {
+        "text": "gar nicht"
+      }, 
+      {
+        "text": "6 Monate"
+      }, 
+      {
+        "text": "auf unbestimmte Zeit", 
+        "right": true
+      }, 
+      {
+        "text": "max. 1 GB"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 1, 
+    "text": "Wofuer fordert Friedrich keine Vorratsdatenspeicherung?", 
+    "answers": [
+      {
+        "text": "Twitter"
+      }, 
+      {
+        "text": "SMS"
+      }, 
+      {
+        "text": "LKWs"
+      }, 
+      {
+        "text": "nichts", 
+        "right": true
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 21, 
+    "text": "Welche Software enth\u00e4lt keinen GPL Code?", 
+    "image": "data/pix/gpl3.svg.png", 
+    "answers": [
+      {
+        "text": "Bundestrojaner", 
+        "right": true
+      }, 
+      {
+        "text": "Stuxnet"
+      }, 
+      {
+        "text": "Flame"
+      }, 
+      {
+        "text": "Duqu"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 59, 
+    "text": "Welche 0day Exploits werden am teuersten gehandelt?", 
+    "explanation": {
+      "image": "data/pix/0dayprizes.jpg"
+    }, 
+    "answers": [
+      {
+        "text": "iOS", 
+        "right": true
+      }, 
+      {
+        "text": "MacOS X"
+      }, 
+      {
+        "text": "Adobe Flash"
+      }, 
+      {
+        "text": "Microsoft Word"
+      }
+    ], 
+    "source": false
+  }
+]

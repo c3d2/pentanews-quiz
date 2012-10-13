@@ -1,0 +1,196 @@
+[
+  {
+    "tier": 758, 
+    "text": "Welche Firma schliesst Sicherheitslueckern (erst) nach Nutzerprotesten?", 
+    "image": "data/pix/citizens-in-their-v-masks.jpg", 
+    "answers": [
+      {
+        "text": "Adobe", 
+        "right": true
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 341, 
+    "text": "Wie schnell ist der schnellste Endkunden Internetzugang?", 
+    "answers": [
+      {
+        "text": "230 Mpbs"
+      }, 
+      {
+        "text": "1024 Mbps"
+      }, 
+      {
+        "text": "4700 Mbps", 
+        "right": true
+      }, 
+      {
+        "text": "10240 Mbps"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 819, 
+    "text": "Welche politische Partei wird von Schulfilterplus.de gesperrt?", 
+    "answers": [
+      {
+        "text": "SPD"
+      }, 
+      {
+        "text": "CDU"
+      }, 
+      {
+        "text": "Piratenpartei NRW", 
+        "right": true
+      }, 
+      {
+        "text": "Gr\u00fcne"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 974, 
+    "text": "Was wird nicht im Klartext gespeichert bzw liegt nicht im Klartext vor?", 
+    "answers": [
+      {
+        "text": "Ubuntu Passwoerter"
+      }, 
+      {
+        "text": "Lion Passwoerter", 
+        "right": true
+      }, 
+      {
+        "text": "De-Mail Passwoerter"
+      }, 
+      {
+        "text": "Debian Passwoerter"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 364, 
+    "text": "Wo wird der nichtamtliche Lichtbildausweis vom FoeBuD nicht akzeptiert?", 
+    "image": "data/pix/foebud-ausweis.jpg", 
+    "answers": [
+      {
+        "text": "Ministerien"
+      }, 
+      {
+        "text": "in Nachtclubs", 
+        "right": true
+      }, 
+      {
+        "text": "Bei Parlamentswahlen"
+      }, 
+      {
+        "text": "Beim Niederl\u00e4ndischen nationalen Cyber Security Centrum"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 774, 
+    "text": "Was wird von Al Qeida zur Steganographie genutzt?", 
+    "answers": [
+      {
+        "text": "Porn", 
+        "right": true
+      }, 
+      {
+        "text": "Koran"
+      }, 
+      {
+        "text": "Bibel"
+      }, 
+      {
+        "text": "O{b|s}ama Reden"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 890, 
+    "text": "Welches Abkuerzung steht nicht fuer einen US Gesetzentwurf?", 
+    "answers": [
+      {
+        "text": "ACTA,"
+      }, 
+      {
+        "text": "PIPA,"
+      }, 
+      {
+        "text": "COBRA,", 
+        "right": true
+      }, 
+      {
+        "text": "CISPA"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 828, 
+    "text": "Wie entsorgt man in Hamburg Patientenakten?", 
+    "image": "data/pix/sperrmuell-cc-by-dierkschaefer.jpg", 
+    "answers": [
+      {
+        "text": "Reisswolf"
+      }, 
+      {
+        "text": "Krematorium"
+      }, 
+      {
+        "text": "Ausstopfen alter Matratzen"
+      }, 
+      {
+        "text": "Sperrm\u00fcll", 
+        "right": true
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 178, 
+    "text": "Auf welchem System basiert der langsamste Linux PC?", 
+    "answers": [
+      {
+        "text": "8 Bit AVR", 
+        "right": true
+      }, 
+      {
+        "text": "Arduino"
+      }, 
+      {
+        "text": "Z80"
+      }, 
+      {
+        "text": "MOS 6510"
+      }
+    ], 
+    "source": false
+  }, 
+  {
+    "tier": 641, 
+    "text": "Weshalb wurde Apple verklagt?", 
+    "answers": [
+      {
+        "text": "Campen vor dem Store"
+      }, 
+      {
+        "text": "Frau gegen Glastuer gerannt", 
+        "right": true
+      }, 
+      {
+        "text": "iPad Design geklaut"
+      }, 
+      {
+        "text": "Siri war obszoen"
+      }
+    ], 
+    "source": false
+  }
+]
