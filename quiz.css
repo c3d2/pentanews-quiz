@@ -21,7 +21,8 @@ p {
 }
 
 #players { 
-  margin-bottom: 2em;
+  position: absolute;
+  bottom: 0px;
 }
 #players li { 
   margin: 0 0.5em;
@@ -81,8 +82,7 @@ p {
 }
 
 #answers {
-  position: absolute;
-  bottom: 0px;
+  margin-bottom: 2em;
   width: 100%;
 }
 #answers ul {
