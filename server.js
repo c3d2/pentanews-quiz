@@ -43,7 +43,7 @@ function connectNedap() {
 	console.error(e.stack || e);
 	setTimeout(connectNedap, 1000);
     });
-    nedapClient.connect('ws://nedap.c3d2.de:2342/', 'quiz-nedap');
+    nedapClient.connect('ws://spaceboyz.net:2342/', 'quiz-nedap');
 }
 connectNedap();
 

@@ -81,6 +81,9 @@
         "text": 15
       }
     ], 
+    "explanation": {
+      "video": "pix/curiosity.webm"
+    }, 
     "source": false
   }, 
   {
@@ -126,6 +129,7 @@
   {
     "tier": 23, 
     "text": "Woraus bestehen die Pentanewsgameshowbuzzerdiffusor?", 
+    "image": "data/pix/buzzer.jpg",
     "answers": [
       {
         "text": "Aramidfasern in Polyesterharz"

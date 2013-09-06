@@ -455,7 +455,7 @@ function switchToGame() {
     for(i = 0; i < 4; i++) {
         var answer = q.answers[i];
         var liEl = $('#answers li').eq(i);
-        liEl.text(answer.text);
+        liEl.text(answer && answer.text || "");
         liEl.removeClass('selected right wrong');
 	liEl.fadeTo(0, 1);
     }
