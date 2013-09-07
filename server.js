@@ -4,7 +4,7 @@ var wsc = require('websocket').client;
 var irc = require('irc-js');
 var child_process = require('child_process');
 
-var frontend, sendToCensor;
+var frontend, sendToCensor = function() { console.log("no censor"); };
 
 
 /*
@@ -257,7 +257,9 @@ var gamestate = {};
 new wss({ httpServer: server }).on('request', function(req) {
     var conn = req.accept(null, req.origin);
 
-    if (req.requestedProtocols && req.requestedProtocols.indexOf('censor') >= 0) {
+    // console.log("ws conn", req, conn);
+    var proto = req.httpRequest.headers['sec-websocket-protocol'];
+    if (proto && proto.indexOf('censor') >= 0) {
 	/* Censor frontend */
 	sendToCensor = function(obj) {
 	    conn.sendUTF(JSON.stringify(obj));
@@ -268,6 +270,8 @@ new wss({ httpServer: server }).on('request', function(req) {
 		var msg = JSON.parse(wsmsg.utf8Data);
 		if (msg.gif)
 		    sendToFrontend(msg);
+		if (msg.toBackend)
+		    sendToFrontend({ fromBackend: msg.toBackend });
 	    } catch (e) {
 		console.error(e.stack);
 	    }

@@ -27,8 +27,7 @@ function setupWs() {
 	ws.send(JSON.stringify(msg));
     };
     ws.onopen = function() {
-	/* TODO: rm debug */
-	sendToBackend({ nedap: "ping" });
+	sendToBackend({ toBackend: "ping" });
     };
 }
 setupWs();
