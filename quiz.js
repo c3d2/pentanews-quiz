@@ -96,7 +96,7 @@ function setupWs() {
 	}
     };
     sendToBackend = function(msg) {
-	console.log('toBackend: ' + JSON.stringify(msg));
+	console.log('toBackend: ', msg);
 	ws.send(JSON.stringify(msg));
     };
     ws.onopen = function() {
@@ -416,6 +416,27 @@ function takeJoker(activePlayer, joker) {
 	    }
 	};
     }
+    if (joker === 'nsa') {
+	sendToBackend({ nsa: "activate" });
+	onBackendMessage = function(msg) {
+	    if (msg.nsa && msg.nsa.line && !/^\d\d:\d\d:\d\d\./.test(msg.nsa.line)) {
+		var nsaPane = $('#nsa ul');
+		var line = $('<li></li>');
+		line.text(msg.nsa.line);
+		nsaPane.append(line);
+
+		var lines = nsaPane.children();
+		for(var i = 0; i < lines.length - 24; i++) {
+		    lines.eq(i).remove();
+		}
+	    }
+	    if (msg.nsa && msg.nsa.command) {
+		$('#nsa .caption').text(msg.nsa.command);
+	    }
+	};
+	$('#nsa ul').empty();
+	$('#nsa').slideDown(500);
+    }
 }
 
 function setQuestionContents(q) {
@@ -630,6 +651,9 @@ function switchToGame() {
 	} else if (activePlayer !== null &&
 		   key === 'g') {
 	    takeJoker(activePlayer, 'gif');
+	} else if (activePlayer !== null &&
+		   key === 'j') {
+	    takeJoker(activePlayer, 'nsa');
 	}
     };
 
@@ -640,6 +664,7 @@ function switchToGame() {
 
     $('#nedap').hide();
     $('#gifs').hide();
+    $('#nsa').hide();
     $('#irc').hide();
     // Instantly show the question:
     $('#game').show();

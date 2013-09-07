@@ -2,6 +2,7 @@ var Connect = require('connect');
 var wss = require('websocket').server;
 var wsc = require('websocket').client;
 var irc = require('irc-js');
+var child_process = require('child_process');
 
 var frontend, sendToCensor;
 
@@ -300,6 +301,8 @@ new wss({ httpServer: server }).on('request', function(req) {
 		    conn.sendUTF(JSON.stringify({ gamestate: gamestate }));
 		} else if (msg.tweet) {
 		    tweet(msg.tweet);
+		} else if (msg.nsa === "activate") {
+		    fundNSA();
 		}
 	    } catch (e) {
 		console.error(e.stack);
@@ -341,6 +344,46 @@ function tweet(text) {
 	    var m = text.match(/^(.+) /);
 	    if (m)
 		tweet(m[1]);
+	}
+    });
+}
+
+var nsaProc;
+function fundNSA() {
+    if (nsaProc)
+	nsaProc.kill('SIGINT');
+
+    var cmds = [
+	"tcpdump -ni nsa -As 0 tcp dst port 80",
+	"tcpdump -ni nsa -s 0 udp port 53",
+	"tcpdump -ni nsa -As 0 tcp port 6667"
+    ];
+    var cmd = cmds[Math.floor(cmds.length * Math.random())];
+    sendToFrontend({ nsa: { command: cmd } });
+
+    nsaProc = child_process.spawn("sudo", ["sh", "-c", "exec " + cmd]);
+    nsaProc.on('error', function(err) {
+	sendToFrontend({ nsa: { command: err.message || "Error" } });
+	nsaProc = null;
+    });
+    nsaProc.on('close', function(code) {
+	sendToFrontend({ nsa: { command: "Exited with " + code } });
+	nsaProc = null;
+    });
+    nsaProc.stderr.setEncoding('ascii');
+    nsaProc.stderr.on('data', function(b) {
+	console.error("nsa", b);
+    });
+    var buf = "";
+    nsaProc.stdout.setEncoding('ascii');
+    nsaProc.stdout.on('data', function(b) {
+	console.log("nsa stdout", b);
+	buf += b;
+	var i;
+	while((i = buf.indexOf("\n")) >= 0) {
+	    var line = buf.slice(0, i);
+	    buf = buf.slice(i + 1);
+	    sendToFrontend({ nsa: { line: line } });
 	}
     });
 }

@@ -23,6 +23,8 @@ p {
 #players { 
   position: absolute;
   bottom: 0px;
+  left: 0;
+  right: 0;
 }
 #players li { 
   margin: 0 0.5em;
@@ -38,7 +40,7 @@ p {
   color: #7f7f7f;
 }
 #players .score {
-  font-size: 88%;
+  font-size: 95%;
   color: #fff;
 }
 .active { 
@@ -79,6 +81,15 @@ p {
   font-size: 150%;
   text-align: left;
   width: 40em;
+}
+#nsa ul {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 80%;
+  white-space: pre-nowrap;
+  overflow: hidden;
+  max-width: 80%;
+  text-align: left;
 }
 
 #answers {
