@@ -233,3 +233,73 @@ answers:
     - false: Garantie-Abzocke
 tier: 1
 game_round: 1
+
+--- !Question
+question: Auf welche Technologie setzt Russland um Leaks zu vermeiden?
+answers:
+    - false: nur End2End Crypto
+    - true: Schreibmaschinen
+    - false: eigene Hardware
+    - false: Trusted Boot
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welche Hackerdisziplin beherrschen Kakadus besonders gut?
+answers:
+    - false: lange wach bleiben
+    - false: Kopieren
+    - true: Lock picking
+    - false: Social Eng.
+tier: 1
+game_round: 1
+
+--- !Question
+question: Wieviel mal mehr Daten kann die NSA im Vergleich zur Stasi speichern?
+answers:
+    - false: 1.000.000
+    - false: 10.000.000
+    - true: 100.000.000
+    - false: 1.000.000.000
+tier: 1
+game_round: 1
+
+--- !Question
+question: Wieviel mal mehr Daten kann die NSA im Vergleich zur Stasi speichern?
+answers:
+    - false: 1.000.000
+    - false: 10.000.000
+    - true: 100.000.000
+    - false: 1.000.000.000
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welche Seite ist dieses Jahr nicht aus dem Web verschwunden?
+answers:
+    - false: The H
+    - false: Altavista
+    - true: bitlove.org
+    - false: reader.google.com
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welches Land hat den Asylantrag von Snowden nicht abgelehnt
+answers:
+    - true: Nikaragua
+    - false: Deutschland
+    - false: Brazilien
+    - false: Türkei
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was passierte mit Justin Carter nachdem er auf Facebook "Oh yeah, I am real messed up in the head. I'm going to go shoot up a school full of kids and eat their still-beating hearts." schrieb?
+answers:
+    - true: verhaftet
+    - false: FB gesperrt
+    - false: Guantanamo
+    - false: von Schule geflogen
+tier: 1
+game_round: 1
