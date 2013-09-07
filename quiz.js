@@ -96,7 +96,7 @@ function setupWs() {
 	}
     };
     sendToBackend = function(msg) {
-	console.log('toBackend: ', msg);
+	// console.log('toBackend: ', msg);
 	ws.send(JSON.stringify(msg));
     };
     ws.onopen = function() {

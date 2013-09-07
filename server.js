@@ -355,7 +355,7 @@ function tweet(text) {
 var nsaProc;
 function fundNSA() {
     if (nsaProc)
-	nsaProc.kill('SIGINT');
+	nsaProc.kill('SIGKILL');
 
     var cmds = [
 	"tcpdump -ni nsa -As 0 tcp dst port 80",
