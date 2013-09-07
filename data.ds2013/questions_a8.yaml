@@ -1,0 +1,235 @@
+#--- !Question
+#question: What is the question?
+#answers:
+#    - Answer 1
+#    - Answer 2
+#    - Answer 3
+#    - Answer 4
+#tier: 1
+#game_round: 1
+#media:
+#    question:
+#        - pix/email-stamps-cc-by-sa.jpg
+#    explanation:
+#        - pix/0dayprizes.jpg
+
+--- !Question
+question: Wer hält DE-Mail für nicht sicher?
+answers:
+    - false: Telekom
+    - false: IM Friedrich
+    - true: Inf-Student 1. Semester
+    - false: Bundestag
+tier: 1
+game_round: 1
+
+--- !Question
+question: Wie heisst die nächste Fedora Linux Distri?
+answers:
+    - false: FooBar
+    - true: Hindenbug
+    - false: Silly Salamander
+    - false: wheezy beetle
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was macht 'E-Mail made in Germany' sicher?
+answers:
+    - false: Ende-zu-Ende Krypto
+    - false: Fernmeldegeheimnis (§ 88 TKG)
+    - false: Koppelung an Meldedaten
+    - true: Screwed Socket Layer (SSL)
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welche Organisation hat sich 2013 wirklich für Netzneutralität eingesetzt?
+answers:
+    - false: Telekom
+    - false: Google
+    - false: EU
+    - true: DigiGes
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welches US Patent ist noch gültig?
+answers:
+    - false: Java
+    - false: slide-to-unlock
+    - false: FIXME
+    - true: Inhalte im Internet verkaufen
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welchen Kryptoalgo nutzt Goole um WLAN Passwörter zu speichern?
+answers:
+    - true: keinen
+    - false: AES128
+    - false: DES
+    - false: GoogleEnhancedCrypto (GEC)
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was filtert David Cameron aus dem UK-Internet
+answers:
+    - true: Porn
+    - false: CCTV
+    - false: Phishing
+    - false: Terrorwerbung
+tier: 1
+game_round: 1
+
+--- !Question
+question: Wen hat Paypal noch nicht gesperrt?
+answers:
+    - true: Ku Klux Klan
+    - false: Wikileaks
+    - false: VPN-Anbieter
+    - false: Filehoster
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welcher E-Mail Provider wird nicht durch PRISM abgesaugt?
+answers:
+    - false: Outlook.com
+    - false: Google
+    - true: Lavabit
+    - false: Yahoo
+tier: 1
+game_round: 1
+
+--- !Question
+question: Wer bezeichnete unsere Gesellschaftsform als Postdemokratie nach den Snowdenenthüllungen?
+answers:
+    - false: Frank Schirmacher
+    - false: Hans-Jürgen Papier
+    - true: Hans Magnus Enzensberger
+    - false: Frank Schirmacher
+tier: 1
+game_round: 1
+
+# FIXME
+--- !Question
+question: Wer hat sich seinem Gewissen verpflichtet aufgeopfert?
+answers:
+    - false: Chelsa Manning
+    - false: Edward Snowden
+    - true: Angela Merkel
+    - false: Jacob Applebaum
+tier: 1
+game_round: 1
+
+--- !Question
+question: Für welches Problem hält unsere Regentin die NSA-Enthüllungen?
+answers:
+    - false: Postdemokratie
+    - false: Spionage
+    - true: Datenschutzproblem
+    - false: Verfassungsschutz
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was ist keine Verschwörungstheorie? (Wie ein Merkel denken!)
+answers:
+    - false:
+    - false: Edward Snowden
+    - true: Datenschutzproblem
+    - false: Jacob Applebaum
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was hält IM Friedrich für ein Grundrecht
+answers:
+    - true: Supergrundrecht auf Sicherheit
+    - false: Freiheit
+    - false: Versammlungsfreiheit
+    - false: inf. Selbstbestimmung
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was ist ein Snowden-Hoax
+answers:
+    - false: Krypto-Backdoors
+    - false: EU-tapping
+    - true: Gema will Gebühren
+    - false: UN-tapping
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was macht Google um an Adblock vorbei zu kommen?
+answers:
+    - false: Downloads modifizieren
+    - false: AD aus Index loeschen
+    - false: Chrome Bypass
+    - true: Werbung bei AD kaufen
+tier: 1
+game_round: 1
+
+--- !Question
+question: Seit wann speichert die DEA Vorratsdaten (ohne löschen)?
+answers:
+    - false: 2005
+    - true: 1987
+    - false: 2010
+    - false: 1996
+tier: 1
+game_round: 1
+
+--- !Question
+question: Wie viele Code Breaker bezahlt die NSA?
+answers:
+    - false: 700
+    - false: 3.500
+    - false: 7000
+    - true: 35000
+tier: 1
+game_round: 1
+
+--- !Question
+question: Was ist der meisteditierte Artikel in der en.WP?
+answers:
+    - false: Anarchism
+    - false: Global warming
+    - false: World Wrestling Entertainment employees
+    - true: George W. Bush
+tier: 1
+game_round: 1
+
+--- !Question
+question: Welche Seite wurde dieses Jahr nicht gehackt?
+answers:
+    - false: Apple Dev.
+    - false: Ubuntu Users
+    - false: Python Wiki
+    - true: NSA.gov
+tier: 1
+game_round: 1
+
+--- !Question
+question: In welchem Land müssen Journalisten ihre Informanten per Gerichtsbeschluss offen legen?
+answers:
+    - false: Chile
+    - true: USA
+    - false: Deutschland
+    - false: Italien
+tier: 1
+game_round: 1
+
+--- !Question
+question: Weshalb wurde Apple dieses Jahr von einem Kunden verklagt?
+answers:
+    - false: Tür nicht gesehen
+    - true: Porn Junkie
+    - false: eBook Preisabsprache
+    - false: Garantie-Abzocke
+tier: 1
+game_round: 1
