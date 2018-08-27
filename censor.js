@@ -1,15 +1,14 @@
 var ws, sendToBackend, onBackendMessage;
 function setupWs() {
-    var url = 'ws://' + document.location.host + '/';
-    ws = new WebSocket(url, 'censor');
+    var url = 'ws://' + document.location.host + '/censor.ws';
+    ws = new WebSocket(url);
 
     ws.onerror = function(e) {
 	console.error(e.message);
-	window.setTimeout(setupWs, 100);
     };
     ws.onclose = function() {
 	console.error('WebSocket closed');
-	window.setTimeout(setupWs, 100);
+	window.setTimeout(setupWs, 1000);
     };
     ws.onmessage = function(event) {
 	try {

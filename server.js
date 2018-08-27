@@ -1,3 +1,4 @@
+var http = require('http');
 var Connect = require('connect');
 var wss = require('websocket').server;
 var wsc = require('websocket').client;
@@ -56,52 +57,43 @@ connectNedap();
 var IRC_SERVER = 'irc.hackint.eu';
 var IRC_CHAN = '#pentanews';
 function connectChat() {
-    var chat = new irc({ server: IRC_SERVER,
-			 encoding: 'utf-8',
-			 nick: '[Ceiling]Katze'
-		       });
-    chat.connect();
-    chat.addListener('376', function() {
-	if (!chat)
-	    return;
-	chat.join(IRC_CHAN);
-    });
-    chat.addListener('366', function(msg) {
-	if (!chat)
-	    return;
-	if (msg.params[1] === IRC_CHAN) {
-	    console.log('Successfully joined ' + IRC_CHAN);
-	    pushIrcInfo();
-	}
-    });
-    chat.addListener('privmsg', function(msg) {
-	if (!chat)
-	    return;
-	console.log({PRIVMSG:msg});
-	var nick = msg.person.nick;
-	var channel = msg.params[0];
-	var text = msg.params[1];
+    irc.connect({ server: { address: IRC_SERVER },
+		  encoding: 'utf-8',
+		  nick: '[Ceiling]Katze'
+		}, function(bot) {
+                    bot.join(IRC_CHAN, function(err, chan) {
+                        if (err) {
+                            console.log('error joining:', err);
+                            return;
+                        }
 
-	var sText = "", i;
-	for(i = 0; i < text.length; i++) {
-	    if (text.charCodeAt(i) >= 32)
-		sText += text[i];
-	}
+	                console.log('Successfully joined ' + IRC_CHAN);
+	                pushIrcInfo();
+                    });
+                    bot.match('PRIVMSG', function(msg) {
+	                var nick = msg.from.nick;
+	                var channel = msg.params[0];
+	                var text = msg.params[1].replace(/^:/, "");
+	                console.log(`[${channel}] <${nick}> ${text}`);
 
-	if (nick && channel === IRC_CHAN && sText && frontend) {
-	    sendToFrontend({ irc: { nick: nick,
-				    text: sText
-				  } });
-	}
-    });
-    chat.addListener('disconnected', function() {
-	if (!chat)
-	    return;
-	chat = undefined;
-        console.error('Chat disconnected!');
-        window.setTimeout(connectChat, 1000);
-    });
-    chat.on('error', connectChat);
+	                var sText = "", i;
+	                for(i = 0; i < text.length; i++) {
+	                    if (text.charCodeAt(i) >= 32)
+		                sText += text[i];
+	                }
+
+	                if (nick && channel === IRC_CHAN && sText && frontend) {
+	                    sendToFrontend({ irc: { nick: nick,
+				                    text: sText
+				                  } });
+	                }
+                    });
+                    bot.match(irc.EVENT.DISCONNECT, function() {
+                        console.error('Chat disconnected!');
+                        window.setTimeout(connectChat, 1000);
+                    });
+                    bot.match(irc.EVENT.ERROR, connectChat);
+                });
 }
 connectChat();
 
@@ -114,7 +106,7 @@ function pushIrcInfo() {
 /*
  * Buttons
  */
-var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A400gqnA-if00-port0');
+var buzz = new (require('./buzz_iface/node_lib/buzz').Buzz)('/dev/ttyUSB0');
 buzz.on('button', function(key) {
     console.log({button:key});
     sendToFrontend({ buzzer: key });
@@ -241,12 +233,16 @@ function morse(text) {
 /*
  * Web server
  */
-var server = Connect.createServer(
-    Connect.logger(),
-    Connect.bodyParser(),
-    Connect.static(__dirname, { maxAge: 1000 }),
-    Connect.errorHandler({ dumpExceptions: true, showStack: true })
-);
+var app = Connect();
+app.use(require('morgan')());
+app.use(require('body-parser')());
+app.use(require('serve-static')(__dirname, { maxAge: 1000 }));
+app.use(require('errorhandler')({ dumpExceptions: true, showStack: true }));
+var server = http.createServer(app);
+server.on('upgrade', function() {
+    console.log("u!");
+});
+server.listen(8081);
 
 /*
  * WebSocket server
@@ -255,11 +251,11 @@ var server = Connect.createServer(
 var gamestate = {};
 
 new wss({ httpServer: server }).on('request', function(req) {
+    console.log("accepting", req);
     var conn = req.accept(null, req.origin);
 
-    // console.log("ws conn", req, conn);
-    var proto = req.httpRequest.headers['sec-websocket-protocol'];
-    if (proto && proto.indexOf('censor') >= 0) {
+    console.log("ws conn", req.resource, conn);
+    if (req.resource === '/censor.ws') {
 	/* Censor frontend */
 	sendToCensor = function(obj) {
 	    conn.sendUTF(JSON.stringify(obj));
@@ -282,7 +278,7 @@ new wss({ httpServer: server }).on('request', function(req) {
 	};
 	conn.on('close', reset);
 	conn.on('error', reset);
-    } else {
+    } else if (req.resource === '/') {
 	/* Game frontend */
 	frontend = conn;
 	conn.on('message', function(wsmsg) {
@@ -327,8 +323,6 @@ function sendToFrontend(obj) {
 
     frontend.sendUTF(JSON.stringify(obj));
 }
-
-server.listen(8081, "::1");
 
 morse("c3d2");
 

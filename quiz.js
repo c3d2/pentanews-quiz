@@ -74,15 +74,16 @@ function loadQuizData(done) {
 var ws, sendToBackend, onBackendMessage;
 function setupWs() {
     var url = 'ws://' + document.location.host + '/';
-    ws = new WebSocket(url, '*');
+    console.log("new websocket to", url);
+    ws = new WebSocket(url);
 
     ws.onerror = function(e) {
-	console.error(e.message);
-	window.setTimeout(setupWs, 100);
+	console.error(e);
+	// window.setTimeout(setupWs, 1000);
     };
     ws.onclose = function() {
 	console.error('WebSocket closed');
-	window.setTimeout(setupWs, 100);
+	window.setTimeout(setupWs, 1000);
     };
     ws.onmessage = function(event) {
 	try {
@@ -100,7 +101,7 @@ function setupWs() {
 	ws.send(JSON.stringify(msg));
     };
     ws.onopen = function() {
-	/* TODO: rm debug */
+        console.log("ws onopen");
 	sendToBackend({ nedap: "ping" });
     };
 }
@@ -159,7 +160,7 @@ Timer.prototype.clear = function() {
     $('#timer').hide();
 };
 var TIMER_QUESTION = 60;
-var TIMER_ANSWER = 90;
+var TIMER_ANSWER = 30;
 var timer = new Timer();
 
 var playerNames = [], playerScores = [], playerJokers = [];
@@ -419,7 +420,7 @@ function takeJoker(activePlayer, joker) {
     if (joker === 'nsa') {
 	sendToBackend({ nsa: "activate" });
 	onBackendMessage = function(msg) {
-	    if (msg.nsa && msg.nsa.line && !/^\d\d:\d\d:\d\d\./.test(msg.nsa.line)) {
+	    if (msg.nsa && msg.nsa.line /* && !/^\d\d:\d\d:\d\d\./.test(msg.nsa.line) */) {
 		var nsaPane = $('#nsa ul');
 		var line = $('<li></li>');
 		line.text(msg.nsa.line);
