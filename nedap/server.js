@@ -1,4 +1,5 @@
 var Connect = require('connect');
+var http = require('http');
 var wss = require('websocket').server;
 var ltx = require('ltx');
 var fs = require('fs');
@@ -12,7 +13,7 @@ var ROOT_HEADERS = { 'Content-type': MIME_HTML,
 		     'Cache-Control': 'no-cache, must-revalidate, max-age=1'
 		   };
 var UPLOAD_DIR = "static/gifs";
-var GIFS_PREFIX = "http://localhost:2342/gifs/";
+var GIFS_PREFIX = "http://spaceboyz.net:2342/gifs/";
 try { fs.mkdirSync(UPLOAD_DIR); } catch (e) {}
 
 var backend, question, answers, scores, mode;
@@ -145,6 +146,7 @@ function nedap(app) {
     });
 
     app.post('/i', function(req, res) {
+console.log('upload req', req);
 	if (req.files.gif) {
 	    if (!Token.validate(req.body.token)) {
 		errorResponse(res);
@@ -152,7 +154,8 @@ function nedap(app) {
 	    }
 	    /* pass to frontend */
 	    var gif = req.files.gif;
-	    var path = gif.path + "." + mime.extension(gif.type);
+	    var path = gif.path + "." + mime.getExtension(gif.type);
+	    console.log("fs.rename", gif.path, path)
 	    fs.rename(gif.path, path, function(err) {
 		if (err)
 		    return;
@@ -173,17 +176,18 @@ function nedap(app) {
 	    errorResponse(res);
 	}
     });
-
 }
 
 
-var server = Connect.createServer(
-    Connect.logger(),
-    Connect.bodyParser({ uploadDir: UPLOAD_DIR }),
-    Connect.router(nedap),
-    Connect.static(__dirname + '/static'),
-    Connect.errorHandler({ dumpExceptions: true, showStack: true })
-);
+var app = Connect();
+app.use(require('morgan')('combined', {}));
+app.use(require('body-parser').urlencoded({ uploadDir: UPLOAD_DIR, extended: false }));
+app.use(require('connect-multiparty')({ uploadDir: UPLOAD_DIR }));
+app.use(require('./router')(nedap));
+app.use(require('serve-static')(__dirname + '/static'));
+app.use(require('errorhandler')({ dumpExceptions: true, showStack: true }));
+
+var server = http.createServer(app);
 
 new wss({ httpServer: server }).on('request', function(req) {
     var conn = req.accept(req.requestedProtocols[0], req.origin);
